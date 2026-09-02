@@ -1,0 +1,47 @@
+[build-system]
+# Exact pin (review finding 4): an open bound lets setup download whatever
+# setuptools ships next, drifting benchmark integrity. Bumping this is a
+# deliberate change, not ambient.
+requires = ["setuptools==84.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "heesch-harness"
+version = "1.0.0.dev0"
+description = "Heesch challenge: geometry verifier, CNF encoder, and Yukon evaluator"
+requires-python = ">=3.11"
+# The verifier and harness are deliberately stdlib-only (spec §5 hard rule).
+# Solver tooling for the encoder test suites lives in the test extra.
+dependencies = []
+
+[project.optional-dependencies]
+test = [
+    "pytest==9.0.3",
+    "python-sat==1.9.dev7",
+]
+# Participant-side proof production (tools/prove.py); never a harness dep.
+# For record-scale formulas (F(S,7)+) use an external solver binary instead:
+# `bash tools/build_solver.sh` builds a pinned CaDiCaL into tools/bin/cadical
+# and prove.py picks it up (the pysat path holds the whole DRAT in memory).
+prove = [
+    "python-sat==1.9.dev7",
+]
+
+[tool.setuptools]
+packages = [
+    "heesch_verify",
+    "heesch_encoder",
+    "heesch_encoder.proofcheck",
+    "heesch_encoder.multilevel",
+    "harness",
+]
+
+[tool.setuptools.package-data]
+heesch_encoder = ["revisions/*.json"]
+heesch_verify = ["known_nontilers.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+# Slow suites: the census enumeration (tests/test_census_gate.py, ~1 min) and
+# the real-checker proof e2e (tests/test_proof_gate.py). Both run in CI.
+addopts = "-p no:cacheprovider"

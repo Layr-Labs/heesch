@@ -1,0 +1,12 @@
+upstream: https://github.com/tanyongkiam/cake_lpr
+commit: a36874a8b750b43fe4b385b8ddbf5b033e46a3fa
+files:
+  cake_lpr.S sha256=2f3af32d55083839b3fa0e693afd817679c0b8944bef41def05a8b0ec72b7d4a
+    (matches upstream's own cake_lpr.sha256 record)
+  basis_ffi.c sha256=8e30d84fdcb2177aa5571d7fa6661a2fae5ecfd56baa0ce49c65f9233a9f87cb
+  LICENSE sha256=eb1e4ff71900d55d384ff18afad5aae48417ce0fff25231565862c42b45e5dbc
+build: gcc cake_lpr.S basis_ffi.c -o cake_lpr    # x86-64 Linux only
+note: cake_lpr.S is the CakeML verified compiler's output, distributed as
+  assembly — compile it, never rebuild CakeML. The binary is a formally
+  verified LRAT/LPR checker.
+success-signal: stdout containing "s VERIFIED"

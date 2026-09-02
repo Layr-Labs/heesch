@@ -1,0 +1,72 @@
+name: Record path e2e
+
+# The regression guard for "a legitimate Hc = 5, Hh = 6 candidate passes the
+# proof limits": produce an F(S,7) proof with the participant tooling and
+# score it IN-HARNESS (./setup.sh + ./benchmark.sh, sandboxed, record
+# profile) on the benchmark runner. The 11-omino fixture has Hh = 2, so
+# F(S,7) is UNSAT and m = 7 is a legal level (m >= hh + 1); 11 cells at
+# m = 7 is outside the standard band and inside the record band, so a pass
+# here proves the record profile was selected and the whole pipeline ran.
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 5 * * 1"   # weekly
+
+permissions:
+  contents: read
+
+jobs:
+  record-e2e:
+    runs-on: blacksmith-32vcpu-ubuntu-2404
+    timeout-minutes: 240
+    env:
+      HEESCH_SCRATCH: ${{ vars.HEESCH_SCRATCH || '/tmp' }}
+    steps:
+      - uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.12"
+      - name: Install sandbox dependency (bubblewrap)
+        run: |
+          command -v bwrap >/dev/null 2>&1 || {
+            sudo apt-get update -qq
+            sudo apt-get install -y -qq bubblewrap
+          }
+      - name: Preflight (record profile required)
+        run: python3 tools/runner_preflight.py --scratch "$HEESCH_SCRATCH" --require record
+      - name: Setup (as Yukon does) + participant solver
+        run: |
+          ./setup.sh
+          test -x tools/bin/cake_lpr
+          bash tools/build_solver.sh
+      - name: Produce an F(S,7) proof with the participant tooling
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import sys; sys.path.insert(0, "tests")
+          from util import omino11_hc1
+          open("submission/best.heesch", "w").write(omino11_hc1())
+          PY
+          # the checkout carries the promoted frontier's proof artifacts, which
+          # belong to the shape we just replaced; prove.py refuses to overwrite
+          rm -f submission/proof.lrat.xz submission/core.txt.xz
+          /usr/bin/time -v python3 tools/prove.py submission/best.heesch --m 7 \
+            --solver none --solver-bin tools/bin/cadical --profile record
+          ls -la submission/
+      - name: Score it in-harness
+        run: |
+          set -euo pipefail
+          ./benchmark.sh
+          jq . score.json
+          jq -er '.metrics.non_tiler_evidence == "proof"' score.json
+          jq -er '.metrics.proof_m == 7' score.json
+          jq -er '.metrics.resource_profile == "record"' score.json
+          jq -er '.metrics.proof_checkers == ["cake_lpr","lrat-check"]' score.json
+      - uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f # v6.0.0
+        if: always()
+        with:
+          name: record-e2e-${{ github.run_id }}
+          path: score.json

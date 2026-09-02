@@ -1,0 +1,85 @@
+name: CI
+
+# Audit V9: CI must never run a participant-controlled tree. submissions/*
+# refs are graded exclusively by benchmark.yml (sandboxed, surface-checked);
+# this workflow builds/installs/tests the checked-out tree, so it is scoped to
+# maintainer branches only. pull_request is enabled so the default-branch
+# ruleset can require CI, but the job-level guard below skips any PR whose
+# head is a submissions/** ref — never remove that guard or add
+# pull_request_target without a sandbox; that reintroduces the RCE surface.
+on:
+  push:
+    branches-ignore:
+      - 'submissions/**'
+  pull_request:
+    branches:
+      - master
+  workflow_dispatch:
+
+# Audit V9: least privilege. No write scope near an install+test of the tree.
+permissions:
+  contents: read
+
+# Audit V11: collapse superseded runs so a burst of pushes cannot fan out into
+# hours of matrix runner-time.
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    # Audit V9 guard: never run on a participant-controlled head ref.
+    if: ${{ github.event_name != 'pull_request' || !startsWith(github.head_ref, 'submissions/') }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        python: ["3.11", "3.12"]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 25
+    steps:
+      # SHA-pinned (audit V9): mutable tags let a compromised action ship code
+      # into the run. persist-credentials:false drops the checkout token.
+      - uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Install
+        run: pip install -e ".[test]"
+      - name: Build proof checkers
+        if: runner.os == 'Linux'
+        run: |
+          bash tools/build_checkers.sh
+          # The record tier needs the formally-verified checker; the proof
+          # e2e tests below run against the real cake_lpr on this runner.
+          test -x tools/bin/cake_lpr
+      - name: Tests
+        if: runner.os != 'Linux'
+        run: python -m pytest tests/ -q
+      - name: Tests (Linux; the proof-gate and census suites run once, in the next step)
+        if: runner.os == 'Linux'
+        run: python -m pytest tests/ -q --ignore=tests/test_proof_gate.py --ignore=tests/test_census_gate.py
+      - name: Proof path e2e (real checkers) and census regression
+        if: runner.os == 'Linux'
+        run: python -m pytest tests/test_proof_gate.py tests/test_census_gate.py -q -rs
+      - name: Harness e2e via the real scripts
+        if: runner.os == 'Linux'
+        run: |
+          # Smoke-tests the scripts against the frozen census fixture, never
+          # the live submission/ — that is participant-owned, changes with
+          # every promotion, and can be any tier (submissions/* never reach
+          # this workflow; Yukon grades real submissions via benchmark.yml).
+          bash ./setup.sh
+          test -x tools/bin/cake_lpr
+          python3 - <<'PY'
+          import sys; sys.path.insert(0, "tests")
+          from util import census_baseline
+          open("submission/best.heesch", "w").write(census_baseline())
+          PY
+          rm -f submission/proof.lrat.xz submission/core.txt.xz
+          bash ./benchmark.sh
+          test -f score.json
+          jq -er '.score == 1.0' score.json
+          jq -er '.metrics.non_tiler_evidence | select(. == "census")' score.json

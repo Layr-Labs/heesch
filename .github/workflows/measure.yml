@@ -1,0 +1,72 @@
+name: Measure record cycle
+
+# Times the full record-scale proof cycle (encode -> solve -> drat-trim ->
+# lrat-check -> core -> cake_lpr on the core) for one shape/level ON THE
+# BENCHMARK RUNNER. The numbers set the resource profiles' bands
+# (heesch_verify/profile.py, docs/ml-feasibility.md). Maintainer tool.
+
+on:
+  workflow_dispatch:
+    inputs:
+      shape:
+        description: "KAPLAN_SHAPES key (tools/ml_feasibility.py) or a path to a submission file"
+        required: true
+        default: hex11-kaplan-hc4hh4
+      levels:
+        description: "space-separated m values"
+        required: true
+        default: "7"
+      level_timeout:
+        description: "per-level wall-clock cap in seconds (DNF past it)"
+        required: false
+        default: "14400"
+      runner:
+        description: "runner label"
+        required: true
+        default: blacksmith-32vcpu-ubuntu-2404
+
+permissions:
+  contents: read
+
+jobs:
+  measure:
+    runs-on: ${{ inputs.runner }}
+    timeout-minutes: 600
+    env:
+      HEESCH_SCRATCH: ${{ vars.HEESCH_SCRATCH || '/tmp' }}
+    steps:
+      - uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.12"
+      - name: Preflight (report only)
+        run: python3 tools/runner_preflight.py --scratch "$HEESCH_SCRATCH"
+      - name: Build checkers and solver
+        run: |
+          bash tools/build_checkers.sh
+          bash tools/build_solver.sh
+      - name: Measure
+        # A per-level wall-clock cap so one pathological solve cannot silently
+        # eat the whole 10-hour job: timeout(1) kills the level, the loop
+        # records the DNF and moves on. The solver streams its own periodic
+        # report lines (measure_record_cycle passes stream_output), so the
+        # live log always shows progress.
+        run: |
+          set -euo pipefail
+          mkdir -p measure-results
+          for m in ${{ inputs.levels }}; do
+            work="$HEESCH_SCRATCH/measure-${{ inputs.shape }}-m$m"
+            timeout --signal=INT --kill-after=60 "${{ inputs.level_timeout || '14400' }}" \
+              /usr/bin/time -v python3 tools/measure_record_cycle.py \
+              --shape "${{ inputs.shape }}" --m "$m" --work "$work" --cake \
+              --json measure-results/results.jsonl 2>&1 | tee -a measure-results/log.txt \
+              || echo "LEVEL m=$m: DNF (timeout or error, exit $?)" | tee -a measure-results/log.txt
+            rm -rf "$work"
+          done
+      - uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f # v6.0.0
+        if: always()
+        with:
+          name: measure-${{ inputs.shape }}-${{ github.run_id }}
+          path: measure-results/

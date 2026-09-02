@@ -1,0 +1,8 @@
+# Hash-pinned vendored sources and golden artifacts must never be
+# line-ending-translated: the sha256 pins and CNF digests depend on exact
+# bytes.
+third_party/** -text
+tests/encoder/golden/** -text
+tests/corpus/** -text
+heesch_encoder/revisions/*.json -text
+submission/** -text

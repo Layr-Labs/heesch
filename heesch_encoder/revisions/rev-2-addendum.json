@@ -1,0 +1,104 @@
+{
+  "addendum_to": "rev-2.json",
+  "addendum_revision": 4,
+  "date": "2026-08-21",
+  "why": "rev-2.json is immutable (sha256-pinned by tests/encoder/test_revision_freeze.py) and two of its DOCUMENTARY fields no longer describe the enforced behaviour. Neither field is part of frozen_constants_digest, so no CNF byte and no historical proof is affected; this addendum is the corrected provenance and is itself checked against the live code (test_revision_freeze.py::test_rev2_addendum_matches_code). Audit 2026-08-19 Low 12.",
+  "corrections": {
+    "checkers.record_tier_policy": {
+      "rev-2.json_says": [
+        "cake_lpr-or-lrat-check",
+        "drat-trim"
+      ],
+      "enforced": {
+        "record_tier_requires": 2,
+        "formally_verified_slot": "cake_lpr",
+        "lrat_check_may_substitute_for_cake_lpr": false,
+        "drat_route": [
+          "drat-trim",
+          "cake_lpr"
+        ],
+        "lrat_route": [
+          "cake_lpr",
+          "lrat-check"
+        ],
+        "source": "heesch_encoder/proofcheck/pipeline.py check_proof_encoded step 6; architecture \u00a713.4; audit F1/F2 (2026-08)"
+      }
+    },
+    "feasibility_band.supported": {
+      "rev-2.json_says": [
+        {
+          "max_cells": 20,
+          "max_m": 5
+        },
+        {
+          "max_cells": 50,
+          "max_m": 4
+        },
+        {
+          "max_cells": 100,
+          "max_m": 3
+        },
+        {
+          "max_cells": 200,
+          "max_m": 2
+        }
+      ],
+      "enforced": [
+        {
+          "max_cells": 20,
+          "max_m": 8,
+          "measured": "runner run 32409736648 (2026-08-20): 16-hex F(S,7) full cycle in budget (cake_lpr core 318 s, core LRAT 62 MB xz); 16-hex F(S,8) encodes (1162 s / 8.6 GB) but its core LRAT is 33 GB raw / 2.2 GB xz and cake_lpr needs 13903 s \u2014 encoder band keeps (20,8) for the out-of-band path only"
+        },
+        {
+          "max_cells": 50,
+          "max_m": 4
+        },
+        {
+          "max_cells": 100,
+          "max_m": 3
+        },
+        {
+          "max_cells": 200,
+          "max_m": 2
+        }
+      ],
+      "source": "heesch_encoder/multilevel/api.py FEASIBILITY_BAND (measured policy, not a frozen constant); heesch_verify/profile.py STANDARD/RECORD harness bands; docs/ml-feasibility.md",
+      "in_harness_band_standard": [
+        {
+          "max_cells": 12,
+          "max_m": 6
+        },
+        {
+          "max_cells": 20,
+          "max_m": 5
+        },
+        {
+          "max_cells": 50,
+          "max_m": 3
+        },
+        {
+          "max_cells": 100,
+          "max_m": 2
+        }
+      ],
+      "in_harness_band_record": [
+        {
+          "max_cells": 20,
+          "max_m": 7
+        },
+        {
+          "max_cells": 50,
+          "max_m": 4
+        },
+        {
+          "max_cells": 100,
+          "max_m": 3
+        },
+        {
+          "max_cells": 200,
+          "max_m": 2
+        }
+      ]
+    }
+  }
+}

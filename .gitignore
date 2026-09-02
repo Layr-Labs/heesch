@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+.pytest_cache/
+.venv/
+venv/
+score.json
+tools/bin/
+.venv-bench/
+.prove-*/
+
+# Local export staging for Linear (never committed)
+linear-export/

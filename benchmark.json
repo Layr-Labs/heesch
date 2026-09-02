@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "name": "heesch",
+  "description": "Five rings. No survivor. Find the first. Heesch numbers of unmarked polyforms (square/hex/iamond grids; <=200 cells, span_x+span_y<=29). Submit a shape plus a witness patch proving Hc >= k; optionally a partial next corona for defect credit. Score = verified corona count plus fractional progress toward the next ring (the score is not a Heesch number; hc_verified is). Fail-closed: a submission scores only if the shape is PROVEN not to tile the plane - by Kaplan 2022's complete census (polyominoes <=10, polyhexes <=8, polyiamonds <=12) or by a machine-checked UNSAT proof of F(S,m) carried in a #PROOF block; every other shape is REJECTED. Class record for unmarked polyforms is Hc = 4 (all known examples are 11-20 cells); a proof-backed 5 is a research result. Scoring never executes participant code.",
+  "category": "math",
+  "direction": "+",
+  "editablePaths": [
+    "submission"
+  ],
+  "setupCommand": [
+    "bash",
+    "-lc",
+    "./setup.sh"
+  ],
+  "benchmarkCommand": [
+    "bash",
+    "-lc",
+    "./benchmark.sh"
+  ],
+  "scorePath": "score.json",
+  "minScoreImprovementBips": 0,
+  "maxSubmissionBytes": 536870912,
+  "runner": {
+    "provider": "github-actions",
+    "workflow": "benchmark.yml"
+  }
+}

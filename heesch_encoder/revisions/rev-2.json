@@ -1,0 +1,323 @@
+{
+  "amo_threshold": 20,
+  "cell_order": "(y, x)",
+  "checkers": {
+    "cake_lpr": {
+      "commit": "a36874a8b750b43fe4b385b8ddbf5b033e46a3fa"
+    },
+    "drat-trim": {
+      "commit": "2e3b2dc0ecf938addbd779d42877b6ed69d9a985"
+    },
+    "record_tier_policy": [
+      "cake_lpr-or-lrat-check",
+      "drat-trim"
+    ]
+  },
+  "clause_emission": "amo-by-cell-then-pair, coverage-by-cell",
+  "clause_emission_v2": "f1-by-cell, f2-by-cell-then-pair, f4-by-(l,p), f5-by-(l,p,j,q), f6-by-(l,q,cell)",
+  "contact_relation": "point",
+  "digest_algo": "sha256",
+  "dimacs_profile": "p-cnf/newline/space/zero-terminated/no-comments/v1",
+  "encoder_version": "heesch-encoder/v2",
+  "revision": 2,
+  "families_active": [
+    "1",
+    "2",
+    "4",
+    "5",
+    "6"
+  ],
+  "feasibility_band": {
+    "basis": "docs/ml-feasibility.md (measured 2026-08-07); outside the band => RESOURCE_EXCEEDED by policy",
+    "supported": [
+      {
+        "max_cells": 20,
+        "max_m": 5
+      },
+      {
+        "max_cells": 50,
+        "max_m": 4
+      },
+      {
+        "max_cells": 100,
+        "max_m": 3
+      },
+      {
+        "max_cells": 200,
+        "max_m": 2
+      }
+    ],
+    "weak_gap_measured": "0/46 corpus shapes (docs/ml-weak-gap.md) \u2014 B=0 confirmed sufficient for all measured real shapes"
+  },
+  "frozen_constants_digest": "6a8068276a08671b0ec7d2efc659199063a2b808905f3979d023ff36600fb712",
+  "level_window": "{l-1,l,l+1}",
+  "literal_order": "(abs, negative-first)",
+  "placement_order": "(symmetry_index, ty, tx)",
+  "point_groups": {
+    "H": [
+      [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        -1,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        -1,
+        -1,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        -1,
+        0,
+        0,
+        0,
+        -1,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        -1,
+        -1,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        -1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        -1,
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        -1,
+        -1,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        -1,
+        0,
+        -1,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        -1,
+        -1,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        -1,
+        0
+      ]
+    ],
+    "I": [
+      [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        -1,
+        -1,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        -1,
+        -1,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        -1,
+        -1,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        -1,
+        -1,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        -1,
+        1,
+        -1,
+        0,
+        1
+      ],
+      [
+        -1,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        0,
+        -1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        -1,
+        0,
+        1
+      ],
+      [
+        -1,
+        0,
+        1,
+        0,
+        -1,
+        1
+      ],
+      [
+        0,
+        -1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "O": [
+      [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        -1,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        -1,
+        0,
+        0,
+        0,
+        -1,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        -1,
+        0,
+        0
+      ],
+      [
+        -1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        -1,
+        0,
+        -1,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        -1,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "universe_construction": "reachability-bfs/v1",
+  "variable_order": "x:(l,symmetry_index,ty,tx); cov:none; sinz:group-emission",
+  "weak_bound_B": 0
+}

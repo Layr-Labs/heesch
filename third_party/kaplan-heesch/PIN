@@ -1,0 +1,29 @@
+upstream: https://cs.uwaterloo.ca/~csk/heesch/  (Craig S. Kaplan, "Heesch
+  Numbers of Unmarked Polyforms", arXiv:2105.09438, Contributions to Discrete
+  Mathematics 2022). Data files published alongside the paper.
+role: the complete per-size non-tiler lists (`*_0up.txt`) are the census that
+  decides TILER / NON_TILER for every hole-free polyomino n<=10, polyhex n<=8
+  and polyiamond n<=12 (heesch_verify/known_nontilers.json). Files listing
+  only Hc>=2 / Hc>=3 shapes exist for larger n; they are NOT complete and are
+  never used as a census (they are used only as extra non-tiler test data).
+retrieved: 2026-08-17
+files (not vendored; downloaded by tools/gen_census_tables.py and verified
+  against these digests before anything is generated):
+  omino/07omino_0up.txt   sha256=f9d47697ebb5aded7ccfff8f996dac4e2da89a6d21637b88df6b709faf673790  non-tilers=3
+  omino/08omino_0up.txt   sha256=befbb2df9d0f645df299f1d720e7a8c52c5ee856353215ac8c42dc34a5605b73  non-tilers=20
+  omino/09omino_0up.txt   sha256=8eb187e1f6cb546df071b72b7c8566d76138b627a2b3910327ccb27afada8352  non-tilers=198
+  omino/10omino_0up.txt   sha256=b01cd3345930c0c69db7c884aea0659601c3c846ec38adc4f358676a282d3ad6  non-tilers=1390
+  hex/06hex_0up.txt       sha256=95cb3debe854219fbf4055f69cad103f98cbfdfdf284334232fe831ac20ac909  non-tilers=4
+  hex/07hex_0up.txt       sha256=58581a3b1373c1bad398c18933a194b68d8a8d4b0fa93df38f8a869db9111c21  non-tilers=37
+  hex/08hex_0up.txt       sha256=06d27191e1a6a681f2f8dfefddada718cbbad5402aeec37be149cd88a4d06a92  non-tilers=381
+  iamond/07iamond_0up.txt sha256=54e48cc478e7f32518faa8f6de659ad359eac825d33d49ce3ba81c50de7139a7  non-tilers=1
+  iamond/09iamond_0up.txt sha256=8ce32aa942e7353844b9a9a980ab01c907cb7e2b91e89714011cde08aeceeb83  non-tilers=20
+  iamond/10iamond_0up.txt sha256=5a9b3d8403ef18eb0bd228838ff1f3e89cc6447a54c34c2731d0acd32915d5e0  non-tilers=103
+  iamond/11iamond_0up.txt sha256=47b4a8542004acee24fcf285e4f9ceb3a728f7952c96b976edfe64d4c06b36ae  non-tilers=594
+  iamond/12iamond_0up.txt sha256=53f172ae17af653e0e2e1ff09d0f47798833fcc79369525199a3d861e9d68d28  non-tilers=1192
+sizes with no non-tilers at all (no file published; every hole-free shape
+  tiles): polyominoes n<=6, polyhexes n<=5, polyiamonds n<=6 and n=8.
+format: alternating lines `x1 y1 x2 y2 ...` (heesch-sat grid coordinates,
+  identical to heesch_verify.grids) and `Hc = a Hh = b`. Holed shapes are not
+  listed (Kaplan excludes them), so within a listed size a hole-free shape
+  absent from the list is a tiler.
