@@ -116,7 +116,15 @@ _SUCCESS = {
 # it is a RESOURCE outcome, never a verdict on the proof.
 CAKE_LPR_HEAP_MB_MAX = 12288
 CAKE_LPR_HEAP_MB_MIN = 1024
-CAKE_LPR_STACK_MB = 1024
+CAKE_LPR_STACK_MB_MIN = 1024
+
+
+def cake_lpr_stack_mb(heap_mb: int) -> int:
+    """Stack for cake_lpr in MB, derived from the sized heap (heap/12,
+    floor CAKE_LPR_STACK_MB_MIN): record-scale proofs that fit a 96 GB heap
+    exhausted the old fixed 1 GB stack ("CakeML stack space exhausted"),
+    while standard-profile machines keep the old 1 GB reservation."""
+    return max(CAKE_LPR_STACK_MB_MIN, heap_mb // 12)
 _CAKE_RESOURCE_MARKERS = ("heap space exhausted", "stack space exhausted")
 
 
@@ -161,7 +169,8 @@ def _run(name: str, args: list[str], timeout: float, bin_dir=None,
                            "proof-check deadline exhausted before spawn")
     argv = [str(exe)]
     if name == "cake_lpr":
-        argv += [f"--CML_HEAP_SIZE={cake_lpr_heap_mb(heap_max_mb)}", f"--CML_STACK_SIZE={CAKE_LPR_STACK_MB}"]
+        heap_mb = cake_lpr_heap_mb(heap_max_mb)
+        argv += [f"--CML_HEAP_SIZE={heap_mb}", f"--CML_STACK_SIZE={cake_lpr_stack_mb(heap_mb)}"]
     argv += args
     t0 = time.time()
     try:
