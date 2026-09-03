@@ -102,21 +102,29 @@ STANDARD = ResourceProfile(
 # Hc = 6, Hh = 7 double jump) goes through the maintainer re-check of
 # architecture §13.9. Encoding m = 8 is fine (1162 s / 8.6 GB) — the encoder
 # band still allows it for the out-of-band path.
+# 2026-09-03 capacity rebalance (production week 1): 28 straight rejections were
+# capacity limits, zero solver errors. The deadline (9300 s) is sized to lose
+# cleanly to nothing but itself under Yukon's 10800 s run cancel (~600 s
+# pre-stage + ~120 s post + overrun margin); per-checker caps are ceilings
+# only — the deadline binds. Memory/scratch floors now assert the 128 GB /
+# 1.5 TB runner class (measured 50 GB drat-trim RSS on the in-band worst
+# case), so min_scratch_free >= min_scratch keeps profile selection coherent
+# with the gate's own scratch check.
 RECORD = ResourceProfile(
     name="record",
     harness_band=((20, 7), (50, 4), (100, 3), (200, 2)),
     encode_timeout_s=3600,
-    checker_caps={"drat-trim": 3600.0, "cake_lpr": 3600.0, "lrat-check": 1800.0},
-    checker_deadline_s=9000,
-    proof_max_stored_bytes=200 * MiB,   # proof + core (each <= this) + shape fit maxSubmissionBytes 512 MiB
-    proof_max_payload_bytes=8 * GiB,
+    checker_caps={"drat-trim": 7200.0, "cake_lpr": 7200.0, "lrat-check": 3600.0},
+    checker_deadline_s=9300,
+    proof_max_stored_bytes=240 * MiB,   # proof + core (each <= this) + shape fit maxSubmissionBytes 512 MiB
+    proof_max_payload_bytes=16 * GiB,
     max_proof_bytes=32 * GiB,
     core_max_clauses=32_000_000,
-    core_max_bytes=4 * GiB,
+    core_max_bytes=8 * GiB,
     cake_heap_max_mb=98304,
-    min_scratch_bytes=32 * GiB,
-    min_mem_available_bytes=24 * GiB,
-    min_scratch_free_bytes=60 * GiB,
+    min_scratch_bytes=96 * GiB,
+    min_mem_available_bytes=96 * GiB,
+    min_scratch_free_bytes=128 * GiB,
 )
 
 PROFILES = {p.name: p for p in (STANDARD, RECORD)}
