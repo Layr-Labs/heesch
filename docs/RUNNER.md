@@ -26,12 +26,14 @@ The workflows use **`blacksmith-32vcpu-ubuntu-2404` — 32 vCPU / 128 GB RAM /
 1.5 TB disk** (Ubuntu 24.04, GitHub-image-compatible: `sudo`, gcc, apt all
 work; billed per-minute while a job runs). This mirrors
 `ecdsafail-challenge` and clears the record profile's minima
-(MemAvailable ≥ 24 GiB, scratch free ≥ 60 GiB) roughly 5× over — the
+(MemAvailable ≥ 96 GiB, scratch free ≥ 128 GiB) with real margin — the
 heaviest in-band instance measured (16-hex `F(S,7)`) peaked at ~8 GB RSS,
 ~50 GB peak process RSS during drat-trim, and ~25 GB of scratch.
 
-Changing tier is a one-line `runs-on` edit; documented smaller Blacksmith
-sizes that still meet the record minima:
+Changing tier is a one-line `runs-on` edit. Since the 2026-09-03 capacity
+rebalance the record minima assert the 128 GB class, so of the documented
+Blacksmith sizes ONLY the 32-vCPU instance is record-capable (the smaller
+tiers below would select the `standard` profile and refuse record proofs):
 
 | label | vCPU | RAM | disk |
 |---|---|---|---|
@@ -47,7 +49,7 @@ profile actually consumes.)
 
 1. Dispatch `benchmark.yml` on the baseline: the **preflight step must
    pass** (`tools/runner_preflight.py --require record` asserts
-   MemAvailable ≥ 24 GiB, scratch free ≥ 60 GiB, ≥ 8 CPUs, x86-64 Linux,
+   MemAvailable ≥ 96 GiB, scratch free ≥ 128 GiB, ≥ 8 CPUs, x86-64 Linux,
    `bwrap`), and `score.json` must say `"resource_profile": "record"`.
 2. Dispatch `record-e2e.yml`: it produces an `F(S,7)` proof with the
    participant tooling and scores it in-harness — the acceptance test for
@@ -83,7 +85,7 @@ Profile selection reads none of these. See `docs/THREAT-MODEL.md`.
 ## Alternative: a self-hosted box
 
 Equivalent hardware works too: x86-64 Ubuntu 24.04, ≥ 8 vCPU, ≥ 32 GB RAM
-(MemAvailable ≥ 24 GiB idle), ≥ 100 GB disk (≥ 60 GiB free) at
+(MemAvailable ≥ 96 GiB idle), ≥ 300 GB disk (≥ 128 GiB free) at
 `HEESCH_SCRATCH` (repo variable, default `/tmp`), `bubblewrap`,
 `build-essential`, `python3.11+`, `jq`, `git`, passwordless `sudo` or
 `setpriv`. Register it for this repository with a label of your choice and

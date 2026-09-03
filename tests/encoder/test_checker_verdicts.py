@@ -17,9 +17,10 @@ from heesch_encoder.proofcheck import checkers as ck
 
 def _fake_run(stdout):
     def run(cmd, *args, **kwargs):
-        # Tolerant of _run's kwargs (capture_output, text, timeout, and the
-        # audit F3/F4 additions stdin=DEVNULL, errors="replace").
-        return types.SimpleNamespace(stdout=stdout, stderr="", returncode=0)
+        # _run streams checker output to temp files (2026-09-03 capacity
+        # rebalance) — write the canned text where the real checker would.
+        kwargs["stdout"].write(stdout.encode())
+        return types.SimpleNamespace(returncode=0)
     return run
 
 
@@ -82,11 +83,8 @@ def test_cake_lpr_heap_exhaustion_is_resource_not_verdict(monkeypatch, tmp_path)
 
     def run(cmd, *a, **k):
         seen["cmd"] = cmd
-
-        class P:
-            stdout = ""
-            stderr = "CakeML heap space exhausted.\n"
-        return P()
+        k["stderr"].write(b"CakeML heap space exhausted.\n")
+        return types.SimpleNamespace(returncode=1)
 
     monkeypatch.setattr(ck.subprocess, "run", run)
     r = ck.cake_lpr("f.cnf", "p.lrat")

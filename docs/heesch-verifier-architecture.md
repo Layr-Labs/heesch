@@ -362,13 +362,13 @@ silently scoring under the narrow profile.
 |---|---|---|
 | in-harness band (cells, max m) | (12,6) (20,5) (50,3) (100,2) | (20,7) (50,4) (100,3) (200,2) |
 | encode guard (encoder call only) | 600 s | 3600 s |
-| checker caps drat-trim / cake_lpr / lrat-check | 600 / 900 / 300 s | 3600 / 3600 / 1800 s |
-| proof-stage deadline (`CheckBudget`) | 1500 s | 9000 s |
-| proof / core file as submitted | 48 MiB | 200 MiB (×2 + shape ≤ `maxSubmissionBytes` 512 MiB) |
-| decompressed payload (scratch disk) | 1 GiB | 8 GiB |
-| core list | 4 M clauses / 512 MiB | 32 M clauses / 4 GiB |
-| `cake_lpr` heap cap (85 % of MemAvailable, clamped) | 12 GB | 24 GB |
-| scratch required before encoding | 8 GiB | 32 GiB |
+| checker caps drat-trim / cake_lpr / lrat-check | 600 / 900 / 300 s | 7200 / 7200 / 3600 s (ceilings; the deadline binds) |
+| proof-stage deadline (`CheckBudget`) | 1500 s | 9300 s (sized under the platform's 3 h run cancel) |
+| proof / core file as submitted | 48 MiB | 240 MiB (×2 + shape ≤ `maxSubmissionBytes` 512 MiB) |
+| decompressed payload (scratch disk) | 1 GiB | 16 GiB |
+| core list | 4 M clauses / 512 MiB | 32 M clauses / 8 GiB |
+| `cake_lpr` heap + stack (85 % of MemAvailable covers both; stack = heap/12) | 12 GB | 96 GB |
+| scratch required before encoding | 8 GiB | 96 GiB |
 | job timeout (workflow) | 25 min (`ci.yml`; no standard-profile proof workflow exists) | 240 min |
 
 `CheckBudget`: each spawn gets `min(cap, deadline − now)`; a non-positive

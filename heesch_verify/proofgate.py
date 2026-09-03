@@ -52,7 +52,12 @@ from .result import ErrorCode
 # on disk, never in memory (an F(S,7) core LRAT is ~0.4 GB raw / ~20 MB xz).
 PROOF_MAX_STORED_BYTES = STANDARD.proof_max_stored_bytes
 PROOF_MAX_PAYLOAD_BYTES = STANDARD.proof_max_payload_bytes
-_XZ_MEMLIMIT = 256 * 1024 * 1024
+# 1 GiB admits every sanctioned compressor (prove.py uses preset 6, an 8 MiB
+# dict; even xz -9e needs < 70 MiB to decode) while refusing decompression
+# bombs with multi-GiB dictionary headers. Hitting it is a RESOURCE
+# condition, not proof invalidity (misclassified before 2026-09-03; seen in
+# production, run 33756692890).
+_XZ_MEMLIMIT = 1024 * 1024 * 1024
 _CHUNK = 1024 * 1024
 
 # In-harness proof band (cells, max m). Narrower than the encoder's
@@ -70,7 +75,7 @@ HARNESS_PROOF_BAND = STANDARD.harness_band   # the standard profile's band; RECO
 # by the CheckBudget the caller supplies. The numbers are per-profile
 # (profile.py): STANDARD caps drat-trim 600 s / cake_lpr 900 s / lrat-check
 # 300 s inside a 1500 s deadline with the encoder allowed the first 600 s;
-# RECORD is 3600/3600/1800 s inside 9000 s with a 3600 s encode guard. The
+# RECORD is 7200/7200/3600 s inside 9300 s with a 3600 s encode guard. The
 # deadline counts from the budget's construction, which the harness does
 # before this gate runs. Exceeding either is RESOURCE_EXCEEDED, never a
 # crash.
@@ -186,7 +191,8 @@ def _open_regular(path: pathlib.Path) -> int:
 
 def materialize_proof(src: pathlib.Path, dst: pathlib.Path, compression: str,
                       max_stored_bytes: int | None = None,
-                      max_payload_bytes: int | None = None) -> tuple[int, str]:
+                      max_payload_bytes: int | None = None,
+                      budget=None) -> tuple[int, str]:
     """Stream the submitted proof into `dst` (decompressing xz with a bounded
     output), returning (payload_bytes, payload_sha256). Raises ProofFileError.
     Caps default to the module constants (STANDARD) so tests can monkeypatch
@@ -195,6 +201,21 @@ def materialize_proof(src: pathlib.Path, dst: pathlib.Path, compression: str,
         max_stored_bytes = PROOF_MAX_STORED_BYTES
     if max_payload_bytes is None:
         max_payload_bytes = PROOF_MAX_PAYLOAD_BYTES
+
+    chunks = 0
+
+    def _checkpoint():
+        # Every 64 chunks (64 MiB): a multi-GiB materialization must lose to
+        # the shared proof-stage deadline cleanly, not to the platform's job
+        # kill (2026-09-03 rebalance).
+        nonlocal chunks
+        chunks += 1
+        if budget is not None and chunks % 64 == 0 and budget.remaining() <= 0:
+            raise ProofFileError(
+                ErrorCode.RESOURCE_EXCEEDED,
+                "proof-check deadline exhausted while materializing the proof",
+            )
+
     fd = _open_regular(src)
     with os.fdopen(fd, "rb", closefd=True) as fh:
         size = os.fstat(fh.fileno()).st_size
@@ -211,6 +232,7 @@ def materialize_proof(src: pathlib.Path, dst: pathlib.Path, compression: str,
                     chunk = fh.read(_CHUNK)
                     if not chunk:
                         break
+                    _checkpoint()
                     total += len(chunk)
                     if total > max_payload_bytes:
                         raise ProofFileError(
@@ -226,6 +248,7 @@ def materialize_proof(src: pathlib.Path, dst: pathlib.Path, compression: str,
                         chunk = fh.read(_CHUNK)
                         if not chunk and dec.needs_input:
                             break
+                        _checkpoint()
                         data = dec.decompress(chunk, max_length=_CHUNK)
                         while True:
                             total += len(data)
@@ -242,7 +265,10 @@ def materialize_proof(src: pathlib.Path, dst: pathlib.Path, compression: str,
                         if dec.eof:
                             break
                 except lzma.LZMAError as e:
-                    raise ProofFileError(ErrorCode.PROOF_FILE_INVALID, f"xz: {e}")
+                    code = (ErrorCode.RESOURCE_EXCEEDED
+                            if "memory usage limit" in str(e).lower()
+                            else ErrorCode.PROOF_FILE_INVALID)
+                    raise ProofFileError(code, f"xz: {e}")
                 if not dec.eof:
                     raise ProofFileError(ErrorCode.PROOF_FILE_INVALID, "xz stream truncated")
                 if dec.unused_data or fh.read(1):
@@ -333,7 +359,8 @@ class ProofCarryingGate:
             try:
                 _, payload_sha = materialize_proof(
                     src, dst, block.compression,
-                    self.profile.proof_max_stored_bytes, self.profile.proof_max_payload_bytes)
+                    self.profile.proof_max_stored_bytes, self.profile.proof_max_payload_bytes,
+                    budget=self.budget)
             except ProofFileError as e:
                 return ProofVerdict(e.code, e.message, m=m)
             except OSError as e:
@@ -359,7 +386,8 @@ class ProofCarryingGate:
                 try:
                     _, core_sha = materialize_proof(
                         core_src, core_dst, block.core_compression,
-                        self.profile.proof_max_stored_bytes, self.profile.proof_max_payload_bytes)
+                        self.profile.proof_max_stored_bytes, self.profile.proof_max_payload_bytes,
+                        budget=self.budget)
                 except ProofFileError as e:
                     return ProofVerdict(e.code, "core: " + e.message, m=m)
                 except OSError as e:

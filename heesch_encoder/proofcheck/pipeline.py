@@ -326,7 +326,8 @@ def check_proof_encoded(sub: ProofSubmission, enc, tier: Tier = Tier.RECORD,
                 core_lines = core_mod.parse_core_file(
                     core_path, max_clauses=core_max_clauses, max_bytes=core_max_bytes)
                 core_res = core_mod.check_and_write_core(
-                    core_lines, cnf_path, enc.num_vars, os.path.join(td, "core.cnf"))
+                    core_lines, cnf_path, enc.num_vars, os.path.join(td, "core.cnf"),
+                    budget=budget)
             except core_mod.CoreError as e:
                 return ProofOutcome(ProofStatus[e.code], "core: " + e.message,
                                     cnf_digest=enc.digest, proof_bytes=proof_bytes)
@@ -336,6 +337,11 @@ def check_proof_encoded(sub: ProofSubmission, enc, tier: Tier = Tier.RECORD,
                 # rejection, never a traceback (audit 2026-08-19 Medium 3).
                 return ProofOutcome(ProofStatus.GATE_PROOF_INVALID, f"core: {e}",
                                     cnf_digest=enc.digest, proof_bytes=proof_bytes)
+            # The parsed core list (~100-140 B/str x up to 32 M clauses) has
+            # no user after check_and_write_core; drop it BEFORE the checker
+            # spawns so the MemAvailable sample that sizes cake_lpr's heap
+            # sees the memory back (2026-09-03 rebalance).
+            del core_lines
             core_clauses = core_res.num_clauses
             if sub.claimed_core_clauses and sub.claimed_core_clauses != core_clauses:
                 return ProofOutcome(ProofStatus.PROOF_HEADER_MISMATCH,
@@ -358,6 +364,20 @@ def check_proof_encoded(sub: ProofSubmission, enc, tier: Tier = Tier.RECORD,
                               timeout=timeout, bin_dir=bin_dir, budget=budget)
             results.append(r1)
             if tier is Tier.RECORD and r1.status is ck.CheckStatus.VERIFIED:
+                # The converted LRAT drat-trim emits has no cap of its own; an
+                # adversarial-but-verifying DRAT can inflate it to multiples
+                # of the input. Bound it by max_proof_bytes before spending
+                # cake_lpr time on it (2026-09-03 rebalance).
+                try:
+                    lrat_bytes = os.stat(lrat_out).st_size
+                except OSError:
+                    lrat_bytes = 0
+                if lrat_bytes > max_proof_bytes:
+                    return ProofOutcome(
+                        ProofStatus.RESOURCE_EXCEEDED,
+                        f"converted LRAT is {lrat_bytes} bytes (cap {max_proof_bytes})",
+                        cnf_digest=enc.digest, proof_bytes=proof_bytes,
+                    )
                 # Formally-verified slot: cake_lpr only, over the LRAT drat-trim
                 # emitted. No lrat-check fallback.
                 results.append(ck.cake_lpr(cnf_path, lrat_out, timeout=timeout,

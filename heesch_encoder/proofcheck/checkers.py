@@ -11,6 +11,7 @@ import enum
 import os
 import pathlib
 import subprocess
+import tempfile
 from dataclasses import dataclass
 
 # Default checker location for source checkouts. When the package runs from
@@ -67,6 +68,14 @@ class CheckBudget:
 
         return min(self.caps.get(name, 3600.0), self.deadline - time.monotonic())
 
+    def remaining(self) -> float:
+        """Seconds left before the overall deadline; <= 0 means exhausted.
+        Cheap enough to poll from streaming loops (materialize, core scan) so
+        they reject cleanly instead of running into the platform's job kill."""
+        import time
+
+        return self.deadline - time.monotonic()
+
 
 class CheckStatus(str, enum.Enum):
     VERIFIED = "VERIFIED"
@@ -106,17 +115,20 @@ _SUCCESS = {
 
 
 # cake_lpr is a CakeML binary with a FIXED heap and stack reserved at start
-# (wrapper flags --CML_HEAP_SIZE=<MB> / --CML_STACK_SIZE=<MB>, defaults 4096).
-# The default heap is too small for record-scale instances (a 13 M-clause
-# CNF + 500 MB LRAT reported "CakeML heap space exhausted" on the benchmark
-# runner), so the wrapper sizes the heap from the machine's available memory
-# (85 % of MemAvailable, clamped to [1 GB, the resource profile's cap —
-# 12 GB standard / 96 GB record]) unless HEESCH_CAKE_HEAP_MB is set (a
-# non-numeric override is ignored). Exhausting
-# it is a RESOURCE outcome, never a verdict on the proof.
+# in ONE contiguous malloc (basis_ffi.c: cml_heap_sz + cml_stack_sz), wrapper
+# flags --CML_HEAP_SIZE=<MB> / --CML_STACK_SIZE=<MB> (defaults 4096/1024).
+# The defaults are far too small for record-scale instances (production
+# 2026-09-02/03: 21 proofs died "heap space exhausted", 6 more died "stack
+# space exhausted" AFTER drat-trim had VERIFIED them). The wrapper therefore
+# sizes both from the machine: an 85 % MemAvailable budget covers heap AND
+# stack together — heap = min(profile cap, 12/13 of the budget), stack =
+# heap/12 with a 1 GB floor — so heap + stack <= 0.85 x MemAvailable and the
+# contiguous reservation cannot over-commit. Caps: 12 GB standard / 96 GB
+# record. HEESCH_CAKE_HEAP_MB overrides the heap exactly (non-numeric is
+# ignored). Exhausting either is a RESOURCE outcome, never a verdict.
 CAKE_LPR_HEAP_MB_MAX = 12288
 CAKE_LPR_HEAP_MB_MIN = 1024
-CAKE_LPR_STACK_MB = 1024
+CAKE_LPR_STACK_MB_MIN = 1024
 _CAKE_RESOURCE_MARKERS = ("heap space exhausted", "stack space exhausted")
 
 
@@ -143,7 +155,38 @@ def cake_lpr_heap_mb(max_mb: int | None = None) -> int:
         pass
     if avail_mb is None:
         return 4096
-    return max(CAKE_LPR_HEAP_MB_MIN, min(max_mb, int(avail_mb * 0.85)))
+    return max(CAKE_LPR_HEAP_MB_MIN, min(max_mb, int(avail_mb * 0.85) * 12 // 13))
+
+
+def cake_lpr_stack_mb(heap_mb: int) -> int:
+    """Stack for cake_lpr in MB, derived from the sized heap (heap/12, floor
+    CAKE_LPR_STACK_MB_MIN). Together with cake_lpr_heap_mb's 12/13 factor the
+    contiguous heap+stack reservation stays inside the 85 % budget."""
+    return max(CAKE_LPR_STACK_MB_MIN, heap_mb // 12)
+
+
+_OUT_HEAD = 64 * 1024        # bytes of a checker stream kept from the front
+_OUT_TAIL = 1024 * 1024      # ...and from the end; every verdict prints there
+
+
+def _windows(fh, head: int = _OUT_HEAD, tail: int = _OUT_TAIL) -> str:
+    """Bounded head+tail windows of a checker's output file. The partial line
+    at each cut edge is dropped so a window boundary can never fabricate a
+    line-anchored verdict."""
+    size = fh.seek(0, 2)
+    if size <= head + tail:
+        fh.seek(0)
+        return fh.read().decode(errors="replace")
+    fh.seek(0)
+    h = fh.read(head)
+    nl = h.rfind(b"\n")
+    h = h[:nl + 1] if nl != -1 else b""
+    fh.seek(size - tail)
+    tl = fh.read(tail)
+    nl = tl.find(b"\n")
+    if nl != -1:
+        tl = tl[nl + 1:]
+    return (h + tl).decode(errors="replace")
 
 
 def _run(name: str, args: list[str], timeout: float, bin_dir=None,
@@ -161,25 +204,35 @@ def _run(name: str, args: list[str], timeout: float, bin_dir=None,
                            "proof-check deadline exhausted before spawn")
     argv = [str(exe)]
     if name == "cake_lpr":
-        argv += [f"--CML_HEAP_SIZE={cake_lpr_heap_mb(heap_max_mb)}", f"--CML_STACK_SIZE={CAKE_LPR_STACK_MB}"]
+        heap_mb = cake_lpr_heap_mb(heap_max_mb)
+        argv += [f"--CML_HEAP_SIZE={heap_mb}", f"--CML_STACK_SIZE={cake_lpr_stack_mb(heap_mb)}"]
     argv += args
     t0 = time.time()
+    # A record-scale checker can print hundreds of MB of progress lines;
+    # capture_output=True would buffer all of it (and 3-4 further copies for
+    # verdict scanning) in THIS process's RSS — RSS that then shrinks the
+    # MemAvailable sample sizing the next cake_lpr heap. Stream both pipes to
+    # scratch-backed temp files instead and read back bounded head+tail
+    # windows: every checker verdict prints at end-of-stream (2026-09-03).
     try:
-        proc = subprocess.run(
-            argv,
-            capture_output=True,
-            text=True,
+        with tempfile.TemporaryFile() as f_out, tempfile.TemporaryFile() as f_err:
+            try:
+                proc = subprocess.run(
+                    argv,
+                    stdout=f_out,
+                    stderr=f_err,
+                    # F3: never let a checker read a forged proof from our
+                    # stdin (drat-trim -S). We pass proofs by path only.
+                    stdin=subprocess.DEVNULL,
+                    timeout=timeout,
+                )
+            except subprocess.TimeoutExpired:
+                return CheckResult(name, CheckStatus.RESOURCE_EXCEEDED, time.time() - t0,
+                                   "wall-clock timeout")
             # F4: hostile proof bytes echoed by the checker must not crash the
-            # decode with an unstructured UnicodeDecodeError — replace instead.
-            errors="replace",
-            # F3: never let a checker read a forged proof from our stdin
-            # (drat-trim -S). We pass proofs by path only.
-            stdin=subprocess.DEVNULL,
-            timeout=timeout,
-        )
-    except subprocess.TimeoutExpired:
-        return CheckResult(name, CheckStatus.RESOURCE_EXCEEDED, time.time() - t0,
-                           "wall-clock timeout")
+            # decode with an unstructured UnicodeDecodeError — _windows
+            # decodes with errors="replace".
+            out = _windows(f_out) + "\n" + _windows(f_err)
     except MemoryError:
         return CheckResult(name, CheckStatus.RESOURCE_EXCEEDED, time.time() - t0, "oom")
     except OSError as e:
@@ -189,7 +242,6 @@ def _run(name: str, args: list[str], timeout: float, bin_dir=None,
         return CheckResult(name, CheckStatus.CHECKER_MISSING, time.time() - t0,
                            f"{exe}: spawn failed: {e}")
     dt = time.time() - t0
-    out = proc.stdout + "\n" + proc.stderr
     if _verdict(out, _SUCCESS[name]):
         return CheckResult(name, CheckStatus.VERIFIED, dt)
     low = out.lower()

@@ -54,12 +54,12 @@ def test_record_budgets_dominate_standard():
 
 
 def test_detect_selects_by_machine(monkeypatch):
-    monkeypatch.setattr(pf, "mem_available_bytes", lambda: 64 * pf.GiB)
+    monkeypatch.setattr(pf, "mem_available_bytes", lambda: 128 * pf.GiB)
     monkeypatch.setattr(pf, "scratch_free_bytes", lambda p=None: 200 * pf.GiB)
     assert pf.detect() is pf.RECORD
     monkeypatch.setattr(pf, "mem_available_bytes", lambda: 7 * pf.GiB)
     assert pf.detect() is pf.STANDARD
-    monkeypatch.setattr(pf, "mem_available_bytes", lambda: 64 * pf.GiB)
+    monkeypatch.setattr(pf, "mem_available_bytes", lambda: 128 * pf.GiB)
     monkeypatch.setattr(pf, "scratch_free_bytes", lambda p=None: 20 * pf.GiB)
     assert pf.detect() is pf.STANDARD       # memory alone is not enough
     monkeypatch.setattr(pf, "mem_available_bytes", lambda: None)

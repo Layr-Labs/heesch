@@ -124,7 +124,7 @@ def _parse_core_file_strict(path: str, max_clauses: int, max_bytes: int) -> list
 
 
 def check_and_write_core(core_lines: list[str], formula_cnf_path: str, num_vars: int,
-                         out_path: str) -> CoreResult:
+                         out_path: str, budget=None) -> CoreResult:
     """Verify every core clause is a line of F (streamed, exact) and write the
     core CNF for the checker from F's own lines in the submitter's order."""
     needed = set(core_lines)
@@ -134,7 +134,7 @@ def check_and_write_core(core_lines: list[str], formula_cnf_path: str, num_vars:
     formula_clauses = 0
     try:
         return _check_and_write_core(core_lines, needed, found, formula_clauses,
-                                     formula_cnf_path, num_vars, out_path)
+                                     formula_cnf_path, num_vars, out_path, budget)
     except (UnicodeDecodeError, OSError) as e:
         # F is our own streamed DIMACS; a read/write failure here is a
         # server-side resource problem, not a verdict on the proof.
@@ -142,13 +142,19 @@ def check_and_write_core(core_lines: list[str], formula_cnf_path: str, num_vars:
 
 
 def _check_and_write_core(core_lines, needed, found, formula_clauses,
-                          formula_cnf_path, num_vars, out_path) -> CoreResult:
+                          formula_cnf_path, num_vars, out_path, budget=None) -> CoreResult:
     with open(formula_cnf_path, "r", encoding="ascii", errors="strict") as fh:
         header = fh.readline()
         if not header.startswith("p cnf "):
             raise CoreError("GATE_PROOF_INVALID", "regenerated CNF header malformed")
         for raw in fh:
             formula_clauses += 1
+            # A record-scale F stream is ~150 M lines; keep the scan under
+            # the shared deadline so it rejects cleanly rather than running
+            # into the platform's job kill (2026-09-03 rebalance).
+            if budget is not None and formula_clauses % 1_000_000 == 0 and budget.remaining() <= 0:
+                raise CoreError("RESOURCE_EXCEEDED",
+                                "proof-check deadline exhausted during the core membership scan")
             line = raw[:-1] if raw.endswith("\n") else raw
             if line in needed and line not in found:
                 found.add(line)
