@@ -274,6 +274,16 @@ def main() -> None:
     )
     payload = _score_payload(result, defect_res)
     payload["metrics"]["gate_detail"] = gate_detail
+    # Additive, non-scoring: a compact SVG of the shape + coronas for display
+    # (leaderboard gallery / hover). Never affects scoring, gates, or the
+    # verified result — best-effort, ASCII-safe, omitted on any failure.
+    try:
+        from harness.render import render_svg
+        _svg = render_svg(sub, grid_id=sub.grid_id)
+        if _svg is not None and _svg.isascii():
+            payload["metrics"]["svg"] = _svg
+    except Exception:
+        pass
     SCORE_PATH.parent.mkdir(parents=True, exist_ok=True)
     with open(SCORE_PATH, "w", encoding="ascii", newline="\n") as fh:
         json.dump(payload, fh, sort_keys=True)
