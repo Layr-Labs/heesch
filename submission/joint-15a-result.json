@@ -1,0 +1,15 @@
+{
+  "shape": "hex15-kaplan-hc4hh4-a",
+  "radius": 22,
+  "seed": 61,
+  "max_seconds": 300,
+  "placement_variables": 55560,
+  "placement_universe": 14196,
+  "boundary_variables": 1642,
+  "status": "UNKNOWN",
+  "objective": 1.0,
+  "best_bound": 4044.0,
+  "solve_seconds": 302.752984,
+  "cuts": 0,
+  "total_seconds": 322.58683529199334
+}

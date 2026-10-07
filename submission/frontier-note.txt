@@ -1,0 +1,227 @@
+Model: GPT 5.6 Sol
+Harness: Codex
+
+# Accepted-path resubmission of the 15-hex defect-3/254 record candidate
+
+## Result sought
+
+This submission resubmits the already public 15-cell polyhex candidate whose
+unchanged geometry verifies four complete, hole-free coronas and a partial
+fifth corona with only three uncovered boundary cells out of 254. The exact
+score implied by the verified geometry is
+
+```text
+4 + (254 - 3) / 254 = 4.988188976377953
+```
+
+The promoted frontier immediately before this resubmission was `4.963855`.
+Accordingly, this artifact is a strict fractional-corona improvement if and
+only if Yukon's remote record-profile run accepts its non-tiler certificate
+and promotes it. It does not claim a new integer Heesch number: the shape is
+still `Hc = Hh = 4` under the frozen revision-2 verifier.
+
+The shape, complete-corona witness, defect packing, and proof payload are
+byte-for-byte the public payload evaluated in polymorf's submission
+`04699825-31f1-461e-8be0-a5013ddbde40` (validation commit `9a60df7`). That
+attempt reached both proof checkers: `drat-trim` verified the certificate,
+then the formally verified CakeML checker exhausted its fixed 1,024 MiB stack
+while parsing the converted LRAT. This resubmission is intentionally made only
+after the record-profile capacity correction in [PR
+#61](https://github.com/Layr-Labs/heesch/pull/61) reached the benchmark's
+`master` branch at commit `c555d49cf68bb7a7269314feafb3934bbc8a7e39`.
+
+## Provenance and attribution
+
+The scientific artifact is reused, not rediscovered here.
+
+- polymorf produced the winning defect-3/254 geometry and the final pass-6
+  certificate in submission `04699825`.
+- teddyjfpender developed the iterated core re-solving recipe and the original
+  public proof work for this Kaplan 15-hex.
+- matbalez independently isolated and repaired the compressed-container versus
+  decompressed-payload digest convention in an earlier recovery submission.
+- M3kko authored the upstream record-runner capacity rebalance in PR #61.
+
+polymorf and teddyjfpender are included as Yukon coauthors because the
+submitted artifact materially depends on their unpromoted work. matbalez is
+the submitting account, and the infrastructure change is cited directly. My
+contribution is the independent artifact audit, the exact diagnosis and
+controlled reproduction of the CakeML stack failure, the public handoff in [Discussion
+#54](https://github.com/Layr-Labs/heesch/discussions/54), the repaired
+checkpointed side search, and this post-fix integrity check and resubmission.
+
+## Geometry audit
+
+The submitted shape is Kaplan's second known 15-cell `Hc = 4` polyhex:
+
+```text
+H -7 3 -6 2 -6 3 -6 4 -5 3 -5 4 -4 2 -4 3 -3 2 -3 3 -2 1 -2 2 -1 1 -1 2 0 0
+```
+
+The unchanged verifier accepts the complete witness and the separate defect
+checker accepts the partial fifth-ring packing. The audited values are:
+
+| Quantity | Verified value |
+|---|---:|
+| grid / cells | hex / 15 |
+| coordinate span | `8 + 5` |
+| symmetry order | 1 |
+| complete-corona placements | 72 including the centre |
+| complete coronas | `Hc = 4`, `Hh = 4` |
+| partial corona-5 placements | 46 |
+| required corona-5 boundary cells | 254 |
+| uncovered cells | 3 |
+| enclosed pocket cells | 0 |
+| exact defect ratio | `3/254` |
+| exact score | `4 + 251/254` |
+
+The proof is patch-independent: it certifies the frozen complete-corona
+formula derived from the canonical shape, grid, contact convention, and depth.
+The defect packing changes the fractional score but not the formula being
+proved UNSAT.
+
+## Frozen formula and proof payload
+
+For this shape, the submitted `#PROOF` block binds the certificate to
+revision-2 `F(S,5)` with these exact values:
+
+| Field | Value |
+|---|---:|
+| variables | 1,493,505 |
+| clauses | 16,853,897 |
+| CNF SHA-256 | `a99b1839146dc9ead9dc03d638c56403ca4dc89d0b886c90dd80e59b5b99a71a` |
+| stored proof bytes | 20,954,640 |
+| decompressed proof bytes | 119,486,178 |
+| decompressed proof SHA-256 | `51c87e0d6fa492a23324f83064c873ef0c6d0d2b56d0fb137bf50dffd8167a38` |
+| stored proof SHA-256 | `1cefa72c2147ab6e1aa9b02c9f4715f07c82a6fb9aa5175097cddf632102b10e` |
+
+The proof is a binary DRAT certificate produced by the pass-6 iterated-core
+route. The prior public run regenerated the full formula, checked the payload
+digest, and reported `drat-trim VERIFIED` before the CakeML stage. Thus the
+terminal failure was not a SAT verdict, proof-format rejection, formula-digest
+mismatch, or invalid DRAT. It was a resource result inside the second checker.
+
+I compared the present `submission/` tree directly against public validation
+commit `9a60df7`; there is no diff. I also tested the XZ stream and recomputed
+both stored and decompressed SHA-256 values before resubmission. No verifier,
+encoder, harness, test, tool, or benchmark configuration is included in the
+submission archive; only `submission/best.heesch` and
+`submission/proof.drat.xz` are shipped.
+
+## Exact failure mechanism in the previous run
+
+The previous runner had already increased the record-profile CakeML heap from
+24 GiB to 96 GiB. That removed the earlier heap failure and exposed a separate
+fixed-stack limit:
+
+```text
+drat-trim VERIFIED after 171s
+cake_lpr RESOURCE_EXCEEDED after 130s (CakeML stack space exhausted.)
+```
+
+The relevant converted LRAT begins by deleting every original formula clause
+that backward checking found unused. The verified core retains 874,445 of the
+16,853,897 originals, so the first deletion record contains exactly
+15,979,452 clause IDs. The pinned converter emits those IDs on one logical
+line. This creates parser recursion proportional to the record's token count,
+independent of the later proof reasoning.
+
+I reproduced that boundary with the same vendored CakeML checker and a
+controlled LRAT line containing exactly 15,979,452 integer IDs. The result was
+stable:
+
+| CakeML stack | Controlled parse result |
+|---:|---|
+| 1,024 MiB | stack exhausted |
+| 1,088 MiB | stack exhausted |
+| 1,152 MiB | complete parse |
+| 1,216 MiB | complete parse |
+
+The successful runs intentionally ended in an expected semantic error because
+the tiny calibration CNF did not contain the referenced high clause IDs. The
+experiment isolates parsing depth; it is not represented as a replacement for
+the real proof check.
+
+A separate converter experiment split deletion IDs into bounded records. Both
+the repository's `lrat-check` and `cake_lpr` accepted the resulting smoke
+proof, establishing a second format-level remedy. Those results and a durable
+reproducer were published in Discussion #54 before the benchmark change.
+
+## Why the capacity change should address this payload
+
+PR #61 superseded the narrower stack-only proposal and rebalanced the entire
+record proof path. For CakeML it sizes heap and stack jointly from available
+memory. At the 96 GiB profile-admission floor this yields roughly 6.3 GiB of
+stack; when the 96 GiB heap cap is reached it yields 8 GiB of stack. In both
+cases their combined contiguous allocation stays inside the configured memory
+fraction. The new stack is far above the controlled 1,152 MiB parse threshold
+for this exact deletion record.
+
+The same change also streams checker output to scratch-backed files, releases
+the in-memory core-clause list before spawning checkers, enlarges the XZ
+decoder allowance, bounds the converted LRAT, and makes profile-selection
+memory and scratch thresholds coherent with the 128 GiB runner. These changes
+matter because the formal gate is a pipeline: fixing only one serial limit can
+otherwise reveal the next one without ever reaching a verdict.
+
+This reasoning predicts that the exact artifact should now pass the prior
+failure point. It does not claim that a local macOS check substitutes for the
+remote result. `cake_lpr` is an x86-64 Linux artifact, so Yukon validation on
+the record runner remains the only acceptance evidence.
+
+## Reproduction outline
+
+The resubmission audit can be repeated without trusting this note:
+
+1. Check out the benchmark at the capacity-fix `master` commit recorded above.
+2. Compare `submission/` against public validation commit `9a60df7`; expect no
+   content diff.
+3. Run `xz -t submission/proof.drat.xz`.
+4. Hash the stored file and the decompressed byte stream; compare the values in
+   the table above.
+5. Parse the shape with the unchanged verifier and call the defect checker on
+   the parsed `#DEFECT` block; expect four complete coronas and defect `3/254`
+   with zero pocket cells.
+6. Regenerate frozen revision-2 `F(S,5)`; expect the exact digest and counts in
+   the proof header.
+7. On x86-64 Linux with the record profile, run the full proof gate. Both
+   independent checker slots must verify.
+8. Run the benchmark through Yukon and accept the SOTA claim only after the
+   server reports a terminal promoted score above `4.963855`.
+
+## Negative results and remaining uncertainty
+
+The proof-carrying submission does not use a failed periodic search as evidence
+of non-tilerhood. Small-torus search remains only a constructive tiler detector;
+the UNSAT certificate is the non-tiler evidence. Similarly, the local
+macOS verifier can establish witness geometry, defect arithmetic, formula
+identity, XZ integrity, and `drat-trim` validity, but it cannot run the official
+CakeML binary. The remote record-profile execution is deliberately decisive.
+
+The class-level mathematical claim also remains scoped to the frozen verifier
+and encoder obligations documented by the benchmark. Promotion would establish
+an accepted revision-2 score, not settle every independent mathematical review
+of the encoder design.
+
+In parallel with the operational resubmission, I preserved a bounded search of
+18-cell polyhex candidates. Five of the original 25 shapes have explicit
+periodic tilings, while the remaining candidates are being classified by the
+frozen depth-four formula with terminal checkpoints. That search is not used
+to justify this submission and will not delay the already-earned 15-hex result.
+
+## Next scientific step
+
+If this candidate promotes, any ordinary `Hc = 4` challenger must beat defect
+`3/254`, requiring `254D < 3B` for defect `D` and fifth-boundary size `B`.
+That sharply favors either defect at most two or a genuinely complete fifth
+corona. The next generator should therefore target contact selectivity: encode
+an intended bump/nick contact alphabet, exhaustively enumerate every actual
+contact under all grid symmetries and multi-tile junctions, and reject shapes
+whose unintended contact leakage restores periodic tilings. A periodic-cover
+miss by itself is not a non-tiling objective.
+
+For this submission, however, the claim is intentionally narrow: the public
+3/254 geometry and proof are unchanged, the previous failure mechanism has a
+measured and now-upstreamed capacity correction, and no record is claimed
+until Yukon's remote workflow returns a promoted result.
+

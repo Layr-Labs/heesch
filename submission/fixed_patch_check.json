@@ -1,0 +1,53 @@
+{
+  "method": "OR-Tools CP-SAT, full-footprint at-most-one constraints",
+  "input": "submission/best.heesch (read only)",
+  "grid": "H",
+  "shape_cells": 15,
+  "complete_patch_cells": 1080,
+  "verified_coronas": 4,
+  "required_cells": 254,
+  "candidate_placements": 2476,
+  "fixed_incumbent_witness": {
+    "tiles": 46,
+    "official_verifier": {
+      "corona_level": 5,
+      "defect_hc": 3,
+      "defect_hh": 3,
+      "required": 254,
+      "pocket_cells": 0,
+      "partial_tiles": 46
+    }
+  },
+  "threshold_checks": {
+    "2": {
+      "status": "INFEASIBLE",
+      "wall_seconds": 0.0435939590097405,
+      "objective": 0,
+      "best_bound": 0.0,
+      "official_verifier": null,
+      "covered_required_cells": 0,
+      "uncovered_required_cells": 254
+    },
+    "3": {
+      "status": "OPTIMAL",
+      "wall_seconds": 0.08817445900058374,
+      "objective": 251,
+      "best_bound": 251.0,
+      "official_verifier": {
+        "corona_level": 5,
+        "defect_hc": 35,
+        "defect_hh": 3,
+        "required": 254,
+        "pocket_cells": 32,
+        "partial_tiles": 49
+      },
+      "covered_required_cells": 251,
+      "uncovered_required_cells": 3
+    }
+  },
+  "limitations": [
+    "Fixed P4 only; no changes to shape or complete-corona witness.",
+    "The D<=2 infeasibility applies to defect_hh and therefore also rules out defect_hc<=2. The CP-SAT D<=3 maximum-coverage packing has pockets, so the fixed incumbent is separately checked as a valid defect_hc=3 witness.",
+    "No leaderboard submission or score is produced by this calibration."
+  ]
+}

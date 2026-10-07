@@ -1,0 +1,12 @@
+{
+  "hc_verified": 4,
+  "hh_verified": 4,
+  "defect_hc": 3,
+  "defect_hh": 3,
+  "required": 254,
+  "pocket_cells": 0,
+  "partial_tiles": 42,
+  "geometry_score": 4.988188976377953,
+  "proof_block_preserved": true,
+  "candidate_sha256": "f53945c585b5d3ff8f1b7ebe5807e7d48c48860c40e6f2a5c6c687fdc8e09901"
+}

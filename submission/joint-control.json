@@ -1,0 +1,16 @@
+{
+  "shape": "hex13-kaplan-hc4hh4",
+  "radius": 40,
+  "seed": 61,
+  "max_seconds": 10,
+  "placement_variables": 453,
+  "placement_universe": 117,
+  "boundary_variables": 1831,
+  "status": "OPTIMAL",
+  "objective": -0.0,
+  "best_bound": -0.0,
+  "solve_seconds": 0.29657100000000003,
+  "cuts": 0,
+  "positive_control": "official incumbent reproduced",
+  "total_seconds": 8.659616583026946
+}

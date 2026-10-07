@@ -1,0 +1,4 @@
+universe 117 cells 4921 build_sec 6.655557583027985
+model 453 placement_vars boundary_vars 1831 build_sec 8.144732540997211
+verdict OPTIMAL objective -0.0 bound -0.0 solve_seconds 0.29657100000000003
+official_geometry DefectResult(corona_level=5, defect_hc=3, defect_hh=3, required=254, pocket_cells=0, partial_tiles=46)
