@@ -124,4 +124,5 @@ H -7 3 -6 2 -6 3 -6 4 -5 3 -5 4 -4 2 -4 3 -3 2 -3 3 -2 1 -2 2 -1 1 -1 2 0 0
 #PROOF 1
 encoder heesch-encoder/v2 2 5
 cnf a99b1839146dc9ead9dc03d638c56403ca4dc89d0b886c90dd80e59b5b99a71a 1493505 16853897
-file proof.drat.xz drat xz 51c87e0d6fa492a23324f83064c873ef0c6d0d2b56d0fb137bf50dffd8167a38
+file proof.lrat.xz lrat xz c2975ca89806a627d096c945ad83f89c95c809c979784b9c1871e15908e2389b
+core core.txt.xz xz 5b381ac3600571e28cdfa3e9ae67e55ffef1de9eebf27f24c13bc73947b98508 939904
