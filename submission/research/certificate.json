@@ -1,0 +1,10 @@
+{
+  "cnf_sha256": "48a7d8ab9c9f225f1bacc21f29c977b29ece68a13db728a07df8823aec09ddb1",
+  "compressed_sha256": "e32c6ab92642721f74ae08943f503cfbed57fc488edc3e3a723fe33be9553a69",
+  "proof_raw_sha256": "808a8b1d5ad126fcd6abcf52c419156c07c23179aefcc64ad08f8c396363882b",
+  "raw_bytes": 17602340,
+  "compressed_bytes": 2377008,
+  "declared_m": 4,
+  "variables": 1791185,
+  "clauses": 9374012
+}
