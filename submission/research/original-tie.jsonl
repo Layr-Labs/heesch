@@ -1,0 +1,4 @@
+{"P3": 615, "R4": 149, "raw4": 1761, "possible4": 249, "possible5": 12034, "boundary_domain": 885, "pocket_vars": 1825, "target": 0}
+{"step": 0, "status": "OPTIMAL", "solve_s": 1.918924}
+{"boundary": 254, "hh": 3, "hc": 3, "gain": 0, "pocket4": 0, "pocket5": 2}
+{"file": "work/fourth-lane/joint-tie/best.heesch", "sha256": "319293faa1f948389b856092760706d5e926867ee2009e830e3219119468fc37", "partial_count": 46, "required": 254, "hh": 3, "defect": 3, "mode": "joint", "gain": 0}

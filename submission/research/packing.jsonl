@@ -1,0 +1,27 @@
+{"file": "witness-001.heesch", "partial": 33, "defect": 69, "required": 229}
+{"file": "work/fourth-lane/changed-p3-final/best.heesch", "sha256": "bbbae92b0d84f5d74ae4b7b2df069574ffe139d00fa82e62b2c2996665d994c0", "partial_count": 33, "defect": 69, "hh": 63, "required": 229, "inner_source": "witness-001.heesch"}
+{"file": "witness-002.heesch", "partial": 35, "defect": 78, "required": 254}
+{"file": "witness-003.heesch", "partial": 48, "defect": 40, "required": 279}
+{"file": "work/fourth-lane/changed-p3-final/best.heesch", "sha256": "8e6375d78fb8d6db188404e8e62e81efcb71e8c22fc5f0c39bed0e161a3c7660", "partial_count": 48, "defect": 40, "hh": 33, "required": 279, "inner_source": "witness-003.heesch"}
+{"file": "witness-004.heesch", "partial": 38, "defect": 117, "required": 305}
+{"file": "witness-005.heesch", "partial": 34, "defect": 49, "required": 211}
+{"file": "witness-006.heesch", "partial": 29, "defect": 87, "required": 234}
+{"file": "witness-007.heesch", "partial": 37, "defect": 82, "required": 248}
+{"file": "witness-008.heesch", "partial": 42, "defect": 84, "required": 289}
+{"file": "witness-009.heesch", "partial": 33, "defect": 105, "required": 258}
+{"fixed_patch": "witness-003.heesch", "budget": 20, "search": {"status": "INFEASIBLE", "cycles": 0, "solver_s": 0.059674000000000005, "lower_bound": 0.0}}
+{"fixed_patch": "witness-003.heesch", "budget": 30, "search": {"status": "OPTIMAL", "cycles": 1, "solver_s": 0.43603400000000003, "lower_bound": 0.0, "defect": 30, "required": 279, "hh": 30}}
+{"file": "work/fourth-lane/changed-p3-final/best.heesch", "sha256": "c4bf86207b9355b9d977bc04a6068560aec0070dabe2751fb9e0d158d8776912", "partial_count": 49, "defect": 30, "hh": 30, "required": 279, "inner_source": "witness-003.heesch"}
+{"fixed_patch": "witness-003.heesch", "budget": 25, "search": {"status": "INFEASIBLE", "cycles": 1, "solver_s": 0.41894200000000004, "lower_bound": 0.0}}
+{"fixed_patch": "witness-003.heesch", "budget": 28, "search": {"status": "OPTIMAL", "cycles": 1, "solver_s": 0.330037, "lower_bound": 0.0, "defect": 28, "required": 279, "hh": 27}}
+{"file": "work/fourth-lane/changed-p3-final/best.heesch", "sha256": "045f2577b337adcb0a4a1725ad3e601750cc80af706f6271b0bd27fa5ec1334e", "partial_count": 49, "defect": 28, "hh": 27, "required": 279, "inner_source": "witness-003.heesch"}
+{"fixed_patch": "witness-003.heesch", "budget": 27, "search": {"status": "UNKNOWN", "cycles": 7, "solver_s": 0.06568500000000001, "lower_bound": 0.0}}
+{"fixed_patch": "witness-005.heesch", "budget": 24, "search": {"status": "UNKNOWN", "cycles": 3, "solver_s": 1.032099, "lower_bound": 0.0}}
+{"fixed_patch": "witness-008.heesch", "budget": 42, "search": {"status": "INFEASIBLE", "cycles": 0, "solver_s": 0.5074890000000001, "lower_bound": 0.0}}
+{"fixed_patch": "witness-008.heesch", "budget": 63, "search": {"status": "UNKNOWN", "cycles": 1, "solver_s": 1.6060500000000002, "lower_bound": 0.0}}
+{"fixed_patch": "witness-001.heesch", "budget": 34, "search": {"status": "UNKNOWN", "cycles": 1, "solver_s": 0.05200200000000001, "lower_bound": 0.0}}
+{"fixed_patch": "witness-002.heesch", "budget": 39, "search": {"status": "UNKNOWN", "cycles": 2, "solver_s": 1.3928420000000001, "lower_bound": 0.0}}
+{"fixed_patch": "witness-007.heesch", "budget": 41, "search": {"status": "UNKNOWN", "cycles": 0, "solver_s": 3.000703, "lower_bound": 0.0}}
+{"fixed_patch": "witness-006.heesch", "budget": 43, "search": {"status": "UNKNOWN", "cycles": 5, "solver_s": 0.052103000000000003, "lower_bound": 0.0}}
+{"fixed_patch": "witness-004.heesch", "budget": 58, "search": {"status": "UNKNOWN", "cycles": 0, "solver_s": 3.001142, "lower_bound": 0.0}}
+{"fixed_patch": "witness-009.heesch", "budget": 52, "search": {"status": "UNKNOWN", "cycles": 0, "solver_s": 3.000537, "lower_bound": 0.0}}
