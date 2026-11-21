@@ -1,0 +1,16 @@
+{
+  "defect": 10,
+  "hh_defect": 9,
+  "required": 231,
+  "partial": 36,
+  "full": 70,
+  "score_if_proof_accepted": 4.956709956709957,
+  "levels": {
+    "0": 1,
+    "1": 5,
+    "2": 12,
+    "3": 24,
+    "4": 28
+  },
+  "source": "s9.d4"
+}

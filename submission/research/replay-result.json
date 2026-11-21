@@ -1,0 +1,1 @@
+{"conditional_score_decimal": 4.956709956709957, "conditional_score_fraction": "1145/231", "defect_hc": 10, "defect_hh": 9, "extra_pocket_cells": [[5, -24]], "full_tiles": 70, "gaps": [[-10, 22], [-7, 19], [-5, -13], [1, -14], [2, -21], [3, -20], [6, -22], [12, -14], [15, -17]], "partial_tiles": 36, "required": 231}

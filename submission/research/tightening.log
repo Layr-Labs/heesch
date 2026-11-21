@@ -1,0 +1,36 @@
+variant s0.d4 budget 4 INFEASIBLE
+variant s0.d4 budget 9 INFEASIBLE
+variant s0.d4 budget 16 INFEASIBLE
+variant s0.d4 budget 24 OPTIMAL
+best {'defect': 23, 'hh_defect': 23, 'required': 242, 'partial': 36, 'full': 70, 'score_if_proof_accepted': 4.904958677685951, 'levels': {0: 1, 1: 5, 2: 12, 3: 24, 4: 28}, 'source': 's0.d4'}
+variant s34.d4 budget 4 INFEASIBLE
+variant s34.d4 budget 9 INFEASIBLE
+variant s34.d4 budget 16 OPTIMAL
+best {'defect': 16, 'hh_defect': 15, 'required': 240, 'partial': 35, 'full': 70, 'score_if_proof_accepted': 4.933333333333334, 'levels': {0: 1, 1: 5, 2: 12, 3: 24, 4: 28}, 'source': 's34.d4'}
+variant s9.d4 budget 4 INFEASIBLE
+variant s9.d4 budget 9 INFEASIBLE
+variant s9.d4 budget 16 OPTIMAL
+best {'defect': 14, 'hh_defect': 14, 'required': 231, 'partial': 35, 'full': 70, 'score_if_proof_accepted': 4.9393939393939394, 'levels': {0: 1, 1: 5, 2: 12, 3: 24, 4: 28}, 'source': 's9.d4'}
+variant s1.d4 budget 4 INFEASIBLE
+variant s1.d4 budget 9 INFEASIBLE
+variant s1.d4 budget 16 INFEASIBLE
+variant s1.d4 budget 24 INFEASIBLE
+variant s20.d4 budget 4 INFEASIBLE
+variant s20.d4 budget 9 INFEASIBLE
+variant s20.d4 budget 16 OPTIMAL
+variant s2.d4 budget 4 INFEASIBLE
+variant s2.d4 budget 9 INFEASIBLE
+variant s2.d4 budget 16 OPTIMAL
+variant s5.d4 budget 4 INFEASIBLE
+variant s5.d4 budget 9 INFEASIBLE
+variant s5.d4 budget 16 INFEASIBLE
+variant s5.d4 budget 24 OPTIMAL
+variant s3.d4 budget 4 INFEASIBLE
+variant s3.d4 budget 9 INFEASIBLE
+variant s3.d4 budget 16 INFEASIBLE
+variant s3.d4 budget 24 INFEASIBLE
+selected {'defect': 14, 'hh_defect': 14, 'required': 231, 'partial': 35, 'full': 70, 'score_if_proof_accepted': 4.9393939393939394, 'levels': {0: 1, 1: 5, 2: 12, 3: 24, 4: 28}, 'source': 's9.d4'}
+winner 12 {'status': 'OPTIMAL', 'cycles': 2, 'solver_s': 0.308526, 'lower_bound': 0.0, 'defect': 12, 'required': 231, 'hh': 12}
+winner 11 {'status': 'OPTIMAL', 'cycles': 3, 'solver_s': 0.288451, 'lower_bound': 0.0, 'defect': 11, 'required': 231, 'hh': 11}
+winner 10 {'status': 'OPTIMAL', 'cycles': 2, 'solver_s': 0.246516, 'lower_bound': 0.0, 'defect': 10, 'required': 231, 'hh': 9}
+final 10 10

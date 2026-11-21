@@ -1,0 +1,4 @@
+{"source": "work/fourth-lane/changed-sample/witness-001.heesch", "status": "OPTIMAL", "example_boundary": 372.0, "upper_bound": 372, "max_damage": 4, "seconds": 0.6498130000000001}
+{"source": "work/fourth-lane/changed-sample/witness-002.heesch", "status": "OPTIMAL", "example_boundary": 372.0, "upper_bound": 372, "max_damage": 4, "seconds": 0.6361570000000001}
+{"source": "work/fourth-lane/changed-sample/witness-005.heesch", "status": "OPTIMAL", "example_boundary": 320.0, "upper_bound": 320, "max_damage": 3, "seconds": 0.32085400000000003}
+{"source": "work/inherited-baseline/best.heesch", "status": "OPTIMAL", "example_boundary": 336.0, "upper_bound": 336, "max_damage": 3, "seconds": 0.38097600000000004}
