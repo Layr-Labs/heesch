@@ -1,0 +1,43 @@
+{
+  "scored_shape": {
+    "cells": 29,
+    "span": 14,
+    "complete_ring_sizes": [
+      1,
+      5,
+      10,
+      16
+    ],
+    "partial_tiles": 26,
+    "required": 246,
+    "charged_defect": 35,
+    "missing_required": 27,
+    "enclosed_extra": 8
+  },
+  "second_compression": {
+    "cells": 38,
+    "span": 17,
+    "complete_ring_sizes": [
+      1,
+      5,
+      10,
+      18
+    ],
+    "partial_tiles": 28,
+    "required": 293,
+    "charged_defect": 29,
+    "missing_required": 28,
+    "enclosed_extra": 1
+  },
+  "periodic_example": {
+    "cells": 21,
+    "copies": 101,
+    "period_copies": 4,
+    "square_residues": 84,
+    "hnf": [
+      28,
+      10,
+      3
+    ]
+  }
+}
