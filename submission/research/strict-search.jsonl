@@ -1,0 +1,5 @@
+{"source": "seed105.d3.heesch", "status": "INFEASIBLE", "cycles": 2, "solver_s": 0.353625, "lower_bound": 0.0}
+{"source": "seed115.d3.heesch", "status": "INFEASIBLE", "cycles": 1, "solver_s": 0.324129, "lower_bound": 0.0}
+{"source": "seed38.d3.heesch", "status": "INFEASIBLE", "cycles": 2, "solver_s": 0.223807, "lower_bound": 0.0}
+{"source": "seed93.d3.heesch", "status": "INFEASIBLE", "cycles": 1, "solver_s": 0.35117200000000004, "lower_bound": 0.0}
+{"source": "seed97.d3.heesch", "status": "INFEASIBLE", "cycles": 1, "solver_s": 0.290802, "lower_bound": 0.0}
