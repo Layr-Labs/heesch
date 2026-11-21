@@ -1,0 +1,38 @@
+[
+  {
+    "run": "p00",
+    "required": 209,
+    "initial_charged": 16,
+    "best_charged": 16,
+    "final_lower_budget": "INFEASIBLE",
+    "domain": 1238,
+    "pocket_iterations": 3
+  },
+  {
+    "run": "p01",
+    "required": 213,
+    "initial_charged": 28,
+    "best_charged": 20,
+    "final_lower_budget": "INFEASIBLE",
+    "domain": 1257,
+    "pocket_iterations": 19
+  },
+  {
+    "run": "p02",
+    "required": 212,
+    "initial_charged": 21,
+    "best_charged": 20,
+    "final_lower_budget": "INFEASIBLE",
+    "domain": 1248,
+    "pocket_iterations": 12
+  },
+  {
+    "run": "p03",
+    "required": 216,
+    "initial_charged": 35,
+    "best_charged": 24,
+    "final_lower_budget": "INFEASIBLE",
+    "domain": 1267,
+    "pocket_iterations": 20
+  }
+]

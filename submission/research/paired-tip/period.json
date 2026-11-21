@@ -1,0 +1,12 @@
+{
+  "area_triangles": 23,
+  "remove_from_parent20": [[0, 3], [1, 1]],
+  "add_to_parent20": [[10, 4], [10, 10], [12, 3], [12, 9], [13, 7]],
+  "period_vectors_in_paired_triangle_coordinates": [[23, 0], [4, 2]],
+  "affine_motions_in_witness_coordinates": [
+    [1, 0, 0, 0, 1, 0],
+    [-1, 0, 1, 0, -1, 1],
+    [0, 1, 27, 1, 0, 0],
+    [0, -1, 43, -1, 0, 1]
+  ]
+}

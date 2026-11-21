@@ -1,0 +1,23 @@
+{
+  "area_triangles": 23,
+  "ring_sizes": [
+    1,
+    6,
+    12,
+    18,
+    24,
+    30
+  ],
+  "periodic_copies": 4,
+  "triangle_residues_covered_once": 92,
+  "period_vectors_in_paired_triangle_coordinates": [
+    [
+      23,
+      0
+    ],
+    [
+      4,
+      2
+    ]
+  ]
+}

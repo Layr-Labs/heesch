@@ -1,0 +1,87 @@
+{
+  "area": 22,
+  "ring_counts": [
+    1,
+    6,
+    12,
+    18
+  ],
+  "required": 209,
+  "covered": 197,
+  "uncovered": [
+    [
+      -36,
+      30
+    ],
+    [
+      -35,
+      28
+    ],
+    [
+      -24,
+      36
+    ],
+    [
+      -23,
+      37
+    ],
+    [
+      -21,
+      -9
+    ],
+    [
+      -20,
+      -11
+    ],
+    [
+      -9,
+      -15
+    ],
+    [
+      -8,
+      -17
+    ],
+    [
+      -8,
+      40
+    ],
+    [
+      -6,
+      39
+    ],
+    [
+      6,
+      39
+    ],
+    [
+      7,
+      40
+    ]
+  ],
+  "extra_pockets": [
+    [
+      -39,
+      30
+    ],
+    [
+      -38,
+      31
+    ],
+    [
+      -11,
+      -17
+    ],
+    [
+      -9,
+      -18
+    ]
+  ],
+  "defect_hc": 16,
+  "partial_tiles": 24,
+  "score": "820/209",
+  "cnf_digest": "c8f607ba0ae30d7342e02df1daac66171c0bcb632616630de3dc8f82c76f1c93",
+  "stored_sha256": "da970da64512d83b9279463177737e165587c06703696be0470ee5d765d42836",
+  "payload_sha256": "9d99ad239548bb681afd80a57b461730751cfaa8254c23281e0a7cb8b4ac20b8",
+  "payload_bytes": 691017,
+  "checked_against_regenerated_formula": true
+}
