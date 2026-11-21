@@ -1,0 +1,8 @@
+{"id":"1e3be6fd1c5981e9b9f0","status":"TILER","k":4,"hnf":[76,13,1],"tiles":[[0,0,0],[6,27,0],[9,34,0],[3,61,0]],"tested":174,"cutoff_lattices":0,"seconds":0.0010735}
+{"id":"b5a3eed1a7c6ca1967e9","status":"TILER","k":4,"hnf":[36,15,2],"tiles":[[0,0,0],[9,28,0],[6,26,1],[3,18,1]],"tested":338,"cutoff_lattices":0,"seconds":0.00227238}
+{"id":"e12f2550d66fc6428880","status":"TILER","k":4,"hnf":[76,28,1],"tiles":[[0,0,0],[3,27,0],[2,70,0],[5,33,0]],"tested":189,"cutoff_lattices":0,"seconds":0.00105688}
+{"id":"a99edecb29f978e50d89","status":"TILER","k":4,"hnf":[76,13,1],"tiles":[[0,0,0],[3,63,0],[6,41,0],[9,22,0]],"tested":174,"cutoff_lattices":0,"seconds":0.000626083}
+{"id":"778a7d11c50a4092f029","status":"TILER","k":4,"hnf":[76,32,1],"tiles":[[0,0,0],[3,17,0],[1,51,0],[4,42,0]],"tested":193,"cutoff_lattices":0,"seconds":0.00111504}
+{"id":"b1aa9fc5316db08c275f","status":"TILER","k":4,"hnf":[76,13,1],"tiles":[[0,0,0],[6,41,0],[3,63,0],[9,22,0]],"tested":174,"cutoff_lattices":0,"seconds":0.000769959}
+{"id":"6c1cfeb05af410a40e59","status":"TILER","k":4,"hnf":[76,13,1],"tiles":[[0,0,0],[3,3,0],[6,69,0],[9,10,0]],"tested":174,"cutoff_lattices":0,"seconds":0.000797042}
+{"id":"d2bbf2b16315d72c8410","status":"TILER","k":4,"hnf":[76,13,1],"tiles":[[0,0,0],[3,13,0],[6,55,0],[9,34,0]],"tested":174,"cutoff_lattices":0,"seconds":0.000583416}

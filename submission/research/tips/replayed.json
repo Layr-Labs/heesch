@@ -1,0 +1,310 @@
+[
+  {
+    "id": "1e3be6fd1c5981e9b9f0",
+    "removed": [
+      [
+        4,
+        4
+      ]
+    ],
+    "added": [
+      [
+        1,
+        2
+      ]
+    ],
+    "parent_period_missing": 0,
+    "parent_period_overlapped": 0,
+    "cells": 19,
+    "ring_tiles": [
+      1,
+      5,
+      11,
+      24,
+      27,
+      36
+    ],
+    "period": [
+      76,
+      13,
+      1
+    ],
+    "copies": 4
+  },
+  {
+    "id": "6c1cfeb05af410a40e59",
+    "removed": [
+      [
+        4,
+        4
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "added": [
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "parent_period_missing": 0,
+    "parent_period_overlapped": 0,
+    "cells": 19,
+    "ring_tiles": [
+      1,
+      7,
+      15,
+      20,
+      29,
+      37
+    ],
+    "period": [
+      76,
+      13,
+      1
+    ],
+    "copies": 4
+  },
+  {
+    "id": "778a7d11c50a4092f029",
+    "removed": [
+      [
+        0,
+        2
+      ],
+      [
+        4,
+        4
+      ]
+    ],
+    "added": [
+      [
+        -1,
+        1
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "parent_period_missing": 8,
+    "parent_period_overlapped": 8,
+    "cells": 19,
+    "ring_tiles": [
+      1,
+      7,
+      15,
+      20,
+      29,
+      36
+    ],
+    "period": [
+      76,
+      32,
+      1
+    ],
+    "copies": 4
+  },
+  {
+    "id": "a99edecb29f978e50d89",
+    "removed": [
+      [
+        0,
+        2
+      ],
+      [
+        4,
+        3
+      ]
+    ],
+    "added": [
+      [
+        1,
+        3
+      ],
+      [
+        5,
+        4
+      ]
+    ],
+    "parent_period_missing": 0,
+    "parent_period_overlapped": 0,
+    "cells": 19,
+    "ring_tiles": [
+      1,
+      5,
+      11,
+      24,
+      27,
+      33
+    ],
+    "period": [
+      76,
+      13,
+      1
+    ],
+    "copies": 4
+  },
+  {
+    "id": "b1aa9fc5316db08c275f",
+    "removed": [
+      [
+        0,
+        2
+      ],
+      [
+        4,
+        4
+      ]
+    ],
+    "added": [
+      [
+        1,
+        2
+      ],
+      [
+        5,
+        4
+      ]
+    ],
+    "parent_period_missing": 0,
+    "parent_period_overlapped": 0,
+    "cells": 19,
+    "ring_tiles": [
+      1,
+      7,
+      15,
+      20,
+      29,
+      37
+    ],
+    "period": [
+      76,
+      13,
+      1
+    ],
+    "copies": 4
+  },
+  {
+    "id": "b5a3eed1a7c6ca1967e9",
+    "removed": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "added": [
+      [
+        4,
+        5
+      ]
+    ],
+    "parent_period_missing": 8,
+    "parent_period_overlapped": 4,
+    "cells": 18,
+    "ring_tiles": [
+      1,
+      6,
+      12,
+      19,
+      25,
+      33
+    ],
+    "period": [
+      36,
+      15,
+      2
+    ],
+    "copies": 4
+  },
+  {
+    "id": "d2bbf2b16315d72c8410",
+    "removed": [
+      [
+        5,
+        3
+      ],
+      [
+        6,
+        2
+      ]
+    ],
+    "added": [
+      [
+        -1,
+        4
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "parent_period_missing": 0,
+    "parent_period_overlapped": 0,
+    "cells": 19,
+    "ring_tiles": [
+      1,
+      6,
+      12,
+      18,
+      24,
+      30
+    ],
+    "period": [
+      76,
+      13,
+      1
+    ],
+    "copies": 4
+  },
+  {
+    "id": "e12f2550d66fc6428880",
+    "removed": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "added": [
+      [
+        5,
+        -1
+      ],
+      [
+        5,
+        0
+      ]
+    ],
+    "parent_period_missing": 8,
+    "parent_period_overlapped": 8,
+    "cells": 19,
+    "ring_tiles": [
+      1,
+      6,
+      12,
+      18,
+      24,
+      30
+    ],
+    "period": [
+      76,
+      28,
+      1
+    ],
+    "copies": 4
+  }
+]

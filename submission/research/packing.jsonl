@@ -1,0 +1,4 @@
+{"input": "first-candidate.heesch", "domain": 880, "required": 139, "best": 2, "steps": 10, "status": "INFEASIBLE"}
+{"input": "10-52-hc3hh4.heesch", "domain": 1025, "required": 173, "best": null, "steps": 1, "status": "INFEASIBLE"}
+{"input": "11-112-hc3hh3.heesch", "domain": 1368, "required": 292, "best": null, "steps": 1, "status": "INFEASIBLE"}
+{"input": "12-482-hc3hh3.heesch", "domain": 1093, "required": 194, "best": null, "steps": 1, "status": "INFEASIBLE"}
