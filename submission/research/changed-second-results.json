@@ -1,0 +1,1875 @@
+{
+  "sample-001": {
+    "difference": 48,
+    "enumeration": [
+      {
+        "fixed_depth": 2,
+        "fixed_cells": 255,
+        "first_required": 99,
+        "first_raw": 1179,
+        "first_possible": 185,
+        "second_possible": 9037,
+        "boundary_domain": 637,
+        "pocket_vars": 1348,
+        "target": 1
+      },
+      {
+        "step": 0,
+        "status": "OPTIMAL",
+        "solve_s": 0.36282800000000004,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      },
+      {
+        "boundary": 147,
+        "hh": 0,
+        "hc": 6,
+        "gain": -1083,
+        "pocket4": 0,
+        "pocket5": 6
+      },
+      {
+        "step": 1,
+        "status": "OPTIMAL",
+        "solve_s": 0.373582,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      },
+      {
+        "boundary": 147,
+        "hh": 0,
+        "hc": 0,
+        "gain": 441,
+        "pocket4": 0,
+        "pocket5": 0
+      },
+      {
+        "file": "work/fourth-lane/changed-second/distant-levels/sample-001/four-001.heesch",
+        "tiles": 65,
+        "P3_difference": 131
+      },
+      {
+        "step": 2,
+        "status": "OPTIMAL",
+        "solve_s": 0.318581,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      },
+      {
+        "boundary": 153,
+        "hh": 0,
+        "hc": 0,
+        "gain": 459,
+        "pocket4": 0,
+        "pocket5": 0
+      },
+      {
+        "file": "work/fourth-lane/changed-second/distant-levels/sample-001/four-002.heesch",
+        "tiles": 63,
+        "P3_difference": 136
+      },
+      {
+        "step": 3,
+        "status": "INFEASIBLE",
+        "solve_s": 0.305657,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      }
+    ],
+    "third_rings": {
+      "sample-001-four-001": {
+        "bound": {
+          "source": "work/fourth-lane/changed-second/distant-levels/sample-001/four-001.heesch",
+          "status": "OPTIMAL",
+          "example_boundary": 304.0,
+          "upper_bound": 304,
+          "max_damage": 3,
+          "seconds": 0.178567
+        },
+        "strict": [
+          {
+            "fixed_depth": 3,
+            "fixed_cells": 540,
+            "first_required": 147,
+            "first_raw": 1734,
+            "first_possible": 160,
+            "second_possible": 10715,
+            "boundary_domain": 795,
+            "pocket_vars": 1667,
+            "target": 1
+          },
+          {
+            "step": 0,
+            "status": "INFEASIBLE",
+            "solve_s": 0.10498900000000001,
+            "objective": 0.0,
+            "upper_bound": 0.0
+          }
+        ]
+      },
+      "sample-001-four-002": {
+        "bound": {
+          "source": "work/fourth-lane/changed-second/distant-levels/sample-001/four-002.heesch",
+          "status": "OPTIMAL",
+          "example_boundary": 305.0,
+          "upper_bound": 305,
+          "max_damage": 3,
+          "seconds": 0.17647800000000002
+        },
+        "strict": [
+          {
+            "fixed_depth": 3,
+            "fixed_cells": 555,
+            "first_required": 153,
+            "first_raw": 1767,
+            "first_possible": 173,
+            "second_possible": 10407,
+            "boundary_domain": 762,
+            "pocket_vars": 1665,
+            "target": 1
+          },
+          {
+            "step": 0,
+            "status": "INFEASIBLE",
+            "solve_s": 0.12726,
+            "objective": 0.0,
+            "upper_bound": 0.0
+          }
+        ]
+      }
+    }
+  },
+  "sample-002": {
+    "difference": 27,
+    "enumeration": [
+      {
+        "fixed_depth": 2,
+        "fixed_cells": 270,
+        "first_required": 123,
+        "first_raw": 1334,
+        "first_possible": 229,
+        "second_possible": 9790,
+        "boundary_domain": 708,
+        "pocket_vars": 1451,
+        "target": 1
+      },
+      {
+        "step": 0,
+        "status": "OPTIMAL",
+        "solve_s": 0.38563200000000003,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      },
+      {
+        "boundary": 160,
+        "hh": 0,
+        "hc": 0,
+        "gain": 480,
+        "pocket4": 0,
+        "pocket5": 0
+      },
+      {
+        "file": "/Users/hol/Documents/Codex/2026-11-20/set-up-the-heesch-polyform-challenge/work/fourth-lane/changed-second/levels/sample-002/four-001.heesch",
+        "tiles": 71,
+        "P3_difference": 57
+      },
+      {
+        "step": 1,
+        "status": "OPTIMAL",
+        "solve_s": 0.372416,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      },
+      {
+        "boundary": 162,
+        "hh": 0,
+        "hc": 0,
+        "gain": 486,
+        "pocket4": 0,
+        "pocket5": 0
+      },
+      {
+        "file": "/Users/hol/Documents/Codex/2026-11-20/set-up-the-heesch-polyform-challenge/work/fourth-lane/changed-second/levels/sample-002/four-002.heesch",
+        "tiles": 71,
+        "P3_difference": 59
+      },
+      {
+        "step": 2,
+        "status": "OPTIMAL",
+        "solve_s": 0.374529,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      },
+      {
+        "boundary": 178,
+        "hh": 0,
+        "hc": 0,
+        "gain": 534,
+        "pocket4": 0,
+        "pocket5": 0
+      },
+      {
+        "file": "/Users/hol/Documents/Codex/2026-11-20/set-up-the-heesch-polyform-challenge/work/fourth-lane/changed-second/levels/sample-002/four-003.heesch",
+        "tiles": 74,
+        "P3_difference": 78
+      },
+      {
+        "step": 3,
+        "status": "OPTIMAL",
+        "solve_s": 0.36949200000000004,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      },
+      {
+        "boundary": 178,
+        "hh": 0,
+        "hc": 0,
+        "gain": 534,
+        "pocket4": 0,
+        "pocket5": 0
+      },
+      {
+        "file": "/Users/hol/Documents/Codex/2026-11-20/set-up-the-heesch-polyform-challenge/work/fourth-lane/changed-second/levels/sample-002/four-004.heesch",
+        "tiles": 73,
+        "P3_difference": 99
+      },
+      {
+        "step": 4,
+        "status": "OPTIMAL",
+        "solve_s": 0.36643000000000003,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      },
+      {
+        "boundary": 196,
+        "hh": 0,
+        "hc": 0,
+        "gain": 588,
+        "pocket4": 0,
+        "pocket5": 0
+      },
+      {
+        "file": "/Users/hol/Documents/Codex/2026-11-20/set-up-the-heesch-polyform-challenge/work/fourth-lane/changed-second/levels/sample-002/four-005.heesch",
+        "tiles": 77,
+        "P3_difference": 120
+      },
+      {
+        "step": 5,
+        "status": "OPTIMAL",
+        "solve_s": 0.37390700000000004,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      },
+      {
+        "boundary": 180,
+        "hh": 0,
+        "hc": 2,
+        "gain": 32,
+        "pocket4": 0,
+        "pocket5": 2
+      },
+      {
+        "step": 6,
+        "status": "OPTIMAL",
+        "solve_s": 0.359634,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      },
+      {
+        "boundary": 180,
+        "hh": 0,
+        "hc": 0,
+        "gain": 540,
+        "pocket4": 0,
+        "pocket5": 0
+      },
+      {
+        "file": "/Users/hol/Documents/Codex/2026-11-20/set-up-the-heesch-polyform-challenge/work/fourth-lane/changed-second/levels/sample-002/four-006.heesch",
+        "tiles": 73,
+        "P3_difference": 101
+      },
+      {
+        "step": 7,
+        "status": "INFEASIBLE",
+        "solve_s": 0.337807,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      }
+    ],
+    "third_rings": {
+      "sample-002-four-001": {
+        "bound": {
+          "source": "/Users/hol/Documents/Codex/2026-11-20/set-up-the-heesch-polyform-challenge/work/fourth-lane/changed-second/levels/sample-002/four-001.heesch",
+          "status": "OPTIMAL",
+          "example_boundary": 329.0,
+          "upper_bound": 329,
+          "max_damage": 3,
+          "seconds": 0.19565100000000002
+        },
+        "strict": [
+          {
+            "fixed_depth": 3,
+            "fixed_cells": 600,
+            "first_required": 160,
+            "first_raw": 1798,
+            "first_possible": 179,
+            "second_possible": 11596,
+            "boundary_domain": 858,
+            "pocket_vars": 1776,
+            "target": 1
+          },
+          {
+            "step": 0,
+            "status": "INFEASIBLE",
+            "solve_s": 0.063269,
+            "objective": 0.0,
+            "upper_bound": 0.0
+          }
+        ]
+      },
+      "sample-002-four-002": {
+        "bound": {
+          "source": "/Users/hol/Documents/Codex/2026-11-20/set-up-the-heesch-polyform-challenge/work/fourth-lane/changed-second/levels/sample-002/four-002.heesch",
+          "status": "OPTIMAL",
+          "example_boundary": 337.0,
+          "upper_bound": 337,
+          "max_damage": 3,
+          "seconds": 0.180061
+        },
+        "strict": [
+          {
+            "fixed_depth": 3,
+            "fixed_cells": 600,
+            "first_required": 162,
+            "first_raw": 1828,
+            "first_possible": 171,
+            "second_possible": 11788,
+            "boundary_domain": 852,
+            "pocket_vars": 1830,
+            "target": 1
+          },
+          {
+            "step": 0,
+            "status": "INFEASIBLE",
+            "solve_s": 0.057481000000000004,
+            "objective": 0.0,
+            "upper_bound": 0.0
+          }
+        ]
+      },
+      "sample-002-four-003": {
+        "bound": {
+          "source": "/Users/hol/Documents/Codex/2026-11-20/set-up-the-heesch-polyform-challenge/work/fourth-lane/changed-second/levels/sample-002/four-003.heesch",
+          "status": "OPTIMAL",
+          "example_boundary": 364.0,
+          "upper_bound": 364,
+          "max_damage": 4,
+          "seconds": 0.215449
+        },
+        "strict": [
+          {
+            "fixed_depth": 3,
+            "fixed_cells": 615,
+            "first_required": 178,
+            "first_raw": 1894,
+            "first_possible": 192,
+            "second_possible": 12420,
+            "boundary_domain": 928,
+            "pocket_vars": 1875,
+            "target": 1
+          },
+          {
+            "step": 0,
+            "status": "INFEASIBLE",
+            "solve_s": 0.063998,
+            "objective": 0.0,
+            "upper_bound": 0.0
+          }
+        ]
+      },
+      "sample-002-four-004": {
+        "bound": {
+          "source": "/Users/hol/Documents/Codex/2026-11-20/set-up-the-heesch-polyform-challenge/work/fourth-lane/changed-second/levels/sample-002/four-004.heesch",
+          "status": "OPTIMAL",
+          "example_boundary": 339.0,
+          "upper_bound": 339,
+          "max_damage": 4,
+          "seconds": 0.105992
+        },
+        "strict": [
+          {
+            "fixed_depth": 3,
+            "fixed_cells": 600,
+            "first_required": 178,
+            "first_raw": 1841,
+            "first_possible": 133,
+            "second_possible": 11539,
+            "boundary_domain": 851,
+            "pocket_vars": 1781,
+            "target": 1
+          },
+          {
+            "step": 0,
+            "status": "INFEASIBLE",
+            "solve_s": 0.053295,
+            "objective": 0.0,
+            "upper_bound": 0.0
+          }
+        ]
+      },
+      "sample-002-four-005": {
+        "bound": {
+          "source": "/Users/hol/Documents/Codex/2026-11-20/set-up-the-heesch-polyform-challenge/work/fourth-lane/changed-second/levels/sample-002/four-005.heesch",
+          "status": "OPTIMAL",
+          "example_boundary": 374.0,
+          "upper_bound": 374,
+          "max_damage": 4,
+          "seconds": 0.128453
+        },
+        "strict": [
+          {
+            "fixed_depth": 3,
+            "fixed_cells": 615,
+            "first_required": 196,
+            "first_raw": 1937,
+            "first_possible": 146,
+            "second_possible": 12363,
+            "boundary_domain": 921,
+            "pocket_vars": 1880,
+            "target": 1
+          },
+          {
+            "step": 0,
+            "status": "INFEASIBLE",
+            "solve_s": 0.060589000000000004,
+            "objective": 0.0,
+            "upper_bound": 0.0
+          }
+        ]
+      },
+      "sample-002-four-006": {
+        "bound": {
+          "source": "/Users/hol/Documents/Codex/2026-11-20/set-up-the-heesch-polyform-challenge/work/fourth-lane/changed-second/levels/sample-002/four-006.heesch",
+          "status": "OPTIMAL",
+          "example_boundary": 347.0,
+          "upper_bound": 347,
+          "max_damage": 4,
+          "seconds": 0.057935
+        },
+        "strict": [
+          {
+            "fixed_depth": 3,
+            "fixed_cells": 600,
+            "first_required": 180,
+            "first_raw": 1871,
+            "first_possible": 125,
+            "second_possible": 11731,
+            "boundary_domain": 845,
+            "pocket_vars": 1835,
+            "target": 1
+          },
+          {
+            "step": 0,
+            "status": "INFEASIBLE",
+            "solve_s": 0.055139,
+            "objective": 0.0,
+            "upper_bound": 0.0
+          }
+        ]
+      }
+    }
+  },
+  "sample-003": {
+    "difference": 12,
+    "enumeration": [
+      {
+        "fixed_depth": 2,
+        "fixed_cells": 285,
+        "first_required": 134,
+        "first_raw": 1406,
+        "first_possible": 188,
+        "second_possible": 9900,
+        "boundary_domain": 708,
+        "pocket_vars": 1493,
+        "target": 1
+      },
+      {
+        "step": 0,
+        "status": "OPTIMAL",
+        "solve_s": 0.37607100000000004,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      },
+      {
+        "boundary": 180,
+        "hh": 0,
+        "hc": 12,
+        "gain": -2508,
+        "pocket4": 0,
+        "pocket5": 12
+      },
+      {
+        "step": 1,
+        "status": "OPTIMAL",
+        "solve_s": 0.355152,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      },
+      {
+        "boundary": 180,
+        "hh": 0,
+        "hc": 0,
+        "gain": 540,
+        "pocket4": 0,
+        "pocket5": 0
+      },
+      {
+        "file": "/Users/hol/Documents/Codex/2026-11-20/set-up-the-heesch-polyform-challenge/work/fourth-lane/changed-second/levels/sample-003/four-001.heesch",
+        "tiles": 74,
+        "P3_difference": 10
+      },
+      {
+        "step": 2,
+        "status": "OPTIMAL",
+        "solve_s": 0.377033,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      },
+      {
+        "boundary": 196,
+        "hh": 0,
+        "hc": 10,
+        "gain": -1952,
+        "pocket4": 0,
+        "pocket5": 10
+      },
+      {
+        "step": 3,
+        "status": "OPTIMAL",
+        "solve_s": 0.350491,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      },
+      {
+        "boundary": 196,
+        "hh": 0,
+        "hc": 12,
+        "gain": -2460,
+        "pocket4": 0,
+        "pocket5": 12
+      },
+      {
+        "step": 4,
+        "status": "OPTIMAL",
+        "solve_s": 0.34759900000000005,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      },
+      {
+        "boundary": 196,
+        "hh": 0,
+        "hc": 19,
+        "gain": -4238,
+        "pocket4": 0,
+        "pocket5": 19
+      },
+      {
+        "step": 5,
+        "status": "OPTIMAL",
+        "solve_s": 0.36697100000000005,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      },
+      {
+        "boundary": 196,
+        "hh": 0,
+        "hc": 0,
+        "gain": 588,
+        "pocket4": 0,
+        "pocket5": 0
+      },
+      {
+        "file": "/Users/hol/Documents/Codex/2026-11-20/set-up-the-heesch-polyform-challenge/work/fourth-lane/changed-second/levels/sample-003/four-002.heesch",
+        "tiles": 76,
+        "P3_difference": 29
+      },
+      {
+        "step": 6,
+        "status": "OPTIMAL",
+        "solve_s": 0.366723,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      },
+      {
+        "boundary": 178,
+        "hh": 0,
+        "hc": 0,
+        "gain": 534,
+        "pocket4": 0,
+        "pocket5": 0
+      },
+      {
+        "file": "/Users/hol/Documents/Codex/2026-11-20/set-up-the-heesch-polyform-challenge/work/fourth-lane/changed-second/levels/sample-003/four-003.heesch",
+        "tiles": 74,
+        "P3_difference": 22
+      },
+      {
+        "step": 7,
+        "status": "OPTIMAL",
+        "solve_s": 0.371686,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      },
+      {
+        "boundary": 194,
+        "hh": 0,
+        "hc": 8,
+        "gain": -1450,
+        "pocket4": 0,
+        "pocket5": 8
+      },
+      {
+        "step": 8,
+        "status": "OPTIMAL",
+        "solve_s": 0.384481,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      },
+      {
+        "boundary": 193,
+        "hh": 0,
+        "hc": 8,
+        "gain": -1453,
+        "pocket4": 0,
+        "pocket5": 8
+      },
+      {
+        "step": 9,
+        "status": "OPTIMAL",
+        "solve_s": 0.366337,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      },
+      {
+        "boundary": 193,
+        "hh": 0,
+        "hc": 0,
+        "gain": 579,
+        "pocket4": 0,
+        "pocket5": 0
+      },
+      {
+        "file": "/Users/hol/Documents/Codex/2026-11-20/set-up-the-heesch-polyform-challenge/work/fourth-lane/changed-second/levels/sample-003/four-004.heesch",
+        "tiles": 77,
+        "P3_difference": 40
+      },
+      {
+        "step": 10,
+        "status": "OPTIMAL",
+        "solve_s": 0.34987300000000005,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      },
+      {
+        "boundary": 194,
+        "hh": 0,
+        "hc": 0,
+        "gain": 582,
+        "pocket4": 0,
+        "pocket5": 0
+      },
+      {
+        "file": "/Users/hol/Documents/Codex/2026-11-20/set-up-the-heesch-polyform-challenge/work/fourth-lane/changed-second/levels/sample-003/four-005.heesch",
+        "tiles": 77,
+        "P3_difference": 41
+      },
+      {
+        "step": 11,
+        "status": "INFEASIBLE",
+        "solve_s": 0.33597000000000005,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      }
+    ],
+    "third_rings": {
+      "sample-003-four-001": {
+        "bound": {
+          "source": "/Users/hol/Documents/Codex/2026-11-20/set-up-the-heesch-polyform-challenge/work/fourth-lane/changed-second/levels/sample-003/four-001.heesch",
+          "status": "OPTIMAL",
+          "example_boundary": 349.0,
+          "upper_bound": 349,
+          "max_damage": 4,
+          "seconds": 0.138973
+        },
+        "strict": [
+          {
+            "fixed_depth": 3,
+            "fixed_cells": 630,
+            "first_required": 180,
+            "first_raw": 1846,
+            "first_possible": 157,
+            "second_possible": 11816,
+            "boundary_domain": 871,
+            "pocket_vars": 1826,
+            "target": 1
+          },
+          {
+            "step": 0,
+            "status": "INFEASIBLE",
+            "solve_s": 0.11172900000000001,
+            "objective": 0.0,
+            "upper_bound": 0.0
+          }
+        ]
+      },
+      "sample-003-four-002": {
+        "bound": {
+          "source": "/Users/hol/Documents/Codex/2026-11-20/set-up-the-heesch-polyform-challenge/work/fourth-lane/changed-second/levels/sample-003/four-002.heesch",
+          "status": "OPTIMAL",
+          "example_boundary": 385.0,
+          "upper_bound": 385,
+          "max_damage": 4,
+          "seconds": 0.24296600000000002
+        },
+        "strict": [
+          {
+            "fixed_depth": 3,
+            "fixed_cells": 645,
+            "first_required": 196,
+            "first_raw": 1925,
+            "first_possible": 199,
+            "second_possible": 12726,
+            "boundary_domain": 958,
+            "pocket_vars": 1910,
+            "target": 1
+          },
+          {
+            "step": 0,
+            "status": "INFEASIBLE",
+            "solve_s": 0.126835,
+            "objective": 0.0,
+            "upper_bound": 0.0
+          }
+        ]
+      },
+      "sample-003-four-003": {
+        "bound": {
+          "source": "/Users/hol/Documents/Codex/2026-11-20/set-up-the-heesch-polyform-challenge/work/fourth-lane/changed-second/levels/sample-003/four-003.heesch",
+          "status": "OPTIMAL",
+          "example_boundary": 333.0,
+          "upper_bound": 333,
+          "max_damage": 3,
+          "seconds": 0.09439700000000001
+        },
+        "strict": [
+          {
+            "fixed_depth": 3,
+            "fixed_cells": 630,
+            "first_required": 178,
+            "first_raw": 1865,
+            "first_possible": 132,
+            "second_possible": 11291,
+            "boundary_domain": 831,
+            "pocket_vars": 1789,
+            "target": 1
+          },
+          {
+            "step": 0,
+            "status": "INFEASIBLE",
+            "solve_s": 0.10147,
+            "objective": 0.0,
+            "upper_bound": 0.0
+          }
+        ]
+      },
+      "sample-003-four-004": {
+        "bound": {
+          "source": "/Users/hol/Documents/Codex/2026-11-20/set-up-the-heesch-polyform-challenge/work/fourth-lane/changed-second/levels/sample-003/four-004.heesch",
+          "status": "OPTIMAL",
+          "example_boundary": 385.0,
+          "upper_bound": 385,
+          "max_damage": 4,
+          "seconds": 0.270615
+        },
+        "strict": [
+          {
+            "fixed_depth": 3,
+            "fixed_cells": 660,
+            "first_required": 193,
+            "first_raw": 1982,
+            "first_possible": 217,
+            "second_possible": 12940,
+            "boundary_domain": 980,
+            "pocket_vars": 1947,
+            "target": 1
+          },
+          {
+            "step": 0,
+            "status": "INFEASIBLE",
+            "solve_s": 0.15030400000000002,
+            "objective": 0.0,
+            "upper_bound": 0.0
+          }
+        ]
+      },
+      "sample-003-four-005": {
+        "bound": {
+          "source": "/Users/hol/Documents/Codex/2026-11-20/set-up-the-heesch-polyform-challenge/work/fourth-lane/changed-second/levels/sample-003/four-005.heesch",
+          "status": "OPTIMAL",
+          "example_boundary": 365.0,
+          "upper_bound": 365,
+          "max_damage": 4,
+          "seconds": 0.137773
+        },
+        "strict": [
+          {
+            "fixed_depth": 3,
+            "fixed_cells": 645,
+            "first_required": 194,
+            "first_raw": 1933,
+            "first_possible": 157,
+            "second_possible": 12501,
+            "boundary_domain": 938,
+            "pocket_vars": 1894,
+            "target": 1
+          },
+          {
+            "step": 0,
+            "status": "INFEASIBLE",
+            "solve_s": 0.11801900000000001,
+            "objective": 0.0,
+            "upper_bound": 0.0
+          }
+        ]
+      }
+    }
+  },
+  "sample-004": {
+    "difference": 39,
+    "enumeration": [
+      {
+        "fixed_depth": 2,
+        "fixed_cells": 270,
+        "first_required": 128,
+        "first_raw": 1373,
+        "first_possible": 174,
+        "second_possible": 9903,
+        "boundary_domain": 717,
+        "pocket_vars": 1475,
+        "target": 1
+      },
+      {
+        "step": 0,
+        "status": "OPTIMAL",
+        "solve_s": 0.324502,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      },
+      {
+        "boundary": 191,
+        "hh": 0,
+        "hc": 12,
+        "gain": -2475,
+        "pocket4": 0,
+        "pocket5": 12
+      },
+      {
+        "step": 1,
+        "status": "OPTIMAL",
+        "solve_s": 0.316805,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      },
+      {
+        "boundary": 191,
+        "hh": 0,
+        "hc": 0,
+        "gain": 573,
+        "pocket4": 0,
+        "pocket5": 0
+      },
+      {
+        "file": "/Users/hol/Documents/Codex/2026-11-20/set-up-the-heesch-polyform-challenge/work/fourth-lane/changed-second/levels/sample-004/four-001.heesch",
+        "tiles": 76,
+        "P3_difference": 67
+      },
+      {
+        "step": 2,
+        "status": "OPTIMAL",
+        "solve_s": 0.31168100000000004,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      },
+      {
+        "boundary": 193,
+        "hh": 0,
+        "hc": 0,
+        "gain": 579,
+        "pocket4": 0,
+        "pocket5": 0
+      },
+      {
+        "file": "/Users/hol/Documents/Codex/2026-11-20/set-up-the-heesch-polyform-challenge/work/fourth-lane/changed-second/levels/sample-004/four-002.heesch",
+        "tiles": 76,
+        "P3_difference": 69
+      },
+      {
+        "step": 3,
+        "status": "OPTIMAL",
+        "solve_s": 0.312682,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      },
+      {
+        "boundary": 209,
+        "hh": 0,
+        "hc": 4,
+        "gain": -389,
+        "pocket4": 0,
+        "pocket5": 4
+      },
+      {
+        "step": 4,
+        "status": "OPTIMAL",
+        "solve_s": 0.323819,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      },
+      {
+        "boundary": 209,
+        "hh": 0,
+        "hc": 3,
+        "gain": -135,
+        "pocket4": 0,
+        "pocket5": 3
+      },
+      {
+        "step": 5,
+        "status": "OPTIMAL",
+        "solve_s": 0.31996600000000003,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      },
+      {
+        "boundary": 209,
+        "hh": 0,
+        "hc": 15,
+        "gain": -3183,
+        "pocket4": 0,
+        "pocket5": 15
+      },
+      {
+        "step": 6,
+        "status": "OPTIMAL",
+        "solve_s": 0.313991,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      },
+      {
+        "boundary": 209,
+        "hh": 0,
+        "hc": 0,
+        "gain": 627,
+        "pocket4": 0,
+        "pocket5": 0
+      },
+      {
+        "file": "/Users/hol/Documents/Codex/2026-11-20/set-up-the-heesch-polyform-challenge/work/fourth-lane/changed-second/levels/sample-004/four-003.heesch",
+        "tiles": 79,
+        "P3_difference": 88
+      },
+      {
+        "step": 7,
+        "status": "INFEASIBLE",
+        "solve_s": 0.29229900000000003,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      }
+    ],
+    "third_rings": {
+      "sample-004-four-001": {
+        "bound": {
+          "source": "/Users/hol/Documents/Codex/2026-11-20/set-up-the-heesch-polyform-challenge/work/fourth-lane/changed-second/levels/sample-004/four-001.heesch",
+          "status": "OPTIMAL",
+          "example_boundary": 338.0,
+          "upper_bound": 338,
+          "max_damage": 3,
+          "seconds": 0.026402000000000002
+        },
+        "strict": [
+          {
+            "fixed_depth": 3,
+            "fixed_cells": 615,
+            "first_required": 191,
+            "first_raw": 1869,
+            "first_possible": 85,
+            "second_possible": 11323,
+            "boundary_domain": 833,
+            "pocket_vars": 1781,
+            "target": 1
+          },
+          {
+            "step": 0,
+            "status": "INFEASIBLE",
+            "solve_s": 0.051458000000000004,
+            "objective": 0.0,
+            "upper_bound": 0.0
+          }
+        ]
+      },
+      "sample-004-four-002": {
+        "bound": {
+          "source": "/Users/hol/Documents/Codex/2026-11-20/set-up-the-heesch-polyform-challenge/work/fourth-lane/changed-second/levels/sample-004/four-002.heesch",
+          "status": "OPTIMAL",
+          "example_boundary": 346.0,
+          "upper_bound": 346,
+          "max_damage": 4,
+          "seconds": 0.016923
+        },
+        "strict": [
+          {
+            "fixed_depth": 3,
+            "fixed_cells": 615,
+            "first_required": 193,
+            "first_raw": 1899,
+            "first_possible": 77,
+            "second_possible": 11455,
+            "boundary_domain": 827,
+            "pocket_vars": 1823,
+            "target": 1
+          },
+          {
+            "step": 0,
+            "status": "INFEASIBLE",
+            "solve_s": 0.049927000000000006,
+            "objective": 0.0,
+            "upper_bound": 0.0
+          }
+        ]
+      },
+      "sample-004-four-003": {
+        "bound": {
+          "source": "/Users/hol/Documents/Codex/2026-11-20/set-up-the-heesch-polyform-challenge/work/fourth-lane/changed-second/levels/sample-004/four-003.heesch",
+          "status": "OPTIMAL",
+          "example_boundary": 373.0,
+          "upper_bound": 373,
+          "max_damage": 4,
+          "seconds": 0.028487000000000002
+        },
+        "strict": [
+          {
+            "fixed_depth": 3,
+            "fixed_cells": 630,
+            "first_required": 209,
+            "first_raw": 1965,
+            "first_possible": 98,
+            "second_possible": 12147,
+            "boundary_domain": 903,
+            "pocket_vars": 1880,
+            "target": 1
+          },
+          {
+            "step": 0,
+            "status": "INFEASIBLE",
+            "solve_s": 0.057545000000000006,
+            "objective": 0.0,
+            "upper_bound": 0.0
+          }
+        ]
+      }
+    }
+  },
+  "sample-005": {
+    "difference": 33,
+    "enumeration": [
+      {
+        "fixed_depth": 2,
+        "fixed_cells": 270,
+        "first_required": 113,
+        "first_raw": 1320,
+        "first_possible": 214,
+        "second_possible": 9402,
+        "boundary_domain": 677,
+        "pocket_vars": 1412,
+        "target": 1
+      },
+      {
+        "step": 0,
+        "status": "INFEASIBLE",
+        "solve_s": 0.21499300000000002,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      }
+    ],
+    "third_rings": {}
+  },
+  "sample-006": {
+    "difference": 60,
+    "enumeration": [
+      {
+        "fixed_depth": 2,
+        "fixed_cells": 255,
+        "first_required": 104,
+        "first_raw": 1218,
+        "first_possible": 130,
+        "second_possible": 9150,
+        "boundary_domain": 646,
+        "pocket_vars": 1372,
+        "target": 1
+      },
+      {
+        "step": 0,
+        "status": "INFEASIBLE",
+        "solve_s": 0.166668,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      }
+    ],
+    "third_rings": {}
+  },
+  "sample-007": {
+    "difference": 37,
+    "enumeration": [
+      {
+        "fixed_depth": 2,
+        "fixed_cells": 300,
+        "first_required": 146,
+        "first_raw": 1507,
+        "first_possible": 222,
+        "second_possible": 10448,
+        "boundary_domain": 758,
+        "pocket_vars": 1563,
+        "target": 1
+      },
+      {
+        "step": 0,
+        "status": "INFEASIBLE",
+        "solve_s": 0.046801,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      }
+    ],
+    "third_rings": {}
+  },
+  "sample-008": {
+    "difference": 64,
+    "enumeration": [
+      {
+        "fixed_depth": 2,
+        "fixed_cells": 285,
+        "first_required": 140,
+        "first_raw": 1474,
+        "first_possible": 208,
+        "second_possible": 10451,
+        "boundary_domain": 767,
+        "pocket_vars": 1545,
+        "target": 1
+      },
+      {
+        "step": 0,
+        "status": "INFEASIBLE",
+        "solve_s": 0.05714,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      }
+    ],
+    "third_rings": {}
+  },
+  "sample-009": {
+    "difference": 39,
+    "enumeration": [
+      {
+        "fixed_depth": 2,
+        "fixed_cells": 270,
+        "first_required": 125,
+        "first_raw": 1359,
+        "first_possible": 220,
+        "second_possible": 9848,
+        "boundary_domain": 707,
+        "pocket_vars": 1464,
+        "target": 1
+      },
+      {
+        "step": 0,
+        "status": "INFEASIBLE",
+        "solve_s": 0.08901,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      }
+    ],
+    "third_rings": {}
+  },
+  "sample-010": {
+    "difference": 46,
+    "enumeration": [
+      {
+        "fixed_depth": 2,
+        "fixed_cells": 255,
+        "first_required": 108,
+        "first_raw": 1273,
+        "first_possible": 204,
+        "second_possible": 8969,
+        "boundary_domain": 642,
+        "pocket_vars": 1363,
+        "target": 1
+      },
+      {
+        "step": 0,
+        "status": "OPTIMAL",
+        "solve_s": 0.316523,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      },
+      {
+        "boundary": 163,
+        "hh": 0,
+        "hc": 4,
+        "gain": -527,
+        "pocket4": 0,
+        "pocket5": 4
+      },
+      {
+        "step": 1,
+        "status": "OPTIMAL",
+        "solve_s": 0.31451500000000004,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      },
+      {
+        "boundary": 163,
+        "hh": 0,
+        "hc": 3,
+        "gain": -273,
+        "pocket4": 0,
+        "pocket5": 3
+      },
+      {
+        "step": 2,
+        "status": "OPTIMAL",
+        "solve_s": 0.312441,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      },
+      {
+        "boundary": 163,
+        "hh": 0,
+        "hc": 8,
+        "gain": -1543,
+        "pocket4": 0,
+        "pocket5": 8
+      },
+      {
+        "step": 3,
+        "status": "OPTIMAL",
+        "solve_s": 0.34146600000000005,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      },
+      {
+        "boundary": 163,
+        "hh": 0,
+        "hc": 0,
+        "gain": 489,
+        "pocket4": 0,
+        "pocket5": 0
+      },
+      {
+        "file": "work/fourth-lane/changed-second/distant-levels/sample-010/four-001.heesch",
+        "tiles": 67,
+        "P3_difference": 57
+      },
+      {
+        "step": 4,
+        "status": "OPTIMAL",
+        "solve_s": 0.31881000000000004,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      },
+      {
+        "boundary": 168,
+        "hh": 0,
+        "hc": 5,
+        "gain": -766,
+        "pocket4": 0,
+        "pocket5": 5
+      },
+      {
+        "step": 5,
+        "status": "OPTIMAL",
+        "solve_s": 0.316992,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      },
+      {
+        "boundary": 168,
+        "hh": 0,
+        "hc": 10,
+        "gain": -2036,
+        "pocket4": 0,
+        "pocket5": 10
+      },
+      {
+        "step": 6,
+        "status": "OPTIMAL",
+        "solve_s": 0.293232,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      },
+      {
+        "boundary": 168,
+        "hh": 0,
+        "hc": 4,
+        "gain": -512,
+        "pocket4": 0,
+        "pocket5": 4
+      },
+      {
+        "step": 7,
+        "status": "OPTIMAL",
+        "solve_s": 0.291012,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      },
+      {
+        "boundary": 168,
+        "hh": 0,
+        "hc": 0,
+        "gain": 504,
+        "pocket4": 0,
+        "pocket5": 0
+      },
+      {
+        "file": "work/fourth-lane/changed-second/distant-levels/sample-010/four-002.heesch",
+        "tiles": 70,
+        "P3_difference": 58
+      },
+      {
+        "step": 8,
+        "status": "OPTIMAL",
+        "solve_s": 0.28819100000000003,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      },
+      {
+        "boundary": 172,
+        "hh": 0,
+        "hc": 0,
+        "gain": 516,
+        "pocket4": 0,
+        "pocket5": 0
+      },
+      {
+        "file": "work/fourth-lane/changed-second/distant-levels/sample-010/four-003.heesch",
+        "tiles": 70,
+        "P3_difference": 52
+      },
+      {
+        "step": 9,
+        "status": "INFEASIBLE",
+        "solve_s": 0.269728,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      }
+    ],
+    "third_rings": {
+      "sample-010-four-001": {
+        "bound": {
+          "source": "work/fourth-lane/changed-second/distant-levels/sample-010/four-001.heesch",
+          "status": "OPTIMAL",
+          "example_boundary": 332.0,
+          "upper_bound": 332,
+          "max_damage": 3,
+          "seconds": 0.24142000000000002
+        },
+        "strict": [
+          {
+            "fixed_depth": 3,
+            "fixed_cells": 570,
+            "first_required": 163,
+            "first_raw": 1766,
+            "first_possible": 188,
+            "second_possible": 12166,
+            "boundary_domain": 899,
+            "pocket_vars": 1821,
+            "target": 1
+          },
+          {
+            "step": 0,
+            "status": "INFEASIBLE",
+            "solve_s": 0.98492,
+            "objective": 0.0,
+            "upper_bound": 0.0
+          }
+        ]
+      },
+      "sample-010-four-002": {
+        "bound": {
+          "source": "work/fourth-lane/changed-second/distant-levels/sample-010/four-002.heesch",
+          "status": "OPTIMAL",
+          "example_boundary": 351.0,
+          "upper_bound": 351,
+          "max_damage": 4,
+          "seconds": 0.36567900000000003
+        },
+        "strict": [
+          {
+            "fixed_depth": 3,
+            "fixed_cells": 585,
+            "first_required": 168,
+            "first_raw": 1801,
+            "first_possible": 201,
+            "second_possible": 12242,
+            "boundary_domain": 922,
+            "pocket_vars": 1818,
+            "target": 1
+          },
+          {
+            "step": 0,
+            "status": "INFEASIBLE",
+            "solve_s": 0.565459,
+            "objective": 0.0,
+            "upper_bound": 0.0
+          }
+        ]
+      },
+      "sample-010-four-003": {
+        "bound": {
+          "source": "work/fourth-lane/changed-second/distant-levels/sample-010/four-003.heesch",
+          "status": "OPTIMAL",
+          "example_boundary": 347.0,
+          "upper_bound": 347,
+          "max_damage": 4,
+          "seconds": 0.294238
+        },
+        "strict": [
+          {
+            "fixed_depth": 3,
+            "fixed_cells": 585,
+            "first_required": 172,
+            "first_raw": 1777,
+            "first_possible": 187,
+            "second_possible": 12258,
+            "boundary_domain": 917,
+            "pocket_vars": 1816,
+            "target": 1
+          },
+          {
+            "step": 0,
+            "status": "INFEASIBLE",
+            "solve_s": 0.127039,
+            "objective": 0.0,
+            "upper_bound": 0.0
+          }
+        ]
+      }
+    }
+  },
+  "sample-011": {
+    "difference": 51,
+    "enumeration": [
+      {
+        "fixed_depth": 2,
+        "fixed_cells": 270,
+        "first_required": 130,
+        "first_raw": 1398,
+        "first_possible": 166,
+        "second_possible": 9961,
+        "boundary_domain": 716,
+        "pocket_vars": 1488,
+        "target": 1
+      },
+      {
+        "step": 0,
+        "status": "INFEASIBLE",
+        "solve_s": 0.124197,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      }
+    ],
+    "third_rings": {}
+  },
+  "sample-012": {
+    "difference": 58,
+    "enumeration": [
+      {
+        "fixed_depth": 2,
+        "fixed_cells": 255,
+        "first_required": 113,
+        "first_raw": 1312,
+        "first_possible": 149,
+        "second_possible": 9082,
+        "boundary_domain": 651,
+        "pocket_vars": 1387,
+        "target": 1
+      },
+      {
+        "step": 0,
+        "status": "INFEASIBLE",
+        "solve_s": 0.23545000000000002,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      }
+    ],
+    "third_rings": {}
+  },
+  "sample-013": {
+    "difference": 55,
+    "enumeration": [
+      {
+        "fixed_depth": 2,
+        "fixed_cells": 270,
+        "first_required": 125,
+        "first_raw": 1359,
+        "first_possible": 219,
+        "second_possible": 9848,
+        "boundary_domain": 707,
+        "pocket_vars": 1464,
+        "target": 1
+      },
+      {
+        "step": 0,
+        "status": "INFEASIBLE",
+        "solve_s": 0.227442,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      }
+    ],
+    "third_rings": {}
+  },
+  "sample-014": {
+    "difference": 67,
+    "enumeration": [
+      {
+        "fixed_depth": 2,
+        "fixed_cells": 270,
+        "first_required": 130,
+        "first_raw": 1398,
+        "first_possible": 165,
+        "second_possible": 9961,
+        "boundary_domain": 716,
+        "pocket_vars": 1488,
+        "target": 1
+      },
+      {
+        "step": 0,
+        "status": "INFEASIBLE",
+        "solve_s": 0.228444,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      }
+    ],
+    "third_rings": {}
+  },
+  "sample-015": {
+    "difference": 45,
+    "enumeration": [
+      {
+        "fixed_depth": 2,
+        "fixed_cells": 270,
+        "first_required": 118,
+        "first_raw": 1359,
+        "first_possible": 159,
+        "second_possible": 9515,
+        "boundary_domain": 686,
+        "pocket_vars": 1436,
+        "target": 1
+      },
+      {
+        "step": 0,
+        "status": "INFEASIBLE",
+        "solve_s": 0.14227,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      }
+    ],
+    "third_rings": {}
+  },
+  "sample-016": {
+    "difference": 49,
+    "enumeration": [
+      {
+        "fixed_depth": 2,
+        "fixed_cells": 270,
+        "first_required": 115,
+        "first_raw": 1257,
+        "first_possible": 214,
+        "second_possible": 9502,
+        "boundary_domain": 678,
+        "pocket_vars": 1407,
+        "target": 1
+      },
+      {
+        "step": 0,
+        "status": "INFEASIBLE",
+        "solve_s": 0.20237300000000003,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      }
+    ],
+    "third_rings": {}
+  },
+  "sample-017": {
+    "difference": 61,
+    "enumeration": [
+      {
+        "fixed_depth": 2,
+        "fixed_cells": 270,
+        "first_required": 120,
+        "first_raw": 1296,
+        "first_possible": 159,
+        "second_possible": 9615,
+        "boundary_domain": 687,
+        "pocket_vars": 1431,
+        "target": 1
+      },
+      {
+        "step": 0,
+        "status": "INFEASIBLE",
+        "solve_s": 0.23730700000000002,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      }
+    ],
+    "third_rings": {}
+  },
+  "sample-018": {
+    "difference": 76,
+    "enumeration": [
+      {
+        "fixed_depth": 2,
+        "fixed_cells": 285,
+        "first_required": 142,
+        "first_raw": 1499,
+        "first_possible": 200,
+        "second_possible": 10509,
+        "boundary_domain": 766,
+        "pocket_vars": 1558,
+        "target": 1
+      },
+      {
+        "step": 0,
+        "status": "INFEASIBLE",
+        "solve_s": 0.049042,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      }
+    ],
+    "third_rings": {}
+  },
+  "sample-019": {
+    "difference": 83,
+    "enumeration": [
+      {
+        "fixed_depth": 2,
+        "fixed_cells": 270,
+        "first_required": 125,
+        "first_raw": 1413,
+        "first_possible": 180,
+        "second_possible": 9630,
+        "boundary_domain": 701,
+        "pocket_vars": 1457,
+        "target": 1
+      },
+      {
+        "step": 0,
+        "status": "INFEASIBLE",
+        "solve_s": 0.046883,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      }
+    ],
+    "third_rings": {}
+  },
+  "sample-020": {
+    "difference": 92,
+    "enumeration": [
+      {
+        "fixed_depth": 2,
+        "fixed_cells": 285,
+        "first_required": 142,
+        "first_raw": 1499,
+        "first_possible": 199,
+        "second_possible": 10509,
+        "boundary_domain": 766,
+        "pocket_vars": 1558,
+        "target": 1
+      },
+      {
+        "step": 0,
+        "status": "INFEASIBLE",
+        "solve_s": 0.050095,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      }
+    ],
+    "third_rings": {}
+  },
+  "sample-021": {
+    "difference": 70,
+    "enumeration": [
+      {
+        "fixed_depth": 2,
+        "fixed_cells": 285,
+        "first_required": 130,
+        "first_raw": 1460,
+        "first_possible": 197,
+        "second_possible": 10021,
+        "boundary_domain": 733,
+        "pocket_vars": 1503,
+        "target": 1
+      },
+      {
+        "step": 0,
+        "status": "INFEASIBLE",
+        "solve_s": 0.047902,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      }
+    ],
+    "third_rings": {}
+  },
+  "sample-022": {
+    "difference": 86,
+    "enumeration": [
+      {
+        "fixed_depth": 2,
+        "fixed_cells": 285,
+        "first_required": 132,
+        "first_raw": 1397,
+        "first_possible": 197,
+        "second_possible": 10121,
+        "boundary_domain": 734,
+        "pocket_vars": 1498,
+        "target": 1
+      },
+      {
+        "step": 0,
+        "status": "INFEASIBLE",
+        "solve_s": 0.044797000000000003,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      }
+    ],
+    "third_rings": {}
+  },
+  "sample-023": {
+    "difference": 85,
+    "enumeration": [
+      {
+        "fixed_depth": 2,
+        "fixed_cells": 270,
+        "first_required": 116,
+        "first_raw": 1319,
+        "first_possible": 168,
+        "second_possible": 9656,
+        "boundary_domain": 693,
+        "pocket_vars": 1439,
+        "target": 1
+      },
+      {
+        "step": 0,
+        "status": "INFEASIBLE",
+        "solve_s": 0.043641000000000006,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      }
+    ],
+    "third_rings": {}
+  },
+  "sample-024": {
+    "difference": 30,
+    "enumeration": [
+      {
+        "fixed_depth": 2,
+        "fixed_cells": 315,
+        "first_required": 141,
+        "first_raw": 1469,
+        "first_possible": 178,
+        "second_possible": 9561,
+        "boundary_domain": 685,
+        "pocket_vars": 1485,
+        "target": 1
+      },
+      {
+        "step": 0,
+        "status": "INFEASIBLE",
+        "solve_s": 0.246485,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      }
+    ],
+    "third_rings": {}
+  },
+  "sample-025": {
+    "difference": 57,
+    "enumeration": [
+      {
+        "fixed_depth": 2,
+        "fixed_cells": 300,
+        "first_required": 135,
+        "first_raw": 1436,
+        "first_possible": 164,
+        "second_possible": 9874,
+        "boundary_domain": 718,
+        "pocket_vars": 1490,
+        "target": 1
+      },
+      {
+        "step": 0,
+        "status": "INFEASIBLE",
+        "solve_s": 0.270803,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      }
+    ],
+    "third_rings": {}
+  },
+  "sample-026": {
+    "difference": 67,
+    "enumeration": [
+      {
+        "fixed_depth": 2,
+        "fixed_cells": 330,
+        "first_required": 154,
+        "first_raw": 1578,
+        "first_possible": 217,
+        "second_possible": 10216,
+        "boundary_domain": 744,
+        "pocket_vars": 1567,
+        "target": 1
+      },
+      {
+        "step": 0,
+        "status": "INFEASIBLE",
+        "solve_s": 0.04787,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      }
+    ],
+    "third_rings": {}
+  },
+  "sample-027": {
+    "difference": 94,
+    "enumeration": [
+      {
+        "fixed_depth": 2,
+        "fixed_cells": 315,
+        "first_required": 148,
+        "first_raw": 1545,
+        "first_possible": 203,
+        "second_possible": 10529,
+        "boundary_domain": 777,
+        "pocket_vars": 1572,
+        "target": 1
+      },
+      {
+        "step": 0,
+        "status": "INFEASIBLE",
+        "solve_s": 0.048433000000000004,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      }
+    ],
+    "third_rings": {}
+  }
+}

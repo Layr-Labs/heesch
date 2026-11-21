@@ -1,0 +1,2 @@
+{'status': 'OPTIMAL', 'cycles': 2, 'solver_s': 0.128452, 'lower_bound': 31.0, 'defect': 3, 'required': 254, 'hh': 3}
+{'file': 'work/fourth-lane/eq-07/best.heesch', 'sha256': '5cfdbfc7178769c639ff5084e4af3c25f87bd9fa1fbbb7138cfd1f1b7cb46a0f', 'partial_count': 42, 'status': 'OPTIMAL', 'cycles': 2, 'solver_s': 0.128452, 'lower_bound': 31.0, 'defect': 3, 'required': 254, 'hh': 3}
