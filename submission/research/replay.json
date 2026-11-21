@@ -1,0 +1,100 @@
+{
+  "first_footprints": [
+    {
+      "file": "1.heesch",
+      "tiles": [
+        1,
+        6,
+        13,
+        21,
+        31
+      ],
+      "old_only": 10,
+      "new_only": 25,
+      "difference": 35,
+      "fourth_boundary": 267
+    },
+    {
+      "file": "2.heesch",
+      "tiles": [
+        1,
+        6,
+        13,
+        20,
+        32
+      ],
+      "old_only": 17,
+      "new_only": 32,
+      "difference": 49,
+      "fourth_boundary": 269
+    },
+    {
+      "file": "3.heesch",
+      "tiles": [
+        1,
+        6,
+        12,
+        20,
+        28
+      ],
+      "old_only": 22,
+      "new_only": 37,
+      "difference": 59,
+      "fourth_boundary": 237
+    },
+    {
+      "file": "4.heesch",
+      "tiles": [
+        1,
+        6,
+        14,
+        22,
+        31
+      ],
+      "old_only": 21,
+      "new_only": 36,
+      "difference": 57,
+      "fourth_boundary": 274
+    },
+    {
+      "file": "5.heesch",
+      "tiles": [
+        1,
+        6,
+        13,
+        23,
+        33
+      ],
+      "old_only": 23,
+      "new_only": 38,
+      "difference": 61,
+      "fourth_boundary": 275
+    }
+  ],
+  "primary": {
+    "ring_counts": [
+      1,
+      6,
+      12,
+      20,
+      28
+    ],
+    "partial": 44,
+    "required": 237,
+    "covered": 213,
+    "gaps": 24,
+    "extra_pockets": 1,
+    "pocket_sites": [
+      [
+        -29,
+        16
+      ]
+    ],
+    "score": "1160/237"
+  },
+  "proof": {
+    "m": 5,
+    "materialized_bytes": 119486178,
+    "payload_sha256": "51c87e0d6fa492a23324f83064c873ef0c6d0d2b56d0fb137bf50dffd8167a38"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "status": "OPTIMAL",
+  "seconds": 0.848619,
+  "placements": 2455,
+  "seed": 20261120,
+  "workers": 2,
+  "time_limit": 12.0,
+  "objective": 574664.0,
+  "best_objective_bound": 574664.0,
+  "saved": {
+    "hc": 4,
+    "required": 267,
+    "defect_hc": 59,
+    "defect_hh": 33,
+    "pocket_cells": 26,
+    "partial_tiles": 40,
+    "score": 4.7790262172284645
+  },
+  "input_sha256": "85d9e57efd50611d7ef0f2188cd573906b0fd390e1884e49c96e013041270271",
+  "output_sha256": "54a4e657e548090ba185f91514b32d55be6248d107062002185088e1de8f4d70",
+  "scope": "fixed input patch; objective covers required cells"
+}

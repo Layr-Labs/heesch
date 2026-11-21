@@ -1,0 +1,52 @@
+[
+  {
+    "index": 1,
+    "required": 267,
+    "covered": 229,
+    "extra_pockets": 2,
+    "charged": 40,
+    "partial_tiles": 44,
+    "score": "1295/267",
+    "numeric": 4.850187265917603
+  },
+  {
+    "index": 2,
+    "required": 269,
+    "covered": 222,
+    "extra_pockets": 7,
+    "charged": 54,
+    "partial_tiles": 44,
+    "score": "1291/269",
+    "numeric": 4.799256505576208
+  },
+  {
+    "index": 3,
+    "required": 237,
+    "covered": 213,
+    "extra_pockets": 1,
+    "charged": 25,
+    "partial_tiles": 44,
+    "score": "1160/237",
+    "numeric": 4.894514767932489
+  },
+  {
+    "index": 4,
+    "required": 274,
+    "covered": 239,
+    "extra_pockets": 0,
+    "charged": 35,
+    "partial_tiles": 45,
+    "score": "1335/274",
+    "numeric": 4.872262773722627
+  },
+  {
+    "index": 5,
+    "required": 275,
+    "covered": 241,
+    "extra_pockets": 1,
+    "charged": 35,
+    "partial_tiles": 49,
+    "score": "268/55",
+    "numeric": 4.872727272727273
+  }
+]

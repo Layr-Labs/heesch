@@ -1,0 +1,9 @@
+{
+  "bytes": 119486178,
+  "sha256": "51c87e0d6fa492a23324f83064c873ef0c6d0d2b56d0fb137bf50dffd8167a38",
+  "stored_sha256": "1cefa72c2147ab6e1aa9b02c9f4715f07c82a6fb9aa5175097cddf632102b10e",
+  "m": 5,
+  "cnf_sha256": "a99b1839146dc9ead9dc03d638c56403ca4dc89d0b886c90dd80e59b5b99a71a",
+  "nvars": 1493505,
+  "nclauses": 16853897
+}

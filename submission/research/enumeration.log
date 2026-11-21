@@ -1,0 +1,17 @@
+placements [472, 5376, 14712, 28008]
+loaded 771443 b'5183667' 3.546163749997504
+weak model 1 footprint difference 35 geometry PATCH_HOLE_IN_CORONA: patch through corona 4 encloses empty cells, e.g. ((-21, 5), (-20, 4), (-20, 5), (-20, 6), (-20, 25))
+weak model 2 footprint difference 35 geometry PATCH_HOLE_IN_CORONA: patch through corona 4 encloses empty cells, e.g. ((-21, 9), (-21, 23), (-20, 21), (-20, 22), (-20, 23))
+weak model 3 footprint difference 35 geometry PATCH_HOLE_IN_CORONA: patch through corona 4 encloses empty cells, e.g. ((-19, 2), (-19, 3), (-18, 2), (-17, 1), (-17, 2))
+weak model 4 footprint difference 35 geometry PATCH_HOLE_IN_CORONA: patch through corona 4 encloses empty cells, e.g. ((-21, 19), (-19, 18), (-18, 16), (-7, -16), (-6, -16))
+weak model 5 footprint difference 35 geometry PATCH_HOLE_IN_CORONA: patch through corona 4 encloses empty cells, e.g. ((-19, 15), (-18, 16), (-1, -16), (6, -20), (7, -21))
+rejected 10
+{"i": 1, "first_cells_minus_center": 90, "changed": 35, "ring_counts": [1, 6, 13, 21, 31], "seconds": 209.65902429199923}
+rejected 20
+{"i": 2, "first_cells_minus_center": 90, "changed": 49, "ring_counts": [1, 6, 13, 20, 32], "seconds": 370.0456355419956}
+rejected 30
+{"i": 3, "first_cells_minus_center": 90, "changed": 59, "ring_counts": [1, 6, 12, 20, 28], "seconds": 372.0273487919985}
+rejected 40
+{"i": 4, "first_cells_minus_center": 90, "changed": 57, "ring_counts": [1, 6, 14, 22, 31], "seconds": 428.9020828749999}
+{"i": 5, "first_cells_minus_center": 90, "changed": 61, "ring_counts": [1, 6, 13, 23, 33], "seconds": 435.50670883400016}
+EXHAUSTED 5 45 seconds 435.51244037500146
