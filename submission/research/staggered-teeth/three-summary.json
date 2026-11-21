@@ -1,0 +1,10 @@
+{
+  "depth": 3,
+  "counts": {
+    "EXHAUSTED": 5,
+    "ISOHEDRAL": 2367,
+    "NO_DEEP_CONTACT": 3391,
+    "FOUND/TILER": 20
+  },
+  "unresolved": []
+}

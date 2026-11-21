@@ -1,0 +1,12 @@
+{
+  "cnf_sha256": "6ed35b186816e454f74af9e99d7402212f52ffe235599ba7afe991f962229939",
+  "original_variables": 861686,
+  "original_clauses": 9638020,
+  "m": 5,
+  "payload_sha256": "a4976a596268da175c2c7f02af69c8afb11d65930449d3243a5cd8d2a80dd844",
+  "stored_sha256": "2491bb79a470380e3c763b851b65672774c55dc76732951f1d731727c430fb0d",
+  "stored_bytes": 9038372,
+  "payload_bytes": 143364088,
+  "reduction_passes": 2,
+  "packing": "RUP additions only, positive-unsigned varint literals sorted within each lemma, xz preset 8"
+}
