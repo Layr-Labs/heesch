@@ -1,0 +1,178 @@
+{
+  "shape": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      4,
+      1
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      4,
+      3
+    ],
+    [
+      5,
+      0
+    ],
+    [
+      5,
+      1
+    ],
+    [
+      5,
+      2
+    ],
+    [
+      6,
+      0
+    ],
+    [
+      6,
+      2
+    ]
+  ],
+  "witness_sha256": "c612d8e28b3552df586d750307ff9d9b475ed6c231453ef4b0cddb33dc745152",
+  "verified_geometry": {
+    "hc": 2,
+    "hh": 3,
+    "patches": [
+      {
+        "ring_tiles": [
+          1,
+          6,
+          11
+        ],
+        "outer_hole_cells": []
+      },
+      {
+        "ring_tiles": [
+          1,
+          8,
+          20,
+          22
+        ],
+        "outer_hole_cells": [
+          [
+            -12,
+            3
+          ],
+          [
+            3,
+            18
+          ],
+          [
+            4,
+            18
+          ],
+          [
+            15,
+            -8
+          ],
+          [
+            17,
+            -7
+          ]
+        ]
+      }
+    ]
+  },
+  "defect": {
+    "required": 139,
+    "covered": 136,
+    "uncovered": [
+      [
+        -7,
+        6
+      ],
+      [
+        1,
+        -6
+      ],
+      [
+        4,
+        -6
+      ]
+    ],
+    "extra_pockets": [
+      [
+        6,
+        -10
+      ],
+      [
+        6,
+        -9
+      ]
+    ],
+    "charged": 5,
+    "partial_tiles": 20,
+    "scalar": 2.9640287769784175
+  },
+  "proof": {
+    "m": 4,
+    "cnf_digest": "932a8bc2406e0ed909f80bf496af61d3dd878f5966237621dfc4b7c0bfa4119e",
+    "artifacts": {
+      "proof.lrat.xz": {
+        "stored_bytes": 1853300,
+        "stored_sha256": "6833267258de71999e5158981b3138e8f57b275460053ac6516a7cf235b72fe3",
+        "plain_bytes": 23866530,
+        "plain_sha256": "ebc12e8dd6c0d51b7a582e09e29ded725513e42a94437926aa3fa2d2fa697242"
+      },
+      "core.txt.xz": {
+        "stored_bytes": 439416,
+        "stored_sha256": "1ace21f2cfdf4e517d1eec642164f4bc3b7a3f889857ecd0c0003e5063b2ecc2",
+        "plain_bytes": 5605426,
+        "plain_sha256": "027b9c62207f4037118d013e41806057ca8d963af77a79a1d98f75fcd9a54ba0"
+      }
+    }
+  }
+}
