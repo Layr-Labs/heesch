@@ -1,0 +1,458 @@
+[
+  {
+    "file": "108fba4526470.d4.heesch",
+    "miss": 18,
+    "damage": 37,
+    "required": 181,
+    "partial": 29,
+    "status": "OPTIMAL"
+  },
+  {
+    "file": "131c730784654.d4.heesch",
+    "miss": 10,
+    "damage": 20,
+    "required": 162,
+    "partial": 29,
+    "status": "OPTIMAL"
+  },
+  {
+    "file": "1a2ea27e750e8.d4.heesch",
+    "miss": 14,
+    "damage": 34,
+    "required": 179,
+    "partial": 31,
+    "status": "OPTIMAL"
+  },
+  {
+    "file": "1a98e08687831.d4.heesch",
+    "miss": 14,
+    "damage": 32,
+    "required": 167,
+    "partial": 31,
+    "status": "OPTIMAL"
+  },
+  {
+    "file": "1c039bb1b7fd3.d4.heesch",
+    "miss": 18,
+    "damage": 31,
+    "required": 174,
+    "partial": 31,
+    "status": "OPTIMAL"
+  },
+  {
+    "file": "1df00a6300a87.d4.heesch",
+    "miss": 10,
+    "damage": 23,
+    "required": 169,
+    "partial": 32,
+    "status": "OPTIMAL"
+  },
+  {
+    "file": "342cc1097b0bb.d4.heesch",
+    "miss": 12,
+    "damage": 27,
+    "required": 174,
+    "partial": 29,
+    "status": "OPTIMAL"
+  },
+  {
+    "file": "3ff7b9b83a0fc.d4.heesch",
+    "miss": 8,
+    "damage": 11,
+    "required": 166,
+    "partial": 30,
+    "status": "OPTIMAL"
+  },
+  {
+    "file": "41d583eb4e844.d4.heesch",
+    "miss": 18,
+    "damage": 30,
+    "required": 182,
+    "partial": 33,
+    "status": "OPTIMAL"
+  },
+  {
+    "file": "43db3fd65ce97.d4.heesch",
+    "miss": 11,
+    "damage": 19,
+    "required": 164,
+    "partial": 30,
+    "status": "OPTIMAL"
+  },
+  {
+    "file": "4422d338f0de9.d4.heesch",
+    "miss": 13,
+    "damage": 25,
+    "required": 165,
+    "partial": 30,
+    "status": "OPTIMAL"
+  },
+  {
+    "file": "451faf40a4969.d4.heesch",
+    "miss": 13,
+    "damage": 37,
+    "required": 179,
+    "partial": 32,
+    "status": "OPTIMAL"
+  },
+  {
+    "file": "45e91f825fd59.d4.heesch",
+    "miss": 16,
+    "damage": 25,
+    "required": 166,
+    "partial": 29,
+    "status": "OPTIMAL"
+  },
+  {
+    "file": "45fb55a8a89ac.d4.heesch",
+    "miss": 9,
+    "damage": 19,
+    "required": 166,
+    "partial": 30,
+    "status": "OPTIMAL"
+  },
+  {
+    "file": "461aac7e5f930.d4.heesch",
+    "miss": 14,
+    "damage": 23,
+    "required": 166,
+    "partial": 30,
+    "status": "OPTIMAL"
+  },
+  {
+    "file": "4707c225b16dc.d4.heesch",
+    "miss": 12,
+    "damage": 17,
+    "required": 169,
+    "partial": 31,
+    "status": "OPTIMAL"
+  },
+  {
+    "file": "4c94acff1ee28.d4.heesch",
+    "miss": 16,
+    "damage": 27,
+    "required": 165,
+    "partial": 30,
+    "status": "OPTIMAL"
+  },
+  {
+    "file": "4f834fd262c5b.d4.heesch",
+    "miss": 9,
+    "damage": 19,
+    "required": 162,
+    "partial": 28,
+    "status": "OPTIMAL"
+  },
+  {
+    "file": "4fc6a0a444280.d4.heesch",
+    "miss": 15,
+    "damage": 34,
+    "required": 179,
+    "partial": 31,
+    "status": "OPTIMAL"
+  },
+  {
+    "file": "61fc2fc21e7b6.d4.heesch",
+    "miss": 8,
+    "damage": 16,
+    "required": 164,
+    "partial": 30,
+    "status": "OPTIMAL"
+  },
+  {
+    "file": "669e631e9bb4a.d4.heesch",
+    "miss": 7,
+    "damage": 14,
+    "required": 162,
+    "partial": 29,
+    "status": "OPTIMAL"
+  },
+  {
+    "file": "6ac58c74c29ab.d4.heesch",
+    "miss": 6,
+    "damage": 9,
+    "required": 166,
+    "partial": 31,
+    "status": "OPTIMAL"
+  },
+  {
+    "file": "7164744b89a5e.d4.heesch",
+    "miss": 6,
+    "damage": 14,
+    "required": 166,
+    "partial": 30,
+    "status": "OPTIMAL"
+  },
+  {
+    "file": "77169101f302f.d4.heesch",
+    "miss": 19,
+    "damage": 30,
+    "required": 166,
+    "partial": 29,
+    "status": "OPTIMAL"
+  },
+  {
+    "file": "79af570aa7339.d4.heesch",
+    "miss": 12,
+    "damage": 25,
+    "required": 169,
+    "partial": 32,
+    "status": "OPTIMAL"
+  },
+  {
+    "file": "89b6912a248ce.d4.heesch",
+    "miss": 9,
+    "damage": 23,
+    "required": 176,
+    "partial": 30,
+    "status": "OPTIMAL"
+  },
+  {
+    "file": "8c9ef8e3c0e0a.d4.heesch",
+    "miss": 18,
+    "damage": 37,
+    "required": 169,
+    "partial": 32,
+    "status": "OPTIMAL"
+  },
+  {
+    "file": "93dde0a840488.d4.heesch",
+    "miss": 15,
+    "damage": 28,
+    "required": 171,
+    "partial": 30,
+    "status": "OPTIMAL"
+  },
+  {
+    "file": "948df7bade20b.d4.heesch",
+    "miss": 16,
+    "damage": 26,
+    "required": 172,
+    "partial": 33,
+    "status": "OPTIMAL"
+  },
+  {
+    "file": "963785984c9eb.d4.heesch",
+    "miss": 16,
+    "damage": 29,
+    "required": 181,
+    "partial": 30,
+    "status": "OPTIMAL"
+  },
+  {
+    "file": "97ca002375caf.d4.heesch",
+    "miss": 20,
+    "damage": 27,
+    "required": 171,
+    "partial": 30,
+    "status": "OPTIMAL"
+  },
+  {
+    "file": "9f65e947ec5c3.d4.heesch",
+    "miss": 12,
+    "damage": 18,
+    "required": 171,
+    "partial": 30,
+    "status": "OPTIMAL"
+  },
+  {
+    "file": "9ff76ed64e77b.d4.heesch",
+    "miss": 14,
+    "damage": 26,
+    "required": 174,
+    "partial": 28,
+    "status": "OPTIMAL"
+  },
+  {
+    "file": "a03bcedba519a.d4.heesch",
+    "miss": 12,
+    "damage": 25,
+    "required": 169,
+    "partial": 31,
+    "status": "OPTIMAL"
+  },
+  {
+    "file": "a3069f3b7fd90.d4.heesch",
+    "miss": 17,
+    "damage": 30,
+    "required": 168,
+    "partial": 30,
+    "status": "OPTIMAL"
+  },
+  {
+    "file": "a6a96c0aad47f.d4.heesch",
+    "miss": 8,
+    "damage": 9,
+    "required": 166,
+    "partial": 29,
+    "status": "OPTIMAL"
+  },
+  {
+    "file": "a8436a4cd7329.d4.heesch",
+    "miss": 14,
+    "damage": 31,
+    "required": 166,
+    "partial": 31,
+    "status": "OPTIMAL"
+  },
+  {
+    "file": "a87ac88e63f47.d4.heesch",
+    "miss": 21,
+    "damage": 34,
+    "required": 175,
+    "partial": 30,
+    "status": "OPTIMAL"
+  },
+  {
+    "file": "a8f70cdd53ad3.d4.heesch",
+    "miss": 16,
+    "damage": 37,
+    "required": 164,
+    "partial": 30,
+    "status": "OPTIMAL"
+  },
+  {
+    "file": "b5c38702a79ba.d4.heesch",
+    "miss": 15,
+    "damage": 29,
+    "required": 162,
+    "partial": 29,
+    "status": "OPTIMAL"
+  },
+  {
+    "file": "ba30e251bdca0.d4.heesch",
+    "miss": 9,
+    "damage": 17,
+    "required": 166,
+    "partial": 31,
+    "status": "OPTIMAL"
+  },
+  {
+    "file": "c47880f444c44.d4.heesch",
+    "miss": 19,
+    "damage": 24,
+    "required": 173,
+    "partial": 32,
+    "status": "OPTIMAL"
+  },
+  {
+    "file": "d2e6c610e12af.d4.heesch",
+    "miss": 14,
+    "damage": 25,
+    "required": 171,
+    "partial": 29,
+    "status": "OPTIMAL"
+  },
+  {
+    "file": "d3c70df228598.d4.heesch",
+    "miss": 15,
+    "damage": 16,
+    "required": 170,
+    "partial": 30,
+    "status": "OPTIMAL"
+  },
+  {
+    "file": "d76f819359bba.d4.heesch",
+    "miss": 13,
+    "damage": 22,
+    "required": 162,
+    "partial": 29,
+    "status": "OPTIMAL"
+  },
+  {
+    "file": "e145172a36e56.d4.heesch",
+    "miss": 10,
+    "damage": 13,
+    "required": 162,
+    "partial": 29,
+    "status": "OPTIMAL"
+  },
+  {
+    "file": "e455369b90d81.d4.heesch",
+    "miss": 11,
+    "damage": 20,
+    "required": 176,
+    "partial": 29,
+    "status": "OPTIMAL"
+  },
+  {
+    "file": "e8ceb2cc9aa35.d4.heesch",
+    "miss": 15,
+    "damage": 19,
+    "required": 170,
+    "partial": 31,
+    "status": "OPTIMAL"
+  },
+  {
+    "file": "ec0dc63527377.d4.heesch",
+    "miss": 12,
+    "damage": 24,
+    "required": 162,
+    "partial": 28,
+    "status": "OPTIMAL"
+  },
+  {
+    "file": "f0417a9f20cfe.d4.heesch",
+    "miss": 14,
+    "damage": 31,
+    "required": 179,
+    "partial": 32,
+    "status": "OPTIMAL"
+  },
+  {
+    "file": "f10d9150cf839.d4.heesch",
+    "miss": 9,
+    "damage": 20,
+    "required": 176,
+    "partial": 31,
+    "status": "OPTIMAL"
+  },
+  {
+    "file": "f123eb5d7a690.d4.heesch",
+    "miss": 10,
+    "damage": 23,
+    "required": 164,
+    "partial": 29,
+    "status": "OPTIMAL"
+  },
+  {
+    "file": "f8ab41395709f.d4.heesch",
+    "miss": 11,
+    "damage": 24,
+    "required": 176,
+    "partial": 30,
+    "status": "OPTIMAL"
+  },
+  {
+    "file": "f923dcafc3c3e.d4.heesch",
+    "miss": 17,
+    "damage": 29,
+    "required": 177,
+    "partial": 30,
+    "status": "OPTIMAL"
+  },
+  {
+    "file": "fa6f26d396e77.d4.heesch",
+    "miss": 13,
+    "damage": 28,
+    "required": 169,
+    "partial": 32,
+    "status": "OPTIMAL"
+  },
+  {
+    "file": "fb2ead593a22e.d4.heesch",
+    "miss": 18,
+    "damage": 37,
+    "required": 162,
+    "partial": 29,
+    "status": "OPTIMAL"
+  },
+  {
+    "file": "fd4f3c456cce4.d4.heesch",
+    "miss": 21,
+    "damage": 42,
+    "required": 184,
+    "partial": 31,
+    "status": "OPTIMAL"
+  }
+]

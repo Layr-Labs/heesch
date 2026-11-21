@@ -1,0 +1,2 @@
+{"placements": 1704, "budget": 6}
+{"file": "submission/best.heesch", "sha256": "f0262c13555a64e9f7e61d6e036d39cb9aa7208c1c6e155adfa9e5a4692fd26a", "partial_count": 30, "status": "OPTIMAL", "cycles": 4, "solver_s": 0.046123000000000004, "lower_bound": 30.0, "defect": 6, "required": 166, "hh": 6}

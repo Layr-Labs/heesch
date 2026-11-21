@@ -1,0 +1,117 @@
+{
+  "shape": [
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      3,
+      3
+    ],
+    [
+      4,
+      0
+    ]
+  ],
+  "witness_sha256": "f0262c13555a64e9f7e61d6e036d39cb9aa7208c1c6e155adfa9e5a4692fd26a",
+  "verified_geometry": {
+    "hc": 4,
+    "hh": 4,
+    "patches": [
+      {
+        "ring_tiles": [
+          1,
+          5,
+          10,
+          19,
+          28
+        ],
+        "outer_hole_cells": []
+      }
+    ]
+  },
+  "defect": {
+    "required": 166,
+    "covered": 160,
+    "uncovered": [
+      [
+        -9,
+        19
+      ],
+      [
+        -6,
+        17
+      ],
+      [
+        -5,
+        17
+      ],
+      [
+        0,
+        16
+      ],
+      [
+        2,
+        14
+      ],
+      [
+        8,
+        -15
+      ]
+    ],
+    "extra_pockets": [],
+    "charged": 6,
+    "partial_tiles": 30,
+    "scalar": 4.9638554216867465
+  },
+  "proof": {
+    "m": 5,
+    "cnf_digest": "79203ad567df305f654e1c5138bcdcdc9c30da5001ebd6c36f7323c843b74b0a",
+    "artifacts": {
+      "proof.lrat.xz": {
+        "stored_bytes": 14551396,
+        "stored_sha256": "2b54ac47a3155bdf1352b5c24bbfe10dc470465e6e84b41610437089d88867a3",
+        "plain_bytes": 178514271,
+        "plain_sha256": "b9bc26c707ba7c52d22a66396980dca1f137b8a7c28c66bb7fe978b661add4b5"
+      },
+      "core.txt.xz": {
+        "stored_bytes": 1672448,
+        "stored_sha256": "6871ec203170050f7c653854fba321af7da240732ed874d5aedfa824efce9c18",
+        "plain_bytes": 29028911,
+        "plain_sha256": "6317ec052edf330f83f8cbd17b265fdf2ea867e1b19b0fbce1815e4e1a402775"
+      }
+    }
+  }
+}
