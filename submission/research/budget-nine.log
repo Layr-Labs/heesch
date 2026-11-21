@@ -1,0 +1,2 @@
+{"placements": 2461, "budget": 9}
+{"file": "work/fourth-lane/near-repair-d9/best.heesch", "sha256": "01c62209bb379e8d6f6e4f1ab06f0340f41b998ca4fe98686ff265bfee52353f", "partial_count": 46, "status": "OPTIMAL", "cycles": 8, "solver_s": 0.20811400000000002, "lower_bound": 0.0, "defect": 9, "required": 252, "hh": 9}
