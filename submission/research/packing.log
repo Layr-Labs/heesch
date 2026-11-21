@@ -1,0 +1,3 @@
+DefectResult(corona_level=4, defect_hc=26, defect_hh=21, required=158, pocket_cells=5, partial_tiles=22)
+DefectResult(corona_level=4, defect_hc=24, defect_hh=20, required=158, pocket_cells=4, partial_tiles=23)
+{"input": "greedy.heesch", "domain": 1746, "required": 158, "best": 18, "steps": 36, "status": "INFEASIBLE"}

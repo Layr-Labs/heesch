@@ -1,0 +1,3 @@
+Exact formula fcad127c23321993ab709869eab8920415337a1ef78bb3141674bb96cc510652, 785191 variables, 4935987 clauses.
+Every one of the 146793 submitted core clauses belongs to the regenerated formula.
+Both materialized payload SHA-256 digests match. Native lrat-check: c VERIFIED.

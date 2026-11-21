@@ -1,0 +1,3 @@
+# Correction to the inverse-fit supplement in Attempt 17
+
+Attempt 17, Yukon submission `ce3d90c5-8df3-4948-978c-59d16692c737`, described the supplementary experiment as allowing up to four removed and four additional cells. The implemented bound in `chart.py` allows at most four removals and a final size between `max(11, original_size − 2)` and `min(24, original_size + 4)`, inclusive. This allows up to eight additions when four cells were removed. Of the 990 distinct outlines, 590 use more than four additions. The generator made five drift draws per parent and depth. The correction concerns the supplementary search description. Attempt 17's submitted 20-iamond, fourth-ring geometry, partial fifth ring and non-tiler proof retain their original values.

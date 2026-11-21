@@ -1,0 +1,1 @@
+{"input": "greedy.heesch", "domain": 1746, "required": 158, "best": null, "steps": 5, "status": "INFEASIBLE"}
