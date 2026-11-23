@@ -1,0 +1,28 @@
+{"fixed_depth": 1, "fixed_cells": 105, "first_required": 65, "first_raw": 923, "first_possible": 118, "second_possible": 6314, "boundary_domain": 433, "pocket_vars": 1010, "target": 1}
+{"step": 0, "status": "OPTIMAL", "solve_s": 0.283893, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 124, "hh": 0, "hc": 0, "gain": 372, "pocket4": 0, "pocket5": 0}
+{"file": "first-5/second-001.heesch", "tiles": 42, "P3_difference": 0}
+{"step": 1, "status": "OPTIMAL", "solve_s": 0.30993600000000004, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 122, "hh": 0, "hc": 0, "gain": 366, "pocket4": 0, "pocket5": 0}
+{"file": "first-5/second-002.heesch", "tiles": 43, "P3_difference": 12}
+{"step": 2, "status": "OPTIMAL", "solve_s": 0.347935, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 135, "hh": 0, "hc": 7, "gain": -1373, "pocket4": 0, "pocket5": 7}
+{"step": 3, "status": "OPTIMAL", "solve_s": 0.34511800000000004, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 135, "hh": 0, "hc": 0, "gain": 405, "pocket4": 0, "pocket5": 0}
+{"file": "first-5/second-003.heesch", "tiles": 44, "P3_difference": 54}
+{"step": 4, "status": "OPTIMAL", "solve_s": 0.29061400000000004, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 133, "hh": 0, "hc": 0, "gain": 399, "pocket4": 0, "pocket5": 0}
+{"file": "first-5/second-004.heesch", "tiles": 45, "P3_difference": 19}
+{"step": 5, "status": "OPTIMAL", "solve_s": 0.292183, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 144, "hh": 0, "hc": 15, "gain": -3378, "pocket4": 0, "pocket5": 15}
+{"step": 6, "status": "OPTIMAL", "solve_s": 0.29166000000000003, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 144, "hh": 0, "hc": 12, "gain": -2616, "pocket4": 0, "pocket5": 12}
+{"step": 7, "status": "OPTIMAL", "solve_s": 0.277502, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 144, "hh": 0, "hc": 0, "gain": 432, "pocket4": 0, "pocket5": 0}
+{"file": "first-5/second-005.heesch", "tiles": 48, "P3_difference": 73}
+{"step": 8, "status": "OPTIMAL", "solve_s": 0.274133, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 131, "hh": 0, "hc": 6, "gain": -1131, "pocket4": 0, "pocket5": 6}
+{"step": 9, "status": "OPTIMAL", "solve_s": 0.26753, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 131, "hh": 0, "hc": 0, "gain": 393, "pocket4": 0, "pocket5": 0}
+{"file": "first-5/second-006.heesch", "tiles": 47, "P3_difference": 31}
+{"step": 10, "status": "INFEASIBLE", "solve_s": 0.255218, "objective": 0.0, "upper_bound": 0.0}

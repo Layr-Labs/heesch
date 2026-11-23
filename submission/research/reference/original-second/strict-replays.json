@@ -1,0 +1,167 @@
+[
+  {
+    "footprint": 1,
+    "model": "compatibility",
+    "output": [
+      {
+        "outer_before": 12884,
+        "outer_after_exact_inner_support": 10795
+      },
+      {
+        "additional_pair_cuts": 64952
+      },
+      {
+        "fixed_depth": 3,
+        "fixed_cells": 630,
+        "first_required": 165,
+        "first_raw": 1840,
+        "first_possible": 291,
+        "second_possible": 10795,
+        "boundary_domain": 972,
+        "pocket_vars": 1897,
+        "target": 1
+      },
+      {
+        "step": 0,
+        "status": "INFEASIBLE",
+        "solve_s": 3.61228,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      }
+    ]
+  },
+  {
+    "footprint": 1,
+    "model": "bounds-only",
+    "output": [
+      {
+        "fixed_depth": 3,
+        "fixed_cells": 630,
+        "first_required": 165,
+        "first_raw": 1840,
+        "first_possible": 291,
+        "second_possible": 12884,
+        "boundary_domain": 972,
+        "pocket_vars": 1897,
+        "target": 1
+      },
+      {
+        "step": 0,
+        "status": "INFEASIBLE",
+        "solve_s": 2.755281,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      }
+    ]
+  },
+  {
+    "footprint": 2,
+    "model": "compatibility",
+    "output": [
+      {
+        "outer_before": 13098,
+        "outer_after_exact_inner_support": 10934
+      },
+      {
+        "additional_pair_cuts": 68089
+      },
+      {
+        "fixed_depth": 3,
+        "fixed_cells": 645,
+        "first_required": 162,
+        "first_raw": 1897,
+        "first_possible": 309,
+        "second_possible": 10934,
+        "boundary_domain": 994,
+        "pocket_vars": 1934,
+        "target": 1
+      },
+      {
+        "step": 0,
+        "status": "INFEASIBLE",
+        "solve_s": 3.413485,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      }
+    ]
+  },
+  {
+    "footprint": 2,
+    "model": "bounds-only",
+    "output": [
+      {
+        "fixed_depth": 3,
+        "fixed_cells": 645,
+        "first_required": 162,
+        "first_raw": 1897,
+        "first_possible": 309,
+        "second_possible": 13098,
+        "boundary_domain": 994,
+        "pocket_vars": 1934,
+        "target": 1
+      },
+      {
+        "step": 0,
+        "status": "INFEASIBLE",
+        "solve_s": 2.5894570000000003,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      }
+    ]
+  },
+  {
+    "footprint": 5,
+    "model": "compatibility",
+    "output": [
+      {
+        "outer_before": 11509,
+        "outer_after_exact_inner_support": 8749
+      },
+      {
+        "additional_pair_cuts": 85295
+      },
+      {
+        "fixed_depth": 3,
+        "fixed_cells": 615,
+        "first_required": 147,
+        "first_raw": 1780,
+        "first_possible": 224,
+        "second_possible": 8749,
+        "boundary_domain": 845,
+        "pocket_vars": 1788,
+        "target": 1
+      },
+      {
+        "step": 0,
+        "status": "INFEASIBLE",
+        "solve_s": 2.082287,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      }
+    ]
+  },
+  {
+    "footprint": 5,
+    "model": "bounds-only",
+    "output": [
+      {
+        "fixed_depth": 3,
+        "fixed_cells": 615,
+        "first_required": 147,
+        "first_raw": 1780,
+        "first_possible": 224,
+        "second_possible": 11509,
+        "boundary_domain": 845,
+        "pocket_vars": 1788,
+        "target": 1
+      },
+      {
+        "step": 0,
+        "status": "INFEASIBLE",
+        "solve_s": 2.0696000000000003,
+        "objective": 0.0,
+        "upper_bound": 0.0
+      }
+    ]
+  }
+]

@@ -1,0 +1,7 @@
+{"fixed_depth": 2, "fixed_cells": 300, "first_required": 111, "first_raw": 1421, "first_possible": 186, "second_possible": 9928, "boundary_domain": 724, "pocket_vars": 1501, "target": 1}
+{"step": 0, "status": "OPTIMAL", "solve_s": 0.321489, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 160, "hh": 0, "hc": 20, "gain": -4600, "pocket4": 0, "pocket5": 20}
+{"step": 1, "status": "OPTIMAL", "solve_s": 0.312692, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 160, "hh": 0, "hc": 0, "gain": 480, "pocket4": 0, "pocket5": 0}
+{"file": "first-2/second-001/four-001.heesch", "tiles": 71, "P3_difference": 0}
+{"step": 2, "status": "INFEASIBLE", "solve_s": 0.263814, "objective": 0.0, "upper_bound": 0.0}

@@ -1,0 +1,2 @@
+{"fixed_depth": 2, "fixed_cells": 315, "first_required": 133, "first_raw": 1463, "first_possible": 168, "second_possible": 9231, "boundary_domain": 676, "pocket_vars": 1437, "target": 1}
+{"step": 0, "status": "INFEASIBLE", "solve_s": 0.088719, "objective": 0.0, "upper_bound": 0.0}

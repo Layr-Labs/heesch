@@ -1,0 +1,56 @@
+{"fixed_depth": 1, "fixed_cells": 105, "first_required": 71, "first_raw": 962, "first_possible": 126, "second_possible": 7404, "boundary_domain": 506, "pocket_vars": 1131, "target": 1}
+{"step": 0, "status": "OPTIMAL", "solve_s": 0.324313, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 109, "hh": 0, "hc": 0, "gain": 327, "pocket4": 0, "pocket5": 0}
+{"file": "first-4/second-001.heesch", "tiles": 40, "P3_difference": 19}
+{"step": 1, "status": "OPTIMAL", "solve_s": 0.324982, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 124, "hh": 0, "hc": 0, "gain": 372, "pocket4": 0, "pocket5": 0}
+{"file": "first-4/second-002.heesch", "tiles": 41, "P3_difference": 0}
+{"step": 2, "status": "OPTIMAL", "solve_s": 0.33512200000000003, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 109, "hh": 0, "hc": 0, "gain": 327, "pocket4": 0, "pocket5": 0}
+{"file": "first-4/second-003.heesch", "tiles": 40, "P3_difference": 29}
+{"step": 3, "status": "OPTIMAL", "solve_s": 0.399625, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 138, "hh": 0, "hc": 4, "gain": -602, "pocket4": 0, "pocket5": 4}
+{"step": 4, "status": "OPTIMAL", "solve_s": 0.358785, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 138, "hh": 0, "hc": 0, "gain": 414, "pocket4": 0, "pocket5": 0}
+{"file": "first-4/second-004.heesch", "tiles": 46, "P3_difference": 19}
+{"step": 5, "status": "OPTIMAL", "solve_s": 0.36657, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 125, "hh": 0, "hc": 0, "gain": 375, "pocket4": 0, "pocket5": 0}
+{"file": "first-4/second-005.heesch", "tiles": 46, "P3_difference": 38}
+{"step": 6, "status": "OPTIMAL", "solve_s": 0.352279, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 111, "hh": 0, "hc": 0, "gain": 333, "pocket4": 0, "pocket5": 0}
+{"file": "first-4/second-006.heesch", "tiles": 39, "P3_difference": 41}
+{"step": 7, "status": "OPTIMAL", "solve_s": 0.334785, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 140, "hh": 0, "hc": 0, "gain": 420, "pocket4": 0, "pocket5": 0}
+{"file": "first-4/second-007.heesch", "tiles": 45, "P3_difference": 41}
+{"step": 8, "status": "OPTIMAL", "solve_s": 0.34316, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 138, "hh": 0, "hc": 0, "gain": 414, "pocket4": 0, "pocket5": 0}
+{"file": "first-4/second-008.heesch", "tiles": 46, "P3_difference": 29}
+{"step": 9, "status": "OPTIMAL", "solve_s": 0.32177700000000004, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 124, "hh": 0, "hc": 0, "gain": 372, "pocket4": 0, "pocket5": 0}
+{"file": "first-4/second-009.heesch", "tiles": 45, "P3_difference": 10}
+{"step": 10, "status": "OPTIMAL", "solve_s": 0.33871100000000004, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 126, "hh": 0, "hc": 0, "gain": 378, "pocket4": 0, "pocket5": 0}
+{"file": "first-4/second-010.heesch", "tiles": 42, "P3_difference": 22}
+{"step": 11, "status": "OPTIMAL", "solve_s": 0.34299, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 111, "hh": 0, "hc": 0, "gain": 333, "pocket4": 0, "pocket5": 0}
+{"file": "first-4/second-011.heesch", "tiles": 44, "P3_difference": 52}
+{"step": 12, "status": "OPTIMAL", "solve_s": 0.33037900000000003, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 126, "hh": 0, "hc": 0, "gain": 378, "pocket4": 0, "pocket5": 0}
+{"file": "first-4/second-012.heesch", "tiles": 44, "P3_difference": 33}
+{"step": 13, "status": "OPTIMAL", "solve_s": 0.33451600000000004, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 140, "hh": 0, "hc": 0, "gain": 420, "pocket4": 0, "pocket5": 0}
+{"file": "first-4/second-013.heesch", "tiles": 48, "P3_difference": 52}
+{"step": 14, "status": "OPTIMAL", "solve_s": 0.331556, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 127, "hh": 0, "hc": 5, "gain": -889, "pocket4": 0, "pocket5": 5}
+{"step": 15, "status": "OPTIMAL", "solve_s": 0.33371, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 127, "hh": 0, "hc": 0, "gain": 381, "pocket4": 0, "pocket5": 0}
+{"file": "first-4/second-014.heesch", "tiles": 46, "P3_difference": 60}
+{"step": 16, "status": "OPTIMAL", "solve_s": 0.319552, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 125, "hh": 0, "hc": 16, "gain": -3689, "pocket4": 0, "pocket5": 16}
+{"step": 17, "status": "OPTIMAL", "solve_s": 0.30117, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 125, "hh": 0, "hc": 0, "gain": 375, "pocket4": 0, "pocket5": 0}
+{"file": "first-4/second-015.heesch", "tiles": 46, "P3_difference": 48}
+{"step": 18, "status": "OPTIMAL", "solve_s": 0.294715, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 127, "hh": 0, "hc": 0, "gain": 381, "pocket4": 0, "pocket5": 0}
+{"file": "first-4/second-016.heesch", "tiles": 48, "P3_difference": 71}
+{"step": 19, "status": "INFEASIBLE", "solve_s": 0.27032700000000004, "objective": 0.0, "upper_bound": 0.0}

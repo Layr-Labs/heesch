@@ -1,0 +1,1 @@
+{"file": "submission/best.heesch", "sha256": "3c3c97e47bfd01b558330fbf9f8bfa019a41107d6fedb8c109ceffee23ef4602", "partial_count": 51, "status": "OPTIMAL", "cycles": 4, "solver_s": 0.129367, "lower_bound": 51.0, "defect": 3, "required": 254, "hh": 3}
