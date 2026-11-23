@@ -1,0 +1,142 @@
+[
+  {
+    "area": 27,
+    "id": "04ddafb20f6bebd9cc14",
+    "digest": "421856abeb08b2529c1afd8d65edc6d1f3563ea75f62cab6e56262e89802a50d",
+    "moves": [
+      {
+        "id": "03ebe107a019b40c3cbd",
+        "parent": "f7055850b1b924b7eed2",
+        "fold": [
+          0,
+          2,
+          4,
+          -6,
+          3
+        ],
+        "depth": 1,
+        "cells": 31,
+        "span": 27,
+        "balance": [
+          3,
+          3
+        ]
+      },
+      {
+        "id": "04ddafb20f6bebd9cc14",
+        "parent": "03ebe107a019b40c3cbd",
+        "fold": [
+          2,
+          -6,
+          -5,
+          6,
+          -3
+        ],
+        "depth": 2,
+        "cells": 27,
+        "span": 26,
+        "balance": [
+          2,
+          3
+        ]
+      }
+    ],
+    "file": "best.heesch",
+    "rings": [
+      1,
+      6,
+      12,
+      18
+    ],
+    "partial": 24,
+    "gaps": 17,
+    "charged": 20,
+    "required": 221,
+    "score": 3.909502262443439,
+    "proof_header": [
+      "1",
+      "encoder heesch-encoder/v2 2 4",
+      "cnf cc700602922db02614adf6591d88cfefe7d06c643cf6fa11bff9c30a4b48cd30 659160 3335412",
+      "file proof.lrat.xz lrat xz feb7e06cc87eac70e33e0f45d70b093c038104cba8af0feed45aa0f1005b8e40",
+      "core core.txt.xz xz eb0ed017d1e76eeb2e8a4e45745036da9d2a80dd04b72c05071661c34ae1c3cf 109160"
+    ]
+  },
+  {
+    "area": 16,
+    "id": "d82658abd7681f0e5926",
+    "digest": "ce82122558bbad8c829952586a575a3843ea46cb3fd41f242a14e1b7d47c7947",
+    "moves": [
+      {
+        "id": "03ebe107a019b40c3cbd",
+        "parent": "f7055850b1b924b7eed2",
+        "fold": [
+          0,
+          2,
+          4,
+          -6,
+          3
+        ],
+        "depth": 1,
+        "cells": 31,
+        "span": 27,
+        "balance": [
+          3,
+          3
+        ]
+      },
+      {
+        "id": "24cc98fc0c6f2c9b6318",
+        "parent": "03ebe107a019b40c3cbd",
+        "fold": [
+          0,
+          2,
+          4,
+          -6,
+          3
+        ],
+        "depth": 2,
+        "cells": 17,
+        "span": 20,
+        "balance": [
+          2,
+          4
+        ]
+      },
+      {
+        "id": "d82658abd7681f0e5926",
+        "parent": "24cc98fc0c6f2c9b6318",
+        "remove": [
+          7,
+          7
+        ],
+        "add": null,
+        "depth": 3,
+        "cells": 16,
+        "span": 20,
+        "balance": [
+          1,
+          3
+        ]
+      }
+    ],
+    "file": "research/companion16/best.heesch",
+    "rings": [
+      1,
+      7,
+      15,
+      24
+    ],
+    "partial": 33,
+    "gaps": 19,
+    "charged": 21,
+    "required": 237,
+    "score": 3.911392405063291,
+    "proof_header": [
+      "1",
+      "encoder heesch-encoder/v2 2 4",
+      "cnf 819cebe743223b466e2ea6ef5bb7ab657c270cda86b7346f906875659a639c33 369227 2204792",
+      "file proof.lrat.xz lrat xz 3ecf6fbe92db167af3568682038a14d2a1d2d2d74bc9f5cb02a990ff9bd4e530",
+      "core core.txt.xz xz 5da16ae92f48b5ea1af69265d36503d4287154577cd5f2b781110b2eaf34a268 250129"
+    ]
+  }
+]

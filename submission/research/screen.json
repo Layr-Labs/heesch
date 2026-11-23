@@ -1,0 +1,56 @@
+{
+  "depth2": {
+    "NO_DEEP_CONTACT": 9675,
+    "EXHAUSTED": 1
+  },
+  "depth3": {
+    "NO_DEEP_CONTACT": 9675,
+    "EXHAUSTED": 1
+  },
+  "depth5": {
+    "NO_DEEP_CONTACT": 180661,
+    "ISOHEDRAL": 16744,
+    "FOUND": 200,
+    "TIMEOUT": 9,
+    "EXHAUSTED": 17
+  },
+  "legal": 197631,
+  "physical_deficit": 9676,
+  "witnesses": {
+    "FOUND": 200,
+    "TIMEOUT": 9
+  },
+  "periods_initial": {
+    "8": 19,
+    "4": 145,
+    "2": 25,
+    "12": 5,
+    "6": 7,
+    "3": 4,
+    "10": 1
+  },
+  "witness_open_initial": [],
+  "repeat": [
+    {
+      "id": "77e6bf94ea2147d7a83c",
+      "stage_initial": "TIMEOUT",
+      "stage_repeat": "EXHAUSTED",
+      "period": "UNKNOWN",
+      "audit": null
+    },
+    {
+      "id": "ee3a47aff4bfc8587840",
+      "stage_initial": "TIMEOUT",
+      "stage_repeat": "EXHAUSTED",
+      "period": "UNKNOWN",
+      "audit": null
+    },
+    {
+      "id": "3a7255f8e2c886b685af",
+      "stage_initial": "TIMEOUT",
+      "stage_repeat": "EXHAUSTED",
+      "period": "UNKNOWN",
+      "audit": null
+    }
+  ]
+}
