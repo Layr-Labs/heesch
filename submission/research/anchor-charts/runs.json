@@ -1,0 +1,247 @@
+[
+  {
+    "seed": 855,
+    "required": 220,
+    "bound": 20,
+    "report": "{\"input\": \"seed855.d3.heesch\", \"domain\": 1654, \"required\": 220, \"best\": null, \"steps\": 3, \"status\": \"INFEASIBLE\"}",
+    "search": "FOUND nodes=1117 deepest=3"
+  },
+  {
+    "seed": 856,
+    "required": 260,
+    "bound": 24,
+    "report": "{\"input\": \"seed856.d3.heesch\", \"domain\": 1899, \"required\": 260, \"best\": null, \"steps\": 8, \"status\": \"FEASIBLE\"}",
+    "search": "FOUND nodes=658 deepest=3"
+  },
+  {
+    "seed": 857,
+    "required": 210,
+    "bound": 19,
+    "report": "{\"input\": \"seed857.d3.heesch\", \"domain\": 1560, \"required\": 210, \"best\": 14, \"steps\": 5, \"status\": \"INFEASIBLE\"}",
+    "search": "FOUND nodes=849 deepest=3"
+  },
+  {
+    "seed": 858,
+    "required": 219,
+    "bound": 14,
+    "report": "{\"input\": \"seed858.d3.heesch\", \"domain\": 1631, \"required\": 219, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}",
+    "search": "FOUND nodes=1878 deepest=3"
+  },
+  {
+    "seed": 859,
+    "required": 209,
+    "bound": 13,
+    "report": "{\"input\": \"seed859.d3.heesch\", \"domain\": 1576, \"required\": 209, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}",
+    "search": "FOUND nodes=841 deepest=3"
+  },
+  {
+    "seed": 860,
+    "required": 240,
+    "bound": 15,
+    "report": "{\"input\": \"seed860.d3.heesch\", \"domain\": 1763, \"required\": 240, \"best\": null, \"steps\": 2, \"status\": \"INFEASIBLE\"}",
+    "search": "FOUND nodes=845 deepest=3"
+  },
+  {
+    "seed": 861,
+    "required": 208,
+    "bound": 13,
+    "report": "{\"input\": \"seed861.d3.heesch\", \"domain\": 1577, \"required\": 208, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}",
+    "search": "FOUND nodes=899 deepest=3"
+  },
+  {
+    "seed": 862,
+    "required": 206,
+    "bound": 13,
+    "report": "{\"input\": \"seed862.d3.heesch\", \"domain\": 1554, \"required\": 206, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}",
+    "search": "FOUND nodes=1482 deepest=3"
+  },
+  {
+    "seed": 863,
+    "required": 247,
+    "bound": 16,
+    "report": "{\"input\": \"seed863.d3.heesch\", \"domain\": 1828, \"required\": 247, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}",
+    "search": "FOUND nodes=739 deepest=3"
+  },
+  {
+    "seed": 864,
+    "required": 222,
+    "bound": 14,
+    "report": "{\"input\": \"seed864.d3.heesch\", \"domain\": 1633, \"required\": 222, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}",
+    "search": "FOUND nodes=808 deepest=3"
+  },
+  {
+    "seed": 865,
+    "required": 209,
+    "bound": 13,
+    "report": "{\"input\": \"seed865.d3.heesch\", \"domain\": 1576, \"required\": 209, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}",
+    "search": "FOUND nodes=799 deepest=3"
+  },
+  {
+    "seed": 866,
+    "required": 262,
+    "bound": 17,
+    "report": "{\"input\": \"seed866.d3.heesch\", \"domain\": 1908, \"required\": 262, \"best\": null, \"steps\": 3, \"status\": \"INFEASIBLE\"}",
+    "search": "FOUND nodes=1005 deepest=3"
+  },
+  {
+    "seed": 867,
+    "required": 199,
+    "bound": 13,
+    "report": "{\"input\": \"seed867.d3.heesch\", \"domain\": 1525, \"required\": 199, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}",
+    "search": "FOUND nodes=1060 deepest=3"
+  },
+  {
+    "seed": 868,
+    "required": 201,
+    "bound": 13,
+    "report": "{\"input\": \"seed868.d3.heesch\", \"domain\": 1528, \"required\": 201, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}",
+    "search": "FOUND nodes=684 deepest=3"
+  },
+  {
+    "seed": 869,
+    "required": 254,
+    "bound": 16,
+    "report": "{\"input\": \"seed869.d3.heesch\", \"domain\": 1851, \"required\": 254, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}",
+    "search": "FOUND nodes=849 deepest=3"
+  },
+  {
+    "seed": 870,
+    "required": 242,
+    "bound": 16,
+    "report": "{\"input\": \"seed870.d3.heesch\", \"domain\": 1727, \"required\": 242, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}",
+    "search": "FOUND nodes=863 deepest=3"
+  },
+  {
+    "seed": 871,
+    "required": 256,
+    "bound": 17,
+    "report": "{\"input\": \"seed871.d3.heesch\", \"domain\": 1856, \"required\": 256, \"best\": null, \"steps\": 3, \"status\": \"INFEASIBLE\"}",
+    "search": "FOUND nodes=1055 deepest=3"
+  },
+  {
+    "seed": 872,
+    "required": 220,
+    "bound": 14,
+    "report": "{\"input\": \"seed872.d3.heesch\", \"domain\": 1655, \"required\": 220, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}",
+    "search": "FOUND nodes=919 deepest=3"
+  },
+  {
+    "seed": 873,
+    "required": 202,
+    "bound": 13,
+    "report": "{\"input\": \"seed873.d3.heesch\", \"domain\": 1542, \"required\": 202, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}",
+    "search": "FOUND nodes=1588 deepest=3"
+  },
+  {
+    "seed": 874,
+    "required": 256,
+    "bound": 17,
+    "report": "{\"input\": \"seed874.d3.heesch\", \"domain\": 1839, \"required\": 256, \"best\": null, \"steps\": 11, \"status\": \"UNKNOWN\"}",
+    "search": "FOUND nodes=975 deepest=3"
+  },
+  {
+    "seed": 875,
+    "required": 252,
+    "bound": 16,
+    "report": "{\"input\": \"seed875.d3.heesch\", \"domain\": 1854, \"required\": 252, \"best\": null, \"steps\": 2, \"status\": \"INFEASIBLE\"}",
+    "search": "FOUND nodes=2173 deepest=3"
+  },
+  {
+    "seed": 876,
+    "required": 223,
+    "bound": 14,
+    "report": "{\"input\": \"seed876.d3.heesch\", \"domain\": 1631, \"required\": 223, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}",
+    "search": "FOUND nodes=823 deepest=3"
+  },
+  {
+    "seed": 877,
+    "required": 262,
+    "bound": 17,
+    "report": "{\"input\": \"seed877.d3.heesch\", \"domain\": 1908, \"required\": 262, \"best\": null, \"steps\": 3, \"status\": \"INFEASIBLE\"}",
+    "search": "FOUND nodes=2232 deepest=3"
+  },
+  {
+    "seed": 878,
+    "required": 235,
+    "bound": 15,
+    "report": "{\"input\": \"seed878.d3.heesch\", \"domain\": 1755, \"required\": 235, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}",
+    "search": "FOUND nodes=698 deepest=3"
+  },
+  {
+    "seed": 879,
+    "required": 225,
+    "bound": 14,
+    "report": "{\"input\": \"seed879.d3.heesch\", \"domain\": 1684, \"required\": 225, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}",
+    "search": "FOUND nodes=745 deepest=3"
+  },
+  {
+    "seed": 880,
+    "required": 227,
+    "bound": 15,
+    "report": "{\"input\": \"seed880.d3.heesch\", \"domain\": 1699, \"required\": 227, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}",
+    "search": "FOUND nodes=923 deepest=3"
+  },
+  {
+    "seed": 881,
+    "required": 206,
+    "bound": 13,
+    "report": "{\"input\": \"seed881.d3.heesch\", \"domain\": 1554, \"required\": 206, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}",
+    "search": "FOUND nodes=1419 deepest=3"
+  },
+  {
+    "seed": 882,
+    "required": 222,
+    "bound": 14,
+    "report": "{\"input\": \"seed882.d3.heesch\", \"domain\": 1627, \"required\": 222, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}",
+    "search": "FOUND nodes=1898 deepest=3"
+  },
+  {
+    "seed": 883,
+    "required": 272,
+    "bound": 18,
+    "report": "{\"input\": \"seed883.d3.heesch\", \"domain\": 1941, \"required\": 272, \"best\": 16, \"steps\": 11, \"status\": \"UNKNOWN\"}",
+    "search": "FOUND nodes=1398 deepest=3"
+  },
+  {
+    "seed": 884,
+    "required": 252,
+    "bound": 14,
+    "report": "{\"input\": \"seed884.d3.heesch\", \"domain\": 1880, \"required\": 252, \"best\": null, \"steps\": 6, \"status\": \"UNKNOWN\"}",
+    "search": "FOUND nodes=956 deepest=3"
+  },
+  {
+    "seed": 885,
+    "required": 252,
+    "bound": 14,
+    "report": "{\"input\": \"seed885.d3.heesch\", \"domain\": 1880, \"required\": 252, \"best\": null, \"steps\": 6, \"status\": \"UNKNOWN\"}",
+    "search": "FOUND nodes=614 deepest=3"
+  },
+  {
+    "seed": 886,
+    "required": 229,
+    "bound": 13,
+    "report": "{\"input\": \"seed886.d3.heesch\", \"domain\": 1681, \"required\": 229, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}",
+    "search": "FOUND nodes=1787 deepest=3"
+  },
+  {
+    "seed": 887,
+    "required": 233,
+    "bound": 13,
+    "report": "{\"input\": \"seed887.d3.heesch\", \"domain\": 1692, \"required\": 233, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}",
+    "search": "FOUND nodes=584 deepest=3"
+  },
+  {
+    "seed": 888,
+    "required": 248,
+    "bound": 14,
+    "report": "{\"input\": \"seed888.d3.heesch\", \"domain\": 1798, \"required\": 248, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}",
+    "search": "FOUND nodes=1710 deepest=3"
+  },
+  {
+    "seed": 889,
+    "required": 216,
+    "bound": 12,
+    "report": "{\"input\": \"seed889.d3.heesch\", \"domain\": 1584, \"required\": 216, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}",
+    "search": "FOUND nodes=1030 deepest=3"
+  }
+]

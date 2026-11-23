@@ -1,0 +1,131 @@
+[
+ {
+  "k": "seed10017",
+  "required": 297,
+  "bound": 18
+ },
+ {
+  "k": "seed10018",
+  "required": 349,
+  "bound": 21
+ },
+ {
+  "k": "seed10019",
+  "required": 296,
+  "bound": 18
+ },
+ {
+  "k": "seed10020",
+  "required": 294,
+  "bound": 18,
+  "damage": 18,
+  "pocket": 1,
+  "tiles": 32
+ },
+ {
+  "k": "seed10021",
+  "required": 395,
+  "bound": 24
+ },
+ {
+  "k": "seed10022",
+  "required": 299,
+  "bound": 18,
+  "damage": 18,
+  "pocket": 1,
+  "tiles": 29
+ },
+ {
+  "k": "seed10023",
+  "required": 314,
+  "bound": 18
+ },
+ {
+  "k": "seed10024",
+  "required": 283,
+  "bound": 17
+ },
+ {
+  "k": "seed10025",
+  "required": 304,
+  "bound": 18,
+  "damage": 5,
+  "pocket": 1,
+  "tiles": 33
+ },
+ {
+  "k": "seed10026",
+  "required": 337,
+  "bound": 5
+ },
+ {
+  "k": "seed10027",
+  "required": 321,
+  "bound": 5
+ },
+ {
+  "k": "seed10028",
+  "required": 268,
+  "bound": 4
+ },
+ {
+  "k": "seed10029",
+  "required": 299,
+  "bound": 4
+ },
+ {
+  "k": "seed10030",
+  "required": 321,
+  "bound": 5
+ },
+ {
+  "k": "seed10031",
+  "required": 304,
+  "bound": 4
+ },
+ {
+  "k": "seed10032",
+  "required": 296,
+  "bound": 4
+ },
+ {
+  "k": "seed10033",
+  "required": 252,
+  "bound": 4
+ },
+ {
+  "k": "seed10034",
+  "required": 307,
+  "bound": 5
+ },
+ {
+  "k": "seed10035",
+  "required": 275,
+  "bound": 4
+ },
+ {
+  "k": "seed10036",
+  "required": 308,
+  "bound": 5
+ },
+ {
+  "k": "seed10037",
+  "required": 251,
+  "bound": 4
+ },
+ {
+  "k": "seed10038",
+  "required": 280,
+  "bound": 4
+ },
+ {
+  "k": "seed10039",
+  "required": 264,
+  "bound": 4
+ },
+ {
+  "k": "seed10040",
+  "required": 253,
+  "bound": 4
+ }
+]

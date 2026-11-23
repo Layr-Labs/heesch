@@ -1,0 +1,129 @@
+[
+ {
+  "area": 77,
+  "widths": [
+   3,
+   1
+  ],
+  "parent_area": 29,
+  "key": "40f1260aea3b5c4feec7",
+  "atlas": {
+   "poses": 387,
+   "raw": 536,
+   "reciprocal": [
+    317,
+    259,
+    259
+   ],
+   "layers": [
+    48,
+    31,
+    13,
+    5,
+    0
+   ]
+  }
+ },
+ {
+  "area": 83,
+  "widths": [
+   1,
+   2
+  ],
+  "parent_area": 29,
+  "key": "e2b6e232bb6c39207996",
+  "atlas": {
+   "poses": 395,
+   "raw": 694,
+   "reciprocal": [
+    280,
+    217,
+    217
+   ],
+   "layers": [
+    44,
+    27,
+    13,
+    5,
+    0
+   ]
+  }
+ },
+ {
+  "area": 102,
+  "widths": [
+   3,
+   1
+  ],
+  "parent_area": 38,
+  "key": "b5f6516ba833421abd27",
+  "atlas": {
+   "poses": 443,
+   "raw": 730,
+   "reciprocal": [
+    443,
+    337,
+    337
+   ],
+   "layers": [
+    68,
+    51,
+    34,
+    16,
+    8,
+    0
+   ]
+  }
+ },
+ {
+  "area": 108,
+  "widths": [
+   1,
+   2
+  ],
+  "parent_area": 38,
+  "key": "3148a5a19fa121914042",
+  "atlas": {
+   "poses": 439,
+   "raw": 956,
+   "reciprocal": [
+    396,
+    283,
+    283
+   ],
+   "layers": [
+    64,
+    47,
+    30,
+    16,
+    8,
+    0
+   ]
+  }
+ },
+ {
+  "area": 110,
+  "widths": [
+   4,
+   1
+  ],
+  "parent_area": 29,
+  "key": "717f8361524ffb563f40",
+  "atlas": {
+   "poses": 458,
+   "raw": 572,
+   "reciprocal": [
+    353,
+    295,
+    295
+   ],
+   "layers": [
+    56,
+    35,
+    13,
+    5,
+    0
+   ]
+  }
+ }
+]

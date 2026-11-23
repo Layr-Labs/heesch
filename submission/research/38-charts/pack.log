@@ -1,0 +1,57 @@
+START seed10017 297 18
+{"input": "seed10017.d3.heesch", "domain": 2156, "required": 297, "best": null, "steps": 1, "status": "INFEASIBLE"}
+START seed10018 349 21
+{"input": "seed10018.d3.heesch", "domain": 2522, "required": 349, "best": null, "steps": 2, "status": "INFEASIBLE"}
+START seed10019 296 18
+{"input": "seed10019.d3.heesch", "domain": 2233, "required": 296, "best": null, "steps": 3, "status": "INFEASIBLE"}
+START seed10020 294 18
+verified seed10020.d3.heesch charged 18 missing 17 pockets 1 required 294
+{"input": "seed10020.d3.heesch", "domain": 2202, "required": 294, "best": 18, "steps": 18, "status": "INFEASIBLE"}
+BEST seed10020 3/49
+START seed10021 395 24
+{"input": "seed10021.d3.heesch", "domain": 2732, "required": 395, "best": null, "steps": 1, "status": "INFEASIBLE"}
+START seed10022 299 18
+verified seed10022.d3.heesch charged 18 missing 17 pockets 1 required 299
+{"input": "seed10022.d3.heesch", "domain": 2199, "required": 299, "best": 18, "steps": 6, "status": "UNKNOWN"}
+BEST seed10022 18/299
+START seed10023 314 18
+{"input": "seed10023.d3.heesch", "domain": 2270, "required": 314, "best": null, "steps": 1, "status": "INFEASIBLE"}
+START seed10024 283 17
+{"input": "seed10024.d3.heesch", "domain": 2123, "required": 283, "best": null, "steps": 1, "status": "INFEASIBLE"}
+START seed10025 304 18
+verified seed10025.d3.heesch charged 16 missing 3 pockets 13 required 304
+verified seed10025.d3.heesch charged 14 missing 4 pockets 10 required 304
+verified seed10025.d3.heesch charged 12 missing 4 pockets 8 required 304
+verified seed10025.d3.heesch charged 5 missing 4 pockets 1 required 304
+{"input": "seed10025.d3.heesch", "domain": 2303, "required": 304, "best": 5, "steps": 18, "status": "UNKNOWN"}
+BEST seed10025 5/304
+START seed10026 337 5
+{"input": "seed10026.d3.heesch", "domain": 2445, "required": 337, "best": null, "steps": 1, "status": "INFEASIBLE"}
+START seed10027 321 5
+{"input": "seed10027.d3.heesch", "domain": 2295, "required": 321, "best": null, "steps": 1, "status": "INFEASIBLE"}
+START seed10028 268 4
+{"input": "seed10028.d3.heesch", "domain": 2023, "required": 268, "best": null, "steps": 1, "status": "INFEASIBLE"}
+START seed10029 299 4
+{"input": "seed10029.d3.heesch", "domain": 2182, "required": 299, "best": null, "steps": 1, "status": "INFEASIBLE"}
+START seed10030 321 5
+{"input": "seed10030.d3.heesch", "domain": 2369, "required": 321, "best": null, "steps": 1, "status": "INFEASIBLE"}
+START seed10031 304 4
+{"input": "seed10031.d3.heesch", "domain": 2190, "required": 304, "best": null, "steps": 1, "status": "INFEASIBLE"}
+START seed10032 296 4
+{"input": "seed10032.d3.heesch", "domain": 2149, "required": 296, "best": null, "steps": 1, "status": "INFEASIBLE"}
+START seed10033 252 4
+{"input": "seed10033.d3.heesch", "domain": 1928, "required": 252, "best": null, "steps": 1, "status": "INFEASIBLE"}
+START seed10034 307 5
+{"input": "seed10034.d3.heesch", "domain": 2219, "required": 307, "best": null, "steps": 1, "status": "INFEASIBLE"}
+START seed10035 275 4
+{"input": "seed10035.d3.heesch", "domain": 2040, "required": 275, "best": null, "steps": 1, "status": "INFEASIBLE"}
+START seed10036 308 5
+{"input": "seed10036.d3.heesch", "domain": 2222, "required": 308, "best": null, "steps": 1, "status": "INFEASIBLE"}
+START seed10037 251 4
+{"input": "seed10037.d3.heesch", "domain": 1855, "required": 251, "best": null, "steps": 1, "status": "INFEASIBLE"}
+START seed10038 280 4
+{"input": "seed10038.d3.heesch", "domain": 2030, "required": 280, "best": null, "steps": 1, "status": "INFEASIBLE"}
+START seed10039 264 4
+{"input": "seed10039.d3.heesch", "domain": 1977, "required": 264, "best": null, "steps": 1, "status": "INFEASIBLE"}
+START seed10040 253 4
+{"input": "seed10040.d3.heesch", "domain": 1909, "required": 253, "best": null, "steps": 1, "status": "INFEASIBLE"}

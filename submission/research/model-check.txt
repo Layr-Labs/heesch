@@ -1,0 +1,1 @@
+VERIFIED 18328235 clauses on 3604076 assignments
