@@ -1,0 +1,17 @@
+{
+  "parent": "kap40.d2.heesch",
+  "depth": 1,
+  "scale": 1.03,
+  "style": "phase",
+  "criterion": "expand",
+  "seed": 16467,
+  "status": "OPTIMAL",
+  "seconds": 0.05,
+  "variables": 410,
+  "coverage": 328,
+  "groups": 4,
+  "area": 20,
+  "key": "106b4a6f15ff1f7e90a6",
+  "hc": 1,
+  "hh": 1
+}

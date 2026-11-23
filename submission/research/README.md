@@ -1,0 +1,42 @@
+# A 20-square staircase with exact Heesch number 2 and five gaps in its third ring
+
+The scored polyomino occupies 20 cells in a 7-by-8 box. Four copies surround the center, followed by eleven copies in a second solid ring. The next 27 tiles cover 166 of the 171 required sites. They leave five required squares open and enclose no additional empty cells. The charged defect is `5/171`, giving `2 + 166/171 = 508/171 ≈ 2.97076023`. A checked refutation of the unrestricted third-corona formula proves exact `Hc = Hh = 2` for this outline.
+
+## Constructing the outline from a population of local packing problems
+
+Our starting outline was one-based record 40 of Craig Kaplan's published 19-omino list. Its record gives `Hc = Hh = 2`. Using Kaplan's placement conventions we independently generated a two-ring chart for these nineteen cells. The archived parent coordinates and native patch are both available. The scored shape has a different canonical outline and its proof was generated separately. [Kaplan's 19-ominoes](https://cs.uwaterloo.ca/~csk/heesch/omino/19omino_2up.txt) · [Heesch–SAT](https://github.com/isohedral/heesch-sat)
+
+We used a CP-SAT occupancy variable for each cell in the local prototype box. To build the box, recenter the parent at `(3,3)`, multiply offsets by `1.03`, round each coordinate individually and add one edge-neighbor layer. Exactly 20 variables must be true. For each of four neighbor placements, keep the orientation, round the transformed position of the parent center, and allow the orientation group to translate by zero or either of two signed unit displacements selected from the four cardinal directions. All matched copies share the occupancy variables. Cellwise inequalities enforce disjoint copies, cover the required interior halo, and restrict each orientation group to one offset. Finite flow constraints make the candidate connected and its complement accessible from outside the box.
+
+The successful solution chose the zero additional displacement for all groups. After rounding, the four neighbor maps have translation terms `(-1,2)`, `(2,-1)`, `(-2,-5)`, and `(5,3)` in the recorded order. The new outline moves its bottom and top stair edges. Counting rows from bottom to top gives widths `1,2,3,3,3,3,3,2`. `research/synthesized-one.heesch` verifies the five-copy chart directly, and `research/replay.py` checks that every selected map belongs to its prescribed group. A separately generated native patch extended this child to two solid rings.
+
+We applied the exact-area 20 model in 540 tests over 180 published 19-cell parents. Of the models, 437 were infeasible and 103 produced occupancy solutions. Ten fell short of the geometric witness checks. The remaining 93 verified model solutions gave 91 distinct archived constructive witnesses after duplicate output files were collapsed. The exact periodic quotient search produced 51 explicit tilings and returned unknown on 40. Native searches on the latter recovered the submitted two-ring tile. `research/population.jsonl`, `research/fit-witnesses/` and `research/checked-population.json` contain the input parameters, generated witnesses, periodic placements and deeper-search outcomes. An unsuccessful periodic search supplies no upper bound on a Heesch number.
+
+## The five-gap packing
+
+We generated 150 complete two-ring patches with seeds 1311 through 1460. Their occupied cell sets gave 86 distinct footprints. For each previously unseen footprint we enumerated all disjoint outer tile positions touching the required set, applied CP-SAT occupancy constraints and charged enclosed cells with conditional pocket cuts. Each submitted count was then measured from the actual cells by the frozen verifier. Successive incumbents gave `13/168`, `13/190`, `7/190`, `6/199`, and `5/171`. The last came from seed 1405. Its 1,403 available outer tile positions yielded a 27-tile partial third ring with gaps at `(-7,0)`, `(-7,1)`, `(-4,9)`, `(7,0)`, and `(7,1)`. The CP-SAT model on this footprint reported infeasible after imposing a charge of four or less. Other unexamined complete patches could give a smaller fraction. `research/packing-charts/` includes all 150 witnesses and the successful intermediate partial packings. `research/square20.png` depicts the source tile, the scored outline and all five gaps. [Origin of the pocket-cut implementation](https://github.com/Layr-Labs/heesch/blob/da181c8c4015e712a67e2f6fb440c2cbfc977596/submission/research/optimize.py) · [Later triangular version](https://github.com/Layr-Labs/heesch/blob/9a6b909b87b37b66f491f837943d29c5d7b56748/submission/research/pocket_pack.py)
+
+## Descendants of the scored staircase
+
+The child’s successive row-start increments from bottom to top are `0,1,0,1,2,0,1`. We randomized row widths and increments and, on a quarter of the proposals, moved an occupied boundary square across an edge into an empty site. Among 120,000 draws, 11,477 distinct connected, hole-free descendants passed the 14–20 area limit. Their observed areas ranged from 16 to 20. A fourth-ring support screen sent 1,695 candidates to the native depth-four search. Nine yielded solid four-ring witnesses. All nine also reached five solid rings and all nine have explicit repeated tilings. We independently replayed their quotient residues and complete positive patches. The archived `descendants` directory includes the outlines, construction parameters, per-outline screen, native verdicts and every four- and five-ring hit.
+
+A complementary calculation attempted to deform each of the five improving two-ring charts while keeping enough of its partial third ring. It permitted up to five omitted outer placements, optional signed unit translations of individual placements or orientation groups, at most 5–20 missing required sites and a connected, hole-free congruent prototype of area 14–20 different from the scored shape. All 140 sampled models were infeasible. This result is limited to the position choices and damage bounds recorded in `partial-constraint-models.jsonl`.
+
+## Two independent obstructions
+
+A plane tiling requires every copy to have neighbors covering all its edge-adjacent empty cells. The full search on the submitted shape finds 250 candidate relative placements and 3,331 complete local neighborhoods. Reciprocity reduces these counts to `415, 166, 56, 35, 27, 27`. Comparing adjacent neighborhoods and requiring their footprints to be disjoint or identical leaves three and then zero. A tiling could never lose its own local neighborhoods under these rules. This establishes finiteness independently of the corona calculation. The completed two rings establish a positive lower bound.
+
+The frozen rev-2 encoder generated a 327,947,265-byte DIMACS `F(S,3)` with 463,577 variables, 1,715,493 clauses, and SHA-256 `d6889f86c369010f810d8e6a1e31672ec89fc2d80983161e67d5061964db8c33`. CaDiCaL returned UNSAT. We extracted a 120,776-clause subset of the original formula, solved that subset again, and replayed the shortened binary DRAT against the **full original formula**. DRAT-trim returned `s VERIFIED`. An independent LRAT replay checker returned `c VERIFIED` for all 1,715,493 input clauses. The 5,106,944-byte decompressed proof hashes to `569736e51472cb992d1d8209009c9d0b69f39b516b8da2f65b2160db6892faf3` and the 1,067,296-byte XZ file hashes to `a0ccf9b5b3be1cd01ba45000611eeb9fbed1f405c23f3646baf2e612aecaee7d`. Native checks took place on ARM64 macOS. Yukon repeats its pinned acceptance checks, including the CakeML checker, on its Linux runner.
+
+## Reproduction
+
+From the benchmark root with its environment active, the verifier and research replay need only the frozen geometry modules and Python's standard library. The optional optimization commands use OR-Tools. The archived source applies random objective tie-breaking, so repeat solves can return different valid outlines.
+
+```sh
+python -m heesch_verify submission/best.heesch
+PYTHONPATH=. python submission/research/replay.py
+PYTHONPATH=. python submission/research/atlas.py submission/best.heesch /tmp/square20-atlas.json
+PYTHONPATH=. python submission/research/synthesis.py submission/research/parent-19.heesch 1 1.03 phase expand 3 16467
+PYTHONPATH=. python submission/research/pocket.py submission/research/winning-chart.heesch /tmp/square20-pack.heesch --bound 5 --seconds 60
+python tools/prove.py submission/best.heesch --m 3 --format drat --check
+```

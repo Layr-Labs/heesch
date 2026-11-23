@@ -1,0 +1,1337 @@
+[
+ {
+  "seed": 1311,
+  "source": "seed1311.d2.heesch",
+  "footprint": "199253e19a7e838211fd",
+  "required": 168,
+  "bound": 167,
+  "log": [
+   "verified seed1311.d2.heesch charged 13 missing 8 pockets 5 required 168",
+   "{\"input\": \"seed1311.d2.heesch\", \"domain\": 1401, \"required\": 168, \"best\": 13, \"steps\": 10, \"status\": \"INFEASIBLE\"}"
+  ],
+  "charged": 13,
+  "raw": 8,
+  "pockets": 5,
+  "partial": 27
+ },
+ {
+  "seed": 1312,
+  "source": "seed1312.d2.heesch",
+  "footprint": "2ef7645fee5cc977c3b2",
+  "required": 213,
+  "bound": 16,
+  "log": [
+   "{\"input\": \"seed1312.d2.heesch\", \"domain\": 1609, \"required\": 213, \"best\": null, \"steps\": 2, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1313,
+  "source": "seed1313.d2.heesch",
+  "footprint": "afd8cae5275e6ca46ee1",
+  "required": 206,
+  "bound": 15,
+  "log": [
+   "{\"input\": \"seed1313.d2.heesch\", \"domain\": 1556, \"required\": 206, \"best\": null, \"steps\": 3, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1314,
+  "source": "seed1314.d2.heesch",
+  "footprint": "efbf27f5f492ebc4d686",
+  "required": 237,
+  "bound": 18,
+  "log": [
+   "{\"input\": \"seed1314.d2.heesch\", \"domain\": 1696, \"required\": 237, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1315,
+  "source": "seed1315.d2.heesch",
+  "footprint": "136010c6c00a35c3f7aa",
+  "required": 217,
+  "bound": 16,
+  "log": [
+   "{\"input\": \"seed1315.d2.heesch\", \"domain\": 1632, \"required\": 217, \"best\": null, \"steps\": 2, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1316,
+  "source": "seed1316.d2.heesch",
+  "footprint": "e5a46eb71013a2da9317",
+  "required": 209,
+  "bound": 16,
+  "log": [
+   "{\"input\": \"seed1316.d2.heesch\", \"domain\": 1597, \"required\": 209, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1317,
+  "source": "seed1317.d2.heesch",
+  "footprint": "9a68cda2d96ca9455c2d",
+  "required": 214,
+  "bound": 16,
+  "log": [
+   "{\"input\": \"seed1317.d2.heesch\", \"domain\": 1592, \"required\": 214, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1318,
+  "source": "seed1318.d2.heesch",
+  "footprint": "3e2c855e777a5f5bfe6e",
+  "required": 203,
+  "bound": 15,
+  "log": [
+   "{\"input\": \"seed1318.d2.heesch\", \"domain\": 1554, \"required\": 203, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1319,
+  "source": "seed1319.d2.heesch",
+  "footprint": "0d46da1c389e0a267b05",
+  "required": 239,
+  "bound": 18,
+  "log": [
+   "{\"input\": \"seed1319.d2.heesch\", \"domain\": 1689, \"required\": 239, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1320,
+  "source": "seed1320.d2.heesch",
+  "footprint": "26ff31a29f4c936bbbaf",
+  "required": 149,
+  "bound": 11,
+  "log": [
+   "{\"input\": \"seed1320.d2.heesch\", \"domain\": 1289, \"required\": 149, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1321,
+  "source": "seed1321.d2.heesch",
+  "footprint": "9e1fc2e571c0a993665b",
+  "required": 162,
+  "bound": 12,
+  "log": [
+   "{\"input\": \"seed1321.d2.heesch\", \"domain\": 1367, \"required\": 162, \"best\": null, \"steps\": 4, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1322,
+  "source": "seed1322.d2.heesch",
+  "footprint": "0d68d6e392c1ec5aad5c",
+  "required": 167,
+  "bound": 12,
+  "log": [
+   "{\"input\": \"seed1322.d2.heesch\", \"domain\": 1383, \"required\": 167, \"best\": null, \"steps\": 10, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1323,
+  "source": "seed1323.d2.heesch",
+  "footprint": "66d52b352211a91cdbd3",
+  "required": 211,
+  "bound": 16,
+  "log": [
+   "{\"input\": \"seed1323.d2.heesch\", \"domain\": 1632, \"required\": 211, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1324,
+  "source": "seed1324.d2.heesch",
+  "footprint": "691018ef478d852ee41d",
+  "required": 194,
+  "bound": 15,
+  "log": [
+   "{\"input\": \"seed1324.d2.heesch\", \"domain\": 1505, \"required\": 194, \"best\": null, \"steps\": 2, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1325,
+  "source": "seed1325.d2.heesch",
+  "footprint": "f0b40111cd964b883341",
+  "required": 218,
+  "bound": 16,
+  "log": [
+   "{\"input\": \"seed1325.d2.heesch\", \"domain\": 1632, \"required\": 218, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1326,
+  "source": "seed1326.d2.heesch",
+  "footprint": "6a3f9d5b4ecb19082352",
+  "required": 187,
+  "bound": 14,
+  "log": [
+   "{\"input\": \"seed1326.d2.heesch\", \"domain\": 1524, \"required\": 187, \"best\": null, \"steps\": 2, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1327,
+  "source": "seed1327.d2.heesch",
+  "footprint": "2ef7645fee5cc977c3b2",
+  "required": 213,
+  "same_footprint_as": "seed1312"
+ },
+ {
+  "seed": 1328,
+  "source": "seed1328.d2.heesch",
+  "footprint": "afd8cae5275e6ca46ee1",
+  "required": 206,
+  "same_footprint_as": "seed1313"
+ },
+ {
+  "seed": 1329,
+  "source": "seed1329.d2.heesch",
+  "footprint": "2ef7645fee5cc977c3b2",
+  "required": 213,
+  "same_footprint_as": "seed1312"
+ },
+ {
+  "seed": 1330,
+  "source": "seed1330.d2.heesch",
+  "footprint": "aa6c3824bab911532391",
+  "required": 219,
+  "bound": 16,
+  "log": [
+   "{\"input\": \"seed1330.d2.heesch\", \"domain\": 1623, \"required\": 219, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1331,
+  "source": "seed1331.d2.heesch",
+  "footprint": "2ef7645fee5cc977c3b2",
+  "required": 213,
+  "same_footprint_as": "seed1312"
+ },
+ {
+  "seed": 1332,
+  "source": "seed1332.d2.heesch",
+  "footprint": "a07eb0927aca175c5a76",
+  "required": 190,
+  "bound": 14,
+  "log": [
+   "verified seed1332.d2.heesch charged 14 missing 10 pockets 4 required 190",
+   "verified seed1332.d2.heesch charged 13 missing 13 pockets 0 required 190",
+   "{\"input\": \"seed1332.d2.heesch\", \"domain\": 1518, \"required\": 190, \"best\": 13, \"steps\": 10, \"status\": \"INFEASIBLE\"}"
+  ],
+  "charged": 13,
+  "raw": 13,
+  "pockets": 0,
+  "partial": 26
+ },
+ {
+  "seed": 1333,
+  "source": "seed1333.d2.heesch",
+  "footprint": "8f29bd8ac9d167c039fd",
+  "required": 188,
+  "bound": 12,
+  "log": [
+   "{\"input\": \"seed1333.d2.heesch\", \"domain\": 1546, \"required\": 188, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1334,
+  "source": "seed1334.d2.heesch",
+  "footprint": "9a68cda2d96ca9455c2d",
+  "required": 214,
+  "same_footprint_as": "seed1317"
+ },
+ {
+  "seed": 1335,
+  "source": "seed1335.d2.heesch",
+  "footprint": "2530933b762260f8bb41",
+  "required": 234,
+  "bound": 16,
+  "log": [
+   "{\"input\": \"seed1335.d2.heesch\", \"domain\": 1669, \"required\": 234, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1336,
+  "source": "seed1336.d2.heesch",
+  "footprint": "691018ef478d852ee41d",
+  "required": 194,
+  "same_footprint_as": "seed1324"
+ },
+ {
+  "seed": 1337,
+  "source": "seed1337.d2.heesch",
+  "footprint": "692caf51bbf51de3ecf0",
+  "required": 185,
+  "bound": 12,
+  "log": [
+   "{\"input\": \"seed1337.d2.heesch\", \"domain\": 1521, \"required\": 185, \"best\": null, \"steps\": 2, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1338,
+  "source": "seed1338.d2.heesch",
+  "footprint": "8c0aa4213a70b267cb91",
+  "required": 190,
+  "bound": 12,
+  "log": [
+   "verified seed1338.d2.heesch charged 8 missing 7 pockets 1 required 190",
+   "verified seed1338.d2.heesch charged 7 missing 7 pockets 0 required 190",
+   "{\"input\": \"seed1338.d2.heesch\", \"domain\": 1521, \"required\": 190, \"best\": 7, \"steps\": 7, \"status\": \"INFEASIBLE\"}"
+  ],
+  "charged": 7,
+  "raw": 7,
+  "pockets": 0,
+  "partial": 26
+ },
+ {
+  "seed": 1339,
+  "source": "seed1339.d2.heesch",
+  "footprint": "3e2c855e777a5f5bfe6e",
+  "required": 203,
+  "same_footprint_as": "seed1318"
+ },
+ {
+  "seed": 1340,
+  "source": "seed1340.d2.heesch",
+  "footprint": "a46e54106f42b3bf0850",
+  "required": 214,
+  "bound": 7,
+  "log": [
+   "{\"input\": \"seed1340.d2.heesch\", \"domain\": 1597, \"required\": 214, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1341,
+  "source": "seed1341.d2.heesch",
+  "footprint": "ae858cc0f0e2eab0030c",
+  "required": 215,
+  "bound": 7,
+  "log": [
+   "{\"input\": \"seed1341.d2.heesch\", \"domain\": 1612, \"required\": 215, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1342,
+  "source": "seed1342.d2.heesch",
+  "footprint": "e5d880c52d049ca87471",
+  "required": 208,
+  "bound": 7,
+  "log": [
+   "{\"input\": \"seed1342.d2.heesch\", \"domain\": 1547, \"required\": 208, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1343,
+  "source": "seed1343.d2.heesch",
+  "footprint": "15e6aadbc0885c0633f2",
+  "required": 197,
+  "bound": 7,
+  "log": [
+   "{\"input\": \"seed1343.d2.heesch\", \"domain\": 1535, \"required\": 197, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1344,
+  "source": "seed1344.d2.heesch",
+  "footprint": "812ac586db471209dae9",
+  "required": 173,
+  "bound": 6,
+  "log": [
+   "{\"input\": \"seed1344.d2.heesch\", \"domain\": 1441, \"required\": 173, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1345,
+  "source": "seed1345.d2.heesch",
+  "footprint": "4da275d21c8df99a1c81",
+  "required": 189,
+  "bound": 6,
+  "log": [
+   "{\"input\": \"seed1345.d2.heesch\", \"domain\": 1543, \"required\": 189, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1346,
+  "source": "seed1346.d2.heesch",
+  "footprint": "a46e54106f42b3bf0850",
+  "required": 214,
+  "same_footprint_as": "seed1340"
+ },
+ {
+  "seed": 1347,
+  "source": "seed1347.d2.heesch",
+  "footprint": "2ef7645fee5cc977c3b2",
+  "required": 213,
+  "same_footprint_as": "seed1312"
+ },
+ {
+  "seed": 1348,
+  "source": "seed1348.d2.heesch",
+  "footprint": "5921b2165610bddda5af",
+  "required": 217,
+  "bound": 7,
+  "log": [
+   "{\"input\": \"seed1348.d2.heesch\", \"domain\": 1607, \"required\": 217, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1349,
+  "source": "seed1349.d2.heesch",
+  "footprint": "8f29bd8ac9d167c039fd",
+  "required": 188,
+  "same_footprint_as": "seed1333"
+ },
+ {
+  "seed": 1350,
+  "source": "seed1350.d2.heesch",
+  "footprint": "8de0a00e92bdcf7a8816",
+  "required": 161,
+  "bound": 5,
+  "log": [
+   "{\"input\": \"seed1350.d2.heesch\", \"domain\": 1367, \"required\": 161, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1351,
+  "source": "seed1351.d2.heesch",
+  "footprint": "860d21993e3726fd7bff",
+  "required": 175,
+  "bound": 6,
+  "log": [
+   "{\"input\": \"seed1351.d2.heesch\", \"domain\": 1417, \"required\": 175, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1352,
+  "source": "seed1352.d2.heesch",
+  "footprint": "6b8b734f52650df08516",
+  "required": 210,
+  "bound": 7,
+  "log": [
+   "{\"input\": \"seed1352.d2.heesch\", \"domain\": 1598, \"required\": 210, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1353,
+  "source": "seed1353.d2.heesch",
+  "footprint": "b999ca4e5433a2584713",
+  "required": 199,
+  "bound": 7,
+  "log": [
+   "verified seed1353.d2.heesch charged 6 missing 6 pockets 0 required 199",
+   "{\"input\": \"seed1353.d2.heesch\", \"domain\": 1569, \"required\": 199, \"best\": 6, \"steps\": 4, \"status\": \"INFEASIBLE\"}"
+  ],
+  "charged": 6,
+  "raw": 6,
+  "pockets": 0,
+  "partial": 29
+ },
+ {
+  "seed": 1354,
+  "source": "seed1354.d2.heesch",
+  "footprint": "77d77de02f331f4fccbe",
+  "required": 186,
+  "bound": 5,
+  "log": [
+   "{\"input\": \"seed1354.d2.heesch\", \"domain\": 1502, \"required\": 186, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1355,
+  "source": "seed1355.d2.heesch",
+  "footprint": "3e2c855e777a5f5bfe6e",
+  "required": 203,
+  "same_footprint_as": "seed1318"
+ },
+ {
+  "seed": 1356,
+  "source": "seed1356.d2.heesch",
+  "footprint": "4da275d21c8df99a1c81",
+  "required": 189,
+  "same_footprint_as": "seed1345"
+ },
+ {
+  "seed": 1357,
+  "source": "seed1357.d2.heesch",
+  "footprint": "f50c5491839efb283bad",
+  "required": 189,
+  "bound": 5,
+  "log": [
+   "{\"input\": \"seed1357.d2.heesch\", \"domain\": 1454, \"required\": 189, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1358,
+  "source": "seed1358.d2.heesch",
+  "footprint": "933dd06ae70ffc4b4b0e",
+  "required": 177,
+  "bound": 5,
+  "log": [
+   "{\"input\": \"seed1358.d2.heesch\", \"domain\": 1401, \"required\": 177, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1359,
+  "source": "seed1359.d2.heesch",
+  "footprint": "a07eb0927aca175c5a76",
+  "required": 190,
+  "same_footprint_as": "seed1332"
+ },
+ {
+  "seed": 1360,
+  "source": "seed1360.d2.heesch",
+  "footprint": "81522d1437fd68a315f7",
+  "required": 189,
+  "bound": 5,
+  "log": [
+   "{\"input\": \"seed1360.d2.heesch\", \"domain\": 1516, \"required\": 189, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1361,
+  "source": "seed1361.d2.heesch",
+  "footprint": "f50c5491839efb283bad",
+  "required": 189,
+  "same_footprint_as": "seed1357"
+ },
+ {
+  "seed": 1362,
+  "source": "seed1362.d2.heesch",
+  "footprint": "3e2c855e777a5f5bfe6e",
+  "required": 203,
+  "same_footprint_as": "seed1318"
+ },
+ {
+  "seed": 1363,
+  "source": "seed1363.d2.heesch",
+  "footprint": "136010c6c00a35c3f7aa",
+  "required": 217,
+  "same_footprint_as": "seed1315"
+ },
+ {
+  "seed": 1364,
+  "source": "seed1364.d2.heesch",
+  "footprint": "8326d1bcec82776dcfef",
+  "required": 211,
+  "bound": 6,
+  "log": [
+   "{\"input\": \"seed1364.d2.heesch\", \"domain\": 1600, \"required\": 211, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1365,
+  "source": "seed1365.d2.heesch",
+  "footprint": "a0a072c7c6879b1cee4e",
+  "required": 185,
+  "bound": 5,
+  "log": [
+   "{\"input\": \"seed1365.d2.heesch\", \"domain\": 1505, \"required\": 185, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1366,
+  "source": "seed1366.d2.heesch",
+  "footprint": "e5a46eb71013a2da9317",
+  "required": 209,
+  "same_footprint_as": "seed1316"
+ },
+ {
+  "seed": 1367,
+  "source": "seed1367.d2.heesch",
+  "footprint": "e5a46eb71013a2da9317",
+  "required": 209,
+  "same_footprint_as": "seed1316"
+ },
+ {
+  "seed": 1368,
+  "source": "seed1368.d2.heesch",
+  "footprint": "a7d1657476e7b57204fe",
+  "required": 187,
+  "bound": 5,
+  "log": [
+   "{\"input\": \"seed1368.d2.heesch\", \"domain\": 1545, \"required\": 187, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1369,
+  "source": "seed1369.d2.heesch",
+  "footprint": "a07eb0927aca175c5a76",
+  "required": 190,
+  "same_footprint_as": "seed1332"
+ },
+ {
+  "seed": 1370,
+  "source": "seed1370.d2.heesch",
+  "footprint": "c8b5fadbd72998f58375",
+  "required": 217,
+  "bound": 6,
+  "log": [
+   "{\"input\": \"seed1370.d2.heesch\", \"domain\": 1591, \"required\": 217, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1371,
+  "source": "seed1371.d2.heesch",
+  "footprint": "d0686a5507d3fa0bb0a5",
+  "required": 187,
+  "bound": 5,
+  "log": [
+   "{\"input\": \"seed1371.d2.heesch\", \"domain\": 1442, \"required\": 187, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1372,
+  "source": "seed1372.d2.heesch",
+  "footprint": "5904ab01961548c024d8",
+  "required": 186,
+  "bound": 5,
+  "log": [
+   "{\"input\": \"seed1372.d2.heesch\", \"domain\": 1482, \"required\": 186, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1373,
+  "source": "seed1373.d2.heesch",
+  "footprint": "e26ad92712a2ed027bf8",
+  "required": 169,
+  "bound": 5,
+  "log": [
+   "{\"input\": \"seed1373.d2.heesch\", \"domain\": 1448, \"required\": 169, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1374,
+  "source": "seed1374.d2.heesch",
+  "footprint": "b2b2d9ba9d87280c9656",
+  "required": 214,
+  "bound": 6,
+  "log": [
+   "{\"input\": \"seed1374.d2.heesch\", \"domain\": 1605, \"required\": 214, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1375,
+  "source": "seed1375.d2.heesch",
+  "footprint": "7d28fbd2c8d951a97aec",
+  "required": 213,
+  "bound": 6,
+  "log": [
+   "{\"input\": \"seed1375.d2.heesch\", \"domain\": 1624, \"required\": 213, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1376,
+  "source": "seed1376.d2.heesch",
+  "footprint": "d281dafed66bd4d9a960",
+  "required": 176,
+  "bound": 5,
+  "log": [
+   "{\"input\": \"seed1376.d2.heesch\", \"domain\": 1438, \"required\": 176, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1377,
+  "source": "seed1377.d2.heesch",
+  "footprint": "4bca7cc4f477174aef88",
+  "required": 194,
+  "bound": 5,
+  "log": [
+   "{\"input\": \"seed1377.d2.heesch\", \"domain\": 1534, \"required\": 194, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1378,
+  "source": "seed1378.d2.heesch",
+  "footprint": "ad4221dfdb3ac4899436",
+  "required": 236,
+  "bound": 7,
+  "log": [
+   "{\"input\": \"seed1378.d2.heesch\", \"domain\": 1663, \"required\": 236, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1379,
+  "source": "seed1379.d2.heesch",
+  "footprint": "2ef7645fee5cc977c3b2",
+  "required": 213,
+  "same_footprint_as": "seed1312"
+ },
+ {
+  "seed": 1380,
+  "source": "seed1380.d2.heesch",
+  "footprint": "057187a0b36b5541d8fa",
+  "required": 188,
+  "bound": 5,
+  "log": [
+   "{\"input\": \"seed1380.d2.heesch\", \"domain\": 1448, \"required\": 188, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1381,
+  "source": "seed1381.d2.heesch",
+  "footprint": "199253e19a7e838211fd",
+  "required": 168,
+  "same_footprint_as": "seed1311"
+ },
+ {
+  "seed": 1382,
+  "source": "seed1382.d2.heesch",
+  "footprint": "549c6af8172bf2f3cb2e",
+  "required": 186,
+  "bound": 5,
+  "log": [
+   "{\"input\": \"seed1382.d2.heesch\", \"domain\": 1509, \"required\": 186, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1383,
+  "source": "seed1383.d2.heesch",
+  "footprint": "425398a9fb8987686e32",
+  "required": 213,
+  "bound": 6,
+  "log": [
+   "{\"input\": \"seed1383.d2.heesch\", \"domain\": 1592, \"required\": 213, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1384,
+  "source": "seed1384.d2.heesch",
+  "footprint": "5c882b9a8386861a9be7",
+  "required": 176,
+  "bound": 5,
+  "log": [
+   "{\"input\": \"seed1384.d2.heesch\", \"domain\": 1438, \"required\": 176, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1385,
+  "source": "seed1385.d2.heesch",
+  "footprint": "2ef7645fee5cc977c3b2",
+  "required": 213,
+  "same_footprint_as": "seed1312"
+ },
+ {
+  "seed": 1386,
+  "source": "seed1386.d2.heesch",
+  "footprint": "3a70ecc4265df0434368",
+  "required": 189,
+  "bound": 5,
+  "log": [
+   "{\"input\": \"seed1386.d2.heesch\", \"domain\": 1532, \"required\": 189, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1387,
+  "source": "seed1387.d2.heesch",
+  "footprint": "afd8cae5275e6ca46ee1",
+  "required": 206,
+  "same_footprint_as": "seed1313"
+ },
+ {
+  "seed": 1388,
+  "source": "seed1388.d2.heesch",
+  "footprint": "b6506a50d44c0c81dd1a",
+  "required": 214,
+  "bound": 6,
+  "log": [
+   "{\"input\": \"seed1388.d2.heesch\", \"domain\": 1600, \"required\": 214, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1389,
+  "source": "seed1389.d2.heesch",
+  "footprint": "4da275d21c8df99a1c81",
+  "required": 189,
+  "same_footprint_as": "seed1345"
+ },
+ {
+  "seed": 1390,
+  "source": "seed1390.d2.heesch",
+  "footprint": "3e2c855e777a5f5bfe6e",
+  "required": 203,
+  "same_footprint_as": "seed1318"
+ },
+ {
+  "seed": 1391,
+  "source": "seed1391.d2.heesch",
+  "footprint": "15e6aadbc0885c0633f2",
+  "required": 197,
+  "same_footprint_as": "seed1343"
+ },
+ {
+  "seed": 1392,
+  "source": "seed1392.d2.heesch",
+  "footprint": "81522d1437fd68a315f7",
+  "required": 189,
+  "same_footprint_as": "seed1360"
+ },
+ {
+  "seed": 1393,
+  "source": "seed1393.d2.heesch",
+  "footprint": "c8f2ac9a3aa88a5a18c7",
+  "required": 171,
+  "bound": 5,
+  "log": [
+   "{\"input\": \"seed1393.d2.heesch\", \"domain\": 1414, \"required\": 171, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1394,
+  "source": "seed1394.d2.heesch",
+  "footprint": "b56b797d837c3b82ff36",
+  "required": 192,
+  "bound": 5,
+  "log": [
+   "{\"input\": \"seed1394.d2.heesch\", \"domain\": 1560, \"required\": 192, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1395,
+  "source": "seed1395.d2.heesch",
+  "footprint": "2530933b762260f8bb41",
+  "required": 234,
+  "same_footprint_as": "seed1335"
+ },
+ {
+  "seed": 1396,
+  "source": "seed1396.d2.heesch",
+  "footprint": "afd8cae5275e6ca46ee1",
+  "required": 206,
+  "same_footprint_as": "seed1313"
+ },
+ {
+  "seed": 1397,
+  "source": "seed1397.d2.heesch",
+  "footprint": "15e6aadbc0885c0633f2",
+  "required": 197,
+  "same_footprint_as": "seed1343"
+ },
+ {
+  "seed": 1398,
+  "source": "seed1398.d2.heesch",
+  "footprint": "0f0a00bb67c2cd2923fe",
+  "required": 216,
+  "bound": 6,
+  "log": [
+   "{\"input\": \"seed1398.d2.heesch\", \"domain\": 1606, \"required\": 216, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1399,
+  "source": "seed1399.d2.heesch",
+  "footprint": "a07eb0927aca175c5a76",
+  "required": 190,
+  "same_footprint_as": "seed1332"
+ },
+ {
+  "seed": 1400,
+  "source": "seed1400.d2.heesch",
+  "footprint": "d0f710f53e1802a69179",
+  "required": 217,
+  "bound": 6,
+  "log": [
+   "{\"input\": \"seed1400.d2.heesch\", \"domain\": 1622, \"required\": 217, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1401,
+  "source": "seed1401.d2.heesch",
+  "footprint": "66d52b352211a91cdbd3",
+  "required": 211,
+  "same_footprint_as": "seed1323"
+ },
+ {
+  "seed": 1402,
+  "source": "seed1402.d2.heesch",
+  "footprint": "0470e2bc5752652139da",
+  "required": 241,
+  "bound": 7,
+  "log": [
+   "{\"input\": \"seed1402.d2.heesch\", \"domain\": 1697, \"required\": 241, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1403,
+  "source": "seed1403.d2.heesch",
+  "footprint": "42932cb1c65eac471454",
+  "required": 148,
+  "bound": 4,
+  "log": [
+   "{\"input\": \"seed1403.d2.heesch\", \"domain\": 1268, \"required\": 148, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1404,
+  "source": "seed1404.d2.heesch",
+  "footprint": "3e2c855e777a5f5bfe6e",
+  "required": 203,
+  "same_footprint_as": "seed1318"
+ },
+ {
+  "seed": 1405,
+  "source": "seed1405.d2.heesch",
+  "footprint": "3fd86467aa1b15fb8e9f",
+  "required": 171,
+  "bound": 5,
+  "log": [
+   "verified seed1405.d2.heesch charged 5 missing 5 pockets 0 required 171",
+   "{\"input\": \"seed1405.d2.heesch\", \"domain\": 1403, \"required\": 171, \"best\": 5, \"steps\": 6, \"status\": \"INFEASIBLE\"}"
+  ],
+  "charged": 5,
+  "raw": 5,
+  "pockets": 0,
+  "partial": 27
+ },
+ {
+  "seed": 1406,
+  "source": "seed1406.d2.heesch",
+  "footprint": "bfd37697b8b5dda00ac0",
+  "required": 215,
+  "bound": 6,
+  "log": [
+   "{\"input\": \"seed1406.d2.heesch\", \"domain\": 1618, \"required\": 215, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1407,
+  "source": "seed1407.d2.heesch",
+  "footprint": "67d586f53469d656502e",
+  "required": 187,
+  "bound": 5,
+  "log": [
+   "{\"input\": \"seed1407.d2.heesch\", \"domain\": 1422, \"required\": 187, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1408,
+  "source": "seed1408.d2.heesch",
+  "footprint": "afd8cae5275e6ca46ee1",
+  "required": 206,
+  "same_footprint_as": "seed1313"
+ },
+ {
+  "seed": 1409,
+  "source": "seed1409.d2.heesch",
+  "footprint": "70de54a1645f118a8a73",
+  "required": 242,
+  "bound": 7,
+  "log": [
+   "{\"input\": \"seed1409.d2.heesch\", \"domain\": 1726, \"required\": 242, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1410,
+  "source": "seed1410.d2.heesch",
+  "footprint": "8de0a00e92bdcf7a8816",
+  "required": 161,
+  "same_footprint_as": "seed1350"
+ },
+ {
+  "seed": 1411,
+  "source": "seed1411.d2.heesch",
+  "footprint": "d281dafed66bd4d9a960",
+  "required": 176,
+  "same_footprint_as": "seed1376"
+ },
+ {
+  "seed": 1412,
+  "source": "seed1412.d2.heesch",
+  "footprint": "9b640423972e82ca03ab",
+  "required": 169,
+  "bound": 4,
+  "log": [
+   "{\"input\": \"seed1412.d2.heesch\", \"domain\": 1391, \"required\": 169, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1413,
+  "source": "seed1413.d2.heesch",
+  "footprint": "afd8cae5275e6ca46ee1",
+  "required": 206,
+  "same_footprint_as": "seed1313"
+ },
+ {
+  "seed": 1414,
+  "source": "seed1414.d2.heesch",
+  "footprint": "e7133a8b466137a880d0",
+  "required": 200,
+  "bound": 5,
+  "log": [
+   "{\"input\": \"seed1414.d2.heesch\", \"domain\": 1550, \"required\": 200, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1415,
+  "source": "seed1415.d2.heesch",
+  "footprint": "b2b2d9ba9d87280c9656",
+  "required": 214,
+  "same_footprint_as": "seed1374"
+ },
+ {
+  "seed": 1416,
+  "source": "seed1416.d2.heesch",
+  "footprint": "67d586f53469d656502e",
+  "required": 187,
+  "same_footprint_as": "seed1407"
+ },
+ {
+  "seed": 1417,
+  "source": "seed1417.d2.heesch",
+  "footprint": "767e577f83ac1162e4d9",
+  "required": 222,
+  "bound": 6,
+  "log": [
+   "{\"input\": \"seed1417.d2.heesch\", \"domain\": 1629, \"required\": 222, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1418,
+  "source": "seed1418.d2.heesch",
+  "footprint": "f32a2782ce422fa5baf8",
+  "required": 190,
+  "bound": 5,
+  "log": [
+   "{\"input\": \"seed1418.d2.heesch\", \"domain\": 1476, \"required\": 190, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1419,
+  "source": "seed1419.d2.heesch",
+  "footprint": "549c6af8172bf2f3cb2e",
+  "required": 186,
+  "same_footprint_as": "seed1382"
+ },
+ {
+  "seed": 1420,
+  "source": "seed1420.d2.heesch",
+  "footprint": "92193c62260de1d4fec4",
+  "required": 240,
+  "bound": 7,
+  "log": [
+   "{\"input\": \"seed1420.d2.heesch\", \"domain\": 1705, \"required\": 240, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1421,
+  "source": "seed1421.d2.heesch",
+  "footprint": "984539be8d7ca07b4521",
+  "required": 215,
+  "bound": 6,
+  "log": [
+   "{\"input\": \"seed1421.d2.heesch\", \"domain\": 1590, \"required\": 215, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1422,
+  "source": "seed1422.d2.heesch",
+  "footprint": "afd8cae5275e6ca46ee1",
+  "required": 206,
+  "same_footprint_as": "seed1313"
+ },
+ {
+  "seed": 1423,
+  "source": "seed1423.d2.heesch",
+  "footprint": "e6e824984943630438d1",
+  "required": 186,
+  "bound": 5,
+  "log": [
+   "{\"input\": \"seed1423.d2.heesch\", \"domain\": 1523, \"required\": 186, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1424,
+  "source": "seed1424.d2.heesch",
+  "footprint": "9e1fc2e571c0a993665b",
+  "required": 162,
+  "same_footprint_as": "seed1321"
+ },
+ {
+  "seed": 1425,
+  "source": "seed1425.d2.heesch",
+  "footprint": "67d586f53469d656502e",
+  "required": 187,
+  "same_footprint_as": "seed1407"
+ },
+ {
+  "seed": 1426,
+  "source": "seed1426.d2.heesch",
+  "footprint": "2530933b762260f8bb41",
+  "required": 234,
+  "same_footprint_as": "seed1335"
+ },
+ {
+  "seed": 1427,
+  "source": "seed1427.d2.heesch",
+  "footprint": "3e2c855e777a5f5bfe6e",
+  "required": 203,
+  "same_footprint_as": "seed1318"
+ },
+ {
+  "seed": 1428,
+  "source": "seed1428.d2.heesch",
+  "footprint": "638ee650b9eb3e07c248",
+  "required": 199,
+  "bound": 5,
+  "log": [
+   "{\"input\": \"seed1428.d2.heesch\", \"domain\": 1559, \"required\": 199, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1429,
+  "source": "seed1429.d2.heesch",
+  "footprint": "bae7215cbc4a93961d8a",
+  "required": 190,
+  "bound": 5,
+  "log": [
+   "{\"input\": \"seed1429.d2.heesch\", \"domain\": 1462, \"required\": 190, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1430,
+  "source": "seed1430.d2.heesch",
+  "footprint": "2ef7645fee5cc977c3b2",
+  "required": 213,
+  "same_footprint_as": "seed1312"
+ },
+ {
+  "seed": 1431,
+  "source": "seed1431.d2.heesch",
+  "footprint": "f1ecb2e2a668b2c06060",
+  "required": 185,
+  "bound": 5,
+  "log": [
+   "{\"input\": \"seed1431.d2.heesch\", \"domain\": 1430, \"required\": 185, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1432,
+  "source": "seed1432.d2.heesch",
+  "footprint": "a07eb0927aca175c5a76",
+  "required": 190,
+  "same_footprint_as": "seed1332"
+ },
+ {
+  "seed": 1433,
+  "source": "seed1433.d2.heesch",
+  "footprint": "e26ad92712a2ed027bf8",
+  "required": 169,
+  "same_footprint_as": "seed1373"
+ },
+ {
+  "seed": 1434,
+  "source": "seed1434.d2.heesch",
+  "footprint": "9b640423972e82ca03ab",
+  "required": 169,
+  "same_footprint_as": "seed1412"
+ },
+ {
+  "seed": 1435,
+  "source": "seed1435.d2.heesch",
+  "footprint": "2439ab6037e7c0d74a11",
+  "required": 193,
+  "bound": 5,
+  "log": [
+   "{\"input\": \"seed1435.d2.heesch\", \"domain\": 1479, \"required\": 193, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1436,
+  "source": "seed1436.d2.heesch",
+  "footprint": "2ef7645fee5cc977c3b2",
+  "required": 213,
+  "same_footprint_as": "seed1312"
+ },
+ {
+  "seed": 1437,
+  "source": "seed1437.d2.heesch",
+  "footprint": "cc8a7152c7bd23738ed2",
+  "required": 164,
+  "bound": 4,
+  "log": [
+   "{\"input\": \"seed1437.d2.heesch\", \"domain\": 1364, \"required\": 164, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1438,
+  "source": "seed1438.d2.heesch",
+  "footprint": "9313587002e563a85311",
+  "required": 218,
+  "bound": 6,
+  "log": [
+   "{\"input\": \"seed1438.d2.heesch\", \"domain\": 1631, \"required\": 218, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1439,
+  "source": "seed1439.d2.heesch",
+  "footprint": "f76dccc041891f30f4fb",
+  "required": 218,
+  "bound": 6,
+  "log": [
+   "{\"input\": \"seed1439.d2.heesch\", \"domain\": 1628, \"required\": 218, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1440,
+  "source": "seed1440.d2.heesch",
+  "footprint": "3e2c855e777a5f5bfe6e",
+  "required": 203,
+  "same_footprint_as": "seed1318"
+ },
+ {
+  "seed": 1441,
+  "source": "seed1441.d2.heesch",
+  "footprint": "afd8cae5275e6ca46ee1",
+  "required": 206,
+  "same_footprint_as": "seed1313"
+ },
+ {
+  "seed": 1442,
+  "source": "seed1442.d2.heesch",
+  "footprint": "5c882b9a8386861a9be7",
+  "required": 176,
+  "same_footprint_as": "seed1384"
+ },
+ {
+  "seed": 1443,
+  "source": "seed1443.d2.heesch",
+  "footprint": "25cf961a802f20f808b6",
+  "required": 187,
+  "bound": 5,
+  "log": [
+   "{\"input\": \"seed1443.d2.heesch\", \"domain\": 1434, \"required\": 187, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1444,
+  "source": "seed1444.d2.heesch",
+  "footprint": "afd8cae5275e6ca46ee1",
+  "required": 206,
+  "same_footprint_as": "seed1313"
+ },
+ {
+  "seed": 1445,
+  "source": "seed1445.d2.heesch",
+  "footprint": "5645ec33f7ec75038cbe",
+  "required": 172,
+  "bound": 5,
+  "log": [
+   "{\"input\": \"seed1445.d2.heesch\", \"domain\": 1383, \"required\": 172, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1446,
+  "source": "seed1446.d2.heesch",
+  "footprint": "aa6c3824bab911532391",
+  "required": 219,
+  "same_footprint_as": "seed1330"
+ },
+ {
+  "seed": 1447,
+  "source": "seed1447.d2.heesch",
+  "footprint": "26ff31a29f4c936bbbaf",
+  "required": 149,
+  "same_footprint_as": "seed1320"
+ },
+ {
+  "seed": 1448,
+  "source": "seed1448.d2.heesch",
+  "footprint": "3e2c855e777a5f5bfe6e",
+  "required": 203,
+  "same_footprint_as": "seed1318"
+ },
+ {
+  "seed": 1449,
+  "source": "seed1449.d2.heesch",
+  "footprint": "f8daa0b3bf7d33bbda95",
+  "required": 241,
+  "bound": 7,
+  "log": [
+   "{\"input\": \"seed1449.d2.heesch\", \"domain\": 1714, \"required\": 241, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1450,
+  "source": "seed1450.d2.heesch",
+  "footprint": "9e1fc2e571c0a993665b",
+  "required": 162,
+  "same_footprint_as": "seed1321"
+ },
+ {
+  "seed": 1451,
+  "source": "seed1451.d2.heesch",
+  "footprint": "5313262a36a79b82bc4c",
+  "required": 212,
+  "bound": 6,
+  "log": [
+   "{\"input\": \"seed1451.d2.heesch\", \"domain\": 1626, \"required\": 212, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1452,
+  "source": "seed1452.d2.heesch",
+  "footprint": "35f14c456e9db280d35b",
+  "required": 208,
+  "bound": 6,
+  "log": [
+   "{\"input\": \"seed1452.d2.heesch\", \"domain\": 1566, \"required\": 208, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1453,
+  "source": "seed1453.d2.heesch",
+  "footprint": "0d46da1c389e0a267b05",
+  "required": 239,
+  "same_footprint_as": "seed1319"
+ },
+ {
+  "seed": 1454,
+  "source": "seed1454.d2.heesch",
+  "footprint": "92193c62260de1d4fec4",
+  "required": 240,
+  "same_footprint_as": "seed1420"
+ },
+ {
+  "seed": 1455,
+  "source": "seed1455.d2.heesch",
+  "footprint": "a919f065a94f2052c65d",
+  "required": 218,
+  "bound": 6,
+  "log": [
+   "{\"input\": \"seed1455.d2.heesch\", \"domain\": 1625, \"required\": 218, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1456,
+  "source": "seed1456.d2.heesch",
+  "footprint": "3e2c855e777a5f5bfe6e",
+  "required": 203,
+  "same_footprint_as": "seed1318"
+ },
+ {
+  "seed": 1457,
+  "source": "seed1457.d2.heesch",
+  "footprint": "692caf51bbf51de3ecf0",
+  "required": 185,
+  "same_footprint_as": "seed1337"
+ },
+ {
+  "seed": 1458,
+  "source": "seed1458.d2.heesch",
+  "footprint": "4bca7cc4f477174aef88",
+  "required": 194,
+  "same_footprint_as": "seed1377"
+ },
+ {
+  "seed": 1459,
+  "source": "seed1459.d2.heesch",
+  "footprint": "897b6b3058d0661d71e2",
+  "required": 162,
+  "bound": 4,
+  "log": [
+   "{\"input\": \"seed1459.d2.heesch\", \"domain\": 1358, \"required\": 162, \"best\": null, \"steps\": 1, \"status\": \"INFEASIBLE\"}"
+  ]
+ },
+ {
+  "seed": 1460,
+  "source": "seed1460.d2.heesch",
+  "footprint": "67d586f53469d656502e",
+  "required": 187,
+  "same_footprint_as": "seed1407"
+ }
+]

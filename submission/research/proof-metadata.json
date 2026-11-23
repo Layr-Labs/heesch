@@ -1,0 +1,9 @@
+{
+  "num_vars": 463577,
+  "num_clauses": 1715493,
+  "cnf_digest": "d6889f86c369010f810d8e6a1e31672ec89fc2d80983161e67d5061964db8c33",
+  "raw_bytes": 5106944,
+  "raw_proof_sha256": "569736e51472cb992d1d8209009c9d0b69f39b516b8da2f65b2160db6892faf3",
+  "xz_bytes": 1067296,
+  "xz_sha256": "a0ccf9b5b3be1cd01ba45000611eeb9fbed1f405c23f3646baf2e612aecaee7d"
+}

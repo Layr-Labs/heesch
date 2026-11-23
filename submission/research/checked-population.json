@@ -1,0 +1,720 @@
+{
+  "expand-005077ecb5e7fc5f7d99.d1.heesch": {
+    "area": 20,
+    "key": "005077ecb5e7fc5f7d99",
+    "hc": 1,
+    "period": "005077ecb5e7fc5f7d99 TILER 4 20 8 4 1,0,0,0,1,0 0,1,11,-1,0,2 0,-1,6,1,0,1 -1,0,17,0,-1,3",
+    "native": []
+  },
+  "expand-06b932696b5f8a60b87d.p1.heesch": {
+    "area": 20,
+    "key": "06b932696b5f8a60b87d",
+    "hc": 0,
+    "period": "06b932696b5f8a60b87d UNKNOWN",
+    "native": [
+      "06b932696b5f8a60b87d\tNO_DEEP_CONTACT\t0\t62"
+    ]
+  },
+  "expand-0711c328c1fda2ef21df.d1.heesch": {
+    "area": 20,
+    "key": "0711c328c1fda2ef21df",
+    "hc": 1,
+    "period": "0711c328c1fda2ef21df TILER 4 20 8 4 1,0,0,0,1,0 0,1,16,-1,0,1 0,-1,13,1,0,0 -1,0,9,0,-1,1",
+    "native": []
+  },
+  "expand-0ce6c443f418cd6f9cbd.d1.heesch": {
+    "area": 20,
+    "key": "0ce6c443f418cd6f9cbd",
+    "hc": 1,
+    "period": "0ce6c443f418cd6f9cbd TILER 1 20 10 1 1,0,0,0,1,0",
+    "native": []
+  },
+  "expand-0fd896521a3a1516a6f3.p1.heesch": {
+    "area": 20,
+    "key": "0fd896521a3a1516a6f3",
+    "hc": 0,
+    "period": "0fd896521a3a1516a6f3 UNKNOWN",
+    "native": [
+      "0fd896521a3a1516a6f3\tNO_DEEP_CONTACT\t0\t54"
+    ]
+  },
+  "expand-106b4a6f15ff1f7e90a6.d1.heesch": {
+    "area": 20,
+    "key": "106b4a6f15ff1f7e90a6",
+    "hc": 2,
+    "period": "106b4a6f15ff1f7e90a6 UNKNOWN",
+    "native": [
+      "106b4a6f15ff1f7e90a6\tFOUND\t2\t466",
+      "106b4a6f15ff1f7e90a6\tNO_DEEP_CONTACT\t0\t450"
+    ]
+  },
+  "expand-132549b15476665a507e.d1.heesch": {
+    "area": 20,
+    "key": "132549b15476665a507e",
+    "hc": 1,
+    "period": "132549b15476665a507e TILER 2 20 10 2 1,0,0,0,1,0 -1,0,3,0,-1,0",
+    "native": []
+  },
+  "expand-180a0ae219d0304e1833.p1.heesch": {
+    "area": 20,
+    "key": "180a0ae219d0304e1833",
+    "hc": 0,
+    "period": "180a0ae219d0304e1833 UNKNOWN",
+    "native": [
+      "180a0ae219d0304e1833\tNO_DEEP_CONTACT\t0\t62"
+    ]
+  },
+  "expand-18867aea669ad59a6a9b.d1.heesch": {
+    "area": 20,
+    "key": "18867aea669ad59a6a9b",
+    "hc": 1,
+    "period": "18867aea669ad59a6a9b TILER 1 20 5 1 1,0,0,0,1,0",
+    "native": []
+  },
+  "expand-24d5cd039617bd0ed202.d1.heesch": {
+    "area": 20,
+    "key": "24d5cd039617bd0ed202",
+    "hc": 1,
+    "period": "24d5cd039617bd0ed202 TILER 2 20 19 2 1,0,0,0,1,0 -1,0,8,0,-1,1",
+    "native": []
+  },
+  "expand-283922d8ab1a81c59a64.d1.heesch": {
+    "area": 20,
+    "key": "283922d8ab1a81c59a64",
+    "hc": 1,
+    "period": "283922d8ab1a81c59a64 TILER 1 10 5 2 1,0,0,0,1,0",
+    "native": []
+  },
+  "expand-2b51e53183217b026939.p1.heesch": {
+    "area": 20,
+    "key": "2b51e53183217b026939",
+    "hc": 0,
+    "period": "2b51e53183217b026939 UNKNOWN",
+    "native": [
+      "2b51e53183217b026939\tNO_DEEP_CONTACT\t0\t0"
+    ]
+  },
+  "expand-301517765972a9a196dd.p1.heesch": {
+    "area": 20,
+    "key": "301517765972a9a196dd",
+    "hc": 0,
+    "period": "301517765972a9a196dd UNKNOWN",
+    "native": [
+      "301517765972a9a196dd\tNO_DEEP_CONTACT\t0\t0"
+    ]
+  },
+  "expand-34642629fbe1be744f86.d1.heesch": {
+    "area": 20,
+    "key": "34642629fbe1be744f86",
+    "hc": 1,
+    "period": "34642629fbe1be744f86 UNKNOWN",
+    "native": [
+      "34642629fbe1be744f86\tNO_DEEP_CONTACT\t0\t34"
+    ]
+  },
+  "expand-35a3529a87ab0acefa3a.d1.heesch": {
+    "area": 20,
+    "key": "35a3529a87ab0acefa3a",
+    "hc": 1,
+    "period": "35a3529a87ab0acefa3a TILER 4 20 12 4 1,0,0,0,1,0 0,-1,7,1,0,0 -1,0,15,0,-1,3 0,1,8,-1,0,3",
+    "native": []
+  },
+  "expand-3974d669bfcace717c65.d1.heesch": {
+    "area": 20,
+    "key": "3974d669bfcace717c65",
+    "hc": 1,
+    "period": "3974d669bfcace717c65 TILER 2 20 6 2 1,0,0,0,1,0 -1,0,15,0,-1,1",
+    "native": []
+  },
+  "expand-3bcac839c8640a412465.d1.heesch": {
+    "area": 20,
+    "key": "3bcac839c8640a412465",
+    "hc": 1,
+    "period": "3bcac839c8640a412465 TILER 4 10 6 8 1,0,0,0,1,0 0,-1,8,1,0,5 0,1,3,-1,0,2 -1,0,1,0,-1,7",
+    "native": []
+  },
+  "expand-3eca8afea93bfd24cc47.d1.heesch": {
+    "area": 20,
+    "key": "3eca8afea93bfd24cc47",
+    "hc": 1,
+    "period": "3eca8afea93bfd24cc47 TILER 2 40 13 1 1,0,0,0,1,0 -1,0,31,0,-1,0",
+    "native": []
+  },
+  "expand-55755768a5fa477b483d.d1.heesch": {
+    "area": 20,
+    "key": "55755768a5fa477b483d",
+    "hc": 1,
+    "period": "55755768a5fa477b483d TILER 2 10 0 4 1,0,0,0,1,0 -1,0,5,0,1,2",
+    "native": []
+  },
+  "expand-5a97390f14e76117cdf8.d1.heesch": {
+    "area": 20,
+    "key": "5a97390f14e76117cdf8",
+    "hc": 1,
+    "period": "5a97390f14e76117cdf8 TILER 1 10 0 2 1,0,0,0,1,0",
+    "native": []
+  },
+  "expand-61b09c24296fb9a74274.p1.heesch": {
+    "area": 20,
+    "key": "61b09c24296fb9a74274",
+    "hc": 0,
+    "period": "61b09c24296fb9a74274 TILER 4 20 0 4 1,0,0,0,1,0 -1,0,17,0,1,2 1,0,10,0,-1,1 -1,0,7,0,-1,3",
+    "native": []
+  },
+  "expand-62c38d7ef47228a42e4a.d1.heesch": {
+    "area": 20,
+    "key": "62c38d7ef47228a42e4a",
+    "hc": 1,
+    "period": "62c38d7ef47228a42e4a TILER 4 10 4 8 1,0,0,0,1,0 0,1,4,-1,0,3 -1,0,1,0,-1,7 0,-1,7,1,0,4",
+    "native": []
+  },
+  "expand-6f51721ee64c84838c03.p2.heesch": {
+    "area": 20,
+    "key": "6f51721ee64c84838c03",
+    "hc": 1,
+    "period": "6f51721ee64c84838c03 UNKNOWN",
+    "native": [
+      "6f51721ee64c84838c03\tEXHAUSTED\t1\t395"
+    ]
+  },
+  "expand-70f05fad962c440a7789.p1.heesch": {
+    "area": 20,
+    "key": "70f05fad962c440a7789",
+    "hc": 0,
+    "period": "70f05fad962c440a7789 TILER 2 8 4 5 1,0,0,0,1,0 -1,0,1,0,-1,4",
+    "native": []
+  },
+  "expand-7166ee211afa1e3a1ffd.d1.heesch": {
+    "area": 20,
+    "key": "7166ee211afa1e3a1ffd",
+    "hc": 1,
+    "period": "7166ee211afa1e3a1ffd UNKNOWN",
+    "native": [
+      "7166ee211afa1e3a1ffd\tNO_DEEP_CONTACT\t0\t23"
+    ]
+  },
+  "expand-71bbcffc3c437c5dbd4e.d1.heesch": {
+    "area": 20,
+    "key": "71bbcffc3c437c5dbd4e",
+    "hc": 1,
+    "period": "71bbcffc3c437c5dbd4e UNKNOWN",
+    "native": [
+      "71bbcffc3c437c5dbd4e\tNO_DEEP_CONTACT\t0\t22"
+    ]
+  },
+  "expand-75c2332d9eea5cbd15b7.d1.heesch": {
+    "area": 20,
+    "key": "75c2332d9eea5cbd15b7",
+    "hc": 1,
+    "period": "75c2332d9eea5cbd15b7 TILER 4 20 4 4 1,0,0,0,1,0 -1,0,7,0,-1,1 0,-1,10,-1,0,0 0,1,17,1,0,1",
+    "native": []
+  },
+  "expand-768ad3d08e9f335ab954.d1.heesch": {
+    "area": 20,
+    "key": "768ad3d08e9f335ab954",
+    "hc": 1,
+    "period": "768ad3d08e9f335ab954 UNKNOWN",
+    "native": [
+      "768ad3d08e9f335ab954\tEXHAUSTED\t1\t83"
+    ]
+  },
+  "expand-77be2b052441f95afea5.d1.heesch": {
+    "area": 20,
+    "key": "77be2b052441f95afea5",
+    "hc": 1,
+    "period": "77be2b052441f95afea5 UNKNOWN",
+    "native": [
+      "77be2b052441f95afea5\tNO_DEEP_CONTACT\t0\t64"
+    ]
+  },
+  "expand-7e41bf56da035e199be6.p1.heesch": {
+    "area": 20,
+    "key": "7e41bf56da035e199be6",
+    "hc": 0,
+    "period": "7e41bf56da035e199be6 TILER 2 10 0 4 1,0,0,0,1,0 -1,0,7,0,1,2",
+    "native": []
+  },
+  "expand-7ea0e5699f2e4edc2b47.d1.heesch": {
+    "area": 20,
+    "key": "7ea0e5699f2e4edc2b47",
+    "hc": 1,
+    "period": "7ea0e5699f2e4edc2b47 TILER 4 20 8 4 1,0,0,0,1,0 0,1,11,-1,0,2 0,-1,6,1,0,1 -1,0,17,0,-1,3",
+    "native": []
+  },
+  "expand-812fbe42aa7d817978d7.p1.heesch": {
+    "area": 20,
+    "key": "812fbe42aa7d817978d7",
+    "hc": 0,
+    "period": "812fbe42aa7d817978d7 UNKNOWN",
+    "native": [
+      "812fbe42aa7d817978d7\tNO_DEEP_CONTACT\t0\t144"
+    ]
+  },
+  "expand-83b1775ff97baa4416bb.d1.heesch": {
+    "area": 20,
+    "key": "83b1775ff97baa4416bb",
+    "hc": 1,
+    "period": "83b1775ff97baa4416bb UNKNOWN",
+    "native": [
+      "83b1775ff97baa4416bb\tNO_DEEP_CONTACT\t0\t37"
+    ]
+  },
+  "expand-83e0e88dd7f159165bab.d1.heesch": {
+    "area": 20,
+    "key": "83e0e88dd7f159165bab",
+    "hc": 1,
+    "period": "83e0e88dd7f159165bab UNKNOWN",
+    "native": [
+      "83e0e88dd7f159165bab\tEXHAUSTED\t1\t139"
+    ]
+  },
+  "expand-84a4111f16e47af9c6b8.d1.heesch": {
+    "area": 20,
+    "key": "84a4111f16e47af9c6b8",
+    "hc": 1,
+    "period": "84a4111f16e47af9c6b8 TILER 1 5 0 4 1,0,0,0,1,0",
+    "native": []
+  },
+  "expand-84e2c36cb81ced55293b.d1.heesch": {
+    "area": 20,
+    "key": "84e2c36cb81ced55293b",
+    "hc": 1,
+    "period": "84e2c36cb81ced55293b TILER 2 10 0 4 1,0,0,0,1,0 -1,0,0,0,1,2",
+    "native": []
+  },
+  "expand-88a245bbbc7554bb5b13.d1.heesch": {
+    "area": 20,
+    "key": "88a245bbbc7554bb5b13",
+    "hc": 1,
+    "period": "88a245bbbc7554bb5b13 TILER 2 8 2 5 1,0,0,0,1,0 -1,0,5,0,-1,1",
+    "native": []
+  },
+  "expand-89741791f08fe0773277.d1.heesch": {
+    "area": 20,
+    "key": "89741791f08fe0773277",
+    "hc": 1,
+    "period": "89741791f08fe0773277 TILER 2 10 0 4 1,0,0,0,1,0 -1,0,7,0,-1,3",
+    "native": []
+  },
+  "expand-8afd935d062892fe95de.p1.heesch": {
+    "area": 20,
+    "key": "8afd935d062892fe95de",
+    "hc": 0,
+    "period": "8afd935d062892fe95de TILER 2 20 13 2 1,0,0,0,1,0 -1,0,16,0,-1,1",
+    "native": []
+  },
+  "expand-8dd42d779932d2185e24.d1.heesch": {
+    "area": 20,
+    "key": "8dd42d779932d2185e24",
+    "hc": 1,
+    "period": "8dd42d779932d2185e24 TILER 4 20 0 4 1,0,0,0,1,0 -1,0,1,0,1,2 -1,0,11,0,-1,3 1,0,10,0,-1,1",
+    "native": []
+  },
+  "expand-90aea787d471e5620994.p1.heesch": {
+    "area": 20,
+    "key": "90aea787d471e5620994",
+    "hc": 0,
+    "period": "90aea787d471e5620994 UNKNOWN",
+    "native": [
+      "90aea787d471e5620994\tNO_DEEP_CONTACT\t0\t65"
+    ]
+  },
+  "expand-952f499baecf5fb1c848.d1.heesch": {
+    "area": 20,
+    "key": "952f499baecf5fb1c848",
+    "hc": 1,
+    "period": "952f499baecf5fb1c848 TILER 2 10 0 4 1,0,0,0,1,0 -1,0,7,0,1,2",
+    "native": []
+  },
+  "expand-95707f7f4c7ba0749a39.p1.heesch": {
+    "area": 20,
+    "key": "95707f7f4c7ba0749a39",
+    "hc": 0,
+    "period": "95707f7f4c7ba0749a39 UNKNOWN",
+    "native": [
+      "95707f7f4c7ba0749a39\tNO_DEEP_CONTACT\t0\t166"
+    ]
+  },
+  "expand-9adfb096ca3169c69aa1.d1.heesch": {
+    "area": 20,
+    "key": "9adfb096ca3169c69aa1",
+    "hc": 1,
+    "period": "9adfb096ca3169c69aa1 TILER 4 20 12 4 1,0,0,0,1,0 0,1,4,-1,0,3 -1,0,19,0,-1,3 0,-1,15,1,0,0",
+    "native": []
+  },
+  "expand-9bf7a79e653cfbe538eb.d1.heesch": {
+    "area": 20,
+    "key": "9bf7a79e653cfbe538eb",
+    "hc": 1,
+    "period": "9bf7a79e653cfbe538eb UNKNOWN",
+    "native": [
+      "9bf7a79e653cfbe538eb\tNO_DEEP_CONTACT\t0\t141"
+    ]
+  },
+  "expand-9c5f032134ecdb3ce3d9.d1.heesch": {
+    "area": 20,
+    "key": "9c5f032134ecdb3ce3d9",
+    "hc": 1,
+    "period": "9c5f032134ecdb3ce3d9 TILER 3 6 3 10 1,0,0,0,1,0 0,1,3,1,0,5 0,-1,0,-1,0,5",
+    "native": []
+  },
+  "expand-9ccf05aec0d314bc9cbe.d1.heesch": {
+    "area": 20,
+    "key": "9ccf05aec0d314bc9cbe",
+    "hc": 1,
+    "period": "9ccf05aec0d314bc9cbe TILER 1 5 3 4 1,0,0,0,1,0",
+    "native": []
+  },
+  "expand-9fa0531838187dfc6ef6.d1.heesch": {
+    "area": 20,
+    "key": "9fa0531838187dfc6ef6",
+    "hc": 1,
+    "period": "9fa0531838187dfc6ef6 UNKNOWN",
+    "native": [
+      "9fa0531838187dfc6ef6\tNO_DEEP_CONTACT\t0\t97"
+    ]
+  },
+  "expand-aa63d20756e55c4a9be3.d1.heesch": {
+    "area": 20,
+    "key": "aa63d20756e55c4a9be3",
+    "hc": 1,
+    "period": "aa63d20756e55c4a9be3 TILER 4 20 12 4 1,0,0,0,1,0 -1,0,17,0,-1,1 0,1,4,-1,0,1 0,-1,13,1,0,0",
+    "native": []
+  },
+  "expand-ac4f4599a118728faf4f.d1.heesch": {
+    "area": 20,
+    "key": "ac4f4599a118728faf4f",
+    "hc": 1,
+    "period": "ac4f4599a118728faf4f UNKNOWN",
+    "native": [
+      "ac4f4599a118728faf4f\tNO_DEEP_CONTACT\t0\t138"
+    ]
+  },
+  "expand-ae97154deeef710ff8ca.p1.heesch": {
+    "area": 20,
+    "key": "ae97154deeef710ff8ca",
+    "hc": 0,
+    "period": "ae97154deeef710ff8ca UNKNOWN",
+    "native": [
+      "ae97154deeef710ff8ca\tNO_DEEP_CONTACT\t0\t112"
+    ]
+  },
+  "expand-b464d8a699336caee7ba.p1.heesch": {
+    "area": 20,
+    "key": "b464d8a699336caee7ba",
+    "hc": 0,
+    "period": "b464d8a699336caee7ba UNKNOWN",
+    "native": [
+      "b464d8a699336caee7ba\tNO_DEEP_CONTACT\t0\t22"
+    ]
+  },
+  "expand-b4764b1f1372a14e65cc.d1.heesch": {
+    "area": 20,
+    "key": "b4764b1f1372a14e65cc",
+    "hc": 1,
+    "period": "b4764b1f1372a14e65cc TILER 2 40 23 1 1,0,0,0,1,0 -1,0,11,0,-1,0",
+    "native": []
+  },
+  "expand-b98196e1b5471b93d9e4.p1.heesch": {
+    "area": 20,
+    "key": "b98196e1b5471b93d9e4",
+    "hc": 0,
+    "period": "b98196e1b5471b93d9e4 UNKNOWN",
+    "native": [
+      "b98196e1b5471b93d9e4\tNO_DEEP_CONTACT\t0\t121"
+    ]
+  },
+  "expand-c682eaeae8d304075286.d1.heesch": {
+    "area": 20,
+    "key": "c682eaeae8d304075286",
+    "hc": 1,
+    "period": "c682eaeae8d304075286 TILER 2 10 0 4 1,0,0,0,1,0 -1,0,2,0,1,2",
+    "native": []
+  },
+  "expand-c7786839a61eb6c3827a.d1.heesch": {
+    "area": 20,
+    "key": "c7786839a61eb6c3827a",
+    "hc": 1,
+    "period": "c7786839a61eb6c3827a TILER 1 10 4 2 1,0,0,0,1,0",
+    "native": []
+  },
+  "expand-cfd46618a868ad8acfdf.d1.heesch": {
+    "area": 20,
+    "key": "cfd46618a868ad8acfdf",
+    "hc": 1,
+    "period": "cfd46618a868ad8acfdf TILER 2 4 0 10 1,0,0,0,1,0 -1,0,2,0,-1,5",
+    "native": []
+  },
+  "expand-d43900aebbc058837b9a.d1.heesch": {
+    "area": 20,
+    "key": "d43900aebbc058837b9a",
+    "hc": 1,
+    "period": "d43900aebbc058837b9a UNKNOWN",
+    "native": [
+      "d43900aebbc058837b9a\tNO_DEEP_CONTACT\t0\t112"
+    ]
+  },
+  "expand-d76f2e960080921b6e0e.p1.heesch": {
+    "area": 20,
+    "key": "d76f2e960080921b6e0e",
+    "hc": 0,
+    "period": "d76f2e960080921b6e0e UNKNOWN",
+    "native": [
+      "d76f2e960080921b6e0e\tNO_DEEP_CONTACT\t0\t0"
+    ]
+  },
+  "expand-d7c871906b126ad5e1e3.d1.heesch": {
+    "area": 20,
+    "key": "d7c871906b126ad5e1e3",
+    "hc": 1,
+    "period": "d7c871906b126ad5e1e3 TILER 2 10 3 4 1,0,0,0,1,0 -1,0,4,0,-1,1",
+    "native": []
+  },
+  "expand-d7d975e403cbe9c32b5e.d1.heesch": {
+    "area": 20,
+    "key": "d7d975e403cbe9c32b5e",
+    "hc": 1,
+    "period": "d7d975e403cbe9c32b5e TILER 1 20 7 1 1,0,0,0,1,0",
+    "native": []
+  },
+  "expand-dc0ab632562be54cc49d.d1.heesch": {
+    "area": 20,
+    "key": "dc0ab632562be54cc49d",
+    "hc": 1,
+    "period": "dc0ab632562be54cc49d TILER 4 20 8 4 1,0,0,0,1,0 0,-1,6,1,0,1 0,1,11,-1,0,2 -1,0,17,0,-1,3",
+    "native": []
+  },
+  "expand-df0261d5f1cc049e4b10.d1.heesch": {
+    "area": 20,
+    "key": "df0261d5f1cc049e4b10",
+    "hc": 1,
+    "period": "df0261d5f1cc049e4b10 TILER 2 10 2 4 1,0,0,0,1,0 -1,0,5,0,-1,0",
+    "native": []
+  },
+  "expand-df6361e193b563fc5dd4.p1.heesch": {
+    "area": 20,
+    "key": "df6361e193b563fc5dd4",
+    "hc": 0,
+    "period": "df6361e193b563fc5dd4 UNKNOWN",
+    "native": [
+      "df6361e193b563fc5dd4\tNO_DEEP_CONTACT\t0\t62"
+    ]
+  },
+  "expand-e5f87a3c9872cb776932.p2.heesch": {
+    "area": 20,
+    "key": "e5f87a3c9872cb776932",
+    "hc": 1,
+    "period": "e5f87a3c9872cb776932 TILER 2 8 5 5 1,0,0,0,1,0 -1,0,7,0,-1,2",
+    "native": []
+  },
+  "expand-e746bc62ac7fbb72e97d.d1.heesch": {
+    "area": 20,
+    "key": "e746bc62ac7fbb72e97d",
+    "hc": 1,
+    "period": "e746bc62ac7fbb72e97d TILER 2 10 0 4 1,0,0,0,1,0 -1,0,9,0,-1,1",
+    "native": []
+  },
+  "expand-f1d51098c234c9b5d2d0.d1.heesch": {
+    "area": 20,
+    "key": "f1d51098c234c9b5d2d0",
+    "hc": 1,
+    "period": "f1d51098c234c9b5d2d0 UNKNOWN",
+    "native": [
+      "f1d51098c234c9b5d2d0\tNO_DEEP_CONTACT\t0\t17"
+    ]
+  },
+  "expand-f5a061e3e033d1684ba6.d1.heesch": {
+    "area": 20,
+    "key": "f5a061e3e033d1684ba6",
+    "hc": 1,
+    "period": "f5a061e3e033d1684ba6 UNKNOWN",
+    "native": [
+      "f5a061e3e033d1684ba6\tNO_DEEP_CONTACT\t0\t991"
+    ]
+  },
+  "expand-f8e32a2a5c378f6609c4.d1.heesch": {
+    "area": 20,
+    "key": "f8e32a2a5c378f6609c4",
+    "hc": 1,
+    "period": "f8e32a2a5c378f6609c4 TILER 4 20 8 4 1,0,0,0,1,0 0,1,11,-1,0,2 -1,0,17,0,-1,3 0,-1,6,1,0,1",
+    "native": []
+  },
+  "expand-fbb75438f65253baf9e7.d1.heesch": {
+    "area": 20,
+    "key": "fbb75438f65253baf9e7",
+    "hc": 1,
+    "period": "fbb75438f65253baf9e7 TILER 2 10 1 4 1,0,0,0,1,0 -1,0,5,0,-1,1",
+    "native": []
+  },
+  "expand-0967166a06807eda3953.d1.heesch": {
+    "area": 20,
+    "key": "0967166a06807eda3953",
+    "hc": 1,
+    "period": "0967166a06807eda3953 UNKNOWN",
+    "native": [
+      "0967166a06807eda3953\tNO_DEEP_CONTACT\t0\t142"
+    ]
+  },
+  "expand-15ca5cda0888feafab04.d1.heesch": {
+    "area": 20,
+    "key": "15ca5cda0888feafab04",
+    "hc": 1,
+    "period": "15ca5cda0888feafab04 TILER 2 10 0 4 1,0,0,0,1,0 -1,0,1,0,1,2",
+    "native": []
+  },
+  "expand-252770306f8081320a65.d1.heesch": {
+    "area": 20,
+    "key": "252770306f8081320a65",
+    "hc": 1,
+    "period": "252770306f8081320a65 TILER 2 40 10 1 1,0,0,0,1,0 -1,0,13,0,-1,0",
+    "native": []
+  },
+  "expand-5228e1d7313ac48d9391.d1.heesch": {
+    "area": 20,
+    "key": "5228e1d7313ac48d9391",
+    "hc": 1,
+    "period": "5228e1d7313ac48d9391 TILER 4 20 8 4 1,0,0,0,1,0 -1,0,9,0,-1,1 0,1,16,-1,0,1 0,-1,13,1,0,0",
+    "native": []
+  },
+  "expand-7deaeee3ce99567843a2.d1.heesch": {
+    "area": 20,
+    "key": "7deaeee3ce99567843a2",
+    "hc": 1,
+    "period": "7deaeee3ce99567843a2 UNKNOWN",
+    "native": [
+      "7deaeee3ce99567843a2\tNO_DEEP_CONTACT\t0\t45"
+    ]
+  },
+  "expand-a62eb195a262e85a04ff.d1.heesch": {
+    "area": 20,
+    "key": "a62eb195a262e85a04ff",
+    "hc": 1,
+    "period": "a62eb195a262e85a04ff TILER 4 20 8 4 1,0,0,0,1,0 0,-1,7,1,0,0 0,1,12,-1,0,3 -1,0,19,0,-1,3",
+    "native": []
+  },
+  "expand-ab8eb688914b77e08313.d1.heesch": {
+    "area": 20,
+    "key": "ab8eb688914b77e08313",
+    "hc": 1,
+    "period": "ab8eb688914b77e08313 TILER 1 20 17 1 1,0,0,0,1,0",
+    "native": []
+  },
+  "expand-b9702b2c00e5a7919365.d1.heesch": {
+    "area": 20,
+    "key": "b9702b2c00e5a7919365",
+    "hc": 1,
+    "period": "b9702b2c00e5a7919365 UNKNOWN",
+    "native": [
+      "b9702b2c00e5a7919365\tNO_DEEP_CONTACT\t0\t13"
+    ]
+  },
+  "expand-be3369e3f820ce018097.p1.heesch": {
+    "area": 20,
+    "key": "be3369e3f820ce018097",
+    "hc": 0,
+    "period": "be3369e3f820ce018097 UNKNOWN",
+    "native": [
+      "be3369e3f820ce018097\tNO_DEEP_CONTACT\t0\t37"
+    ]
+  },
+  "expand-bff993582880a79324ca.d1.heesch": {
+    "area": 20,
+    "key": "bff993582880a79324ca",
+    "hc": 1,
+    "period": "bff993582880a79324ca UNKNOWN",
+    "native": [
+      "bff993582880a79324ca\tEXHAUSTED\t1\t243"
+    ]
+  },
+  "expand-f26e5dde5107a420bd5c.p1.heesch": {
+    "area": 20,
+    "key": "f26e5dde5107a420bd5c",
+    "hc": 0,
+    "period": "f26e5dde5107a420bd5c UNKNOWN",
+    "native": [
+      "f26e5dde5107a420bd5c\tNO_DEEP_CONTACT\t0\t0"
+    ]
+  },
+  "expand-f87474160daf5acf7567.d1.heesch": {
+    "area": 20,
+    "key": "f87474160daf5acf7567",
+    "hc": 1,
+    "period": "f87474160daf5acf7567 UNKNOWN",
+    "native": [
+      "f87474160daf5acf7567\tNO_DEEP_CONTACT\t0\t152"
+    ]
+  },
+  "expand-fce55261a992f0e87d01.d1.heesch": {
+    "area": 20,
+    "key": "fce55261a992f0e87d01",
+    "hc": 1,
+    "period": "fce55261a992f0e87d01 UNKNOWN",
+    "native": [
+      "fce55261a992f0e87d01\tNO_DEEP_CONTACT\t0\t41"
+    ]
+  },
+  "expand-0312687bdc409fc83faa.d1.heesch": {
+    "area": 20,
+    "key": "0312687bdc409fc83faa",
+    "hc": 1,
+    "period": "0312687bdc409fc83faa TILER 1 10 0 2 1,0,0,0,1,0",
+    "native": []
+  },
+  "expand-36255bc5e932b870dd4a.d1.heesch": {
+    "area": 20,
+    "key": "36255bc5e932b870dd4a",
+    "hc": 1,
+    "period": "36255bc5e932b870dd4a UNKNOWN",
+    "native": [
+      "36255bc5e932b870dd4a\tNO_DEEP_CONTACT\t0\t298"
+    ]
+  },
+  "expand-5bfdb227a52d94dbb664.d1.heesch": {
+    "area": 20,
+    "key": "5bfdb227a52d94dbb664",
+    "hc": 1,
+    "period": "5bfdb227a52d94dbb664 TILER 2 20 10 2 1,0,0,0,1,0 -1,0,5,0,-1,1",
+    "native": []
+  },
+  "expand-8cbf21aef63dfa3e6d64.d1.heesch": {
+    "area": 20,
+    "key": "8cbf21aef63dfa3e6d64",
+    "hc": 1,
+    "period": "8cbf21aef63dfa3e6d64 UNKNOWN",
+    "native": [
+      "8cbf21aef63dfa3e6d64\tNO_DEEP_CONTACT\t0\t14"
+    ]
+  },
+  "expand-cfb481ee5d7151a4d1f7.d1.heesch": {
+    "area": 20,
+    "key": "cfb481ee5d7151a4d1f7",
+    "hc": 1,
+    "period": "cfb481ee5d7151a4d1f7 TILER 2 10 0 4 1,0,0,0,1,0 -1,0,1,0,1,2",
+    "native": []
+  },
+  "expand-d0d33e865626393bb000.p1.heesch": {
+    "area": 20,
+    "key": "d0d33e865626393bb000",
+    "hc": 0,
+    "period": "d0d33e865626393bb000 UNKNOWN",
+    "native": [
+      "d0d33e865626393bb000\tNO_DEEP_CONTACT\t0\t51"
+    ]
+  },
+  "expand-87ec75b8b3f55ae27de8.p1.heesch": {
+    "area": 20,
+    "key": "87ec75b8b3f55ae27de8",
+    "hc": 0,
+    "period": "87ec75b8b3f55ae27de8 UNKNOWN",
+    "native": [
+      "87ec75b8b3f55ae27de8\tNO_DEEP_CONTACT\t0\t29"
+    ]
+  },
+  "expand-95ae3df9b35a7961a2d6.p1.heesch": {
+    "area": 20,
+    "key": "95ae3df9b35a7961a2d6",
+    "hc": 0,
+    "period": "95ae3df9b35a7961a2d6 TILER 2 40 9 1 1,0,0,0,1,0 0,-1,20,-1,0,0",
+    "native": []
+  }
+}
