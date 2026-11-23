@@ -1,0 +1,72 @@
+{
+  "attempt17": {
+    "center_alignment": "<0,-1,13,-1,0,10>",
+    "rings": [
+      {
+        "level": 0,
+        "old": 1,
+        "fresh": 1,
+        "shared": 1
+      },
+      {
+        "level": 1,
+        "old": 5,
+        "fresh": 5,
+        "shared": 5
+      },
+      {
+        "level": 2,
+        "old": 12,
+        "fresh": 12,
+        "shared": 12
+      },
+      {
+        "level": 3,
+        "old": 19,
+        "fresh": 19,
+        "shared": 19
+      },
+      {
+        "level": 4,
+        "old": 29,
+        "fresh": 30,
+        "shared": 13
+      }
+    ]
+  },
+  "original_proof_submission": {
+    "center_alignment": "<0,-1,13,-1,0,10>",
+    "rings": [
+      {
+        "level": 0,
+        "old": 1,
+        "fresh": 1,
+        "shared": 1
+      },
+      {
+        "level": 1,
+        "old": 5,
+        "fresh": 5,
+        "shared": 5
+      },
+      {
+        "level": 2,
+        "old": 12,
+        "fresh": 12,
+        "shared": 12
+      },
+      {
+        "level": 3,
+        "old": 19,
+        "fresh": 19,
+        "shared": 19
+      },
+      {
+        "level": 4,
+        "old": 30,
+        "fresh": 30,
+        "shared": 12
+      }
+    ]
+  }
+}

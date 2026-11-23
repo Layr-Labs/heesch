@@ -1,0 +1,585 @@
+{
+ "5": {
+  "status": {
+   "NO_DEEP_CONTACT": 20430,
+   "ISOHEDRAL": 1915,
+   "FOUND": 25,
+   "TIMEOUT": 7
+  },
+  "hits": {
+   "8b3d45eec8974dd8f64b": {
+    "status": "FOUND",
+    "copies": 105,
+    "size": 20,
+    "period": "TILER"
+   },
+   "fb828806d34043a7ae6b": {
+    "status": "FOUND",
+    "copies": 106,
+    "size": 20,
+    "period": "TILER"
+   },
+   "903d1fdebbecbf0b78eb": {
+    "status": "TIMEOUT",
+    "period": "TILER"
+   },
+   "392fe7a154f3972f5535": {
+    "status": "FOUND",
+    "copies": 109,
+    "size": 20,
+    "period": "TILER"
+   },
+   "5c2750005bf0b79a66d9": {
+    "status": "FOUND",
+    "copies": 98,
+    "size": 20,
+    "period": "TILER"
+   },
+   "2d378d8204f7b4206cc7": {
+    "status": "FOUND",
+    "copies": 91,
+    "size": 20,
+    "period": "TILER"
+   },
+   "c53d971006441ebc978a": {
+    "status": "TIMEOUT",
+    "period": "TILER"
+   },
+   "45e779a0e9135e64e73d": {
+    "status": "TIMEOUT",
+    "period": "TILER"
+   },
+   "9d34555c79b993742cd0": {
+    "status": "FOUND",
+    "copies": 95,
+    "size": 20,
+    "period": "TILER"
+   },
+   "f4ad2fe8cdb89bdd9785": {
+    "status": "TIMEOUT",
+    "period": "TILER"
+   },
+   "6dc3eb31ac0f8cf7c4c4": {
+    "status": "FOUND",
+    "copies": 110,
+    "size": 20,
+    "period": "TILER"
+   },
+   "a9c36996a101275106a2": {
+    "status": "FOUND",
+    "copies": 109,
+    "size": 20,
+    "period": "TILER"
+   },
+   "709baa5b809ff8bd2632": {
+    "status": "FOUND",
+    "copies": 99,
+    "size": 20,
+    "period": "TILER"
+   },
+   "a9a4e07e90bae1ee900b": {
+    "status": "FOUND",
+    "copies": 113,
+    "size": 20,
+    "period": "TILER"
+   },
+   "9945be474268941b78ad": {
+    "status": "FOUND",
+    "copies": 121,
+    "size": 20,
+    "period": "TILER"
+   },
+   "66b4b190ae519185853f": {
+    "status": "FOUND",
+    "copies": 99,
+    "size": 20,
+    "period": "TILER"
+   },
+   "dd5699baf755c5fedefc": {
+    "status": "FOUND",
+    "copies": 109,
+    "size": 20,
+    "period": "TILER"
+   },
+   "a029871ab8e343373855": {
+    "status": "TIMEOUT",
+    "period": "TILER"
+   },
+   "e4dd256ce74d06104707": {
+    "status": "FOUND",
+    "copies": 108,
+    "size": 20,
+    "period": "TILER"
+   },
+   "91733004201bed323f75": {
+    "status": "FOUND",
+    "copies": 93,
+    "size": 20,
+    "period": "TILER"
+   },
+   "e4127c29db326aeecee8": {
+    "status": "TIMEOUT",
+    "period": "TILER"
+   },
+   "9e65c5d0f9932c595648": {
+    "status": "FOUND",
+    "copies": 117,
+    "size": 20,
+    "period": "TILER"
+   },
+   "0bac3d87ca71c3ea19c5": {
+    "status": "FOUND",
+    "copies": 113,
+    "size": 20,
+    "period": "TILER"
+   },
+   "5c60350311cfbac18344": {
+    "status": "FOUND",
+    "copies": 97,
+    "size": 20,
+    "period": "TILER"
+   },
+   "37e8eaa0af519f5c8ee9": {
+    "status": "FOUND",
+    "copies": 101,
+    "size": 20,
+    "period": "TILER"
+   },
+   "639b289daa1115242da1": {
+    "status": "FOUND",
+    "copies": 108,
+    "size": 20,
+    "period": "TILER"
+   },
+   "13052e3367d745834b90": {
+    "status": "TIMEOUT",
+    "period": "TILER"
+   },
+   "a2a2c91712aaaee5931b": {
+    "status": "FOUND",
+    "copies": 105,
+    "size": 20,
+    "period": "TILER"
+   },
+   "cedd67af7c812aef36e1": {
+    "status": "FOUND",
+    "copies": 95,
+    "size": 20,
+    "period": "TILER"
+   },
+   "e2c2e1bdf934f8a69d1c": {
+    "status": "FOUND",
+    "copies": 99,
+    "size": 20,
+    "period": "TILER"
+   },
+   "a686738aa1bba4a16629": {
+    "status": "FOUND",
+    "copies": 104,
+    "size": 20,
+    "period": "TILER"
+   },
+   "b8f008f450d1343ca790": {
+    "status": "FOUND",
+    "copies": 110,
+    "size": 20,
+    "period": "TILER"
+   }
+  }
+ },
+ "4": {
+  "status": {
+   "NO_DEEP_CONTACT": 20430,
+   "ISOHEDRAL": 1915,
+   "FOUND": 29,
+   "TIMEOUT": 3
+  },
+  "hits": {
+   "8b3d45eec8974dd8f64b": {
+    "status": "FOUND",
+    "copies": 69,
+    "size": 20,
+    "period": "TILER"
+   },
+   "fb828806d34043a7ae6b": {
+    "status": "FOUND",
+    "copies": 74,
+    "size": 20,
+    "period": "TILER"
+   },
+   "903d1fdebbecbf0b78eb": {
+    "status": "FOUND",
+    "copies": 72,
+    "size": 20,
+    "period": "TILER"
+   },
+   "392fe7a154f3972f5535": {
+    "status": "FOUND",
+    "copies": 72,
+    "size": 20,
+    "period": "TILER"
+   },
+   "5c2750005bf0b79a66d9": {
+    "status": "FOUND",
+    "copies": 67,
+    "size": 20,
+    "period": "TILER"
+   },
+   "2d378d8204f7b4206cc7": {
+    "status": "FOUND",
+    "copies": 61,
+    "size": 20,
+    "period": "TILER"
+   },
+   "c53d971006441ebc978a": {
+    "status": "TIMEOUT",
+    "period": "TILER"
+   },
+   "45e779a0e9135e64e73d": {
+    "status": "TIMEOUT",
+    "period": "TILER"
+   },
+   "9d34555c79b993742cd0": {
+    "status": "FOUND",
+    "copies": 64,
+    "size": 20,
+    "period": "TILER"
+   },
+   "f4ad2fe8cdb89bdd9785": {
+    "status": "FOUND",
+    "copies": 70,
+    "size": 20,
+    "period": "TILER"
+   },
+   "6dc3eb31ac0f8cf7c4c4": {
+    "status": "FOUND",
+    "copies": 63,
+    "size": 20,
+    "period": "TILER"
+   },
+   "a9c36996a101275106a2": {
+    "status": "FOUND",
+    "copies": 83,
+    "size": 20,
+    "period": "TILER"
+   },
+   "709baa5b809ff8bd2632": {
+    "status": "FOUND",
+    "copies": 66,
+    "size": 20,
+    "period": "TILER"
+   },
+   "a9a4e07e90bae1ee900b": {
+    "status": "FOUND",
+    "copies": 81,
+    "size": 20,
+    "period": "TILER"
+   },
+   "9945be474268941b78ad": {
+    "status": "TIMEOUT",
+    "period": "TILER"
+   },
+   "66b4b190ae519185853f": {
+    "status": "FOUND",
+    "copies": 68,
+    "size": 20,
+    "period": "TILER"
+   },
+   "dd5699baf755c5fedefc": {
+    "status": "FOUND",
+    "copies": 72,
+    "size": 20,
+    "period": "TILER"
+   },
+   "a029871ab8e343373855": {
+    "status": "FOUND",
+    "copies": 75,
+    "size": 20,
+    "period": "TILER"
+   },
+   "e4dd256ce74d06104707": {
+    "status": "FOUND",
+    "copies": 59,
+    "size": 20,
+    "period": "TILER"
+   },
+   "91733004201bed323f75": {
+    "status": "FOUND",
+    "copies": 61,
+    "size": 20,
+    "period": "TILER"
+   },
+   "e4127c29db326aeecee8": {
+    "status": "FOUND",
+    "copies": 61,
+    "size": 20,
+    "period": "TILER"
+   },
+   "9e65c5d0f9932c595648": {
+    "status": "FOUND",
+    "copies": 68,
+    "size": 20,
+    "period": "TILER"
+   },
+   "0bac3d87ca71c3ea19c5": {
+    "status": "FOUND",
+    "copies": 74,
+    "size": 20,
+    "period": "TILER"
+   },
+   "5c60350311cfbac18344": {
+    "status": "FOUND",
+    "copies": 67,
+    "size": 20,
+    "period": "TILER"
+   },
+   "37e8eaa0af519f5c8ee9": {
+    "status": "FOUND",
+    "copies": 66,
+    "size": 20,
+    "period": "TILER"
+   },
+   "639b289daa1115242da1": {
+    "status": "FOUND",
+    "copies": 67,
+    "size": 20,
+    "period": "TILER"
+   },
+   "13052e3367d745834b90": {
+    "status": "FOUND",
+    "copies": 109,
+    "size": 20,
+    "period": "TILER"
+   },
+   "a2a2c91712aaaee5931b": {
+    "status": "FOUND",
+    "copies": 72,
+    "size": 20,
+    "period": "TILER"
+   },
+   "cedd67af7c812aef36e1": {
+    "status": "FOUND",
+    "copies": 63,
+    "size": 20,
+    "period": "TILER"
+   },
+   "e2c2e1bdf934f8a69d1c": {
+    "status": "FOUND",
+    "copies": 70,
+    "size": 20,
+    "period": "TILER"
+   },
+   "a686738aa1bba4a16629": {
+    "status": "FOUND",
+    "copies": 69,
+    "size": 20,
+    "period": "TILER"
+   },
+   "b8f008f450d1343ca790": {
+    "status": "FOUND",
+    "copies": 67,
+    "size": 20,
+    "period": "TILER"
+   }
+  }
+ },
+ "3": {
+  "status": {
+   "NO_DEEP_CONTACT": 20424,
+   "ISOHEDRAL": 1915,
+   "EXHAUSTED": 6,
+   "FOUND": 30,
+   "TIMEOUT": 2
+  },
+  "hits": {
+   "8b3d45eec8974dd8f64b": {
+    "status": "FOUND",
+    "copies": 38,
+    "size": 20,
+    "period": "TILER"
+   },
+   "fb828806d34043a7ae6b": {
+    "status": "FOUND",
+    "copies": 38,
+    "size": 20,
+    "period": "TILER"
+   },
+   "903d1fdebbecbf0b78eb": {
+    "status": "FOUND",
+    "copies": 45,
+    "size": 20,
+    "period": "TILER"
+   },
+   "392fe7a154f3972f5535": {
+    "status": "FOUND",
+    "copies": 43,
+    "size": 20,
+    "period": "TILER"
+   },
+   "5c2750005bf0b79a66d9": {
+    "status": "FOUND",
+    "copies": 39,
+    "size": 20,
+    "period": "TILER"
+   },
+   "2d378d8204f7b4206cc7": {
+    "status": "FOUND",
+    "copies": 37,
+    "size": 20,
+    "period": "TILER"
+   },
+   "c53d971006441ebc978a": {
+    "status": "FOUND",
+    "copies": 50,
+    "size": 20,
+    "period": "TILER"
+   },
+   "45e779a0e9135e64e73d": {
+    "status": "TIMEOUT",
+    "period": "TILER"
+   },
+   "9d34555c79b993742cd0": {
+    "status": "FOUND",
+    "copies": 39,
+    "size": 20,
+    "period": "TILER"
+   },
+   "f4ad2fe8cdb89bdd9785": {
+    "status": "FOUND",
+    "copies": 43,
+    "size": 20,
+    "period": "TILER"
+   },
+   "6dc3eb31ac0f8cf7c4c4": {
+    "status": "FOUND",
+    "copies": 43,
+    "size": 20,
+    "period": "TILER"
+   },
+   "a9c36996a101275106a2": {
+    "status": "FOUND",
+    "copies": 46,
+    "size": 20,
+    "period": "TILER"
+   },
+   "709baa5b809ff8bd2632": {
+    "status": "FOUND",
+    "copies": 41,
+    "size": 20,
+    "period": "TILER"
+   },
+   "a9a4e07e90bae1ee900b": {
+    "status": "FOUND",
+    "copies": 47,
+    "size": 20,
+    "period": "TILER"
+   },
+   "9945be474268941b78ad": {
+    "status": "FOUND",
+    "copies": 41,
+    "size": 20,
+    "period": "TILER"
+   },
+   "66b4b190ae519185853f": {
+    "status": "FOUND",
+    "copies": 41,
+    "size": 20,
+    "period": "TILER"
+   },
+   "dd5699baf755c5fedefc": {
+    "status": "FOUND",
+    "copies": 43,
+    "size": 20,
+    "period": "TILER"
+   },
+   "a029871ab8e343373855": {
+    "status": "FOUND",
+    "copies": 47,
+    "size": 20,
+    "period": "TILER"
+   },
+   "e4dd256ce74d06104707": {
+    "status": "FOUND",
+    "copies": 36,
+    "size": 20,
+    "period": "TILER"
+   },
+   "91733004201bed323f75": {
+    "status": "FOUND",
+    "copies": 38,
+    "size": 20,
+    "period": "TILER"
+   },
+   "e4127c29db326aeecee8": {
+    "status": "FOUND",
+    "copies": 38,
+    "size": 20,
+    "period": "TILER"
+   },
+   "9e65c5d0f9932c595648": {
+    "status": "FOUND",
+    "copies": 38,
+    "size": 20,
+    "period": "TILER"
+   },
+   "0bac3d87ca71c3ea19c5": {
+    "status": "FOUND",
+    "copies": 45,
+    "size": 20,
+    "period": "TILER"
+   },
+   "5c60350311cfbac18344": {
+    "status": "FOUND",
+    "copies": 42,
+    "size": 20,
+    "period": "TILER"
+   },
+   "37e8eaa0af519f5c8ee9": {
+    "status": "FOUND",
+    "copies": 40,
+    "size": 20,
+    "period": "TILER"
+   },
+   "639b289daa1115242da1": {
+    "status": "FOUND",
+    "copies": 44,
+    "size": 20,
+    "period": "TILER"
+   },
+   "13052e3367d745834b90": {
+    "status": "TIMEOUT",
+    "period": "TILER"
+   },
+   "a2a2c91712aaaee5931b": {
+    "status": "FOUND",
+    "copies": 45,
+    "size": 20,
+    "period": "TILER"
+   },
+   "cedd67af7c812aef36e1": {
+    "status": "FOUND",
+    "copies": 36,
+    "size": 20,
+    "period": "TILER"
+   },
+   "e2c2e1bdf934f8a69d1c": {
+    "status": "FOUND",
+    "copies": 39,
+    "size": 20,
+    "period": "TILER"
+   },
+   "a686738aa1bba4a16629": {
+    "status": "FOUND",
+    "copies": 41,
+    "size": 20,
+    "period": "TILER"
+   },
+   "b8f008f450d1343ca790": {
+    "status": "FOUND",
+    "copies": 40,
+    "size": 20,
+    "period": "TILER"
+   }
+  }
+ }
+}

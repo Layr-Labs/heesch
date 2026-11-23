@@ -1,0 +1,404 @@
+{
+ "8b3d45eec8974dd8f64b": {
+  "stage": "FOUND",
+  "period": {
+   "copies": 6,
+   "hnf": [
+    6,
+    1,
+    10
+   ]
+  },
+  "full_copies": 105,
+  "area": 20
+ },
+ "fb828806d34043a7ae6b": {
+  "stage": "FOUND",
+  "period": {
+   "copies": 6,
+   "hnf": [
+    6,
+    1,
+    10
+   ]
+  },
+  "full_copies": 106,
+  "area": 20
+ },
+ "903d1fdebbecbf0b78eb": {
+  "stage": "TIMEOUT",
+  "period": {
+   "copies": 6,
+   "hnf": [
+    6,
+    1,
+    10
+   ]
+  }
+ },
+ "392fe7a154f3972f5535": {
+  "stage": "FOUND",
+  "period": {
+   "copies": 4,
+   "hnf": [
+    40,
+    10,
+    1
+   ]
+  },
+  "full_copies": 109,
+  "area": 20
+ },
+ "5c2750005bf0b79a66d9": {
+  "stage": "FOUND",
+  "period": {
+   "copies": 6,
+   "hnf": [
+    6,
+    1,
+    10
+   ]
+  },
+  "full_copies": 98,
+  "area": 20
+ },
+ "2d378d8204f7b4206cc7": {
+  "stage": "FOUND",
+  "period": {
+   "copies": 4,
+   "hnf": [
+    40,
+    6,
+    1
+   ]
+  },
+  "full_copies": 91,
+  "area": 20
+ },
+ "c53d971006441ebc978a": {
+  "stage": "TIMEOUT",
+  "period": {
+   "copies": 6,
+   "hnf": [
+    6,
+    1,
+    10
+   ]
+  }
+ },
+ "45e779a0e9135e64e73d": {
+  "stage": "TIMEOUT",
+  "period": {
+   "copies": 6,
+   "hnf": [
+    6,
+    1,
+    10
+   ]
+  }
+ },
+ "9d34555c79b993742cd0": {
+  "stage": "FOUND",
+  "period": {
+   "copies": 6,
+   "hnf": [
+    6,
+    1,
+    10
+   ]
+  },
+  "full_copies": 95,
+  "area": 20
+ },
+ "f4ad2fe8cdb89bdd9785": {
+  "stage": "TIMEOUT",
+  "period": {
+   "copies": 6,
+   "hnf": [
+    6,
+    1,
+    10
+   ]
+  }
+ },
+ "6dc3eb31ac0f8cf7c4c4": {
+  "stage": "FOUND",
+  "period": {
+   "copies": 6,
+   "hnf": [
+    6,
+    1,
+    10
+   ]
+  },
+  "full_copies": 110,
+  "area": 20
+ },
+ "a9c36996a101275106a2": {
+  "stage": "FOUND",
+  "period": {
+   "copies": 4,
+   "hnf": [
+    40,
+    9,
+    1
+   ]
+  },
+  "full_copies": 109,
+  "area": 20
+ },
+ "709baa5b809ff8bd2632": {
+  "stage": "FOUND",
+  "period": {
+   "copies": 4,
+   "hnf": [
+    4,
+    0,
+    10
+   ]
+  },
+  "full_copies": 99,
+  "area": 20
+ },
+ "a9a4e07e90bae1ee900b": {
+  "stage": "FOUND",
+  "period": {
+   "copies": 4,
+   "hnf": [
+    40,
+    12,
+    1
+   ]
+  },
+  "full_copies": 113,
+  "area": 20
+ },
+ "9945be474268941b78ad": {
+  "stage": "FOUND",
+  "period": {
+   "copies": 6,
+   "hnf": [
+    6,
+    1,
+    10
+   ]
+  },
+  "full_copies": 121,
+  "area": 20
+ },
+ "66b4b190ae519185853f": {
+  "stage": "FOUND",
+  "period": {
+   "copies": 4,
+   "hnf": [
+    8,
+    3,
+    5
+   ]
+  },
+  "full_copies": 99,
+  "area": 20
+ },
+ "dd5699baf755c5fedefc": {
+  "stage": "FOUND",
+  "period": {
+   "copies": 8,
+   "hnf": [
+    40,
+    18,
+    2
+   ]
+  },
+  "full_copies": 109,
+  "area": 20
+ },
+ "a029871ab8e343373855": {
+  "stage": "TIMEOUT",
+  "period": {
+   "copies": 6,
+   "hnf": [
+    6,
+    1,
+    10
+   ]
+  }
+ },
+ "e4dd256ce74d06104707": {
+  "stage": "FOUND",
+  "period": {
+   "copies": 6,
+   "hnf": [
+    6,
+    1,
+    10
+   ]
+  },
+  "full_copies": 108,
+  "area": 20
+ },
+ "91733004201bed323f75": {
+  "stage": "FOUND",
+  "period": {
+   "copies": 3,
+   "hnf": [
+    3,
+    0,
+    10
+   ]
+  },
+  "full_copies": 93,
+  "area": 20
+ },
+ "e4127c29db326aeecee8": {
+  "stage": "TIMEOUT",
+  "period": {
+   "copies": 6,
+   "hnf": [
+    6,
+    1,
+    10
+   ]
+  }
+ },
+ "9e65c5d0f9932c595648": {
+  "stage": "FOUND",
+  "period": {
+   "copies": 6,
+   "hnf": [
+    6,
+    1,
+    10
+   ]
+  },
+  "full_copies": 117,
+  "area": 20
+ },
+ "0bac3d87ca71c3ea19c5": {
+  "stage": "FOUND",
+  "period": {
+   "copies": 6,
+   "hnf": [
+    6,
+    1,
+    10
+   ]
+  },
+  "full_copies": 113,
+  "area": 20
+ },
+ "5c60350311cfbac18344": {
+  "stage": "FOUND",
+  "period": {
+   "copies": 6,
+   "hnf": [
+    6,
+    1,
+    10
+   ]
+  },
+  "full_copies": 97,
+  "area": 20
+ },
+ "37e8eaa0af519f5c8ee9": {
+  "stage": "FOUND",
+  "period": {
+   "copies": 4,
+   "hnf": [
+    8,
+    7,
+    5
+   ]
+  },
+  "full_copies": 101,
+  "area": 20
+ },
+ "639b289daa1115242da1": {
+  "stage": "FOUND",
+  "period": {
+   "copies": 6,
+   "hnf": [
+    6,
+    1,
+    10
+   ]
+  },
+  "full_copies": 108,
+  "area": 20
+ },
+ "13052e3367d745834b90": {
+  "stage": "TIMEOUT",
+  "period": {
+   "copies": 6,
+   "hnf": [
+    6,
+    1,
+    10
+   ]
+  }
+ },
+ "a2a2c91712aaaee5931b": {
+  "stage": "FOUND",
+  "period": {
+   "copies": 4,
+   "hnf": [
+    10,
+    8,
+    4
+   ]
+  },
+  "full_copies": 105,
+  "area": 20
+ },
+ "cedd67af7c812aef36e1": {
+  "stage": "FOUND",
+  "period": {
+   "copies": 6,
+   "hnf": [
+    6,
+    1,
+    10
+   ]
+  },
+  "full_copies": 95,
+  "area": 20
+ },
+ "e2c2e1bdf934f8a69d1c": {
+  "stage": "FOUND",
+  "period": {
+   "copies": 4,
+   "hnf": [
+    8,
+    0,
+    5
+   ]
+  },
+  "full_copies": 99,
+  "area": 20
+ },
+ "a686738aa1bba4a16629": {
+  "stage": "FOUND",
+  "period": {
+   "copies": 4,
+   "hnf": [
+    8,
+    4,
+    5
+   ]
+  },
+  "full_copies": 104,
+  "area": 20
+ },
+ "b8f008f450d1343ca790": {
+  "stage": "FOUND",
+  "period": {
+   "copies": 6,
+   "hnf": [
+    6,
+    1,
+    10
+   ]
+  },
+  "full_copies": 110,
+  "area": 20
+ }
+}

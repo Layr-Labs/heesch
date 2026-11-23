@@ -1,0 +1,5 @@
+{"saved": {"hc": 4, "required": 396, "defect_hc": 106, "defect_hh": 68, "pocket_cells": 38, "partial_tiles": 41, "score": 4.732323232323232}}
+{"status": "OPTIMAL", "seconds": 0.31845, "placements": 1792, "seed": 3979, "workers": 1, "time_limit": 15, "objective": 588063.0, "best_objective_bound": 588063.0, "saved": {"hc": 4, "required": 396, "defect_hc": 106, "defect_hh": 68, "pocket_cells": 38, "partial_tiles": 41, "score": 4.732323232323232}, "input_sha256": "88030b587ed152319342b4a5a3f18fb7c359c25b747e86aadfc0d5524f5e2f76", "output_sha256": "0243d1d0e768b2ee33e19b8c157251a6af22d62bdb791b63cb013388c9c9e67c", "scope": "fixed input patch; objective covers required cells"}
+before DefectResult(corona_level=5, defect_hc=106, defect_hh=68, required=396, pocket_cells=38, partial_tiles=41)
+{"input": "new-four-partial.heesch", "domain": 1792, "required": 396, "best": 75, "steps": 68, "status": "UNKNOWN"}
+improved DefectResult(corona_level=5, defect_hc=75, defect_hh=73, required=396, pocket_cells=2, partial_tiles=43)

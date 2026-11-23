@@ -1,0 +1,10 @@
+{
+  "shape": "76c26491708aea73618605b352d8d6d58681f20c2cf67bf9e574c8b7398412ff",
+  "m": 5,
+  "formula_sha256": "804a699e8e14ca42e216fb286c3b208215aed17bc3da380b4966248c324f3d36",
+  "variables": 1272828,
+  "clauses": 11038715,
+  "raw_proof_sha256": "11ab5d8f9fecec25949326cccc17258e07b9446944b196a5fbbdefae2f6c3ed1",
+  "compressed_proof_sha256": "f095d0e25ce8cb9c82a80f78ea4513a01e1e40b0989d640046283c16d43c3883",
+  "source_submission": "1526ffd8-bbb6-4b1b-a320-83dab048b686"
+}
