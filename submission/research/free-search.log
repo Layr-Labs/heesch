@@ -1,0 +1,5 @@
+two Counter({'NO_DEEP_CONTACT': 2624, 'ISOHEDRAL': 1217, 'EXHAUSTED': 66, 'FOUND': 61})
+four Counter({'NO_DEEP_CONTACT': 2722, 'ISOHEDRAL': 1217, 'FOUND': 26, 'EXHAUSTED': 3})
+three and five Counter({'NO_DEEP_CONTACT': 30, 'FOUND': 26, 'EXHAUSTED': 6}) Counter({'NO_DEEP_CONTACT': 34, 'FOUND': 26, 'EXHAUSTED': 2})
+without period 36
+unculled Counter({'TIMEOUT': 32, 'EXHAUSTED': 4}) Counter({'TIMEOUT': 30, 'EXHAUSTED': 6})
