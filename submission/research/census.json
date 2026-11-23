@@ -1,0 +1,34 @@
+{
+ "shape": "59758684f5ad1d011a831b3be4d800ea9ea547e156863563c2bd7498a6685208",
+ "counts": [
+  [
+   5,
+   5,
+   2
+  ]
+ ],
+ "p3": [
+  {
+   "geometry": "thirds/01.heesch",
+   "digest": "d27747e8a267d70d43525846b1ab0e247deee6e7ac7459e6ce10904085ea575d",
+   "B_status": "OPTIMAL",
+   "B_max": 266,
+   "strict_status": "INFEASIBLE",
+   "strict_ratio": [
+    4,
+    237
+   ]
+  },
+  {
+   "geometry": "thirds/02.heesch",
+   "digest": "a75ea873ece949d49ed9df64b37577622fb644ce29b7d3a8a986dc27aa0235d1",
+   "B_status": "OPTIMAL",
+   "B_max": 255,
+   "strict_status": "INFEASIBLE",
+   "strict_ratio": [
+    4,
+    237
+   ]
+  }
+ ]
+}

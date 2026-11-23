@@ -1,0 +1,9 @@
+{
+  "level2-INFEASIBLE": 1,
+  "level2-children": 5,
+  "level3-INFEASIBLE": 5,
+  "level3-children": 5,
+  "level4-INFEASIBLE": 5,
+  "level4-children": 2,
+  "strict-INFEASIBLE": 2
+}

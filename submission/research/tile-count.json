@@ -1,0 +1,12 @@
+{
+ "file": "c2/final/best.heesch",
+ "sha256": "23ce31a43b1c309ecf4d2afcc98b8d8df8b4d0c9b584a1f8f5fc9a12e4e42005",
+ "partial_count": 38,
+ "status": "OPTIMAL",
+ "cycles": 5,
+ "solver_s": 0.136554,
+ "lower_bound": 38.0,
+ "defect": 4,
+ "required": 237,
+ "hh": 4
+}
