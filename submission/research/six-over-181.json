@@ -1,0 +1,17 @@
+[
+ {
+  "status": "OPTIMAL",
+  "cycles": 6,
+  "solver_s": 0.463087,
+  "lower_bound": 0.0,
+  "defect": 6,
+  "required": 181,
+  "hh": 6
+ },
+ {
+  "status": "INFEASIBLE",
+  "cycles": 0,
+  "solver_s": 0.321224,
+  "lower_bound": 0.0
+ }
+]

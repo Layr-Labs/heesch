@@ -1,0 +1,345 @@
+[
+ {
+  "source": "patch-032.heesch",
+  "B": 181,
+  "relaxed": 6,
+  "bound": 6.0,
+  "true_damage": 18
+ },
+ {
+  "source": "patch-031.heesch",
+  "B": 204,
+  "relaxed": 10,
+  "bound": 10.0,
+  "true_damage": 32
+ },
+ {
+  "source": "patch-019.heesch",
+  "B": 186,
+  "relaxed": 13,
+  "bound": 13.0,
+  "true_damage": 23
+ },
+ {
+  "source": "patch-049.heesch",
+  "B": 208,
+  "relaxed": 16,
+  "bound": 16.0,
+  "true_damage": 28
+ },
+ {
+  "source": "patch-035.heesch",
+  "B": 232,
+  "relaxed": 19,
+  "bound": 19.0,
+  "true_damage": 43
+ },
+ {
+  "source": "patch-039.heesch",
+  "B": 224,
+  "relaxed": 22,
+  "bound": 22.0,
+  "true_damage": 32
+ },
+ {
+  "source": "patch-038.heesch",
+  "B": 210,
+  "relaxed": 21,
+  "bound": 21.0,
+  "true_damage": 39
+ },
+ {
+  "source": "patch-020.heesch",
+  "B": 187,
+  "relaxed": 21,
+  "bound": 21.0,
+  "true_damage": 50
+ },
+ {
+  "source": "patch-027.heesch",
+  "B": 210,
+  "relaxed": 24,
+  "bound": 24.0,
+  "true_damage": 35
+ },
+ {
+  "source": "patch-025.heesch",
+  "B": 207,
+  "relaxed": 24,
+  "bound": 24.0,
+  "true_damage": 35
+ },
+ {
+  "source": "patch-048.heesch",
+  "B": 203,
+  "relaxed": 28,
+  "bound": 8.0,
+  "true_damage": 52
+ },
+ {
+  "source": "patch-007.heesch",
+  "B": 219,
+  "relaxed": 31,
+  "bound": 12.0,
+  "true_damage": 46
+ },
+ {
+  "source": "patch-046.heesch",
+  "B": 251,
+  "relaxed": 36,
+  "bound": 14.0,
+  "true_damage": 71
+ },
+ {
+  "source": "patch-030.heesch",
+  "B": 222,
+  "relaxed": 32,
+  "bound": 8.0,
+  "true_damage": 51
+ },
+ {
+  "source": "patch-034.heesch",
+  "B": 231,
+  "relaxed": 35,
+  "bound": 17.0,
+  "true_damage": 67
+ },
+ {
+  "source": "patch-033.heesch",
+  "B": 178,
+  "relaxed": 27,
+  "bound": 9.0,
+  "true_damage": 51
+ },
+ {
+  "source": "patch-022.heesch",
+  "B": 183,
+  "relaxed": 28,
+  "bound": 12.0,
+  "true_damage": 61
+ },
+ {
+  "source": "patch-023.heesch",
+  "B": 189,
+  "relaxed": 30,
+  "bound": 10.0,
+  "true_damage": 53
+ },
+ {
+  "source": "patch-043.heesch",
+  "B": 239,
+  "relaxed": 38,
+  "bound": 21.0,
+  "true_damage": 65
+ },
+ {
+  "source": "patch-024.heesch",
+  "B": 232,
+  "relaxed": 38,
+  "bound": 21.0,
+  "true_damage": 65
+ },
+ {
+  "source": "patch-042.heesch",
+  "B": 229,
+  "relaxed": 38,
+  "bound": 18.0,
+  "true_damage": 52
+ },
+ {
+  "source": "patch-029.heesch",
+  "B": 240,
+  "relaxed": 40,
+  "bound": 17.0,
+  "true_damage": 61
+ },
+ {
+  "source": "patch-036.heesch",
+  "B": 237,
+  "relaxed": 41,
+  "bound": 27.0,
+  "true_damage": 55
+ },
+ {
+  "source": "patch-012.heesch",
+  "B": 228,
+  "relaxed": 40,
+  "bound": 17.0,
+  "true_damage": 70
+ },
+ {
+  "source": "patch-040.heesch",
+  "B": 223,
+  "relaxed": 40,
+  "bound": 40.0,
+  "true_damage": 56
+ },
+ {
+  "source": "patch-037.heesch",
+  "B": 224,
+  "relaxed": 43,
+  "bound": 20.0,
+  "true_damage": 88
+ },
+ {
+  "source": "patch-002.heesch",
+  "B": 211,
+  "relaxed": 41,
+  "bound": 20.0,
+  "true_damage": 47
+ },
+ {
+  "source": "patch-001.heesch",
+  "B": 208,
+  "relaxed": 41,
+  "bound": 20.0,
+  "true_damage": 73
+ },
+ {
+  "source": "patch-008.heesch",
+  "B": 221,
+  "relaxed": 44,
+  "bound": 18.0,
+  "true_damage": 65
+ },
+ {
+  "source": "patch-015.heesch",
+  "B": 215,
+  "relaxed": 44,
+  "bound": 16.0,
+  "true_damage": 59
+ },
+ {
+  "source": "patch-047.heesch",
+  "B": 254,
+  "relaxed": 53,
+  "bound": 24.0,
+  "true_damage": 78
+ },
+ {
+  "source": "patch-016.heesch",
+  "B": 256,
+  "relaxed": 54,
+  "bound": 25.0,
+  "true_damage": 95
+ },
+ {
+  "source": "patch-021.heesch",
+  "B": 241,
+  "relaxed": 52,
+  "bound": 19.0,
+  "true_damage": 78
+ },
+ {
+  "source": "patch-006.heesch",
+  "B": 229,
+  "relaxed": 50,
+  "bound": 22.0,
+  "true_damage": 93
+ },
+ {
+  "source": "patch-028.heesch",
+  "B": 257,
+  "relaxed": 60,
+  "bound": 38.0,
+  "true_damage": 87
+ },
+ {
+  "source": "patch-013.heesch",
+  "B": 250,
+  "relaxed": 59,
+  "bound": 28.0,
+  "true_damage": 98
+ },
+ {
+  "source": "patch-003.heesch",
+  "B": 255,
+  "relaxed": 61,
+  "bound": 33.0,
+  "true_damage": 100
+ },
+ {
+  "source": "patch-018.heesch",
+  "B": 248,
+  "relaxed": 60,
+  "bound": 34.0,
+  "true_damage": 132
+ },
+ {
+  "source": "patch-014.heesch",
+  "B": 252,
+  "relaxed": 62,
+  "bound": 26.0,
+  "true_damage": 110
+ },
+ {
+  "source": "patch-011.heesch",
+  "B": 239,
+  "relaxed": 59,
+  "bound": 25.0,
+  "true_damage": 116
+ },
+ {
+  "source": "patch-026.heesch",
+  "B": 244,
+  "relaxed": 66,
+  "bound": 30.0,
+  "true_damage": 107
+ },
+ {
+  "source": "patch-004.heesch",
+  "B": 249,
+  "relaxed": 68,
+  "bound": 39.0,
+  "true_damage": 112
+ },
+ {
+  "source": "patch-009.heesch",
+  "B": 251,
+  "relaxed": 69,
+  "bound": 38.0,
+  "true_damage": 101
+ },
+ {
+  "source": "patch-044.heesch",
+  "B": 241,
+  "relaxed": 68,
+  "bound": 35.0,
+  "true_damage": 92
+ },
+ {
+  "source": "patch-045.heesch",
+  "B": 262,
+  "relaxed": 74,
+  "bound": 35.0,
+  "true_damage": 127
+ },
+ {
+  "source": "patch-005.heesch",
+  "B": 260,
+  "relaxed": 77,
+  "bound": 27.0,
+  "true_damage": 131
+ },
+ {
+  "source": "patch-041.heesch",
+  "B": 256,
+  "relaxed": 78,
+  "bound": 53.0,
+  "true_damage": 119
+ },
+ {
+  "source": "patch-017.heesch",
+  "B": 249,
+  "relaxed": 79,
+  "bound": 40.0,
+  "true_damage": 117
+ },
+ {
+  "source": "patch-010.heesch",
+  "B": 271,
+  "relaxed": 87,
+  "bound": 41.0,
+  "true_damage": 109
+ }
+]

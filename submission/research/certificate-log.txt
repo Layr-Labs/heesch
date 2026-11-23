@@ -1,0 +1,55 @@
+encoding F(S,4) for 18 cells (streamed to disk) ...
+  1334858 vars, 8694134 clauses, 2117 MB, digest 493a9b793d36dd0a…
+solving with bin:/Users/hol/Documents/Codex/2026-11-20/set-up-the-heesch-polyform-challenge/heesch/tools/bin/cadical (proof logging on) ...
+  drat-trim self-check: s VERIFIED (bin:/Users/hol/Documents/Codex/2026-11-20/set-up-the-heesch-polyform-challenge/heesch/tools/bin/cadical)
+extracting the core clause list and renumbering the LRAT ...
+
+Full F(S,m) independent LRAT replay
+c topTable reallocation from 1024 to 1536
+c increasing the number of buckets from 1024 to 1536
+c parsed a formula with 1334858 variables and 8694134 clauses
+c topTable reallocation from 1536 to 2304
+c VERIFIED
+c allocated 1536 445642285 13348580
+c Added clauses = 9231828.  Deleted clauses = 9230642.  Max live clauses = 8694134
+c verification time = 43.61 secs
+
+Extraction of the exact frozen clause IDs
+core size 893870 / 8694134, max lemma id 14355641
+renumbered through 1431564
+
+Core LRAT replay
+c parsed a formula with 1334858 variables and 893870 clauses
+c VERIFIED
+c allocated 1024 20363473 13348580
+c Added clauses = 1431564.  Deleted clauses = 1430378.  Max live clauses = 893871
+c verification time = 12.88 secs
+
+New small binary DRAT on full frozen F
+
+c turning on binary mode checking
+
+c parsing input formula with 1334858 variables and 8694134 clauses
+
+c finished parsing, read 78260348 bytes from proof file
+
+c detected empty clause; start verification via backward checking
+
+c 556029 of 8694134 clauses in core                            
+
+c 485497 of 1071302 lemmas in core using 20816044 resolution steps
+
+c 0 RAT lemmas in core; 10529 redundant literals in core lemmas
+
+s VERIFIED
+
+c verification time: 94.795 seconds
+
+Full converted LRAT independently replayed
+c topTable reallocation from 1024 to 1536
+c increasing the number of buckets from 1024 to 1536
+c parsed a formula with 1334858 variables and 8694134 clauses
+c VERIFIED
+c allocated 1536 445642285 13348580
+c Added clauses = 9179631.  Deleted clauses = 9178865.  Max live clauses = 8694134
+c verification time = 27.07 secs

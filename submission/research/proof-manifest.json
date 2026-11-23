@@ -1,0 +1,20 @@
+{
+  "m": 4,
+  "num_vars": 1334858,
+  "num_clauses": 8694134,
+  "cnf_digest": "493a9b793d36dd0a9cfc15296d78e1b709ad276f395821c252d4463fc5f7fff1",
+  "certificates": {
+    "proof.drat.xz": {
+      "raw_bytes": 78260348,
+      "raw_sha256": "c1e90b90e832def376309dddf47f2322173a26d6b70155e1a3c896b8e21ade37",
+      "bytes_xz": 8694916
+    }
+  },
+  "canonical_digest": "deb178796af4a803898f879d911e739c137e0f30a6f26e2606d484a27c46b224",
+  "hc": 3,
+  "hh": 3,
+  "charge": 6,
+  "required": 181,
+  "original_extracted_core": 893870,
+  "format": "binary drat, full original formula"
+}

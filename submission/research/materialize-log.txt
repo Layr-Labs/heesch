@@ -1,0 +1,1 @@
+Single stream xz, complete stock record-profile materialization: (78260348, 'c1e90b90e832def376309dddf47f2322173a26d6b70155e1a3c896b8e21ade37')

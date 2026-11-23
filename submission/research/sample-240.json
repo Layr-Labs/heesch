@@ -1,0 +1,1592 @@
+[
+ {
+  "source": "p035-027.heesch",
+  "B": 229,
+  "bound": 4.0,
+  "strict_budget": 7,
+  "exclusion": {
+   "status": "INFEASIBLE",
+   "cycles": 0,
+   "solver_s": 0.17386200000000002,
+   "lower_bound": 0.0
+  }
+ },
+ {
+  "source": "p031-014.heesch",
+  "B": 245,
+  "bound": 5.0,
+  "strict_budget": 8,
+  "exclusion": {
+   "status": "INFEASIBLE",
+   "cycles": 0,
+   "solver_s": 0.18457400000000002,
+   "lower_bound": 0.0
+  }
+ },
+ {
+  "source": "p031-017.heesch",
+  "B": 245,
+  "bound": 5.0,
+  "strict_budget": 8,
+  "exclusion": {
+   "status": "INFEASIBLE",
+   "cycles": 0,
+   "solver_s": 0.10835900000000001,
+   "lower_bound": 0.0
+  }
+ },
+ {
+  "source": "p031-015.heesch",
+  "B": 256,
+  "bound": 6.0,
+  "strict_budget": 8,
+  "exclusion": {
+   "status": "INFEASIBLE",
+   "cycles": 0,
+   "solver_s": 0.119108,
+   "lower_bound": 0.0
+  }
+ },
+ {
+  "source": "p049-003.heesch",
+  "B": 237,
+  "bound": 6.0,
+  "strict_budget": 8,
+  "exclusion": {
+   "status": "INFEASIBLE",
+   "cycles": 0,
+   "solver_s": 0.127398,
+   "lower_bound": 0.0
+  }
+ },
+ {
+  "source": "p031-020.heesch",
+  "B": 233,
+  "bound": 6.0,
+  "strict_budget": 7,
+  "exclusion": {
+   "status": "INFEASIBLE",
+   "cycles": 0,
+   "solver_s": 0.13989500000000002,
+   "lower_bound": 0.0
+  }
+ },
+ {
+  "source": "p031-033.heesch",
+  "B": 231,
+  "bound": 6.0,
+  "strict_budget": 7,
+  "exclusion": {
+   "status": "INFEASIBLE",
+   "cycles": 0,
+   "solver_s": 0.10568200000000001,
+   "lower_bound": 0.0
+  }
+ },
+ {
+  "source": "p031-009.heesch",
+  "B": 245,
+  "bound": 7.0,
+  "strict_budget": 8,
+  "exclusion": {
+   "status": "INFEASIBLE",
+   "cycles": 0,
+   "solver_s": 0.157333,
+   "lower_bound": 0.0
+  }
+ },
+ {
+  "source": "p031-021.heesch",
+  "B": 244,
+  "bound": 7.0,
+  "strict_budget": 8,
+  "exclusion": {
+   "status": "INFEASIBLE",
+   "cycles": 0,
+   "solver_s": 0.15586,
+   "lower_bound": 0.0
+  }
+ },
+ {
+  "source": "p049-004.heesch",
+  "B": 239,
+  "bound": 7.0,
+  "strict_budget": 8,
+  "exclusion": {
+   "status": "INFEASIBLE",
+   "cycles": 0,
+   "solver_s": 0.161771,
+   "lower_bound": 0.0
+  }
+ },
+ {
+  "source": "p035-001.heesch",
+  "B": 233,
+  "bound": 7.0,
+  "strict_budget": 7,
+  "exclusion": {
+   "status": "INFEASIBLE",
+   "cycles": 1,
+   "solver_s": 0.7226950000000001,
+   "lower_bound": 0.0
+  }
+ },
+ {
+  "source": "p035-005.heesch",
+  "B": 232,
+  "bound": 7.0,
+  "strict_budget": 7,
+  "exclusion": {
+   "status": "INFEASIBLE",
+   "cycles": 1,
+   "solver_s": 0.7712070000000001,
+   "lower_bound": 0.0
+  }
+ },
+ {
+  "source": "p031-001.heesch",
+  "B": 230,
+  "bound": 7.0,
+  "strict_budget": 7,
+  "exclusion": {
+   "status": "INFEASIBLE",
+   "cycles": 1,
+   "solver_s": 0.15010600000000002,
+   "lower_bound": 0.0
+  }
+ },
+ {
+  "source": "p031-004.heesch",
+  "B": 229,
+  "bound": 7.0,
+  "strict_budget": 7,
+  "exclusion": {
+   "status": "INFEASIBLE",
+   "cycles": 1,
+   "solver_s": 0.17676,
+   "lower_bound": 0.0
+  }
+ },
+ {
+  "source": "p049-034.heesch",
+  "B": 227,
+  "bound": 7.0,
+  "strict_budget": 7,
+  "exclusion": {
+   "status": "INFEASIBLE",
+   "cycles": 0,
+   "solver_s": 0.101346,
+   "lower_bound": 0.0
+  }
+ },
+ {
+  "source": "p049-033.heesch",
+  "B": 225,
+  "bound": 7.0,
+  "strict_budget": 7,
+  "exclusion": {
+   "status": "INFEASIBLE",
+   "cycles": 0,
+   "solver_s": 0.10238900000000001,
+   "lower_bound": 0.0
+  }
+ },
+ {
+  "source": "p035-029.heesch",
+  "B": 219,
+  "bound": 7.0,
+  "strict_budget": 7,
+  "exclusion": {
+   "status": "INFEASIBLE",
+   "cycles": 1,
+   "solver_s": 0.574408,
+   "lower_bound": 0.0
+  }
+ },
+ {
+  "source": "p035-015.heesch",
+  "B": 219,
+  "bound": 7.0,
+  "strict_budget": 7,
+  "exclusion": {
+   "status": "INFEASIBLE",
+   "cycles": 1,
+   "solver_s": 0.609063,
+   "lower_bound": 0.0
+  }
+ },
+ {
+  "source": "p035-019.heesch",
+  "B": 218,
+  "bound": 7.0,
+  "strict_budget": 7,
+  "exclusion": {
+   "status": "INFEASIBLE",
+   "cycles": 1,
+   "solver_s": 0.7578250000000001,
+   "lower_bound": 0.0
+  }
+ },
+ {
+  "source": "p035-033.heesch",
+  "B": 218,
+  "bound": 7.0,
+  "strict_budget": 7,
+  "exclusion": {
+   "status": "INFEASIBLE",
+   "cycles": 0,
+   "solver_s": 0.747411,
+   "lower_bound": 0.0
+  }
+ },
+ {
+  "source": "p035-031.heesch",
+  "B": 217,
+  "bound": 7.0,
+  "strict_budget": 7,
+  "exclusion": {
+   "status": "INFEASIBLE",
+   "cycles": 1,
+   "solver_s": 0.660068,
+   "lower_bound": 0.0
+  }
+ },
+ {
+  "source": "p031-025.heesch",
+  "B": 216,
+  "bound": 7.0,
+  "strict_budget": 7,
+  "exclusion": {
+   "status": "INFEASIBLE",
+   "cycles": 1,
+   "solver_s": 0.200963,
+   "lower_bound": 0.0
+  }
+ },
+ {
+  "source": "p031-028.heesch",
+  "B": 215,
+  "bound": 7.0,
+  "strict_budget": 7,
+  "exclusion": {
+   "status": "INFEASIBLE",
+   "cycles": 1,
+   "solver_s": 0.18096,
+   "lower_bound": 0.0
+  }
+ },
+ {
+  "source": "p035-009.heesch",
+  "B": 243,
+  "bound": 8.0,
+  "strict_budget": 8,
+  "exclusion": {
+   "status": "INFEASIBLE",
+   "cycles": 0,
+   "solver_s": 0.11484200000000001,
+   "lower_bound": 0.0
+  }
+ },
+ {
+  "source": "p035-028.heesch",
+  "B": 237,
+  "bound": 8.0,
+  "strict_budget": 8,
+  "exclusion": {
+   "status": "INFEASIBLE",
+   "cycles": 0,
+   "solver_s": 0.119312,
+   "lower_bound": 0.0
+  }
+ },
+ {
+  "source": "p031-023.heesch",
+  "B": 233,
+  "bound": 8.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p049-031.heesch",
+  "B": 227,
+  "bound": 8.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p031-006.heesch",
+  "B": 254,
+  "bound": 9.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p035-011.heesch",
+  "B": 251,
+  "bound": 9.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p031-007.heesch",
+  "B": 218,
+  "bound": 8.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p035-030.heesch",
+  "B": 218,
+  "bound": 8.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p031-010.heesch",
+  "B": 217,
+  "bound": 8.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p035-013.heesch",
+  "B": 243,
+  "bound": 9.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p031-012.heesch",
+  "B": 242,
+  "bound": 9.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p035-007.heesch",
+  "B": 257,
+  "bound": 10.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p032-015.heesch",
+  "B": 230,
+  "bound": 9.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p031-031.heesch",
+  "B": 204,
+  "bound": 8.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p031-013.heesch",
+  "B": 229,
+  "bound": 9.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p031-034.heesch",
+  "B": 203,
+  "bound": 8.0,
+  "strict_budget": 6
+ },
+ {
+  "source": "p031-016.heesch",
+  "B": 228,
+  "bound": 9.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p035-014.heesch",
+  "B": 251,
+  "bound": 10.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p035-032.heesch",
+  "B": 219,
+  "bound": 9.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p031-019.heesch",
+  "B": 217,
+  "bound": 9.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p031-022.heesch",
+  "B": 216,
+  "bound": 9.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p031-037.heesch",
+  "B": 215,
+  "bound": 9.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p031-040.heesch",
+  "B": 214,
+  "bound": 9.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p032-033.heesch",
+  "B": 220,
+  "bound": 10.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p032-010.heesch",
+  "B": 219,
+  "bound": 10.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p049-024.heesch",
+  "B": 253,
+  "bound": 12.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p049-009.heesch",
+  "B": 253,
+  "bound": 12.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p032-009.heesch",
+  "B": 231,
+  "bound": 11.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p049-023.heesch",
+  "B": 251,
+  "bound": 12.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p032-018.heesch",
+  "B": 229,
+  "bound": 11.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p032-028.heesch",
+  "B": 208,
+  "bound": 10.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p032-034.heesch",
+  "B": 208,
+  "bound": 10.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p049-036.heesch",
+  "B": 241,
+  "bound": 12.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p032-017.heesch",
+  "B": 241,
+  "bound": 12.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p049-040.heesch",
+  "B": 240,
+  "bound": 12.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p019-019.heesch",
+  "B": 239,
+  "bound": 12.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p049-038.heesch",
+  "B": 239,
+  "bound": 12.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p032-004.heesch",
+  "B": 219,
+  "bound": 11.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p019-039.heesch",
+  "B": 219,
+  "bound": 11.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p032-030.heesch",
+  "B": 219,
+  "bound": 11.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p049-016.heesch",
+  "B": 238,
+  "bound": 12.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p032-016.heesch",
+  "B": 218,
+  "bound": 11.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p049-020.heesch",
+  "B": 237,
+  "bound": 12.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p035-020.heesch",
+  "B": 235,
+  "bound": 12.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p035-034.heesch",
+  "B": 235,
+  "bound": 12.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p035-016.heesch",
+  "B": 235,
+  "bound": 12.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p035-038.heesch",
+  "B": 234,
+  "bound": 12.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p035-036.heesch",
+  "B": 233,
+  "bound": 12.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p031-026.heesch",
+  "B": 232,
+  "bound": 12.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p031-029.heesch",
+  "B": 232,
+  "bound": 12.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p049-008.heesch",
+  "B": 251,
+  "bound": 13.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p032-029.heesch",
+  "B": 231,
+  "bound": 12.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p032-006.heesch",
+  "B": 230,
+  "bound": 12.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p035-018.heesch",
+  "B": 243,
+  "bound": 13.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p035-039.heesch",
+  "B": 241,
+  "bound": 13.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p035-017.heesch",
+  "B": 241,
+  "bound": 13.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p049-039.heesch",
+  "B": 241,
+  "bound": 13.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p049-037.heesch",
+  "B": 240,
+  "bound": 13.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p049-001.heesch",
+  "B": 239,
+  "bound": 13.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p049-005.heesch",
+  "B": 238,
+  "bound": 13.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p049-017.heesch",
+  "B": 237,
+  "bound": 13.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p032-022.heesch",
+  "B": 218,
+  "bound": 12.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p019-038.heesch",
+  "B": 217,
+  "bound": 12.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p035-035.heesch",
+  "B": 234,
+  "bound": 13.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p035-006.heesch",
+  "B": 249,
+  "bound": 14.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p035-002.heesch",
+  "B": 249,
+  "bound": 14.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p032-021.heesch",
+  "B": 230,
+  "bound": 13.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p049-014.heesch",
+  "B": 264,
+  "bound": 15.0,
+  "strict_budget": 9
+ },
+ {
+  "source": "p031-005.heesch",
+  "B": 246,
+  "bound": 14.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p031-002.heesch",
+  "B": 246,
+  "bound": 14.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p049-013.heesch",
+  "B": 262,
+  "bound": 15.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p031-027.heesch",
+  "B": 243,
+  "bound": 14.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p035-040.heesch",
+  "B": 240,
+  "bound": 14.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p035-004.heesch",
+  "B": 257,
+  "bound": 15.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p032-011.heesch",
+  "B": 239,
+  "bound": 14.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p035-003.heesch",
+  "B": 255,
+  "bound": 15.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p049-002.heesch",
+  "B": 238,
+  "bound": 14.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p032-023.heesch",
+  "B": 238,
+  "bound": 14.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p031-035.heesch",
+  "B": 220,
+  "bound": 13.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p031-032.heesch",
+  "B": 220,
+  "bound": 13.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p049-018.heesch",
+  "B": 236,
+  "bound": 14.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p048-006.heesch",
+  "B": 236,
+  "bound": 14.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p048-009.heesch",
+  "B": 236,
+  "bound": 14.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p035-037.heesch",
+  "B": 235,
+  "bound": 14.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p048-015.heesch",
+  "B": 235,
+  "bound": 14.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p048-011.heesch",
+  "B": 232,
+  "bound": 14.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p048-010.heesch",
+  "B": 232,
+  "bound": 14.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p019-035.heesch",
+  "B": 231,
+  "bound": 14.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p031-038.heesch",
+  "B": 231,
+  "bound": 14.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p048-008.heesch",
+  "B": 231,
+  "bound": 14.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p048-016.heesch",
+  "B": 231,
+  "bound": 14.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p019-028.heesch",
+  "B": 229,
+  "bound": 14.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p032-035.heesch",
+  "B": 228,
+  "bound": 14.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p032-012.heesch",
+  "B": 227,
+  "bound": 14.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p035-008.heesch",
+  "B": 227,
+  "bound": 14.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p035-012.heesch",
+  "B": 226,
+  "bound": 14.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p032-024.heesch",
+  "B": 226,
+  "bound": 14.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p049-035.heesch",
+  "B": 226,
+  "bound": 14.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p031-003.heesch",
+  "B": 257,
+  "bound": 16.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p048-012.heesch",
+  "B": 235,
+  "bound": 15.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p031-011.heesch",
+  "B": 234,
+  "bound": 15.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p031-008.heesch",
+  "B": 234,
+  "bound": 15.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p019-009.heesch",
+  "B": 217,
+  "bound": 14.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p048-007.heesch",
+  "B": 232,
+  "bound": 15.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p032-036.heesch",
+  "B": 216,
+  "bound": 14.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p019-014.heesch",
+  "B": 230,
+  "bound": 15.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p032-007.heesch",
+  "B": 214,
+  "bound": 14.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p035-022.heesch",
+  "B": 213,
+  "bound": 14.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p035-021.heesch",
+  "B": 243,
+  "bound": 16.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p035-026.heesch",
+  "B": 212,
+  "bound": 14.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p031-039.heesch",
+  "B": 242,
+  "bound": 16.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p049-032.heesch",
+  "B": 226,
+  "bound": 15.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p031-030.heesch",
+  "B": 240,
+  "bound": 16.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p049-019.heesch",
+  "B": 238,
+  "bound": 16.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p048-013.heesch",
+  "B": 234,
+  "bound": 16.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p048-003.heesch",
+  "B": 217,
+  "bound": 15.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p032-039.heesch",
+  "B": 188,
+  "bound": 13.0,
+  "strict_budget": 6
+ },
+ {
+  "source": "p019-033.heesch",
+  "B": 206,
+  "bound": 15.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p049-026.heesch",
+  "B": 260,
+  "bound": 19.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p049-029.heesch",
+  "B": 260,
+  "bound": 19.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p019-010.heesch",
+  "B": 205,
+  "bound": 15.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p019-001.heesch",
+  "B": 218,
+  "bound": 16.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p049-028.heesch",
+  "B": 258,
+  "bound": 19.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p032-031.heesch",
+  "B": 203,
+  "bound": 15.0,
+  "strict_budget": 6
+ },
+ {
+  "source": "p048-014.heesch",
+  "B": 230,
+  "bound": 17.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p019-023.heesch",
+  "B": 216,
+  "bound": 16.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p032-008.heesch",
+  "B": 202,
+  "bound": 15.0,
+  "strict_budget": 6
+ },
+ {
+  "source": "p031-036.heesch",
+  "B": 228,
+  "bound": 17.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p032-019.heesch",
+  "B": 213,
+  "bound": 16.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p049-030.heesch",
+  "B": 259,
+  "bound": 20.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p019-024.heesch",
+  "B": 204,
+  "bound": 16.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p032-037.heesch",
+  "B": 203,
+  "bound": 16.0,
+  "strict_budget": 6
+ },
+ {
+  "source": "p032-001.heesch",
+  "B": 215,
+  "bound": 17.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p032-020.heesch",
+  "B": 201,
+  "bound": 16.0,
+  "strict_budget": 6
+ },
+ {
+  "source": "p048-025.heesch",
+  "B": 250,
+  "bound": 20.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p048-023.heesch",
+  "B": 246,
+  "bound": 20.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p019-029.heesch",
+  "B": 207,
+  "bound": 17.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p019-040.heesch",
+  "B": 194,
+  "bound": 16.0,
+  "strict_budget": 6
+ },
+ {
+  "source": "p019-002.heesch",
+  "B": 206,
+  "bound": 17.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p019-015.heesch",
+  "B": 217,
+  "bound": 18.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p035-023.heesch",
+  "B": 229,
+  "bound": 19.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p031-018.heesch",
+  "B": 253,
+  "bound": 21.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p032-038.heesch",
+  "B": 203,
+  "bound": 17.0,
+  "strict_budget": 6
+ },
+ {
+  "source": "p032-032.heesch",
+  "B": 191,
+  "bound": 16.0,
+  "strict_budget": 6
+ },
+ {
+  "source": "p048-022.heesch",
+  "B": 250,
+  "bound": 21.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p048-031.heesch",
+  "B": 249,
+  "bound": 21.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p048-028.heesch",
+  "B": 249,
+  "bound": 21.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p035-025.heesch",
+  "B": 237,
+  "bound": 20.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p035-024.heesch",
+  "B": 235,
+  "bound": 20.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p048-027.heesch",
+  "B": 246,
+  "bound": 21.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p048-026.heesch",
+  "B": 246,
+  "bound": 21.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p048-032.heesch",
+  "B": 245,
+  "bound": 21.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p048-002.heesch",
+  "B": 231,
+  "bound": 20.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p019-007.heesch",
+  "B": 242,
+  "bound": 21.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p049-006.heesch",
+  "B": 253,
+  "bound": 22.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p049-021.heesch",
+  "B": 253,
+  "bound": 22.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p031-024.heesch",
+  "B": 241,
+  "bound": 21.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p049-025.heesch",
+  "B": 252,
+  "bound": 22.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p049-010.heesch",
+  "B": 252,
+  "bound": 22.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p019-016.heesch",
+  "B": 205,
+  "bound": 18.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p048-038.heesch",
+  "B": 261,
+  "bound": 23.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p032-025.heesch",
+  "B": 204,
+  "bound": 18.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p035-010.heesch",
+  "B": 249,
+  "bound": 22.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p048-001.heesch",
+  "B": 249,
+  "bound": 22.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p032-002.heesch",
+  "B": 203,
+  "bound": 18.0,
+  "strict_budget": 6
+ },
+ {
+  "source": "p048-029.heesch",
+  "B": 248,
+  "bound": 22.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p032-013.heesch",
+  "B": 214,
+  "bound": 19.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p048-039.heesch",
+  "B": 257,
+  "bound": 23.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p048-024.heesch",
+  "B": 245,
+  "bound": 22.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p048-040.heesch",
+  "B": 256,
+  "bound": 23.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p049-011.heesch",
+  "B": 264,
+  "bound": 24.0,
+  "strict_budget": 9
+ },
+ {
+  "source": "p048-005.heesch",
+  "B": 231,
+  "bound": 21.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p048-019.heesch",
+  "B": 231,
+  "bound": 21.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p049-015.heesch",
+  "B": 263,
+  "bound": 24.0,
+  "strict_budget": 9
+ },
+ {
+  "source": "p049-022.heesch",
+  "B": 252,
+  "bound": 23.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p049-007.heesch",
+  "B": 252,
+  "bound": 23.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p019-005.heesch",
+  "B": 240,
+  "bound": 22.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p032-040.heesch",
+  "B": 207,
+  "bound": 19.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p019-036.heesch",
+  "B": 195,
+  "bound": 18.0,
+  "strict_budget": 6
+ },
+ {
+  "source": "p019-003.heesch",
+  "B": 234,
+  "bound": 22.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p032-014.heesch",
+  "B": 202,
+  "bound": 19.0,
+  "strict_budget": 6
+ },
+ {
+  "source": "p032-005.heesch",
+  "B": 242,
+  "bound": 23.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p048-035.heesch",
+  "B": 242,
+  "bound": 23.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p049-012.heesch",
+  "B": 263,
+  "bound": 25.0,
+  "strict_budget": 9
+ },
+ {
+  "source": "p019-032.heesch",
+  "B": 231,
+  "bound": 22.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p019-021.heesch",
+  "B": 241,
+  "bound": 23.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p019-008.heesch",
+  "B": 230,
+  "bound": 22.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p019-011.heesch",
+  "B": 234,
+  "bound": 23.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p048-030.heesch",
+  "B": 244,
+  "bound": 24.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p032-026.heesch",
+  "B": 192,
+  "bound": 19.0,
+  "strict_budget": 6
+ },
+ {
+  "source": "p032-003.heesch",
+  "B": 231,
+  "bound": 23.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p019-031.heesch",
+  "B": 229,
+  "bound": 23.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p019-022.heesch",
+  "B": 229,
+  "bound": 23.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p019-006.heesch",
+  "B": 228,
+  "bound": 23.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p019-017.heesch",
+  "B": 233,
+  "bound": 24.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p019-030.heesch",
+  "B": 223,
+  "bound": 23.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p019-004.heesch",
+  "B": 222,
+  "bound": 23.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p019-020.heesch",
+  "B": 227,
+  "bound": 24.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p048-021.heesch",
+  "B": 245,
+  "bound": 26.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p048-018.heesch",
+  "B": 245,
+  "bound": 26.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p048-017.heesch",
+  "B": 263,
+  "bound": 28.0,
+  "strict_budget": 9
+ },
+ {
+  "source": "p019-025.heesch",
+  "B": 233,
+  "bound": 25.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p019-034.heesch",
+  "B": 223,
+  "bound": 24.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p019-012.heesch",
+  "B": 222,
+  "bound": 24.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p019-018.heesch",
+  "B": 221,
+  "bound": 24.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p032-027.heesch",
+  "B": 220,
+  "bound": 24.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p019-013.heesch",
+  "B": 242,
+  "bound": 27.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p019-026.heesch",
+  "B": 221,
+  "bound": 25.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p048-033.heesch",
+  "B": 274,
+  "bound": 31.0,
+  "strict_budget": 9
+ },
+ {
+  "source": "p048-034.heesch",
+  "B": 256,
+  "bound": 29.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p048-037.heesch",
+  "B": 256,
+  "bound": 29.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p019-037.heesch",
+  "B": 211,
+  "bound": 24.0,
+  "strict_budget": 7
+ },
+ {
+  "source": "p048-004.heesch",
+  "B": 238,
+  "bound": 28.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p049-027.heesch",
+  "B": 259,
+  "bound": 31.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p019-027.heesch",
+  "B": 241,
+  "bound": 29.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p048-020.heesch",
+  "B": 252,
+  "bound": 34.0,
+  "strict_budget": 8
+ },
+ {
+  "source": "p048-036.heesch",
+  "B": 263,
+  "bound": 36.0,
+  "strict_budget": 9
+ }
+]

@@ -1,0 +1,236 @@
+[
+ {
+  "source": "patch-032.heesch",
+  "phases": [
+   {
+    "cap": 17,
+    "status": "OPTIMAL",
+    "cycles": 23,
+    "solver_s": 0.5818450000000001,
+    "lower_bound": 0.0,
+    "defect": 17,
+    "required": 181,
+    "hh": 13
+   },
+   {
+    "cap": 16,
+    "status": "OPTIMAL",
+    "cycles": 8,
+    "solver_s": 0.5927490000000001,
+    "lower_bound": 0.0,
+    "defect": 16,
+    "required": 181,
+    "hh": 16
+   },
+   {
+    "cap": 15,
+    "status": "UNKNOWN",
+    "cycles": 20,
+    "solver_s": 0.25058800000000003,
+    "lower_bound": 0.0
+   }
+  ]
+ },
+ {
+  "source": "patch-031.heesch",
+  "phases": [
+   {
+    "cap": 20,
+    "status": "OPTIMAL",
+    "cycles": 10,
+    "solver_s": 1.172374,
+    "lower_bound": 0.0,
+    "defect": 20,
+    "required": 204,
+    "hh": 13
+   },
+   {
+    "cap": 19,
+    "status": "OPTIMAL",
+    "cycles": 8,
+    "solver_s": 0.728186,
+    "lower_bound": 0.0,
+    "defect": 19,
+    "required": 204,
+    "hh": 12
+   },
+   {
+    "cap": 18,
+    "status": "UNKNOWN",
+    "cycles": 14,
+    "solver_s": 0.25139100000000003,
+    "lower_bound": 0.0
+   }
+  ]
+ },
+ {
+  "source": "patch-019.heesch",
+  "phases": [
+   {
+    "cap": 18,
+    "status": "OPTIMAL",
+    "cycles": 7,
+    "solver_s": 1.513951,
+    "lower_bound": 0.0,
+    "defect": 18,
+    "required": 186,
+    "hh": 16
+   },
+   {
+    "cap": 17,
+    "status": "OPTIMAL",
+    "cycles": 12,
+    "solver_s": 0.6537780000000001,
+    "lower_bound": 0.0,
+    "defect": 17,
+    "required": 186,
+    "hh": 17
+   },
+   {
+    "cap": 16,
+    "status": "OPTIMAL",
+    "cycles": 5,
+    "solver_s": 0.791332,
+    "lower_bound": 0.0,
+    "defect": 16,
+    "required": 186,
+    "hh": 16
+   },
+   {
+    "cap": 15,
+    "status": "OPTIMAL",
+    "cycles": 10,
+    "solver_s": 1.04155,
+    "lower_bound": 0.0,
+    "defect": 15,
+    "required": 186,
+    "hh": 13
+   },
+   {
+    "cap": 14,
+    "status": "OPTIMAL",
+    "cycles": 3,
+    "solver_s": 0.686663,
+    "lower_bound": 0.0,
+    "defect": 14,
+    "required": 186,
+    "hh": 14
+   },
+   {
+    "cap": 13,
+    "status": "INFEASIBLE",
+    "cycles": 1,
+    "solver_s": 0.6065670000000001,
+    "lower_bound": 0.0
+   }
+  ]
+ },
+ {
+  "source": "patch-049.heesch",
+  "phases": [
+   {
+    "cap": 20,
+    "status": "UNKNOWN",
+    "cycles": 6,
+    "solver_s": 1.445974,
+    "lower_bound": 0.0
+   }
+  ]
+ },
+ {
+  "source": "patch-035.heesch",
+  "phases": [
+   {
+    "cap": 23,
+    "status": "UNKNOWN",
+    "cycles": 9,
+    "solver_s": 0.940177,
+    "lower_bound": 0.0
+   }
+  ]
+ },
+ {
+  "source": "patch-039.heesch",
+  "phases": [
+   {
+    "cap": 22,
+    "status": "INFEASIBLE",
+    "cycles": 1,
+    "solver_s": 1.6792550000000002,
+    "lower_bound": 0.0
+   }
+  ]
+ },
+ {
+  "source": "patch-048.heesch",
+  "phases": [
+   {
+    "cap": 20,
+    "status": "INFEASIBLE",
+    "cycles": 0,
+    "solver_s": 0.8602550000000001,
+    "lower_bound": 0.0
+   }
+  ]
+ },
+ {
+  "source": "patch-007.heesch",
+  "phases": [
+   {
+    "cap": 21,
+    "status": "INFEASIBLE",
+    "cycles": 0,
+    "solver_s": 0.671632,
+    "lower_bound": 0.0
+   }
+  ]
+ },
+ {
+  "source": "patch-046.heesch",
+  "phases": [
+   {
+    "cap": 24,
+    "status": "INFEASIBLE",
+    "cycles": 0,
+    "solver_s": 0.6886410000000001,
+    "lower_bound": 0.0
+   }
+  ]
+ },
+ {
+  "source": "patch-030.heesch",
+  "phases": [
+   {
+    "cap": 22,
+    "status": "INFEASIBLE",
+    "cycles": 0,
+    "solver_s": 0.936038,
+    "lower_bound": 0.0
+   }
+  ]
+ },
+ {
+  "source": "patch-034.heesch",
+  "phases": [
+   {
+    "cap": 22,
+    "status": "INFEASIBLE",
+    "cycles": 0,
+    "solver_s": 0.505569,
+    "lower_bound": 0.0
+   }
+  ]
+ },
+ {
+  "source": "patch-033.heesch",
+  "phases": [
+   {
+    "cap": 17,
+    "status": "INFEASIBLE",
+    "cycles": 0,
+    "solver_s": 0.44717500000000004,
+    "lower_bound": 0.0
+   }
+  ]
+ }
+]
