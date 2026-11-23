@@ -1,0 +1,20 @@
+{"fixed_depth": 3, "fixed_cells": 525, "first_required": 116, "first_raw": 1478, "first_possible": 76, "second_possible": 6630, "boundary_domain": 485, "pocket_vars": 1050, "target": 1}
+{"step": 0, "status": "OPTIMAL", "solve_s": 1.1707530000000002, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 160, "hh": 10, "hc": 10, "gain": 10, "pocket4": 2, "pocket5": 7}
+{"step": 1, "status": "OPTIMAL", "solve_s": 1.6311170000000002, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 157, "hh": 10, "hc": 10, "gain": 7, "pocket4": 2, "pocket5": 9}
+{"step": 2, "status": "OPTIMAL", "solve_s": 2.54185, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 168, "hh": 11, "hc": 19, "gain": -117, "pocket4": 1, "pocket5": 16}
+{"step": 3, "status": "OPTIMAL", "solve_s": 0.9301560000000001, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 165, "hh": 10, "hc": 18, "gain": -105, "pocket4": 1, "pocket5": 16}
+{"step": 4, "status": "OPTIMAL", "solve_s": 1.6079890000000001, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 161, "hh": 9, "hc": 14, "gain": -49, "pocket4": 1, "pocket5": 14}
+{"step": 5, "status": "OPTIMAL", "solve_s": 5.508368, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 154, "hh": 10, "hc": 19, "gain": -131, "pocket4": 2, "pocket5": 18}
+{"step": 6, "status": "OPTIMAL", "solve_s": 3.537703, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 158, "hh": 10, "hc": 11, "gain": -7, "pocket4": 2, "pocket5": 8}
+{"step": 7, "status": "OPTIMAL", "solve_s": 2.1244810000000003, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 161, "hh": 9, "hc": 19, "gain": -124, "pocket4": 1, "pocket5": 19}
+{"step": 8, "status": "OPTIMAL", "solve_s": 1.022357, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 166, "hh": 11, "hc": 11, "gain": 1, "pocket4": 0, "pocket5": 8}
+{"file": "/Users/hol/Documents/Codex/2026-11-20/set-up-the-heesch-polyform-challenge/work/score-first-branches/outline-019/ratio-search/05-1-15.heesch", "sha256": "59fba776b79308dd934f3fd431dded8617c7f588fce0b400a93351ae4af192ad", "partial_count": 32, "required": 166, "hh": 11, "defect": 11, "mode": "joint", "gain": 1}

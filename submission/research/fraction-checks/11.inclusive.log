@@ -1,0 +1,4 @@
+{"outer_before": 7522, "outer_after_exact_inner_support": 4320}
+{"additional_pair_cuts": 3846}
+{"fixed_depth": 3, "fixed_cells": 600, "first_required": 133, "first_raw": 1618, "first_possible": 85, "second_possible": 4320, "boundary_domain": 553, "pocket_vars": 1172, "target": 0}
+{"step": 0, "status": "INFEASIBLE", "solve_s": 3.1687920000000003, "objective": 0.0, "upper_bound": 0.0}

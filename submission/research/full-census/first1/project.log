@@ -1,0 +1,148 @@
+{"fixed_depth": 1, "fixed_cells": 105, "first_required": 56, "first_raw": 796, "first_possible": 96, "second_possible": 4846, "boundary_domain": 334, "pocket_vars": 702, "target": 1}
+{"step": 0, "status": "OPTIMAL", "solve_s": 0.204332, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 101, "hh": 0, "hc": 0, "gain": 303, "pocket4": 0, "pocket5": 0}
+{"file": "outline-019/fresh/changed-00001/patch-001.heesch", "tiles": 41, "P3_difference": 0}
+{"step": 1, "status": "OPTIMAL", "solve_s": 0.192731, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 105, "hh": 0, "hc": 0, "gain": 315, "pocket4": 0, "pocket5": 0}
+{"file": "outline-019/fresh/changed-00001/patch-002.heesch", "tiles": 43, "P3_difference": 17}
+{"step": 2, "status": "OPTIMAL", "solve_s": 0.19315300000000002, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 97, "hh": 0, "hc": 0, "gain": 291, "pocket4": 0, "pocket5": 0}
+{"file": "outline-019/fresh/changed-00001/patch-003.heesch", "tiles": 41, "P3_difference": 6}
+{"step": 3, "status": "OPTIMAL", "solve_s": 0.206328, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 101, "hh": 0, "hc": 4, "gain": -713, "pocket4": 0, "pocket5": 4}
+{"step": 4, "status": "OPTIMAL", "solve_s": 0.20053700000000002, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 101, "hh": 0, "hc": 0, "gain": 303, "pocket4": 0, "pocket5": 0}
+{"file": "outline-019/fresh/changed-00001/patch-004.heesch", "tiles": 43, "P3_difference": 23}
+{"step": 5, "status": "OPTIMAL", "solve_s": 0.18867, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 101, "hh": 0, "hc": 0, "gain": 303, "pocket4": 0, "pocket5": 0}
+{"file": "outline-019/fresh/changed-00001/patch-005.heesch", "tiles": 41, "P3_difference": 6}
+{"step": 6, "status": "OPTIMAL", "solve_s": 0.19477, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 97, "hh": 0, "hc": 0, "gain": 291, "pocket4": 0, "pocket5": 0}
+{"file": "outline-019/fresh/changed-00001/patch-006.heesch", "tiles": 41, "P3_difference": 6}
+{"step": 7, "status": "OPTIMAL", "solve_s": 0.200027, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 105, "hh": 0, "hc": 0, "gain": 315, "pocket4": 0, "pocket5": 0}
+{"file": "outline-019/fresh/changed-00001/patch-007.heesch", "tiles": 43, "P3_difference": 23}
+{"step": 8, "status": "OPTIMAL", "solve_s": 0.185892, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 101, "hh": 0, "hc": 0, "gain": 303, "pocket4": 0, "pocket5": 0}
+{"file": "outline-019/fresh/changed-00001/patch-008.heesch", "tiles": 43, "P3_difference": 23}
+{"step": 9, "status": "OPTIMAL", "solve_s": 0.192257, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 97, "hh": 0, "hc": 0, "gain": 291, "pocket4": 0, "pocket5": 0}
+{"file": "outline-019/fresh/changed-00001/patch-009.heesch", "tiles": 39, "P3_difference": 6}
+{"step": 10, "status": "OPTIMAL", "solve_s": 0.196689, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 101, "hh": 0, "hc": 0, "gain": 303, "pocket4": 0, "pocket5": 0}
+{"file": "outline-019/fresh/changed-00001/patch-010.heesch", "tiles": 41, "P3_difference": 23}
+{"step": 11, "status": "OPTIMAL", "solve_s": 0.187554, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 97, "hh": 0, "hc": 0, "gain": 291, "pocket4": 0, "pocket5": 0}
+{"file": "outline-019/fresh/changed-00001/patch-011.heesch", "tiles": 41, "P3_difference": 12}
+{"step": 12, "status": "OPTIMAL", "solve_s": 0.20433900000000002, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 93, "hh": 0, "hc": 0, "gain": 279, "pocket4": 0, "pocket5": 0}
+{"file": "outline-019/fresh/changed-00001/patch-012.heesch", "tiles": 41, "P3_difference": 12}
+{"step": 13, "status": "OPTIMAL", "solve_s": 0.214153, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 101, "hh": 0, "hc": 0, "gain": 303, "pocket4": 0, "pocket5": 0}
+{"file": "outline-019/fresh/changed-00001/patch-013.heesch", "tiles": 43, "P3_difference": 29}
+{"step": 14, "status": "OPTIMAL", "solve_s": 0.22739700000000002, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 97, "hh": 0, "hc": 0, "gain": 291, "pocket4": 0, "pocket5": 0}
+{"file": "outline-019/fresh/changed-00001/patch-014.heesch", "tiles": 43, "P3_difference": 29}
+{"step": 15, "status": "OPTIMAL", "solve_s": 0.206823, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 93, "hh": 0, "hc": 0, "gain": 279, "pocket4": 0, "pocket5": 0}
+{"file": "outline-019/fresh/changed-00001/patch-015.heesch", "tiles": 39, "P3_difference": 12}
+{"step": 16, "status": "OPTIMAL", "solve_s": 0.18974500000000002, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 97, "hh": 0, "hc": 0, "gain": 291, "pocket4": 0, "pocket5": 0}
+{"file": "outline-019/fresh/changed-00001/patch-016.heesch", "tiles": 41, "P3_difference": 29}
+{"step": 17, "status": "OPTIMAL", "solve_s": 0.20986800000000003, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 101, "hh": 0, "hc": 0, "gain": 303, "pocket4": 0, "pocket5": 0}
+{"file": "outline-019/fresh/changed-00001/patch-017.heesch", "tiles": 42, "P3_difference": 6}
+{"step": 18, "status": "OPTIMAL", "solve_s": 0.195784, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 105, "hh": 0, "hc": 0, "gain": 315, "pocket4": 0, "pocket5": 0}
+{"file": "outline-019/fresh/changed-00001/patch-018.heesch", "tiles": 43, "P3_difference": 23}
+{"step": 19, "status": "OPTIMAL", "solve_s": 0.18660100000000002, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 101, "hh": 0, "hc": 0, "gain": 303, "pocket4": 0, "pocket5": 0}
+{"file": "outline-019/fresh/changed-00001/patch-019.heesch", "tiles": 42, "P3_difference": 12}
+{"step": 20, "status": "OPTIMAL", "solve_s": 0.18710900000000003, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 97, "hh": 0, "hc": 0, "gain": 291, "pocket4": 0, "pocket5": 0}
+{"file": "outline-019/fresh/changed-00001/patch-020.heesch", "tiles": 42, "P3_difference": 12}
+{"step": 21, "status": "OPTIMAL", "solve_s": 0.195168, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 105, "hh": 0, "hc": 0, "gain": 315, "pocket4": 0, "pocket5": 0}
+{"file": "outline-019/fresh/changed-00001/patch-021.heesch", "tiles": 43, "P3_difference": 29}
+{"step": 22, "status": "OPTIMAL", "solve_s": 0.18821700000000002, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 101, "hh": 0, "hc": 0, "gain": 303, "pocket4": 0, "pocket5": 0}
+{"file": "outline-019/fresh/changed-00001/patch-022.heesch", "tiles": 43, "P3_difference": 29}
+{"step": 23, "status": "OPTIMAL", "solve_s": 0.188837, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 97, "hh": 0, "hc": 0, "gain": 291, "pocket4": 0, "pocket5": 0}
+{"file": "outline-019/fresh/changed-00001/patch-023.heesch", "tiles": 40, "P3_difference": 12}
+{"step": 24, "status": "OPTIMAL", "solve_s": 0.186862, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 101, "hh": 0, "hc": 0, "gain": 303, "pocket4": 0, "pocket5": 0}
+{"file": "outline-019/fresh/changed-00001/patch-024.heesch", "tiles": 41, "P3_difference": 29}
+{"step": 25, "status": "OPTIMAL", "solve_s": 0.20514800000000002, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 99, "hh": 0, "hc": 0, "gain": 297, "pocket4": 0, "pocket5": 0}
+{"file": "outline-019/fresh/changed-00001/patch-025.heesch", "tiles": 42, "P3_difference": 6}
+{"step": 26, "status": "OPTIMAL", "solve_s": 0.19767900000000002, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 105, "hh": 0, "hc": 0, "gain": 315, "pocket4": 0, "pocket5": 0}
+{"file": "outline-019/fresh/changed-00001/patch-026.heesch", "tiles": 43, "P3_difference": 23}
+{"step": 27, "status": "OPTIMAL", "solve_s": 0.188806, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 101, "hh": 0, "hc": 0, "gain": 303, "pocket4": 0, "pocket5": 0}
+{"file": "outline-019/fresh/changed-00001/patch-027.heesch", "tiles": 41, "P3_difference": 18}
+{"step": 28, "status": "OPTIMAL", "solve_s": 0.190998, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 99, "hh": 0, "hc": 0, "gain": 297, "pocket4": 0, "pocket5": 0}
+{"file": "outline-019/fresh/changed-00001/patch-028.heesch", "tiles": 42, "P3_difference": 12}
+{"step": 29, "status": "OPTIMAL", "solve_s": 0.18424900000000002, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 95, "hh": 0, "hc": 0, "gain": 285, "pocket4": 0, "pocket5": 0}
+{"file": "outline-019/fresh/changed-00001/patch-029.heesch", "tiles": 42, "P3_difference": 12}
+{"step": 30, "status": "OPTIMAL", "solve_s": 0.18552700000000003, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 105, "hh": 0, "hc": 0, "gain": 315, "pocket4": 0, "pocket5": 0}
+{"file": "outline-019/fresh/changed-00001/patch-030.heesch", "tiles": 43, "P3_difference": 29}
+{"step": 31, "status": "OPTIMAL", "solve_s": 0.19048600000000002, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 101, "hh": 0, "hc": 0, "gain": 303, "pocket4": 0, "pocket5": 0}
+{"file": "outline-019/fresh/changed-00001/patch-031.heesch", "tiles": 43, "P3_difference": 29}
+{"step": 32, "status": "OPTIMAL", "solve_s": 0.19146200000000002, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 101, "hh": 0, "hc": 0, "gain": 303, "pocket4": 0, "pocket5": 0}
+{"file": "outline-019/fresh/changed-00001/patch-032.heesch", "tiles": 41, "P3_difference": 24}
+{"step": 33, "status": "OPTIMAL", "solve_s": 0.189333, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 97, "hh": 0, "hc": 0, "gain": 291, "pocket4": 0, "pocket5": 0}
+{"file": "outline-019/fresh/changed-00001/patch-033.heesch", "tiles": 41, "P3_difference": 24}
+{"step": 34, "status": "OPTIMAL", "solve_s": 0.191226, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 95, "hh": 0, "hc": 0, "gain": 285, "pocket4": 0, "pocket5": 0}
+{"file": "outline-019/fresh/changed-00001/patch-034.heesch", "tiles": 40, "P3_difference": 12}
+{"step": 35, "status": "OPTIMAL", "solve_s": 0.19112600000000002, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 101, "hh": 0, "hc": 0, "gain": 303, "pocket4": 0, "pocket5": 0}
+{"file": "outline-019/fresh/changed-00001/patch-035.heesch", "tiles": 41, "P3_difference": 29}
+{"step": 36, "status": "OPTIMAL", "solve_s": 0.21449600000000002, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 97, "hh": 0, "hc": 0, "gain": 291, "pocket4": 0, "pocket5": 0}
+{"file": "outline-019/fresh/changed-00001/patch-036.heesch", "tiles": 41, "P3_difference": 6}
+{"step": 37, "status": "OPTIMAL", "solve_s": 0.198775, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 101, "hh": 0, "hc": 0, "gain": 303, "pocket4": 0, "pocket5": 0}
+{"file": "outline-019/fresh/changed-00001/patch-037.heesch", "tiles": 43, "P3_difference": 23}
+{"step": 38, "status": "OPTIMAL", "solve_s": 0.19037500000000002, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 97, "hh": 0, "hc": 0, "gain": 291, "pocket4": 0, "pocket5": 0}
+{"file": "outline-019/fresh/changed-00001/patch-038.heesch", "tiles": 41, "P3_difference": 12}
+{"step": 39, "status": "OPTIMAL", "solve_s": 0.193885, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 93, "hh": 0, "hc": 0, "gain": 279, "pocket4": 0, "pocket5": 0}
+{"file": "outline-019/fresh/changed-00001/patch-039.heesch", "tiles": 41, "P3_difference": 12}
+{"step": 40, "status": "OPTIMAL", "solve_s": 0.190171, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 101, "hh": 0, "hc": 0, "gain": 303, "pocket4": 0, "pocket5": 0}
+{"file": "outline-019/fresh/changed-00001/patch-040.heesch", "tiles": 43, "P3_difference": 29}
+{"step": 41, "status": "OPTIMAL", "solve_s": 0.18544000000000002, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 97, "hh": 0, "hc": 0, "gain": 291, "pocket4": 0, "pocket5": 0}
+{"file": "outline-019/fresh/changed-00001/patch-041.heesch", "tiles": 43, "P3_difference": 29}
+{"step": 42, "status": "OPTIMAL", "solve_s": 0.192341, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 93, "hh": 0, "hc": 0, "gain": 279, "pocket4": 0, "pocket5": 0}
+{"file": "outline-019/fresh/changed-00001/patch-042.heesch", "tiles": 39, "P3_difference": 12}
+{"step": 43, "status": "OPTIMAL", "solve_s": 0.217922, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 97, "hh": 0, "hc": 0, "gain": 291, "pocket4": 0, "pocket5": 0}
+{"file": "outline-019/fresh/changed-00001/patch-043.heesch", "tiles": 39, "P3_difference": 24}
+{"step": 44, "status": "OPTIMAL", "solve_s": 0.207188, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 97, "hh": 0, "hc": 0, "gain": 291, "pocket4": 0, "pocket5": 0}
+{"file": "outline-019/fresh/changed-00001/patch-044.heesch", "tiles": 41, "P3_difference": 29}
+{"step": 45, "status": "OPTIMAL", "solve_s": 0.21460600000000002, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 101, "hh": 0, "hc": 0, "gain": 303, "pocket4": 0, "pocket5": 0}
+{"file": "outline-019/fresh/changed-00001/patch-045.heesch", "tiles": 42, "P3_difference": 16}
+{"step": 46, "status": "OPTIMAL", "solve_s": 0.17852200000000001, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 101, "hh": 0, "hc": 0, "gain": 303, "pocket4": 0, "pocket5": 0}
+{"file": "outline-019/fresh/changed-00001/patch-046.heesch", "tiles": 42, "P3_difference": 22}
+{"step": 47, "status": "OPTIMAL", "solve_s": 0.178291, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 97, "hh": 0, "hc": 0, "gain": 291, "pocket4": 0, "pocket5": 0}
+{"file": "outline-019/fresh/changed-00001/patch-047.heesch", "tiles": 42, "P3_difference": 22}
+{"step": 48, "status": "OPTIMAL", "solve_s": 0.18476700000000001, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 97, "hh": 0, "hc": 0, "gain": 291, "pocket4": 0, "pocket5": 0}
+{"file": "outline-019/fresh/changed-00001/patch-048.heesch", "tiles": 41, "P3_difference": 22}
+{"step": 49, "status": "INFEASIBLE", "solve_s": 0.175879, "objective": 0.0, "upper_bound": 0.0}

@@ -1,0 +1,20 @@
+{"fixed_depth": 3, "fixed_cells": 525, "first_required": 116, "first_raw": 1478, "first_possible": 76, "second_possible": 6630, "boundary_domain": 485, "pocket_vars": 1050, "target": 1}
+{"step": 0, "status": "OPTIMAL", "solve_s": 1.022035, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 157, "hh": 10, "hc": 19, "gain": -635, "pocket4": 2, "pocket5": 15}
+{"step": 1, "status": "OPTIMAL", "solve_s": 1.074345, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 161, "hh": 11, "hc": 15, "gain": -279, "pocket4": 2, "pocket5": 12}
+{"step": 2, "status": "OPTIMAL", "solve_s": 1.3838570000000001, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 170, "hh": 12, "hc": 16, "gain": -308, "pocket4": 1, "pocket5": 15}
+{"step": 3, "status": "OPTIMAL", "solve_s": 3.1632140000000004, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 161, "hh": 9, "hc": 11, "gain": 53, "pocket4": 1, "pocket5": 7}
+{"step": 4, "status": "OPTIMAL", "solve_s": 0.806088, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 167, "hh": 11, "hc": 19, "gain": -575, "pocket4": 1, "pocket5": 18}
+{"step": 5, "status": "OPTIMAL", "solve_s": 1.237062, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 161, "hh": 11, "hc": 11, "gain": 53, "pocket4": 2, "pocket5": 9}
+{"step": 6, "status": "OPTIMAL", "solve_s": 0.8934240000000001, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 167, "hh": 12, "hc": 20, "gain": -658, "pocket4": 1, "pocket5": 19}
+{"step": 7, "status": "OPTIMAL", "solve_s": 2.149575, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 161, "hh": 11, "hc": 12, "gain": -30, "pocket4": 0, "pocket5": 11}
+{"step": 8, "status": "OPTIMAL", "solve_s": 0.964847, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 165, "hh": 11, "hc": 11, "gain": 77, "pocket4": 0, "pocket5": 9}
+{"file": "/Users/hol/Documents/Codex/2026-11-20/set-up-the-heesch-polyform-challenge/work/score-first-branches/outline-019/ratio-search/05-6-83.heesch", "sha256": "b904c9f5c9a256ff76bb6230191291ea411d1b3715e56db5c5b19e82163e2b1f", "partial_count": 32, "required": 165, "hh": 11, "defect": 11, "mode": "joint", "gain": 77}

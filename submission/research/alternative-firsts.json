@@ -1,0 +1,28 @@
+[
+  {
+    "i": 1,
+    "first_cells_minus_center": 90,
+    "changed": 52,
+    "ring_counts": [
+      1,
+      6,
+      13,
+      20,
+      27
+    ],
+    "seconds": 154.79179541699705
+  },
+  {
+    "i": 2,
+    "first_cells_minus_center": 90,
+    "changed": 54,
+    "ring_counts": [
+      1,
+      6,
+      13,
+      20,
+      28
+    ],
+    "seconds": 173.5415260419977
+  }
+]

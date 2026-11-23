@@ -1,0 +1,10 @@
+{"fixed_depth": 3, "fixed_cells": 525, "first_required": 116, "first_raw": 1488, "first_possible": 76, "second_possible": 6608, "boundary_domain": 485, "pocket_vars": 1050, "target": 1}
+{"step": 0, "status": "OPTIMAL", "solve_s": 1.03555, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 160, "hh": 13, "hc": 14, "gain": -42, "pocket4": 2, "pocket5": 10}
+{"step": 1, "status": "OPTIMAL", "solve_s": 1.212839, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 154, "hh": 13, "hc": 18, "gain": -778, "pocket4": 2, "pocket5": 14}
+{"step": 2, "status": "OPTIMAL", "solve_s": 1.9523840000000001, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 166, "hh": 14, "hc": 22, "gain": -1262, "pocket4": 2, "pocket5": 20}
+{"step": 3, "status": "OPTIMAL", "solve_s": 0.7094670000000001, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 165, "hh": 13, "hc": 14, "gain": 28, "pocket4": 0, "pocket5": 12}
+{"file": "/Users/hol/Documents/Codex/2026-11-20/set-up-the-heesch-polyform-challenge/work/score-first-branches/outline-019/ratio-search/01-14-163.heesch", "sha256": "73dbbefe42fa6920dd6ce18a514cb6173e3cfb57d030c6672814180d2e732166", "partial_count": 32, "required": 165, "hh": 13, "defect": 14, "mode": "joint", "gain": 28}

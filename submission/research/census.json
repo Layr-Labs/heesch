@@ -1,0 +1,140 @@
+{
+ "shape": "ea59b4e5d16f37bd2f92f452d0958fb6c070316815e948db4682ed28911b1b7b",
+ "counts": [
+  [
+   14,
+   6
+  ],
+  [
+   48,
+   2
+  ],
+  [
+   4,
+   3
+  ]
+ ],
+ "p3": [
+  {
+   "geometry": "thirds/01.heesch",
+   "digest": "42316259ecf2b11c619fa8a724e8342486fe09bf1f188308cd3a2f2c53be1148",
+   "B_status": "OPTIMAL",
+   "B_max": 187,
+   "strict_status": "INFEASIBLE",
+   "strict_ratio": [
+    3,
+    254
+   ]
+  },
+  {
+   "geometry": "thirds/02.heesch",
+   "digest": "ec9a1ac0455f8ac4e52ea624fed6f910129b0cc7597300ca9e615fae1c5b1675",
+   "B_status": "OPTIMAL",
+   "B_max": 202,
+   "strict_status": "INFEASIBLE",
+   "strict_ratio": [
+    3,
+    254
+   ]
+  },
+  {
+   "geometry": "thirds/03.heesch",
+   "digest": "585610d7b9965ab2f014ae7afc4877ae67963908ea66df1e6f0a1d4c974c578f",
+   "B_status": "OPTIMAL",
+   "B_max": 196,
+   "strict_status": "INFEASIBLE",
+   "strict_ratio": [
+    3,
+    254
+   ]
+  },
+  {
+   "geometry": "thirds/04.heesch",
+   "digest": "d98b013ef51fc83a0d5e3f02bc5ae98c787cc1f1188b267c215e402b7890579b",
+   "B_status": "OPTIMAL",
+   "B_max": 204,
+   "strict_status": "INFEASIBLE",
+   "strict_ratio": [
+    3,
+    254
+   ]
+  },
+  {
+   "geometry": "thirds/05.heesch",
+   "digest": "187b16eb1e3a1f719e72c6e751600fff5a6cfb5ea80e4d5af1a13c8079bdda43",
+   "B_status": "OPTIMAL",
+   "B_max": 187,
+   "strict_status": "INFEASIBLE",
+   "strict_ratio": [
+    3,
+    254
+   ]
+  },
+  {
+   "geometry": "thirds/06.heesch",
+   "digest": "340e17baaefaecd0332e3fd7561bac3d1e40a245efacd119d39c38d95eee37f1",
+   "B_status": "OPTIMAL",
+   "B_max": 184,
+   "strict_status": "INFEASIBLE",
+   "strict_ratio": [
+    3,
+    254
+   ]
+  },
+  {
+   "geometry": "thirds/07.heesch",
+   "digest": "1a1cae4bdadddb01b964b43bcc1f9cdb1badc6de77a20171da06e2cedc7e67e3",
+   "B_status": "OPTIMAL",
+   "B_max": 215,
+   "strict_status": "INFEASIBLE",
+   "strict_ratio": [
+    3,
+    254
+   ]
+  },
+  {
+   "geometry": "thirds/08.heesch",
+   "digest": "71bec87317f75dbaac093c60100221aaefbe677b06daa91a2e7231c068674fca",
+   "B_status": "OPTIMAL",
+   "B_max": 210,
+   "strict_status": "INFEASIBLE",
+   "strict_ratio": [
+    3,
+    254
+   ]
+  },
+  {
+   "geometry": "thirds/09.heesch",
+   "digest": "a11f2629afab9794de239aacb9d1fc3d5784b5f77e797f20ad6f914a49f407eb",
+   "B_status": "OPTIMAL",
+   "B_max": 197,
+   "strict_status": "INFEASIBLE",
+   "strict_ratio": [
+    3,
+    254
+   ]
+  },
+  {
+   "geometry": "thirds/10.heesch",
+   "digest": "c0f61f0ae7488f05201e0e6e8aea682b4c21d28aa70c13e275fb07df5d89f951",
+   "B_status": "OPTIMAL",
+   "B_max": 208,
+   "strict_status": "INFEASIBLE",
+   "strict_ratio": [
+    3,
+    254
+   ]
+  },
+  {
+   "geometry": "thirds/11.heesch",
+   "digest": "21ecc07231dc991adae7961fc70659e06d86d41e4f10d6c3fcf041117c425f56",
+   "B_status": "OPTIMAL",
+   "B_max": 200,
+   "strict_status": "INFEASIBLE",
+   "strict_ratio": [
+    3,
+    254
+   ]
+  }
+ ]
+}

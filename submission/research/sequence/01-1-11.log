@@ -1,0 +1,16 @@
+{"fixed_depth": 3, "fixed_cells": 525, "first_required": 116, "first_raw": 1488, "first_possible": 76, "second_possible": 6608, "boundary_domain": 485, "pocket_vars": 1050, "target": 1}
+{"step": 0, "status": "OPTIMAL", "solve_s": 1.0533400000000002, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 164, "hh": 14, "hc": 26, "gain": -122, "pocket4": 2, "pocket5": 25}
+{"step": 1, "status": "OPTIMAL", "solve_s": 1.144576, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 160, "hh": 13, "hc": 25, "gain": -115, "pocket4": 2, "pocket5": 22}
+{"step": 2, "status": "OPTIMAL", "solve_s": 1.037083, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 167, "hh": 15, "hc": 26, "gain": -119, "pocket4": 2, "pocket5": 23}
+{"step": 3, "status": "OPTIMAL", "solve_s": 0.9191670000000001, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 157, "hh": 12, "hc": 14, "gain": 3, "pocket4": 2, "pocket5": 9}
+{"step": 4, "status": "OPTIMAL", "solve_s": 1.01284, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 161, "hh": 13, "hc": 20, "gain": -59, "pocket4": 1, "pocket5": 18}
+{"step": 5, "status": "OPTIMAL", "solve_s": 1.704684, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 160, "hh": 13, "hc": 13, "gain": 17, "pocket4": 1, "pocket5": 6}
+{"step": 6, "status": "OPTIMAL", "solve_s": 0.7996190000000001, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 169, "hh": 14, "hc": 15, "gain": 4, "pocket4": 0, "pocket5": 15}
+{"file": "/Users/hol/Documents/Codex/2026-11-20/set-up-the-heesch-polyform-challenge/work/score-first-branches/outline-019/ratio-search/01-1-11.heesch", "sha256": "4af6b0224c3ca1112e905e4e10b01d463e74c96cf6ca6080abfa13e209e762bf", "partial_count": 35, "required": 169, "hh": 14, "defect": 15, "mode": "joint", "gain": 4}

@@ -1,0 +1,30 @@
+{"fixed_depth": 3, "fixed_cells": 525, "first_required": 116, "first_raw": 1488, "first_possible": 76, "second_possible": 6608, "boundary_domain": 485, "pocket_vars": 1050, "target": 1}
+{"step": 0, "status": "OPTIMAL", "solve_s": 1.165164, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 157, "hh": 17, "hc": 31, "gain": -2161, "pocket4": 2, "pocket5": 30}
+{"step": 1, "status": "OPTIMAL", "solve_s": 1.5116420000000002, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 163, "hh": 17, "hc": 18, "gain": 182, "pocket4": 2, "pocket5": 12}
+{"step": 2, "status": "OPTIMAL", "solve_s": 0.875487, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 158, "hh": 17, "hc": 22, "gain": -602, "pocket4": 1, "pocket5": 17}
+{"step": 3, "status": "OPTIMAL", "solve_s": 0.8425910000000001, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 169, "hh": 19, "hc": 20, "gain": -40, "pocket4": 0, "pocket5": 17}
+{"step": 4, "status": "OPTIMAL", "solve_s": 0.747182, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 165, "hh": 19, "hc": 26, "gain": -1146, "pocket4": 1, "pocket5": 22}
+{"step": 5, "status": "OPTIMAL", "solve_s": 0.701833, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 159, "hh": 16, "hc": 29, "gain": -1779, "pocket4": 1, "pocket5": 22}
+{"step": 6, "status": "OPTIMAL", "solve_s": 1.107126, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 164, "hh": 19, "hc": 26, "gain": -1166, "pocket4": 2, "pocket5": 19}
+{"step": 7, "status": "OPTIMAL", "solve_s": 1.0317500000000002, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 161, "hh": 18, "hc": 25, "gain": -1055, "pocket4": 0, "pocket5": 23}
+{"step": 8, "status": "OPTIMAL", "solve_s": 0.7822880000000001, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 166, "hh": 19, "hc": 20, "gain": -100, "pocket4": 2, "pocket5": 17}
+{"step": 9, "status": "OPTIMAL", "solve_s": 0.7346710000000001, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 164, "hh": 19, "hc": 27, "gain": -1337, "pocket4": 0, "pocket5": 21}
+{"step": 10, "status": "OPTIMAL", "solve_s": 0.710986, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 173, "hh": 20, "hc": 21, "gain": -131, "pocket4": 1, "pocket5": 18}
+{"step": 11, "status": "OPTIMAL", "solve_s": 0.836207, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 163, "hh": 18, "hc": 25, "gain": -1015, "pocket4": 0, "pocket5": 21}
+{"step": 12, "status": "OPTIMAL", "solve_s": 1.122926, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 164, "hh": 18, "hc": 20, "gain": -140, "pocket4": 0, "pocket5": 13}
+{"step": 13, "status": "OPTIMAL", "solve_s": 0.801979, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 166, "hh": 17, "hc": 19, "gain": 71, "pocket4": 0, "pocket5": 13}
+{"file": "/Users/hol/Documents/Codex/2026-11-20/set-up-the-heesch-polyform-challenge/work/score-first-branches/outline-019/ratio-search/01-20-171.heesch", "sha256": "2d57e952e8175ce4d00eb96e7ce7956b09722c7a846ec3421c6ad99b96e8f5eb", "partial_count": 33, "required": 166, "hh": 17, "defect": 19, "mode": "joint", "gain": 71}

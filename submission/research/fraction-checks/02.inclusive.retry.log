@@ -1,0 +1,14 @@
+{"outer_before": 7151, "outer_after_exact_inner_support": 4393}
+{"additional_pair_cuts": 3619}
+{"fixed_depth": 3, "fixed_cells": 525, "first_required": 120, "first_raw": 1506, "first_possible": 91, "second_possible": 4393, "boundary_domain": 520, "pocket_vars": 1104, "target": 0}
+{"step": 0, "status": "OPTIMAL", "solve_s": 1.108815, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 161, "hh": 6, "hc": 10, "gain": -623, "pocket4": 2, "pocket5": 8}
+{"step": 1, "status": "OPTIMAL", "solve_s": 1.302774, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 167, "hh": 6, "hc": 6, "gain": 119, "pocket4": 2, "pocket5": 4}
+{"step": 2, "status": "OPTIMAL", "solve_s": 2.3856, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 175, "hh": 6, "hc": 14, "gain": -1225, "pocket4": 0, "pocket5": 12}
+{"step": 3, "status": "OPTIMAL", "solve_s": 1.139289, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 175, "hh": 7, "hc": 11, "gain": -700, "pocket4": 0, "pocket5": 9}
+{"step": 4, "status": "OPTIMAL", "solve_s": 1.279131, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 175, "hh": 7, "hc": 7, "gain": 0, "pocket4": 0, "pocket5": 5}
+{"file": "work/score-first-branches/outline-019/peer-7-175/02-retry.heesch", "sha256": "c2b7d9edc74e2301e18e98ed752817b683cf0db52ea3b161a7f0182a2da31ae2", "partial_count": 34, "required": 175, "hh": 7, "defect": 7, "mode": "joint", "gain": 0}

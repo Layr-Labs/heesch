@@ -1,0 +1,22 @@
+{"fixed_depth": 3, "fixed_cells": 525, "first_required": 116, "first_raw": 1488, "first_possible": 76, "second_possible": 6608, "boundary_domain": 485, "pocket_vars": 1050, "target": 1}
+{"step": 0, "status": "OPTIMAL", "solve_s": 1.014113, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 169, "hh": 19, "hc": 19, "gain": 57, "pocket4": 2, "pocket5": 10}
+{"step": 1, "status": "OPTIMAL", "solve_s": 1.285987, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 160, "hh": 18, "hc": 19, "gain": -114, "pocket4": 3, "pocket5": 14}
+{"step": 2, "status": "OPTIMAL", "solve_s": 0.8389840000000001, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 160, "hh": 18, "hc": 34, "gain": -2604, "pocket4": 1, "pocket5": 32}
+{"step": 3, "status": "OPTIMAL", "solve_s": 0.925937, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 156, "hh": 17, "hc": 21, "gain": -522, "pocket4": 2, "pocket5": 15}
+{"step": 4, "status": "OPTIMAL", "solve_s": 1.709551, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 161, "hh": 16, "hc": 28, "gain": -1589, "pocket4": 1, "pocket5": 24}
+{"step": 5, "status": "OPTIMAL", "solve_s": 1.585063, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 161, "hh": 18, "hc": 22, "gain": -593, "pocket4": 1, "pocket5": 15}
+{"step": 6, "status": "OPTIMAL", "solve_s": 1.402538, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 168, "hh": 16, "hc": 23, "gain": -626, "pocket4": 1, "pocket5": 21}
+{"step": 7, "status": "OPTIMAL", "solve_s": 1.0053910000000001, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 169, "hh": 19, "hc": 22, "gain": -441, "pocket4": 1, "pocket5": 14}
+{"step": 8, "status": "OPTIMAL", "solve_s": 1.285751, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 172, "hh": 18, "hc": 19, "gain": 114, "pocket4": 1, "pocket5": 17}
+{"step": 9, "status": "OPTIMAL", "solve_s": 0.9445990000000001, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 177, "hh": 20, "hc": 20, "gain": 43, "pocket4": 0, "pocket5": 19}
+{"file": "/Users/hol/Documents/Codex/2026-11-20/set-up-the-heesch-polyform-challenge/work/score-first-branches/outline-019/ratio-search/01-19-166.heesch", "sha256": "ea3c361c1de6662d55ba781dfeba7741a502638bc1b80f657a20a28d3ca4fddd", "partial_count": 35, "required": 177, "hh": 20, "defect": 20, "mode": "joint", "gain": 43}

@@ -1,0 +1,11 @@
+placements [408, 3680, 9872, 18584]
+loaded 517337 b'3232941' 1.9580724999977974
+weak model 1 footprint difference 6 geometry PATCH_HOLE_IN_CORONA: patch through corona 4 encloses empty cells, e.g. ((-12, 11), (-6, 17), (1, 15), (1, 16), (2, 15))
+weak model 2 footprint difference 6 geometry PATCH_HOLE_IN_CORONA: patch through corona 4 encloses empty cells, e.g. ((-6, 17), (1, 15), (1, 16), (2, 15), (2, 16))
+weak model 3 footprint difference 48 geometry PATCH_HOLE_IN_CORONA: patch through corona 4 encloses empty cells, e.g. ((-14, 9), (17, -5), (17, -4), (18, -5), (18, -4))
+weak model 4 footprint difference 52 geometry PATCH_HOLE_IN_CORONA: patch through corona 4 encloses empty cells, e.g. ((-9, -5),)
+weak model 5 footprint difference 52 geometry PATCH_HOLE_IN_CORONA: patch through corona 4 encloses empty cells, e.g. ((-18, 12), (2, -15), (2, -14), (3, -15), (3, -14))
+rejected 10
+{"i": 1, "first_cells_minus_center": 90, "changed": 52, "ring_counts": [1, 6, 13, 20, 27], "seconds": 154.79179541699705}
+{"i": 2, "first_cells_minus_center": 90, "changed": 54, "ring_counts": [1, 6, 13, 20, 28], "seconds": 173.5415260419977}
+EXHAUSTED 2 13 seconds 175.56554691700148
