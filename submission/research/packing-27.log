@@ -1,0 +1,2 @@
+{"placements": 1865, "budget": 27}
+{"file": "work/cavity-boundary/packed/best.heesch", "sha256": "6640a2a3b4427c138e97385d4542a06ca7b97819f3030f70c134e2de1ec3a95e", "partial_count": 30, "status": "OPTIMAL", "cycles": 5, "solver_s": 0.300113, "lower_bound": 0.0, "defect": 27, "required": 175, "hh": 26}

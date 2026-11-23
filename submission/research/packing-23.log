@@ -1,0 +1,2 @@
+{"placements": 1865, "budget": 23}
+{"status": "INFEASIBLE", "cycles": 1, "solver_s": 0.503688, "lower_bound": 0.0}

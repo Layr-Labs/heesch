@@ -1,0 +1,13 @@
+c turning on binary mode checking
+c parsing input formula with 34492 variables and 131787 clauses
+c WARNING: detected and deleted duplicate literal -29841 at position 1 of proof line 112416
+c WARNING: detected and deleted duplicate literal -29841 at position 1 of proof line 112653
+c WARNING: detected and deleted duplicate literal -29841 at position 1 of proof line 133069
+c WARNING: detected and deleted duplicate literal -29841 at position 1 of proof line 133210
+c finished parsing, read 303878 bytes from proof file
+c detected empty clause; start verification via backward checking
+c 10399 of 131787 clauses in core                            
+c 686 of 9067 lemmas in core using 70450 resolution steps
+c 0 RAT lemmas in core; 142 redundant literals in core lemmas
+s VERIFIED
+c verification time: 0.068 seconds
