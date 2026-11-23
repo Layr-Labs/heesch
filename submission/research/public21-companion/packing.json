@@ -1,0 +1,402 @@
+[
+ {
+  "index": 1,
+  "required": 171,
+  "runs": [
+   {
+    "cap": 2,
+    "status": "INFEASIBLE",
+    "cycles": 0,
+    "solver_s": 0.009013,
+    "lower_bound": 0.0
+   },
+   {
+    "cap": 10,
+    "status": "INFEASIBLE",
+    "cycles": 0,
+    "solver_s": 0.21901800000000002,
+    "lower_bound": 0.0
+   }
+  ]
+ },
+ {
+  "index": 2,
+  "required": 176,
+  "runs": [
+   {
+    "cap": 2,
+    "status": "INFEASIBLE",
+    "cycles": 0,
+    "solver_s": 0.001806,
+    "lower_bound": 0.0
+   },
+   {
+    "cap": 11,
+    "status": "INFEASIBLE",
+    "cycles": 0,
+    "solver_s": 0.23558600000000002,
+    "lower_bound": 0.0
+   }
+  ]
+ },
+ {
+  "index": 3,
+  "required": 179,
+  "runs": [
+   {
+    "cap": 2,
+    "status": "INFEASIBLE",
+    "cycles": 0,
+    "solver_s": 0.009011,
+    "lower_bound": 0.0
+   },
+   {
+    "cap": 11,
+    "status": "INFEASIBLE",
+    "cycles": 0,
+    "solver_s": 0.19104000000000002,
+    "lower_bound": 0.0
+   }
+  ]
+ },
+ {
+  "index": 4,
+  "required": 180,
+  "runs": [
+   {
+    "cap": 2,
+    "status": "INFEASIBLE",
+    "cycles": 0,
+    "solver_s": 0.0019320000000000001,
+    "lower_bound": 0.0
+   },
+   {
+    "cap": 11,
+    "status": "INFEASIBLE",
+    "cycles": 0,
+    "solver_s": 0.0018110000000000001,
+    "lower_bound": 0.0
+   }
+  ]
+ },
+ {
+  "index": 5,
+  "required": 179,
+  "runs": [
+   {
+    "cap": 2,
+    "status": "INFEASIBLE",
+    "cycles": 0,
+    "solver_s": 0.0017870000000000002,
+    "lower_bound": 0.0
+   },
+   {
+    "cap": 11,
+    "status": "INFEASIBLE",
+    "cycles": 0,
+    "solver_s": 0.00893,
+    "lower_bound": 0.0
+   }
+  ]
+ },
+ {
+  "index": 6,
+  "required": 178,
+  "runs": [
+   {
+    "cap": 2,
+    "status": "INFEASIBLE",
+    "cycles": 0,
+    "solver_s": 0.010763,
+    "lower_bound": 0.0
+   },
+   {
+    "cap": 11,
+    "status": "OPTIMAL",
+    "cycles": 1,
+    "solver_s": 0.31587400000000004,
+    "lower_bound": 0.0,
+    "defect": 11,
+    "required": 178,
+    "hh": 9
+   },
+   {
+    "cap": 10,
+    "status": "OPTIMAL",
+    "cycles": 3,
+    "solver_s": 0.39801400000000003,
+    "lower_bound": 0.0,
+    "defect": 10,
+    "required": 178,
+    "hh": 10
+   },
+   {
+    "cap": 9,
+    "status": "OPTIMAL",
+    "cycles": 3,
+    "solver_s": 0.39942500000000003,
+    "lower_bound": 0.0,
+    "defect": 9,
+    "required": 178,
+    "hh": 9
+   },
+   {
+    "cap": 8,
+    "status": "INFEASIBLE",
+    "cycles": 0,
+    "solver_s": 0.333369,
+    "lower_bound": 0.0
+   }
+  ]
+ },
+ {
+  "index": 7,
+  "required": 182,
+  "runs": [
+   {
+    "cap": 2,
+    "status": "INFEASIBLE",
+    "cycles": 0,
+    "solver_s": 0.0020800000000000003,
+    "lower_bound": 0.0
+   },
+   {
+    "cap": 11,
+    "status": "INFEASIBLE",
+    "cycles": 0,
+    "solver_s": 0.076103,
+    "lower_bound": 0.0
+   }
+  ]
+ },
+ {
+  "index": 8,
+  "required": 182,
+  "runs": [
+   {
+    "cap": 2,
+    "status": "INFEASIBLE",
+    "cycles": 0,
+    "solver_s": 0.002062,
+    "lower_bound": 0.0
+   },
+   {
+    "cap": 11,
+    "status": "INFEASIBLE",
+    "cycles": 0,
+    "solver_s": 0.048133,
+    "lower_bound": 0.0
+   }
+  ]
+ },
+ {
+  "index": 9,
+  "required": 171,
+  "runs": [
+   {
+    "cap": 2,
+    "status": "INFEASIBLE",
+    "cycles": 0,
+    "solver_s": 0.009352000000000001,
+    "lower_bound": 0.0
+   },
+   {
+    "cap": 10,
+    "status": "OPTIMAL",
+    "cycles": 3,
+    "solver_s": 0.42159100000000005,
+    "lower_bound": 0.0,
+    "defect": 10,
+    "required": 171,
+    "hh": 10
+   },
+   {
+    "cap": 9,
+    "status": "OPTIMAL",
+    "cycles": 1,
+    "solver_s": 0.36390900000000004,
+    "lower_bound": 0.0,
+    "defect": 9,
+    "required": 171,
+    "hh": 9
+   },
+   {
+    "cap": 8,
+    "status": "INFEASIBLE",
+    "cycles": 0,
+    "solver_s": 0.376985,
+    "lower_bound": 0.0
+   }
+  ]
+ },
+ {
+  "index": 10,
+  "required": 175,
+  "runs": [
+   {
+    "cap": 2,
+    "status": "INFEASIBLE",
+    "cycles": 0,
+    "solver_s": 0.002003,
+    "lower_bound": 0.0
+   },
+   {
+    "cap": 10,
+    "status": "OPTIMAL",
+    "cycles": 3,
+    "solver_s": 0.346329,
+    "lower_bound": 0.0,
+    "defect": 10,
+    "required": 175,
+    "hh": 10
+   },
+   {
+    "cap": 9,
+    "status": "INFEASIBLE",
+    "cycles": 0,
+    "solver_s": 0.183511,
+    "lower_bound": 0.0
+   }
+  ]
+ },
+ {
+  "index": 11,
+  "required": 175,
+  "runs": [
+   {
+    "cap": 2,
+    "status": "INFEASIBLE",
+    "cycles": 0,
+    "solver_s": 0.007086,
+    "lower_bound": 0.0
+   },
+   {
+    "cap": 10,
+    "status": "INFEASIBLE",
+    "cycles": 0,
+    "solver_s": 0.047793,
+    "lower_bound": 0.0
+   }
+  ]
+ },
+ {
+  "index": 12,
+  "required": 178,
+  "runs": [
+   {
+    "cap": 2,
+    "status": "INFEASIBLE",
+    "cycles": 0,
+    "solver_s": 0.010385,
+    "lower_bound": 0.0
+   },
+   {
+    "cap": 11,
+    "status": "INFEASIBLE",
+    "cycles": 0,
+    "solver_s": 0.496049,
+    "lower_bound": 0.0
+   }
+  ]
+ },
+ {
+  "index": 13,
+  "required": 182,
+  "runs": [
+   {
+    "cap": 2,
+    "status": "INFEASIBLE",
+    "cycles": 0,
+    "solver_s": 0.002523,
+    "lower_bound": 0.0
+   },
+   {
+    "cap": 11,
+    "status": "INFEASIBLE",
+    "cycles": 0,
+    "solver_s": 0.325648,
+    "lower_bound": 0.0
+   }
+  ]
+ },
+ {
+  "index": 14,
+  "required": 182,
+  "runs": [
+   {
+    "cap": 2,
+    "status": "INFEASIBLE",
+    "cycles": 0,
+    "solver_s": 0.001582,
+    "lower_bound": 0.0
+   },
+   {
+    "cap": 11,
+    "status": "INFEASIBLE",
+    "cycles": 0,
+    "solver_s": 0.032403,
+    "lower_bound": 0.0
+   }
+  ]
+ },
+ {
+  "index": 15,
+  "required": 180,
+  "runs": [
+   {
+    "cap": 2,
+    "status": "INFEASIBLE",
+    "cycles": 0,
+    "solver_s": 0.002085,
+    "lower_bound": 0.0
+   },
+   {
+    "cap": 11,
+    "status": "INFEASIBLE",
+    "cycles": 0,
+    "solver_s": 0.034063,
+    "lower_bound": 0.0
+   }
+  ]
+ },
+ {
+  "index": 16,
+  "required": 184,
+  "runs": [
+   {
+    "cap": 2,
+    "status": "INFEASIBLE",
+    "cycles": 0,
+    "solver_s": 0.002107,
+    "lower_bound": 0.0
+   },
+   {
+    "cap": 11,
+    "status": "INFEASIBLE",
+    "cycles": 0,
+    "solver_s": 0.011115,
+    "lower_bound": 0.0
+   }
+  ]
+ },
+ {
+  "index": 17,
+  "required": 184,
+  "runs": [
+   {
+    "cap": 2,
+    "status": "INFEASIBLE",
+    "cycles": 0,
+    "solver_s": 0.0020050000000000003,
+    "lower_bound": 0.0
+   },
+   {
+    "cap": 11,
+    "status": "INFEASIBLE",
+    "cycles": 0,
+    "solver_s": 0.002099,
+    "lower_bound": 0.0
+   }
+  ]
+ }
+]

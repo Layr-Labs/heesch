@@ -1,0 +1,185 @@
+{
+  "batches": {
+    "pilot": {
+      "outlines": 120,
+      "vacancies": {
+        "4": 83,
+        "6": 20,
+        "5": 15,
+        "1": 2
+      },
+      "four_search": {
+        "ISOHEDRAL": 61,
+        "NO_DEEP_CONTACT": 58,
+        "FOUND": 1
+      },
+      "distinct_local_periods": 1,
+      "model_rows": 4072
+    },
+    "mixed": {
+      "outlines": 848,
+      "vacancies": {
+        "4": 432,
+        "6": 276,
+        "5": 89,
+        "2": 47,
+        "3": 3,
+        "1": 1
+      },
+      "four_search": {
+        "ISOHEDRAL": 563,
+        "NO_DEEP_CONTACT": 280,
+        "FOUND": 5
+      },
+      "distinct_local_periods": 5,
+      "model_rows": 69235
+    },
+    "interface2": {
+      "outlines": 8086,
+      "vacancies": {
+        "1": 1408,
+        "2": 3687,
+        "3": 2991
+      },
+      "four_search": {
+        "ISOHEDRAL": 3072,
+        "NO_DEEP_CONTACT": 4809,
+        "FOUND": 202,
+        "TIMEOUT": 2,
+        "EXHAUSTED": 1
+      },
+      "distinct_local_periods": 204,
+      "model_rows": 39768
+    },
+    "interface3": {
+      "outlines": 2660,
+      "vacancies": {
+        "3": 1827,
+        "2": 625,
+        "1": 208
+      },
+      "four_search": {
+        "NO_DEEP_CONTACT": 1013,
+        "ISOHEDRAL": 1553,
+        "FOUND": 91,
+        "EXHAUSTED": 1,
+        "TIMEOUT": 2
+      },
+      "distinct_local_periods": 93,
+      "model_rows": 59016
+    }
+  },
+  "unique": 11054,
+  "previous_banks": 83,
+  "fresh": 9758,
+  "distinct_four": 257,
+  "distinct_periods": 259,
+  "hall_non_tilers": 253,
+  "exact_finite": {
+    "interface3": {
+      "area": 17,
+      "cnf_sha256": "a57fec5daaba3b15c5f3cb638052740c7861db520927fc461ac9a8df52c6c0e2",
+      "cnf_variables": 56519,
+      "cnf_clauses": 177123,
+      "proof_sha256": "27d925d01cb96c1e35ee904261aa02da163559611947a58228051474796dd866"
+    },
+    "fresh-finite": {
+      "area": 17,
+      "cnf_sha256": "76c994192e3484eaa5331188422d1e111de8808f90c2f1e9a234d6814b78904f",
+      "cnf_variables": 73051,
+      "cnf_clauses": 229748,
+      "proof_sha256": "7af77fa03c50ecae74fe4185c1211d5361df2d41717a72a49b96dc7750c23958"
+    }
+  },
+  "example": {
+    "candidate": [
+      [
+        -2,
+        -1
+      ],
+      [
+        -1,
+        -2
+      ],
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        -1
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        3,
+        -2
+      ],
+      [
+        3,
+        -1
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        4,
+        -1
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "basis": [
+      12,
+      3,
+      3
+    ],
+    "motions": [
+      "<1,0,0,0,1,0>",
+      "<1,0,-3,0,-1,2>"
+    ],
+    "vacancies": [
+      [
+        7,
+        1
+      ],
+      [
+        10,
+        1
+      ]
+    ]
+  }
+}

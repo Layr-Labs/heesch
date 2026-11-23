@@ -1,0 +1,50 @@
+[
+ {
+  "key": 1,
+  "defect": 12,
+  "hh": 12,
+  "required": 99,
+  "file": "seed1.packed.heesch",
+  "batch": "charts"
+ },
+ {
+  "key": 4,
+  "defect": 12,
+  "hh": 12,
+  "required": 91,
+  "file": "seed4.packed.heesch",
+  "batch": "charts"
+ },
+ {
+  "key": 22,
+  "defect": 12,
+  "hh": 12,
+  "required": 91,
+  "file": "seed22.packed.heesch",
+  "batch": "charts"
+ },
+ {
+  "key": 0,
+  "defect": 12,
+  "hh": 12,
+  "required": 90,
+  "file": "seed0.packed.heesch",
+  "batch": "charts"
+ },
+ {
+  "key": 28,
+  "defect": 22,
+  "hh": 22,
+  "required": 97,
+  "file": "seed28.packed.heesch",
+  "batch": "improved-charts"
+ },
+ {
+  "key": 22,
+  "defect": 22,
+  "hh": 22,
+  "required": 91,
+  "file": "seed22.packed.heesch",
+  "batch": "improved-charts"
+ }
+]

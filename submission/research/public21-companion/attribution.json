@@ -1,0 +1,14 @@
+{
+ "source_id": "283ecb90-2d66-4c38-837d-7821741ed20e",
+ "source_solver": "m0at",
+ "source_commit": "93638ef69ed08a947d34656d7fec8f6abec108fc",
+ "source_path": "submission/21hex_b17_511_hc4_hh4.heesch",
+ "git_blob": "072f23e5a741f826d0beacab7ff4b96d88dca2f5",
+ "source_sha256": "afad14bee123f6fd89bee3689e5b411d7385741ef93735abe2e442472d2c3410",
+ "peer_scored_cells": 20,
+ "peer_scored_digest": "59758684f5ad1d011a831b3be4d800ea9ea547e156863563c2bd7498a6685208",
+ "peer_scored_damage": 4,
+ "peer_scored_required": 237,
+ "peer_scored_m": 5,
+ "peer_scored_formula": "381151a461e97112e7b5e4882115d718dfc3997a09eb627174693efc19e0ebf4"
+}
