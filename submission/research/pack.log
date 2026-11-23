@@ -1,0 +1,15 @@
+{'lower_uncovered': 16.0, 'first_status': 'OPTIMAL', 'candidate_placements': 2076, 'required': 183, 'sequence': []}
+{'damage': 25, 'required': 183, 'hh': 16, 'enclosed_extra': 9, 'partial': 32}
+budget 24 {'status': 'OPTIMAL', 'cycles': 5, 'solver_s': 1.3412460000000002, 'lower_bound': 0.0, 'defect': 24, 'required': 183, 'hh': 23}
+{'damage': 24, 'required': 183, 'hh': 23, 'enclosed_extra': 1, 'partial': 32}
+budget 23 {'status': 'OPTIMAL', 'cycles': 8, 'solver_s': 0.7566280000000001, 'lower_bound': 0.0, 'defect': 23, 'required': 183, 'hh': 23}
+{'damage': 23, 'required': 183, 'hh': 23, 'enclosed_extra': 0, 'partial': 29}
+budget 22 {'status': 'OPTIMAL', 'cycles': 3, 'solver_s': 0.7728780000000001, 'lower_bound': 0.0, 'defect': 22, 'required': 183, 'hh': 22}
+{'damage': 22, 'required': 183, 'hh': 22, 'enclosed_extra': 0, 'partial': 29}
+budget 21 {'status': 'OPTIMAL', 'cycles': 7, 'solver_s': 0.9773440000000001, 'lower_bound': 0.0, 'defect': 21, 'required': 183, 'hh': 20}
+{'damage': 21, 'required': 183, 'hh': 20, 'enclosed_extra': 1, 'partial': 29}
+budget 20 {'status': 'OPTIMAL', 'cycles': 5, 'solver_s': 1.736725, 'lower_bound': 0.0, 'defect': 20, 'required': 183, 'hh': 20}
+{'damage': 20, 'required': 183, 'hh': 20, 'enclosed_extra': 0, 'partial': 29}
+budget 19 {'status': 'OPTIMAL', 'cycles': 4, 'solver_s': 2.040552, 'lower_bound': 0.0, 'defect': 19, 'required': 183, 'hh': 18}
+{'damage': 19, 'required': 183, 'hh': 18, 'enclosed_extra': 1, 'partial': 30}
+budget 18 {'status': 'INFEASIBLE', 'cycles': 1, 'solver_s': 0.9599000000000001, 'lower_bound': 0.0}
