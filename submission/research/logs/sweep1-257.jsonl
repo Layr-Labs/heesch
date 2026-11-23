@@ -1,0 +1,16 @@
+{"fixed_depth": 3, "fixed_cells": 740, "first_required": 234, "first_raw": 446, "first_possible": 63, "second_possible": 2363, "boundary_domain": 866, "pocket_vars": 1431, "target": 1}
+{"step": 0, "status": "OPTIMAL", "solve_s": 1.1440270000000001, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 373, "hh": 40, "hc": 54, "gain": -4849, "pocket4": 0, "pocket5": 49}
+{"step": 1, "status": "OPTIMAL", "solve_s": 2.159514, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 367, "hh": 40, "hc": 65, "gain": -9198, "pocket4": 0, "pocket5": 59}
+{"step": 2, "status": "OPTIMAL", "solve_s": 1.085557, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 367, "hh": 40, "hc": 55, "gain": -5468, "pocket4": 0, "pocket5": 47}
+{"step": 3, "status": "OPTIMAL", "solve_s": 2.016862, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 367, "hh": 40, "hc": 57, "gain": -6214, "pocket4": 0, "pocket5": 51}
+{"step": 4, "status": "OPTIMAL", "solve_s": 1.2751080000000001, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 379, "hh": 41, "hc": 64, "gain": -8333, "pocket4": 2, "pocket5": 58}
+{"step": 5, "status": "OPTIMAL", "solve_s": 1.307698, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 367, "hh": 40, "hc": 42, "gain": -619, "pocket4": 0, "pocket5": 37}
+{"step": 6, "status": "OPTIMAL", "solve_s": 1.594953, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 367, "hh": 40, "hc": 40, "gain": 127, "pocket4": 0, "pocket5": 32}
+{"file": "sweep1-257.heesch", "sha256": "db06bddcbec20eb2a141c9b56b817b1b2daf1833d711a733c1320566e3901f68", "partial_count": 44, "required": 367, "hh": 40, "defect": 40, "mode": "joint", "gain": 127}

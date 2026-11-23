@@ -1,0 +1,27 @@
+{
+  "source": "known-2.heesch",
+  "possible_boundary": 1106,
+  "upper_boundary": 639,
+  "max_charges_to_promote": 7,
+  "partitions": [
+    {
+      "bins": 8,
+      "offset": 0,
+      "sectors": [
+        {
+          "sector": 0,
+          "sites": 157,
+          "status": "OPTIMAL",
+          "lower": 1
+        },
+        {
+          "sector": 1,
+          "sites": 143,
+          "status": "OPTIMAL",
+          "lower": 8
+        }
+      ],
+      "minimum_missing": 9
+    }
+  ]
+}

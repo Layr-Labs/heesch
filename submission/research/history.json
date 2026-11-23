@@ -1,0 +1,441 @@
+[
+  {
+    "sweep": 0,
+    "degrees": 0,
+    "half_width": 42,
+    "seed": "baseline.heesch",
+    "seed_score": "1786/367",
+    "improved": "1787/367",
+    "missing": 48,
+    "charged": 48,
+    "boundary": 367,
+    "log": "sweep0-000.jsonl",
+    "witness": "sweep0-000.heesch"
+  },
+  {
+    "sweep": 0,
+    "degrees": 150,
+    "half_width": 42,
+    "seed": "sweep0-000.heesch",
+    "seed_score": "1787/367",
+    "improved": "1788/367",
+    "missing": 46,
+    "charged": 47,
+    "boundary": 367,
+    "log": "sweep0-150.jsonl",
+    "witness": "sweep0-150.heesch"
+  },
+  {
+    "sweep": 0,
+    "degrees": 300,
+    "half_width": 42,
+    "seed": "sweep0-150.heesch",
+    "seed_score": "1788/367",
+    "improved": "1789/367",
+    "missing": 45,
+    "charged": 46,
+    "boundary": 367,
+    "log": "sweep0-300.jsonl",
+    "witness": "sweep0-300.heesch"
+  },
+  {
+    "sweep": 0,
+    "degrees": 90,
+    "half_width": 42,
+    "seed": "sweep0-300.heesch",
+    "seed_score": "1789/367",
+    "improved": "1828/375",
+    "missing": 46,
+    "charged": 47,
+    "boundary": 375,
+    "log": "sweep0-090.jsonl",
+    "witness": "sweep0-090.heesch"
+  },
+  {
+    "sweep": 0,
+    "degrees": 240,
+    "half_width": 42,
+    "seed": "sweep0-090.heesch",
+    "seed_score": "1828/375",
+    "log": "sweep0-240.jsonl"
+  },
+  {
+    "sweep": 0,
+    "degrees": 30,
+    "half_width": 42,
+    "seed": "sweep0-090.heesch",
+    "seed_score": "1828/375",
+    "improved": "1829/375",
+    "missing": 45,
+    "charged": 46,
+    "boundary": 375,
+    "log": "sweep0-030.jsonl",
+    "witness": "sweep0-030.heesch"
+  },
+  {
+    "sweep": 0,
+    "degrees": 180,
+    "half_width": 42,
+    "seed": "sweep0-030.heesch",
+    "seed_score": "1829/375",
+    "improved": "122/25",
+    "missing": 45,
+    "charged": 45,
+    "boundary": 375,
+    "log": "sweep0-180.jsonl",
+    "witness": "sweep0-180.heesch"
+  },
+  {
+    "sweep": 0,
+    "degrees": 330,
+    "half_width": 42,
+    "seed": "sweep0-180.heesch",
+    "seed_score": "122/25",
+    "improved": "1831/375",
+    "missing": 44,
+    "charged": 44,
+    "boundary": 375,
+    "log": "sweep0-330.jsonl",
+    "witness": "sweep0-330.heesch"
+  },
+  {
+    "sweep": 0,
+    "degrees": 120,
+    "half_width": 42,
+    "seed": "sweep0-330.heesch",
+    "seed_score": "1831/375",
+    "log": "sweep0-120.jsonl"
+  },
+  {
+    "sweep": 0,
+    "degrees": 270,
+    "half_width": 42,
+    "seed": "sweep0-330.heesch",
+    "seed_score": "1831/375",
+    "log": "sweep0-270.jsonl"
+  },
+  {
+    "sweep": 0,
+    "degrees": 60,
+    "half_width": 42,
+    "seed": "sweep0-330.heesch",
+    "seed_score": "1831/375",
+    "improved": "611/125",
+    "missing": 42,
+    "charged": 42,
+    "boundary": 375,
+    "log": "sweep0-060.jsonl",
+    "witness": "sweep0-060.heesch"
+  },
+  {
+    "sweep": 0,
+    "degrees": 210,
+    "half_width": 42,
+    "seed": "sweep0-060.heesch",
+    "seed_score": "611/125",
+    "log": "sweep0-210.jsonl"
+  },
+  {
+    "sweep": 1,
+    "degrees": 17,
+    "half_width": 65,
+    "seed": "sweep0-060.heesch",
+    "seed_score": "611/125",
+    "log": "sweep1-017.jsonl"
+  },
+  {
+    "sweep": 1,
+    "degrees": 167,
+    "half_width": 65,
+    "seed": "sweep0-060.heesch",
+    "seed_score": "611/125",
+    "improved": "621/127",
+    "missing": 42,
+    "charged": 42,
+    "boundary": 381,
+    "log": "sweep1-167.jsonl",
+    "witness": "sweep1-167.heesch"
+  },
+  {
+    "sweep": 1,
+    "degrees": 317,
+    "half_width": 65,
+    "seed": "sweep1-167.heesch",
+    "seed_score": "621/127",
+    "log": "sweep1-317.jsonl"
+  },
+  {
+    "sweep": 1,
+    "degrees": 107,
+    "half_width": 65,
+    "seed": "sweep1-167.heesch",
+    "seed_score": "621/127",
+    "improved": "1824/373",
+    "missing": 41,
+    "charged": 41,
+    "boundary": 373,
+    "log": "sweep1-107.jsonl",
+    "witness": "sweep1-107.heesch"
+  },
+  {
+    "sweep": 1,
+    "degrees": 257,
+    "half_width": 65,
+    "seed": "sweep1-107.heesch",
+    "seed_score": "1824/373",
+    "improved": "1795/367",
+    "missing": 40,
+    "charged": 40,
+    "boundary": 367,
+    "log": "sweep1-257.jsonl",
+    "witness": "sweep1-257.heesch"
+  },
+  {
+    "sweep": 1,
+    "degrees": 47,
+    "half_width": 65,
+    "seed": "sweep1-257.heesch",
+    "seed_score": "1795/367",
+    "log": "sweep1-047.jsonl"
+  },
+  {
+    "sweep": 1,
+    "degrees": 197,
+    "half_width": 65,
+    "seed": "sweep1-257.heesch",
+    "seed_score": "1795/367",
+    "log": "sweep1-197.jsonl"
+  },
+  {
+    "sweep": 1,
+    "degrees": 347,
+    "half_width": 65,
+    "seed": "sweep1-257.heesch",
+    "seed_score": "1795/367",
+    "log": "sweep1-347.jsonl"
+  },
+  {
+    "sweep": 1,
+    "degrees": 137,
+    "half_width": 65,
+    "seed": "sweep1-257.heesch",
+    "seed_score": "1795/367",
+    "log": "sweep1-137.jsonl"
+  },
+  {
+    "sweep": 1,
+    "degrees": 287,
+    "half_width": 65,
+    "seed": "sweep1-257.heesch",
+    "seed_score": "1795/367",
+    "log": "sweep1-287.jsonl"
+  },
+  {
+    "sweep": 1,
+    "degrees": 77,
+    "half_width": 65,
+    "seed": "sweep1-257.heesch",
+    "seed_score": "1795/367",
+    "log": "sweep1-077.jsonl"
+  },
+  {
+    "sweep": 1,
+    "degrees": 227,
+    "half_width": 65,
+    "seed": "sweep1-257.heesch",
+    "seed_score": "1795/367",
+    "log": "sweep1-227.jsonl"
+  },
+  {
+    "sweep": 2,
+    "degrees": 34,
+    "half_width": 80,
+    "seed": "sweep1-257.heesch",
+    "seed_score": "1795/367",
+    "log": "sweep2-034.jsonl"
+  },
+  {
+    "sweep": 2,
+    "degrees": 184,
+    "half_width": 80,
+    "seed": "sweep1-257.heesch",
+    "seed_score": "1795/367",
+    "log": "sweep2-184.jsonl"
+  },
+  {
+    "sweep": 2,
+    "degrees": 334,
+    "half_width": 80,
+    "seed": "sweep1-257.heesch",
+    "seed_score": "1795/367",
+    "log": "sweep2-334.jsonl"
+  },
+  {
+    "sweep": 2,
+    "degrees": 124,
+    "half_width": 80,
+    "seed": "sweep1-257.heesch",
+    "seed_score": "1795/367",
+    "log": "sweep2-124.jsonl"
+  },
+  {
+    "sweep": 2,
+    "degrees": 274,
+    "half_width": 80,
+    "seed": "sweep1-257.heesch",
+    "seed_score": "1795/367",
+    "log": "sweep2-274.jsonl"
+  },
+  {
+    "sweep": 2,
+    "degrees": 64,
+    "half_width": 80,
+    "seed": "sweep1-257.heesch",
+    "seed_score": "1795/367",
+    "log": "sweep2-064.jsonl"
+  },
+  {
+    "sweep": 2,
+    "degrees": 214,
+    "half_width": 80,
+    "seed": "sweep1-257.heesch",
+    "seed_score": "1795/367",
+    "log": "sweep2-214.jsonl"
+  },
+  {
+    "sweep": 2,
+    "degrees": 4,
+    "half_width": 80,
+    "seed": "sweep1-257.heesch",
+    "seed_score": "1795/367",
+    "log": "sweep2-004.jsonl"
+  },
+  {
+    "sweep": 2,
+    "degrees": 154,
+    "half_width": 80,
+    "seed": "sweep1-257.heesch",
+    "seed_score": "1795/367",
+    "log": "sweep2-154.jsonl"
+  },
+  {
+    "sweep": 2,
+    "degrees": 304,
+    "half_width": 80,
+    "seed": "sweep1-257.heesch",
+    "seed_score": "1795/367",
+    "log": "sweep2-304.jsonl"
+  },
+  {
+    "sweep": 2,
+    "degrees": 94,
+    "half_width": 80,
+    "seed": "sweep1-257.heesch",
+    "seed_score": "1795/367",
+    "log": "sweep2-094.jsonl"
+  },
+  {
+    "sweep": 2,
+    "degrees": 244,
+    "half_width": 80,
+    "seed": "sweep1-257.heesch",
+    "seed_score": "1795/367",
+    "log": "sweep2-244.jsonl"
+  },
+  {
+    "sweep": 3,
+    "degrees": 51,
+    "half_width": 97,
+    "seed": "sweep1-257.heesch",
+    "seed_score": "1795/367",
+    "log": "sweep3-051.jsonl"
+  },
+  {
+    "sweep": 3,
+    "degrees": 201,
+    "half_width": 97,
+    "seed": "sweep1-257.heesch",
+    "seed_score": "1795/367",
+    "log": "sweep3-201.jsonl"
+  },
+  {
+    "sweep": 3,
+    "degrees": 351,
+    "half_width": 97,
+    "seed": "sweep1-257.heesch",
+    "seed_score": "1795/367",
+    "log": "sweep3-351.jsonl"
+  },
+  {
+    "sweep": 3,
+    "degrees": 141,
+    "half_width": 97,
+    "seed": "sweep1-257.heesch",
+    "seed_score": "1795/367",
+    "log": "sweep3-141.jsonl"
+  },
+  {
+    "sweep": 3,
+    "degrees": 291,
+    "half_width": 97,
+    "seed": "sweep1-257.heesch",
+    "seed_score": "1795/367",
+    "log": "sweep3-291.jsonl"
+  },
+  {
+    "sweep": 3,
+    "degrees": 81,
+    "half_width": 97,
+    "seed": "sweep1-257.heesch",
+    "seed_score": "1795/367",
+    "log": "sweep3-081.jsonl"
+  },
+  {
+    "sweep": 3,
+    "degrees": 231,
+    "half_width": 97,
+    "seed": "sweep1-257.heesch",
+    "seed_score": "1795/367",
+    "log": "sweep3-231.jsonl"
+  },
+  {
+    "sweep": 3,
+    "degrees": 21,
+    "half_width": 97,
+    "seed": "sweep1-257.heesch",
+    "seed_score": "1795/367",
+    "log": "sweep3-021.jsonl"
+  },
+  {
+    "sweep": 3,
+    "degrees": 171,
+    "half_width": 97,
+    "seed": "sweep1-257.heesch",
+    "seed_score": "1795/367",
+    "log": "sweep3-171.jsonl"
+  },
+  {
+    "sweep": 3,
+    "degrees": 321,
+    "half_width": 97,
+    "seed": "sweep1-257.heesch",
+    "seed_score": "1795/367",
+    "log": "sweep3-321.jsonl"
+  },
+  {
+    "sweep": 3,
+    "degrees": 111,
+    "half_width": 97,
+    "seed": "sweep1-257.heesch",
+    "seed_score": "1795/367",
+    "log": "sweep3-111.jsonl"
+  },
+  {
+    "sweep": 3,
+    "degrees": 261,
+    "half_width": 97,
+    "seed": "sweep1-257.heesch",
+    "seed_score": "1795/367",
+    "log": "sweep3-261.jsonl"
+  }
+]

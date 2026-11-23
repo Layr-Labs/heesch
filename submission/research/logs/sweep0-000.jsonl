@@ -1,0 +1,4 @@
+{"fixed_depth": 3, "fixed_cells": 740, "first_required": 234, "first_raw": 298, "first_possible": 65, "second_possible": 1596, "boundary_domain": 813, "pocket_vars": 1220, "target": 1}
+{"step": 0, "status": "OPTIMAL", "solve_s": 0.439248, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 367, "hh": 48, "hc": 48, "gain": 367, "pocket4": 0, "pocket5": 37}
+{"file": "sweep0-000.heesch", "sha256": "24631e7c1765752025b4332dc67496da5e5154b5caab233f2883490cf8d18479", "partial_count": 44, "required": 367, "hh": 48, "defect": 48, "mode": "joint", "gain": 367}

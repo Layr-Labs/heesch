@@ -1,0 +1,10 @@
+{"fixed_depth": 3, "fixed_cells": 740, "first_required": 234, "first_raw": 723, "first_possible": 116, "second_possible": 3705, "boundary_domain": 923, "pocket_vars": 1624, "target": 1}
+{"step": 0, "status": "OPTIMAL", "solve_s": 1.6972060000000002, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 367, "hh": 39, "hc": 43, "gain": -1101, "pocket4": 0, "pocket5": 37}
+{"step": 1, "status": "OPTIMAL", "solve_s": 1.5263660000000001, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 367, "hh": 39, "hc": 43, "gain": -1101, "pocket4": 0, "pocket5": 37}
+{"step": 2, "status": "OPTIMAL", "solve_s": 1.7411450000000002, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 367, "hh": 38, "hc": 40, "gain": 0, "pocket4": 0, "pocket5": 32}
+{"step": 3, "status": "OPTIMAL", "solve_s": 6.926796, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 375, "hh": 40, "hc": 44, "gain": -1148, "pocket4": 0, "pocket5": 36}
+{"step": 4, "status": "UNKNOWN", "solve_s": 6.023783000000001, "objective": 0.0, "upper_bound": 0.0}

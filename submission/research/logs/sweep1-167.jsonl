@@ -1,0 +1,12 @@
+{"fixed_depth": 3, "fixed_cells": 740, "first_required": 234, "first_raw": 475, "first_possible": 60, "second_possible": 2224, "boundary_domain": 843, "pocket_vars": 1409, "target": 1}
+{"step": 0, "status": "OPTIMAL", "solve_s": 1.3516920000000001, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 378, "hh": 42, "hc": 51, "gain": -3249, "pocket4": 0, "pocket5": 45}
+{"step": 1, "status": "OPTIMAL", "solve_s": 0.779845, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 381, "hh": 42, "hc": 55, "gain": -4623, "pocket4": 0, "pocket5": 47}
+{"step": 2, "status": "OPTIMAL", "solve_s": 0.8952380000000001, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 375, "hh": 41, "hc": 51, "gain": -3375, "pocket4": 0, "pocket5": 40}
+{"step": 3, "status": "OPTIMAL", "solve_s": 1.1186340000000001, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 372, "hh": 41, "hc": 51, "gain": -3501, "pocket4": 2, "pocket5": 42}
+{"step": 4, "status": "OPTIMAL", "solve_s": 0.922825, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 381, "hh": 42, "hc": 42, "gain": 252, "pocket4": 0, "pocket5": 36}
+{"file": "sweep1-167.heesch", "sha256": "9663688cd53940aa1f6717a4f6d6054a93964ab497afa6bf1853ca37bb3f1cfd", "partial_count": 43, "required": 381, "hh": 42, "defect": 42, "mode": "joint", "gain": 252}
