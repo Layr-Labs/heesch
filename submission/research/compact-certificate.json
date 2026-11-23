@@ -1,0 +1,20 @@
+{
+  "shape_sha256": "810631952b47f051d2d00a2e1d06399e6e4ee9c50c69eed702af926cc0a826cd",
+  "formula_sha256": "600d2f0fa660e98864c2d3276d093d7cc9cf820cfcefc70e5292d66285a89fa3",
+  "original_core_clauses": 1556778,
+  "original_formula_clauses": 18109543,
+  "variables": 1798534,
+  "payload_sha256": "c94414bbd592bd367f4e20d5d5750852cc8057849317ba843222d9d8fcfcd742",
+  "payload_bytes": 56424191,
+  "stored_bytes": 9195252,
+  "lratsize": 1016996851,
+  "m": 5,
+  "geometry_score": "506/127",
+  "tar_bytes": 10878839,
+  "added_lemmas": 861703,
+  "trace_deletions_removed": 1852296,
+  "trimmed_core_clauses": 991921,
+  "trimmed_core_original_positions_sha256": "e32d8a17e2e22afa42d7b0a9b2fde480b05d1ac13ebc181eec1195f3afcd55ad",
+  "damage": 2,
+  "required": 127
+}

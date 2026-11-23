@@ -1,0 +1,86 @@
+[
+ {
+  "digest": "089b02ed205c4f88ece63c1b5aabd5ddfc38bbf8f337b034a2753500714f4ff8",
+  "B": 124,
+  "cap": 1,
+  "status": {
+   "status": "INFEASIBLE",
+   "cycles": 0,
+   "solver_s": 0.341517,
+   "lower_bound": 0.0
+  },
+  "best": "/Users/hol/Documents/Codex/2026-11-20/set-up-the-heesch-polyform-challenge/work/vacancy-orbits/ramified/research-frontier/8343/porous-sample/089b02ed205c4f88ece63c1b5aabd5ddfc38bbf8f337b034a2753500714f4ff8-d2.heesch"
+ },
+ {
+  "digest": "23417e1d5ef7a638fac0ceb5ee3dfc1f61580e6e16683f6dec2070f0a6f51268",
+  "B": 124,
+  "cap": 2,
+  "status": {
+   "status": "INFEASIBLE",
+   "cycles": 1,
+   "solver_s": 0.766181,
+   "lower_bound": 0.0
+  },
+  "best": null
+ },
+ {
+  "digest": "2832dcba501738794528330bf072477e8bcc4aa80491645c3b0578253d80ff74",
+  "B": 126,
+  "cap": 2,
+  "status": {
+   "status": "INFEASIBLE",
+   "cycles": 1,
+   "solver_s": 0.552686,
+   "lower_bound": 0.0
+  },
+  "best": null
+ },
+ {
+  "digest": "2ba481059ca261ac2226e8f264c5e1238cf946baa9951492f853327957098c4a",
+  "B": 127,
+  "cap": 1,
+  "status": {
+   "status": "INFEASIBLE",
+   "cycles": 0,
+   "solver_s": 0.27856600000000004,
+   "lower_bound": 0.0
+  },
+  "best": "/Users/hol/Documents/Codex/2026-11-20/set-up-the-heesch-polyform-challenge/work/vacancy-orbits/ramified/research-frontier/8343/porous-sample/2ba481059ca261ac2226e8f264c5e1238cf946baa9951492f853327957098c4a-d2.heesch"
+ },
+ {
+  "digest": "ae594f0746552ee92b223e0f41029534cce5f4ddfb3d345036da8cdcf362acfb",
+  "B": 114,
+  "cap": 2,
+  "status": {
+   "status": "INFEASIBLE",
+   "cycles": 1,
+   "solver_s": 0.878776,
+   "lower_bound": 0.0
+  },
+  "best": null
+ },
+ {
+  "digest": "c12b7e8e1d375a5e9033de0d065b575ccc23524e5c9d7429d64bdd5a43ca6722",
+  "B": 127,
+  "cap": 1,
+  "status": {
+   "status": "INFEASIBLE",
+   "cycles": 0,
+   "solver_s": 0.280324,
+   "lower_bound": 0.0
+  },
+  "best": "/Users/hol/Documents/Codex/2026-11-20/set-up-the-heesch-polyform-challenge/work/vacancy-orbits/ramified/research-frontier/8343/porous-sample/c12b7e8e1d375a5e9033de0d065b575ccc23524e5c9d7429d64bdd5a43ca6722-d2.heesch"
+ },
+ {
+  "digest": "d44f163de84bbd2a0a6000ccfbeecd9a11f600d37586677ce46b2de81da2da9f",
+  "B": 124,
+  "cap": 1,
+  "status": {
+   "status": "INFEASIBLE",
+   "cycles": 0,
+   "solver_s": 0.245321,
+   "lower_bound": 0.0
+  },
+  "best": "/Users/hol/Documents/Codex/2026-11-20/set-up-the-heesch-polyform-challenge/work/vacancy-orbits/ramified/research-frontier/8343/porous-sample/d44f163de84bbd2a0a6000ccfbeecd9a11f600d37586677ce46b2de81da2da9f-d2.heesch"
+ }
+]

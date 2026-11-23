@@ -1,0 +1,221 @@
+{
+ "source": "complete-porous.heesch",
+ "patches": [
+  {
+   "file": "complete-porous.heesch",
+   "required": 134,
+   "defect": 16,
+   "missing": 0,
+   "pockets": 16,
+   "partial": 27,
+   "rings": {
+    "0": 1,
+    "1": 5,
+    "2": 8,
+    "3": 15,
+    "4": 27
+   }
+  },
+  {
+   "file": "optimized-15.heesch",
+   "required": 134,
+   "defect": 15,
+   "missing": 1,
+   "pockets": 14,
+   "partial": 27,
+   "rings": {
+    "0": 1,
+    "1": 5,
+    "2": 8,
+    "3": 15,
+    "4": 27
+   }
+  },
+  {
+   "file": "optimized-14.heesch",
+   "required": 134,
+   "defect": 14,
+   "missing": 8,
+   "pockets": 6,
+   "partial": 25,
+   "rings": {
+    "0": 1,
+    "1": 5,
+    "2": 8,
+    "3": 15,
+    "4": 27
+   }
+  },
+  {
+   "file": "optimized-13.heesch",
+   "required": 134,
+   "defect": 13,
+   "missing": 1,
+   "pockets": 12,
+   "partial": 26,
+   "rings": {
+    "0": 1,
+    "1": 5,
+    "2": 8,
+    "3": 15,
+    "4": 27
+   }
+  },
+  {
+   "file": "optimized-12.heesch",
+   "required": 134,
+   "defect": 12,
+   "missing": 1,
+   "pockets": 11,
+   "partial": 27,
+   "rings": {
+    "0": 1,
+    "1": 5,
+    "2": 8,
+    "3": 15,
+    "4": 27
+   }
+  },
+  {
+   "file": "optimized-11.heesch",
+   "required": 134,
+   "defect": 11,
+   "missing": 1,
+   "pockets": 10,
+   "partial": 27,
+   "rings": {
+    "0": 1,
+    "1": 5,
+    "2": 8,
+    "3": 15,
+    "4": 27
+   }
+  },
+  {
+   "file": "optimized-10.heesch",
+   "required": 134,
+   "defect": 10,
+   "missing": 7,
+   "pockets": 3,
+   "partial": 25,
+   "rings": {
+    "0": 1,
+    "1": 5,
+    "2": 8,
+    "3": 15,
+    "4": 27
+   }
+  },
+  {
+   "file": "optimized-9.heesch",
+   "required": 134,
+   "defect": 9,
+   "missing": 2,
+   "pockets": 7,
+   "partial": 26,
+   "rings": {
+    "0": 1,
+    "1": 5,
+    "2": 8,
+    "3": 15,
+    "4": 27
+   }
+  },
+  {
+   "file": "optimized-8.heesch",
+   "required": 134,
+   "defect": 8,
+   "missing": 0,
+   "pockets": 8,
+   "partial": 27,
+   "rings": {
+    "0": 1,
+    "1": 5,
+    "2": 8,
+    "3": 15,
+    "4": 27
+   }
+  },
+  {
+   "file": "optimized-7.heesch",
+   "required": 134,
+   "defect": 7,
+   "missing": 4,
+   "pockets": 3,
+   "partial": 27,
+   "rings": {
+    "0": 1,
+    "1": 5,
+    "2": 8,
+    "3": 15,
+    "4": 27
+   }
+  },
+  {
+   "file": "optimized-6.heesch",
+   "required": 134,
+   "defect": 6,
+   "missing": 3,
+   "pockets": 3,
+   "partial": 26,
+   "rings": {
+    "0": 1,
+    "1": 5,
+    "2": 8,
+    "3": 15,
+    "4": 27
+   }
+  },
+  {
+   "file": "optimized-5.heesch",
+   "required": 134,
+   "defect": 5,
+   "missing": 5,
+   "pockets": 0,
+   "partial": 27,
+   "rings": {
+    "0": 1,
+    "1": 5,
+    "2": 8,
+    "3": 15,
+    "4": 27
+   }
+  },
+  {
+   "file": "optimized-4.heesch",
+   "required": 134,
+   "defect": 4,
+   "missing": 2,
+   "pockets": 2,
+   "partial": 28,
+   "rings": {
+    "0": 1,
+    "1": 5,
+    "2": 8,
+    "3": 15,
+    "4": 27
+   }
+  },
+  {
+   "file": "optimized-3.heesch",
+   "required": 134,
+   "defect": 3,
+   "missing": 2,
+   "pockets": 1,
+   "partial": 26,
+   "rings": {
+    "0": 1,
+    "1": 5,
+    "2": 8,
+    "3": 15,
+    "4": 27
+   }
+  }
+ ],
+ "termination": {
+  "status": "INFEASIBLE",
+  "cycles": 0,
+  "solver_s": 0.27644,
+  "lower_bound": 0.0
+ }
+}

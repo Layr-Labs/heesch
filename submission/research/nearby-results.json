@@ -1,0 +1,17 @@
+{
+ "generated": 31169,
+ "four": {
+  "NO_DEEP_CONTACT": 28949,
+  "ISOHEDRAL": 2199,
+  "FOUND": 17,
+  "TIMEOUT": 1,
+  "EXHAUSTED": 3
+ },
+ "periods": {
+  "4": 11,
+  "6": 5,
+  "8": 2
+ },
+ "five": {},
+ "unresolved": []
+}
