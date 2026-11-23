@@ -1,0 +1,28 @@
+{
+  "shape": "9530efb1068d15c80d007e0d6e3662a7e14a84acf7ac2b15505969ee9c28d792",
+  "counts": [
+    [
+      9,
+      9,
+      1
+    ]
+  ],
+  "p3": [
+    {
+      "geometry": "thirds/01.heesch",
+      "digest": "fb6bb41ddf968cc9fbabd8a0b4256194d5f5a48e809f3e738aaacc516c427426",
+      "B_status": "OPTIMAL",
+      "B_max": 270,
+      "strict_status": "INFEASIBLE",
+      "strict_ratio": [
+        12,
+        214
+      ],
+      "nonstrict_reported_ratio": [
+        5,
+        247
+      ],
+      "nonstrict_reported_status": "INFEASIBLE"
+    }
+  ]
+}

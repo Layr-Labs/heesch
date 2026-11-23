@@ -1,0 +1,9 @@
+{"fixed_depth": 2, "fixed_cells": 272, "first_required": 105, "first_raw": 1207, "first_possible": 36, "second_possible": 6212, "boundary_domain": 428, "pocket_vars": 1009, "target": 1}
+{"step": 0, "status": "OPTIMAL", "solve_s": 0.07431700000000001, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 154, "hh": 0, "hc": 6, "gain": -1062, "pocket4": 0, "pocket5": 6}
+{"step": 1, "status": "OPTIMAL", "solve_s": 0.068638, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 154, "hh": 0, "hc": 2, "gain": -46, "pocket4": 0, "pocket5": 2}
+{"step": 2, "status": "OPTIMAL", "solve_s": 0.06761500000000001, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 154, "hh": 0, "hc": 0, "gain": 462, "pocket4": 0, "pocket5": 0}
+{"file": "work/score-first-branches/outline-021/full-domain/patch-001/patch-001/patch-001.heesch", "tiles": 65, "P3_difference": 18}
+{"step": 3, "status": "INFEASIBLE", "solve_s": 0.041594000000000006, "objective": 0.0, "upper_bound": 0.0}

@@ -1,0 +1,5 @@
+{"fixed_depth": 1, "fixed_cells": 96, "first_required": 51, "first_raw": 752, "first_possible": 72, "second_possible": 5652, "boundary_domain": 376, "pocket_vars": 820, "target": 1}
+{"step": 0, "status": "OPTIMAL", "solve_s": 0.09605100000000001, "objective": 0.0, "upper_bound": 0.0}
+{"boundary": 105, "hh": 0, "hc": 0, "gain": 315, "pocket4": 0, "pocket5": 0}
+{"file": "work/score-first-branches/outline-021/full-domain/patch-001/patch-001.heesch", "tiles": 38, "P3_difference": 0}
+{"step": 1, "status": "INFEASIBLE", "solve_s": 0.063574, "objective": 0.0, "upper_bound": 0.0}
