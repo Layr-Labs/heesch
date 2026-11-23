@@ -1,0 +1,10 @@
+{
+  "full_vars": 1340629,
+  "full_clauses": 14491882,
+  "full_sha256": "e017095b29f6e60b0f390f0fde9912779d5f64cc9201aecac1eb826b56ac743f",
+  "core_clauses": 562033,
+  "rup_additions": 332531,
+  "proof_bytes": 9838029,
+  "xz_bytes": 1221536,
+  "proof_sha256": "37428aeaf8cf0143662ec665b0058a7f7a7e1841bd3eeb1e0eeae9810cd00851"
+}

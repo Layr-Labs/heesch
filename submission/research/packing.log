@@ -1,0 +1,7 @@
+{"phase": "OPTIMAL", "required": 221, "gaps": 21, "extra_pockets": 9, "copies": 36, "defect": 30}
+{"phase": "pocket-aware", "required": 221, "gaps": 24, "extra_pockets": 5, "copies": 35, "defect": 29}
+{"phase": "pocket-aware", "required": 221, "gaps": 23, "extra_pockets": 5, "copies": 36, "defect": 28}
+{"phase": "pocket-aware", "required": 221, "gaps": 25, "extra_pockets": 2, "copies": 36, "defect": 27}
+{"phase": "pocket-aware", "required": 221, "gaps": 25, "extra_pockets": 1, "copies": 36, "defect": 26}
+{"phase": "pocket-aware", "required": 221, "gaps": 22, "extra_pockets": 2, "copies": 35, "defect": 24}
+{"status": "INFEASIBLE", "cycles": 6, "solver_s": 1.4226420000000002, "lower_bound": 0.0}

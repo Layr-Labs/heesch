@@ -1,0 +1,31 @@
+{
+  "majority_generated": 47839,
+  "majority_compared_to": 2323490,
+  "majority_searched": 24774,
+  "outcomes": {
+    "five": {
+      "NO_DEEP_CONTACT": 19275,
+      "ISOHEDRAL": 5342,
+      "TIMEOUT": 3,
+      "FOUND": 120,
+      "EXHAUSTED": 34
+    },
+    "porous-five": {
+      "NO_DEEP_CONTACT": 19275,
+      "ISOHEDRAL": 5342,
+      "TIMEOUT": 5,
+      "FOUND": 118,
+      "EXHAUSTED": 34
+    }
+  },
+  "periods_replayed": 123,
+  "majority_unresolved": [],
+  "seam_fragment_outcomes": {
+    "NO_DEEP_CONTACT": 10325,
+    "ISOHEDRAL": 1589,
+    "FOUND": 43,
+    "EXHAUSTED": 7,
+    "TIMEOUT": 1
+  },
+  "seam_fragment_unresolved": []
+}
