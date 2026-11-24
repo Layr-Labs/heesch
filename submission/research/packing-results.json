@@ -1,0 +1,642 @@
+{
+ "898b2100efbcd702": {
+  "key": "898b2100efbcd702",
+  "best": 12,
+  "B": 165,
+  "limit": 8,
+  "status": "INFEASIBLE",
+  "iterations": 2,
+  "candidates": [
+   {
+    "d": 12,
+    "B": 165,
+    "hh": 12,
+    "file": "rank/898b2100efbcd702-d12-165.heesch"
+   }
+  ],
+  "cycles": [
+   {
+    "raw": 19,
+    "trimmed": 13,
+    "hh": 9,
+    "target": 8
+   },
+   {
+    "raw": 16,
+    "trimmed": 12,
+    "hh": 12,
+    "target": 8
+   }
+  ]
+ },
+ "f4b643b2e49c86bf": {
+  "key": "f4b643b2e49c86bf",
+  "best": 7,
+  "B": 168,
+  "limit": 6,
+  "status": "INFEASIBLE",
+  "iterations": 2,
+  "candidates": [
+   {
+    "d": 7,
+    "B": 168,
+    "hh": 7,
+    "file": "rank/f4b643b2e49c86bf-d7-168.heesch"
+   }
+  ],
+  "cycles": [
+   {
+    "raw": 8,
+    "trimmed": 8,
+    "hh": 6,
+    "target": 7
+   },
+   {
+    "raw": 7,
+    "trimmed": 7,
+    "hh": 7,
+    "target": 7
+   }
+  ]
+ },
+ "ebe13f0bde5185e0": {
+  "key": "ebe13f0bde5185e0",
+  "best": 4,
+  "B": 175,
+  "limit": 3,
+  "status": "INFEASIBLE",
+  "iterations": 8,
+  "candidates": [
+   {
+    "d": 5,
+    "B": 175,
+    "hh": 5,
+    "file": "rank/ebe13f0bde5185e0-d5-175.heesch"
+   },
+   {
+    "d": 4,
+    "B": 175,
+    "hh": 4,
+    "file": "rank/ebe13f0bde5185e0-d4-175.heesch"
+   }
+  ],
+  "cycles": [
+   {
+    "raw": 6,
+    "trimmed": 6,
+    "hh": 4,
+    "target": 5
+   },
+   {
+    "raw": 14,
+    "trimmed": 6,
+    "hh": 4,
+    "target": 5
+   },
+   {
+    "raw": 17,
+    "trimmed": 9,
+    "hh": 9,
+    "target": 5
+   },
+   {
+    "raw": 5,
+    "trimmed": 5,
+    "hh": 5,
+    "target": 5
+   },
+   {
+    "raw": 11,
+    "trimmed": 6,
+    "hh": 6,
+    "target": 4
+   },
+   {
+    "raw": 6,
+    "trimmed": 6,
+    "hh": 4,
+    "target": 4
+   },
+   {
+    "raw": 6,
+    "trimmed": 5,
+    "hh": 5,
+    "target": 4
+   },
+   {
+    "raw": 4,
+    "trimmed": 4,
+    "hh": 4,
+    "target": 4
+   }
+  ]
+ },
+ "0ce43d233fefa889": {
+  "key": "0ce43d233fefa889",
+  "best": 17,
+  "B": 173,
+  "limit": 8,
+  "status": "INFEASIBLE",
+  "iterations": 0,
+  "candidates": [],
+  "cycles": []
+ },
+ "6569a77d1d00a522": {
+  "key": "6569a77d1d00a522",
+  "best": 9,
+  "B": 176,
+  "limit": 8,
+  "status": "INFEASIBLE",
+  "iterations": 9,
+  "candidates": [
+   {
+    "d": 14,
+    "B": 176,
+    "hh": 9,
+    "file": "rank/6569a77d1d00a522-d14-176.heesch"
+   },
+   {
+    "d": 12,
+    "B": 176,
+    "hh": 12,
+    "file": "rank/6569a77d1d00a522-d12-176.heesch"
+   },
+   {
+    "d": 10,
+    "B": 176,
+    "hh": 10,
+    "file": "rank/6569a77d1d00a522-d10-176.heesch"
+   },
+   {
+    "d": 9,
+    "B": 176,
+    "hh": 9,
+    "file": "rank/6569a77d1d00a522-d9-176.heesch"
+   }
+  ],
+  "cycles": [
+   {
+    "raw": 15,
+    "trimmed": 14,
+    "hh": 9,
+    "target": 9
+   },
+   {
+    "raw": 18,
+    "trimmed": 17,
+    "hh": 10,
+    "target": 9
+   },
+   {
+    "raw": 23,
+    "trimmed": 12,
+    "hh": 12,
+    "target": 9
+   },
+   {
+    "raw": 13,
+    "trimmed": 10,
+    "hh": 10,
+    "target": 9
+   },
+   {
+    "raw": 12,
+    "trimmed": 12,
+    "hh": 9,
+    "target": 9
+   },
+   {
+    "raw": 10,
+    "trimmed": 10,
+    "hh": 7,
+    "target": 9
+   },
+   {
+    "raw": 27,
+    "trimmed": 15,
+    "hh": 14,
+    "target": 9
+   },
+   {
+    "raw": 20,
+    "trimmed": 11,
+    "hh": 10,
+    "target": 9
+   },
+   {
+    "raw": 9,
+    "trimmed": 9,
+    "hh": 9,
+    "target": 9
+   }
+  ]
+ },
+ "c85da60f0491bf70": {
+  "key": "c85da60f0491bf70",
+  "best": 4,
+  "B": 169,
+  "limit": 3,
+  "status": "INFEASIBLE",
+  "iterations": 4,
+  "candidates": [
+   {
+    "d": 4,
+    "B": 169,
+    "hh": 4,
+    "file": "rank/c85da60f0491bf70-d4-169.heesch"
+   }
+  ],
+  "cycles": [
+   {
+    "raw": 5,
+    "trimmed": 5,
+    "hh": 3,
+    "target": 4
+   },
+   {
+    "raw": 6,
+    "trimmed": 5,
+    "hh": 5,
+    "target": 4
+   },
+   {
+    "raw": 6,
+    "trimmed": 5,
+    "hh": 5,
+    "target": 4
+   },
+   {
+    "raw": 4,
+    "trimmed": 4,
+    "hh": 4,
+    "target": 4
+   }
+  ]
+ },
+ "c11f43ddc68e5dee": {
+  "key": "c11f43ddc68e5dee",
+  "best": 7,
+  "B": 173,
+  "limit": 6,
+  "status": "INFEASIBLE",
+  "iterations": 11,
+  "candidates": [
+   {
+    "d": 11,
+    "B": 173,
+    "hh": 7,
+    "file": "rank/c11f43ddc68e5dee-d11-173.heesch"
+   },
+   {
+    "d": 8,
+    "B": 173,
+    "hh": 6,
+    "file": "rank/c11f43ddc68e5dee-d8-173.heesch"
+   },
+   {
+    "d": 7,
+    "B": 173,
+    "hh": 7,
+    "file": "rank/c11f43ddc68e5dee-d7-173.heesch"
+   }
+  ],
+  "cycles": [
+   {
+    "raw": 12,
+    "trimmed": 12,
+    "hh": 8,
+    "target": 8
+   },
+   {
+    "raw": 15,
+    "trimmed": 12,
+    "hh": 10,
+    "target": 8
+   },
+   {
+    "raw": 20,
+    "trimmed": 16,
+    "hh": 12,
+    "target": 8
+   },
+   {
+    "raw": 14,
+    "trimmed": 13,
+    "hh": 9,
+    "target": 8
+   },
+   {
+    "raw": 12,
+    "trimmed": 11,
+    "hh": 7,
+    "target": 8
+   },
+   {
+    "raw": 16,
+    "trimmed": 14,
+    "hh": 10,
+    "target": 8
+   },
+   {
+    "raw": 8,
+    "trimmed": 8,
+    "hh": 6,
+    "target": 8
+   },
+   {
+    "raw": 11,
+    "trimmed": 9,
+    "hh": 9,
+    "target": 7
+   },
+   {
+    "raw": 19,
+    "trimmed": 11,
+    "hh": 11,
+    "target": 7
+   },
+   {
+    "raw": 18,
+    "trimmed": 10,
+    "hh": 8,
+    "target": 7
+   },
+   {
+    "raw": 7,
+    "trimmed": 7,
+    "hh": 7,
+    "target": 7
+   }
+  ]
+ },
+ "d1877944942b3128": {
+  "key": "d1877944942b3128",
+  "best": 5,
+  "B": 160,
+  "limit": 4,
+  "status": "INFEASIBLE",
+  "iterations": 15,
+  "candidates": [
+   {
+    "d": 9,
+    "B": 160,
+    "hh": 7,
+    "file": "rank/d1877944942b3128-d9-160.heesch"
+   },
+   {
+    "d": 8,
+    "B": 160,
+    "hh": 6,
+    "file": "rank/d1877944942b3128-d8-160.heesch"
+   },
+   {
+    "d": 7,
+    "B": 160,
+    "hh": 7,
+    "file": "rank/d1877944942b3128-d7-160.heesch"
+   },
+   {
+    "d": 6,
+    "B": 160,
+    "hh": 4,
+    "file": "rank/d1877944942b3128-d6-160.heesch"
+   },
+   {
+    "d": 5,
+    "B": 160,
+    "hh": 5,
+    "file": "rank/d1877944942b3128-d5-160.heesch"
+   }
+  ],
+  "cycles": [
+   {
+    "raw": 10,
+    "trimmed": 10,
+    "hh": 8,
+    "target": 8
+   },
+   {
+    "raw": 16,
+    "trimmed": 10,
+    "hh": 8,
+    "target": 8
+   },
+   {
+    "raw": 17,
+    "trimmed": 9,
+    "hh": 7,
+    "target": 8
+   },
+   {
+    "raw": 8,
+    "trimmed": 8,
+    "hh": 6,
+    "target": 8
+   },
+   {
+    "raw": 17,
+    "trimmed": 13,
+    "hh": 9,
+    "target": 7
+   },
+   {
+    "raw": 17,
+    "trimmed": 9,
+    "hh": 9,
+    "target": 7
+   },
+   {
+    "raw": 7,
+    "trimmed": 7,
+    "hh": 7,
+    "target": 7
+   },
+   {
+    "raw": 18,
+    "trimmed": 7,
+    "hh": 5,
+    "target": 6
+   },
+   {
+    "raw": 13,
+    "trimmed": 8,
+    "hh": 6,
+    "target": 6
+   },
+   {
+    "raw": 6,
+    "trimmed": 6,
+    "hh": 4,
+    "target": 6
+   },
+   {
+    "raw": 18,
+    "trimmed": 7,
+    "hh": 7,
+    "target": 5
+   },
+   {
+    "raw": 7,
+    "trimmed": 6,
+    "hh": 6,
+    "target": 5
+   },
+   {
+    "raw": 7,
+    "trimmed": 6,
+    "hh": 6,
+    "target": 5
+   },
+   {
+    "raw": 7,
+    "trimmed": 7,
+    "hh": 5,
+    "target": 5
+   },
+   {
+    "raw": 5,
+    "trimmed": 5,
+    "hh": 5,
+    "target": 5
+   }
+  ]
+ },
+ "c33809d681cddd28": {
+  "key": "c33809d681cddd28",
+  "best": 6,
+  "B": 175,
+  "limit": 5,
+  "status": "INFEASIBLE",
+  "iterations": 17,
+  "candidates": [
+   {
+    "d": 9,
+    "B": 175,
+    "hh": 9,
+    "file": "rank/c33809d681cddd28-d9-175.heesch"
+   },
+   {
+    "d": 8,
+    "B": 175,
+    "hh": 8,
+    "file": "rank/c33809d681cddd28-d8-175.heesch"
+   },
+   {
+    "d": 7,
+    "B": 175,
+    "hh": 7,
+    "file": "rank/c33809d681cddd28-d7-175.heesch"
+   },
+   {
+    "d": 6,
+    "B": 175,
+    "hh": 6,
+    "file": "rank/c33809d681cddd28-d6-175.heesch"
+   }
+  ],
+  "cycles": [
+   {
+    "raw": 13,
+    "trimmed": 13,
+    "hh": 7,
+    "target": 8
+   },
+   {
+    "raw": 17,
+    "trimmed": 9,
+    "hh": 9,
+    "target": 8
+   },
+   {
+    "raw": 8,
+    "trimmed": 8,
+    "hh": 8,
+    "target": 8
+   },
+   {
+    "raw": 18,
+    "trimmed": 8,
+    "hh": 8,
+    "target": 7
+   },
+   {
+    "raw": 12,
+    "trimmed": 12,
+    "hh": 7,
+    "target": 7
+   },
+   {
+    "raw": 17,
+    "trimmed": 12,
+    "hh": 10,
+    "target": 7
+   },
+   {
+    "raw": 9,
+    "trimmed": 9,
+    "hh": 7,
+    "target": 7
+   },
+   {
+    "raw": 11,
+    "trimmed": 8,
+    "hh": 8,
+    "target": 7
+   },
+   {
+    "raw": 11,
+    "trimmed": 11,
+    "hh": 7,
+    "target": 7
+   },
+   {
+    "raw": 9,
+    "trimmed": 9,
+    "hh": 7,
+    "target": 7
+   },
+   {
+    "raw": 19,
+    "trimmed": 8,
+    "hh": 8,
+    "target": 7
+   },
+   {
+    "raw": 10,
+    "trimmed": 10,
+    "hh": 7,
+    "target": 7
+   },
+   {
+    "raw": 11,
+    "trimmed": 10,
+    "hh": 10,
+    "target": 7
+   },
+   {
+    "raw": 14,
+    "trimmed": 9,
+    "hh": 9,
+    "target": 7
+   },
+   {
+    "raw": 17,
+    "trimmed": 8,
+    "hh": 8,
+    "target": 7
+   },
+   {
+    "raw": 7,
+    "trimmed": 7,
+    "hh": 7,
+    "target": 7
+   },
+   {
+    "raw": 6,
+    "trimmed": 6,
+    "hh": 6,
+    "target": 6
+   }
+  ]
+ }
+}

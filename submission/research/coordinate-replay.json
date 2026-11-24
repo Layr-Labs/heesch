@@ -1,0 +1,25 @@
+{
+  "canonical_digest": "f8d58e9d2099844c6d3988f41a81f0f6545691260be9435d0ba7cdb134ef322b",
+  "area": 18,
+  "donor_period": 6,
+  "donor_patch_count": 93,
+  "period_contact_occurrences": 2,
+  "patch_contact_occurrences": 0,
+  "overlapping_child_cells": [
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      4
+    ]
+  ],
+  "complete_tiles": 41,
+  "partial_tiles": 29,
+  "defect_hc": 4,
+  "defect_hh": 4,
+  "required": 175,
+  "score": "696/175",
+  "proof_m": 4
+}

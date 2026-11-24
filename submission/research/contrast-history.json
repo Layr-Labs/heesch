@@ -1,0 +1,29 @@
+{
+ "sources": 241,
+ "records": 20744662,
+ "unique": 1034,
+ "matched": 282,
+ "new_to_checked_banks": 752,
+ "cohort": {
+  "repair-stars": {
+   "unique": 0,
+   "new": 0
+  },
+  "missing-stars": {
+   "unique": 320,
+   "new": 197
+  },
+  "peripheral": {
+   "unique": 10,
+   "new": 6
+  },
+  "threshold-repair": {
+   "unique": 161,
+   "new": 133
+  },
+  "threshold-charts": {
+   "unique": 558,
+   "new": 424
+  }
+ }
+}

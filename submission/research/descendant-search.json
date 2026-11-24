@@ -1,0 +1,43 @@
+{
+ "fresh": 109,
+ "census": {
+  "3": {
+   "status": {
+    "FOUND": 3,
+    "EXHAUSTED": 56,
+    "ISOHEDRAL": 9,
+    "TIMEOUT": 1,
+    "NO_DEEP_CONTACT": 40
+   },
+   "physical": {
+    "82": "71cf80ed9ead1e6c27cc68183c95d3e97fd9c3f09c95360efc3e43a8cdd2ecff",
+    "1": "3894214c534dabf8d5a205584ced9ac0f36b74908e0626eb3e11769aa0196797",
+    "49": "275a3c504669c958ffd672ce3e66c5488b244fe7ae77cce707900076c6d44649"
+   }
+  },
+  "4": {
+   "status": {
+    "EXHAUSTED": 58,
+    "ISOHEDRAL": 9,
+    "FOUND": 2,
+    "NO_DEEP_CONTACT": 40
+   },
+   "physical": {
+    "31": "9561f859faae43fc66dae4683d71dd02df0522b49b6275d95256ee9ee1029bcc",
+    "82": "71cf80ed9ead1e6c27cc68183c95d3e97fd9c3f09c95360efc3e43a8cdd2ecff"
+   }
+  },
+  "5": {
+   "status": {
+    "EXHAUSTED": 58,
+    "ISOHEDRAL": 9,
+    "TIMEOUT": 1,
+    "NO_DEEP_CONTACT": 40,
+    "FOUND": 1
+   },
+   "physical": {
+    "82": "71cf80ed9ead1e6c27cc68183c95d3e97fd9c3f09c95360efc3e43a8cdd2ecff"
+   }
+  }
+ }
+}

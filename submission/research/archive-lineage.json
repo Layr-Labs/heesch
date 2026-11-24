@@ -1,0 +1,474 @@
+{
+ "archive": "work/vacancy-orbits/ramified/bank.tsv line 277525",
+ "archive_outcomes": {
+  "fourth": "EXHAUSTED 1 2232",
+  "fifth": "EXHAUSTED 1 2242",
+  "third": null
+ },
+ "candidate": "missing-stars/265",
+ "job": {
+  "donor": "children-three-92880",
+  "cut": "-1,0,1,0,-1,8",
+  "period_count": 2,
+  "patch_count": 0,
+  "inner3": 0,
+  "stars": [
+   [
+    "-1,-1,1,1,0,4",
+    "-1,-1,12,1,0,-2",
+    "-1,0,-1,0,-1,5",
+    "-1,0,10,0,-1,-1",
+    "1,0,-2,-1,-1,10",
+    "1,1,-2,-1,0,1"
+   ]
+  ],
+  "radius": 2,
+  "area": 18,
+  "available_overlap_pairs": 11,
+  "end": "INFEASIBLE",
+  "models": 24,
+  "solid_stars": 9,
+  "id": 428
+ },
+ "origin": {
+  "id": 265,
+  "job": 428,
+  "cells": "0 2 0 3 0 4 1 2 1 3 1 4 2 2 2 3 3 2 4 1 4 2 5 0 5 1 5 2 6 -1 6 0 6 1 7 -2",
+  "hash": "f8d58e9d2099844c6d3988f41a81f0f6545691260be9435d0ba7cdb134ef322b"
+ },
+ "donor": "children-three-92880",
+ "donor_digest": "a1c507239dbf527ed9491e4ae1b43470f3f7ad439d361ce9a47b38e5b3d2a5ff",
+ "donor_torus": [
+  6,
+  9,
+  2,
+  12,
+  "1,0,0,0,1,0",
+  "0,1,2,-1,-1,10",
+  "-1,-1,5,1,0,10",
+  "1,1,7,-1,0,1",
+  "0,-1,1,1,1,1",
+  "-1,0,3,0,-1,11"
+ ],
+ "donor_contact": {
+  "type": "-1,0,1,0,-1,8",
+  "torus": 2,
+  "patch": 0,
+  "inner3": 0,
+  "inner4": 0
+ },
+ "shared_edges": 7,
+ "new_overlaps": [
+  [
+   0,
+   4
+  ],
+  [
+   1,
+   4
+  ]
+ ],
+ "child_vs_donor": {
+  "shared": 13,
+  "added": 5,
+  "removed": 5,
+  "total": 10,
+  "angle": 0,
+  "shift": [
+   0,
+   0
+  ]
+ },
+ "known_attempts": [
+  {
+   "shared": 15,
+   "added": 3,
+   "removed": 3,
+   "total": 6,
+   "angle": 2,
+   "shift": [
+    8,
+    -1
+   ],
+   "name": "attempt-036",
+   "other_area": 18,
+   "Hc": 3,
+   "digest": "810631952b47f051d2d00a2e1d06399e6e4ee9c50c69eed702af926cc0a826cd"
+  },
+  {
+   "shared": 13,
+   "added": 2,
+   "removed": 5,
+   "total": 7,
+   "angle": 0,
+   "shift": [
+    6,
+    0
+   ],
+   "name": "attempt-002",
+   "other_area": 15,
+   "Hc": 4,
+   "digest": "432fe86cb0dfdade5f49076181e1a10d05bc928ee999e5f630d07dd02f41b394"
+  },
+  {
+   "shared": 13,
+   "added": 2,
+   "removed": 5,
+   "total": 7,
+   "angle": 0,
+   "shift": [
+    6,
+    0
+   ],
+   "name": "attempt-003",
+   "other_area": 15,
+   "Hc": 4,
+   "digest": "432fe86cb0dfdade5f49076181e1a10d05bc928ee999e5f630d07dd02f41b394"
+  },
+  {
+   "shared": 13,
+   "added": 2,
+   "removed": 5,
+   "total": 7,
+   "angle": 0,
+   "shift": [
+    6,
+    0
+   ],
+   "name": "attempt-005",
+   "other_area": 15,
+   "Hc": 4,
+   "digest": "432fe86cb0dfdade5f49076181e1a10d05bc928ee999e5f630d07dd02f41b394"
+  },
+  {
+   "shared": 13,
+   "added": 2,
+   "removed": 5,
+   "total": 7,
+   "angle": 0,
+   "shift": [
+    6,
+    0
+   ],
+   "name": "attempt-007",
+   "other_area": 15,
+   "Hc": 4,
+   "digest": "432fe86cb0dfdade5f49076181e1a10d05bc928ee999e5f630d07dd02f41b394"
+  },
+  {
+   "shared": 13,
+   "added": 2,
+   "removed": 5,
+   "total": 7,
+   "angle": 0,
+   "shift": [
+    6,
+    0
+   ],
+   "name": "attempt-016",
+   "other_area": 15,
+   "Hc": 4,
+   "digest": "432fe86cb0dfdade5f49076181e1a10d05bc928ee999e5f630d07dd02f41b394"
+  },
+  {
+   "shared": 13,
+   "added": 2,
+   "removed": 5,
+   "total": 7,
+   "angle": 0,
+   "shift": [
+    6,
+    0
+   ],
+   "name": "attempt-025",
+   "other_area": 15,
+   "Hc": 4,
+   "digest": "432fe86cb0dfdade5f49076181e1a10d05bc928ee999e5f630d07dd02f41b394"
+  },
+  {
+   "shared": 8,
+   "added": 0,
+   "removed": 10,
+   "total": 10,
+   "angle": 0,
+   "shift": [
+    4,
+    1
+   ],
+   "name": "attempt-001",
+   "other_area": 8,
+   "Hc": 3,
+   "digest": "54ccb5993100828f18313d229fe479842bd6652c5962f8be4c0acad41ffb32fd"
+  },
+  {
+   "shared": 12,
+   "added": 4,
+   "removed": 6,
+   "total": 10,
+   "angle": 3,
+   "shift": [
+    2,
+    4
+   ],
+   "name": "attempt-021",
+   "other_area": 16,
+   "Hc": 4,
+   "digest": "9530efb1068d15c80d007e0d6e3662a7e14a84acf7ac2b15505969ee9c28d792"
+  },
+  {
+   "shared": 12,
+   "added": 4,
+   "removed": 6,
+   "total": 10,
+   "angle": 3,
+   "shift": [
+    2,
+    4
+   ],
+   "name": "attempt-029",
+   "other_area": 16,
+   "Hc": 4,
+   "digest": "9530efb1068d15c80d007e0d6e3662a7e14a84acf7ac2b15505969ee9c28d792"
+  },
+  {
+   "shared": 14,
+   "added": 6,
+   "removed": 4,
+   "total": 10,
+   "angle": 1,
+   "shift": [
+    7,
+    -3
+   ],
+   "name": "attempt-031",
+   "other_area": 20,
+   "Hc": 3,
+   "digest": "4055f7e995d46cc50679e94c2831498eaa382d91fd8870e144a279a1c677c6ed"
+  },
+  {
+   "shared": 14,
+   "added": 6,
+   "removed": 4,
+   "total": 10,
+   "angle": 2,
+   "shift": [
+    8,
+    0
+   ],
+   "name": "attempt-037",
+   "other_area": 20,
+   "Hc": 3,
+   "digest": "1029eeb8304ebc6f1be4a4d0f1a36409fc7663b6671dbddd9d6b70c144094559"
+  },
+  {
+   "shared": 12,
+   "added": 5,
+   "removed": 6,
+   "total": 11,
+   "angle": 2,
+   "shift": [
+    3,
+    5
+   ],
+   "name": "attempt-011",
+   "other_area": 17,
+   "Hc": 4,
+   "digest": "7b3ef0bbb6bcc059551e2dd694c9576fffbde0d84d847b0d0fa514c4c10fc46c"
+  },
+  {
+   "shared": 11,
+   "added": 4,
+   "removed": 7,
+   "total": 11,
+   "angle": 2,
+   "shift": [
+    6,
+    0
+   ],
+   "name": "attempt-019",
+   "other_area": 15,
+   "Hc": 4,
+   "digest": "ea59b4e5d16f37bd2f92f452d0958fb6c070316815e948db4682ed28911b1b7b"
+  },
+  {
+   "shared": 11,
+   "added": 4,
+   "removed": 7,
+   "total": 11,
+   "angle": 2,
+   "shift": [
+    6,
+    0
+   ],
+   "name": "attempt-023",
+   "other_area": 15,
+   "Hc": 4,
+   "digest": "ea59b4e5d16f37bd2f92f452d0958fb6c070316815e948db4682ed28911b1b7b"
+  },
+  {
+   "shared": 11,
+   "added": 4,
+   "removed": 7,
+   "total": 11,
+   "angle": 2,
+   "shift": [
+    6,
+    0
+   ],
+   "name": "attempt-027",
+   "other_area": 15,
+   "Hc": 4,
+   "digest": "ea59b4e5d16f37bd2f92f452d0958fb6c070316815e948db4682ed28911b1b7b"
+  },
+  {
+   "shared": 13,
+   "added": 6,
+   "removed": 5,
+   "total": 11,
+   "angle": 5,
+   "shift": [
+    -2,
+    4
+   ],
+   "name": "attempt-040",
+   "other_area": 19,
+   "Hc": 3,
+   "digest": "b754f554667c57e85adb7a1eb0b378fc2908eaefe6e621cec708cef61ab04ed4"
+  },
+  {
+   "shared": 13,
+   "added": 7,
+   "removed": 5,
+   "total": 12,
+   "angle": 5,
+   "shift": [
+    2,
+    2
+   ],
+   "name": "attempt-006",
+   "other_area": 20,
+   "Hc": 4,
+   "digest": "59758684f5ad1d011a831b3be4d800ea9ea547e156863563c2bd7498a6685208"
+  },
+  {
+   "shared": 13,
+   "added": 7,
+   "removed": 5,
+   "total": 12,
+   "angle": 2,
+   "shift": [
+    7,
+    0
+   ],
+   "name": "attempt-010",
+   "other_area": 20,
+   "Hc": 3,
+   "digest": "ddb2202783c4c3239f114f6e1fc2902bbf1701e2669274b13bb20780763daf5f"
+  },
+  {
+   "shared": 12,
+   "added": 6,
+   "removed": 6,
+   "total": 12,
+   "angle": 4,
+   "shift": [
+    1,
+    6
+   ],
+   "name": "attempt-018",
+   "other_area": 18,
+   "Hc": 3,
+   "digest": "de86ce11aba712096ac741d23cc3c8c77d6786636189fc14d243c2cea9bde390"
+  },
+  {
+   "shared": 13,
+   "added": 7,
+   "removed": 5,
+   "total": 12,
+   "angle": 5,
+   "shift": [
+    2,
+    2
+   ],
+   "name": "attempt-028",
+   "other_area": 20,
+   "Hc": 4,
+   "digest": "59758684f5ad1d011a831b3be4d800ea9ea547e156863563c2bd7498a6685208"
+  },
+  {
+   "shared": 13,
+   "added": 7,
+   "removed": 5,
+   "total": 12,
+   "angle": 2,
+   "shift": [
+    8,
+    0
+   ],
+   "name": "attempt-038",
+   "other_area": 20,
+   "Hc": 3,
+   "digest": "e255e63e1619ebacd4d8357ced32efa905ae22148b6acd4fee224d3cf345d584"
+  },
+  {
+   "shared": 13,
+   "added": 7,
+   "removed": 5,
+   "total": 12,
+   "angle": 5,
+   "shift": [
+    0,
+    4
+   ],
+   "name": "attempt-039",
+   "other_area": 20,
+   "Hc": 3,
+   "digest": "01252a1dd641d44482047643a2b42af33e60575263f0616d135e5935f1405ed8"
+  },
+  {
+   "shared": 8,
+   "added": 3,
+   "removed": 10,
+   "total": 13,
+   "angle": 1,
+   "shift": [
+    4,
+    -2
+   ],
+   "name": "attempt-009",
+   "other_area": 11,
+   "Hc": 4,
+   "digest": "29065da62ce18c0041b70839e369631ff29d2e56b2047b461de91cb9054c40bf"
+  },
+  {
+   "shared": 9,
+   "added": 4,
+   "removed": 9,
+   "total": 13,
+   "angle": 0,
+   "shift": [
+    1,
+    1
+   ],
+   "name": "attempt-012",
+   "other_area": 13,
+   "Hc": 4,
+   "digest": "fdb7b9acc85977c73b2d77a49047873e1dab745ab9f326e1d0d18e88e91045ce"
+  },
+  {
+   "shared": 11,
+   "added": 7,
+   "removed": 7,
+   "total": 14,
+   "angle": 2,
+   "shift": [
+    9,
+    -2
+   ],
+   "name": "attempt-035",
+   "other_area": 18,
+   "Hc": 3,
+   "digest": "deb178796af4a803898f879d911e739c137e0f30a6f26e2606d484a27c46b224"
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "key": "898b2100efbcd702",
+ "best": 9,
+ "B": 165,
+ "limit": 8,
+ "status": "INFEASIBLE",
+ "iterations": 9,
+ "candidates": [
+  {
+   "d": 10,
+   "B": 165,
+   "hh": 10,
+   "file": "rank/898b2100efbcd702-d10-165.heesch"
+  },
+  {
+   "d": 9,
+   "B": 165,
+   "hh": 9,
+   "file": "rank/898b2100efbcd702-d9-165.heesch"
+  }
+ ],
+ "cycles": [
+  {
+   "raw": 11,
+   "trimmed": 11,
+   "hh": 9,
+   "target": 10
+  },
+  {
+   "raw": 14,
+   "trimmed": 11,
+   "hh": 9,
+   "target": 10
+  },
+  {
+   "raw": 10,
+   "trimmed": 10,
+   "hh": 10,
+   "target": 10
+  },
+  {
+   "raw": 13,
+   "trimmed": 11,
+   "hh": 9,
+   "target": 9
+  },
+  {
+   "raw": 19,
+   "trimmed": 15,
+   "hh": 13,
+   "target": 9
+  },
+  {
+   "raw": 13,
+   "trimmed": 11,
+   "hh": 11,
+   "target": 9
+  },
+  {
+   "raw": 11,
+   "trimmed": 11,
+   "hh": 9,
+   "target": 9
+  },
+  {
+   "raw": 21,
+   "trimmed": 11,
+   "hh": 11,
+   "target": 9
+  },
+  {
+   "raw": 9,
+   "trimmed": 9,
+   "hh": 9,
+   "target": 9
+  }
+ ]
+}
