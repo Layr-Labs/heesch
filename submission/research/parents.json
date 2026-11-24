@@ -1,0 +1,17 @@
+{
+  "9": {
+    "source": "work/submitted-attempt-019/best.heesch"
+  },
+  "53": {
+    "record": 109,
+    "description": "Hc = 3 Hh = 3",
+    "raw": " -9 6 -8 4 -8 5 -7 4 -6 3 -6 4 -5 2 -5 3 -4 2 -4 3 -3 2 -2 1 -1 1 0 0 0 1 1 0 2 0",
+    "source": "https://cs.uwaterloo.ca/~csk/heesch/hex/17hex_3up.txt"
+  },
+  "141": {
+    "record": 402,
+    "description": "Hc = 3 Hh = 3",
+    "raw": " -3 3 -2 2 -2 3 -1 1 -1 2 0 0 0 1 0 2 0 3 0 4 1 3 1 4 2 2 3 1 4 0 4 1 5 1",
+    "source": "https://cs.uwaterloo.ca/~csk/heesch/hex/17hex_3up.txt"
+  }
+}

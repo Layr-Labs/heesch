@@ -1,0 +1,16 @@
+{
+ "candidate": 42232,
+ "canonical_digest": "ba59b70eeca806b0ec149b2f194898ad710e4834da0cffed4b15fa65dd2656f1",
+ "formula_sha256": "f37165136f9fa6836a1c8ce2c4599c9f5ddcd7c18cb08c19244b4e9a000a9999",
+ "vars": 1167663,
+ "clauses": 7502126,
+ "formula_depth": 4,
+ "formula_bytes": 1781949969,
+ "proof": "proof.drat.xz",
+ "compressed_bytes": 369844,
+ "payload_bytes": 1170898,
+ "proof_sha256": "4d7767d00b81d279989178a4c9b72d5e8c39eab12fc6f373ed3a4c76793cda88",
+ "converted_lrat_bytes": 287463936,
+ "trial": "r18-separated",
+ "construction": "Full-formula replay of local disjoint-neighbor surrounds"
+}

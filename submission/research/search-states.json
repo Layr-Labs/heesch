@@ -1,0 +1,42 @@
+{
+  "pilot": {
+    "four": {
+      "ISOHEDRAL": 17713,
+      "NO_DEEP_CONTACT": 5984,
+      "TIMEOUT": 10,
+      "FOUND": 342,
+      "EXHAUSTED": 39
+    },
+    "five": {
+      "ISOHEDRAL": 17713,
+      "NO_DEEP_CONTACT": 5992,
+      "TIMEOUT": 14,
+      "FOUND": 338,
+      "EXHAUSTED": 31
+    },
+    "porous": {
+      "NO_DEEP_CONTACT": 1
+    }
+  },
+  "pilot_open": [],
+  "second": {
+    "four": {
+      "NO_DEEP_CONTACT": 6480,
+      "ISOHEDRAL": 19077,
+      "FOUND": 391,
+      "TIMEOUT": 6,
+      "EXHAUSTED": 65
+    },
+    "five": {
+      "NO_DEEP_CONTACT": 6492,
+      "ISOHEDRAL": 19077,
+      "FOUND": 384,
+      "TIMEOUT": 13,
+      "EXHAUSTED": 53
+    },
+    "porous": {
+      "NO_DEEP_CONTACT": 3
+    }
+  },
+  "second_open": []
+}
