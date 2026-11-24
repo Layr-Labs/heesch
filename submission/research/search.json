@@ -1,0 +1,25 @@
+{
+  "triangle_module_family": {
+    "counts": {
+      "unique": 396077
+    },
+    "systems": 18140,
+    "trials_per_donor": 115,
+    "node_cap": 1500,
+    "embedding_cap": 65
+  },
+  "verified_witness_source": "7ab75af9622fb331-d12-216.heesch",
+  "third_footprints_harvested": 160,
+  "rings": {
+    "0": 1,
+    "1": 6,
+    "2": 12,
+    "3": 21
+  },
+  "outer_copies": 41,
+  "gaps": 12,
+  "extra_pockets": 0,
+  "defect": 12,
+  "required": 216,
+  "score": "71/18"
+}
