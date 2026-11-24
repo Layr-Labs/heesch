@@ -1,0 +1,9 @@
+{
+  "m": 4,
+  "cnf_digest": "d4fdc3f43b3f1b4bc29218d2460415f513081a8ca1f4c4bd94330ee9472549cf",
+  "vars": 1225768,
+  "clauses": 7970889,
+  "core_clauses": 155720,
+  "proof_sha256": "7020134f894526f3d72dcdf37a0f8e788632f108e97fff9e63793a5accf587f6",
+  "core_sha256": "619d195e6f6b5c68d2bbbaf858cf240522f26860ad53221a1ae0e3ccf7e827dd"
+}

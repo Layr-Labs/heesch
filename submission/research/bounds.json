@@ -1,0 +1,282 @@
+[
+ {
+  "source": "56b6f147093d87c2385ad42cefa032a33a78adcb33e16fd5804b8940212c38c3.heesch",
+  "B": 212,
+  "bound": 35,
+  "status": "FEASIBLE",
+  "d": 92,
+  "hh": 55
+ },
+ {
+  "source": "7df7f0590de4c15f0ae0aff38a090479a1a2a922df8c7c1442909f9a7a3e1a78.heesch",
+  "B": 194,
+  "bound": 23,
+  "status": "OPTIMAL",
+  "d": 41,
+  "hh": 23
+ },
+ {
+  "source": "f47aeb19cf051e26b88460d2054698694d1d016564d6ca90b58cbc0e622eabab.heesch",
+  "B": 222,
+  "bound": 46,
+  "status": "FEASIBLE",
+  "d": 102,
+  "hh": 77
+ },
+ {
+  "source": "afa658c5a3e358bc7071dbd6ebc5359d2dc9766f36317c7ae6141f056d72a8b2.heesch",
+  "B": 204,
+  "bound": 27,
+  "status": "FEASIBLE",
+  "d": 66,
+  "hh": 45
+ },
+ {
+  "source": "66dfd0d5597d7ac2708b6d134d2c0724778318d98986d1633f00102dd6b2b176.heesch",
+  "B": 213,
+  "bound": 23,
+  "status": "FEASIBLE",
+  "d": 57,
+  "hh": 43
+ },
+ {
+  "source": "cff93dcf10f37f16a76ef4981dd9ff37a61c4296ff59f2bb709a140be0143b30.heesch",
+  "B": 220,
+  "bound": 32,
+  "status": "FEASIBLE",
+  "d": 103,
+  "hh": 67
+ },
+ {
+  "source": "6d3f3b055af1f7803896227099110c6910ff3b599c1921b85f716659263c11eb.heesch",
+  "B": 211,
+  "bound": 24,
+  "status": "FEASIBLE",
+  "d": 78,
+  "hh": 57
+ },
+ {
+  "source": "882394af9a25701462253d601ac5a19f4689341222516a02e9e2e2fbb9da6592.heesch",
+  "B": 203,
+  "bound": 25,
+  "status": "FEASIBLE",
+  "d": 60,
+  "hh": 38
+ },
+ {
+  "source": "ad76dfdaba31351a9ca7aa6ca20924eb878b227f93e2faf459f41c58121549ea.heesch",
+  "B": 220,
+  "bound": 31,
+  "status": "FEASIBLE",
+  "d": 67,
+  "hh": 52
+ },
+ {
+  "source": "2a0753c8d459c3f717f25595231b31f6d1f4dfbfec9dc807c9031f0a6085e0e8.heesch",
+  "B": 193,
+  "bound": 14,
+  "status": "FEASIBLE",
+  "d": 39,
+  "hh": 25
+ },
+ {
+  "source": "7edc500f39e81a4352dbba9cbbcf694600eec4990729bd68e5a587785cf8d10c.heesch",
+  "B": 230,
+  "bound": 40,
+  "status": "FEASIBLE",
+  "d": 113,
+  "hh": 80
+ },
+ {
+  "source": "6ab159d9e94d4155a336535110fa5b17a9df23cae944f2c282488456def555eb.heesch",
+  "B": 212,
+  "bound": 27,
+  "status": "FEASIBLE",
+  "d": 95,
+  "hh": 69
+ },
+ {
+  "source": "b5d1783df46efcc6745a77ccecae41ccbae8cfa8682fd97e5156e68a56e00e90.heesch",
+  "B": 221,
+  "bound": 35,
+  "status": "FEASIBLE",
+  "d": 109,
+  "hh": 75
+ },
+ {
+  "source": "dc19b825502c59d787d9b717f90c0b6b04c224196deabe3909d9b2902feeadb8.heesch",
+  "B": 211,
+  "bound": 37,
+  "status": "OPTIMAL",
+  "d": 47,
+  "hh": 37
+ },
+ {
+  "source": "c3e1690ad4e8c274a58fae293542bafc2f6317c7a4b2d04ba00731b242449514.heesch",
+  "B": 196,
+  "bound": 21,
+  "status": "FEASIBLE",
+  "d": 60,
+  "hh": 35
+ },
+ {
+  "source": "75545b2b931d220f420b70b85ba33155d8477070f3a459425a3eb94d2bf01262.heesch",
+  "B": 230,
+  "bound": 42,
+  "status": "FEASIBLE",
+  "d": 124,
+  "hh": 92
+ },
+ {
+  "source": "57eb85eb414f497c31fd2af02292cac919ebfcf1b45a32f761a838724a2e56f6.heesch",
+  "B": 214,
+  "bound": 25,
+  "status": "FEASIBLE",
+  "d": 67,
+  "hh": 54
+ },
+ {
+  "source": "3b952a80f00a4e4efd3ddb93c7570a674e20eb8b8e2509f76fd3fa392f680cf7.heesch",
+  "B": 213,
+  "bound": 33,
+  "status": "FEASIBLE",
+  "d": 83,
+  "hh": 62
+ },
+ {
+  "source": "a27a87a03fb8dd4e831ba645c01f831faf9e22b7ee6576572091ab05b20fa7b3.heesch",
+  "B": 204,
+  "bound": 28,
+  "status": "OPTIMAL",
+  "d": 37,
+  "hh": 28
+ },
+ {
+  "source": "57a808b633c9b24d639d42283dfd004b87555ddfa067f296cdbe7f1a010ca617.heesch",
+  "B": 231,
+  "bound": 52,
+  "status": "FEASIBLE",
+  "d": 141,
+  "hh": 111
+ },
+ {
+  "source": "986073fab3be3d618231f7940204b4dfe6e06e850729a2f25b56ff4153e847ab.heesch",
+  "B": 221,
+  "bound": 43,
+  "status": "FEASIBLE",
+  "d": 85,
+  "hh": 69
+ },
+ {
+  "source": "3b9434c4d64cae387cadaeb66234383d749e6957aed986df3900afe9f786780c.heesch",
+  "B": 203,
+  "bound": 20,
+  "status": "FEASIBLE",
+  "d": 94,
+  "hh": 60
+ },
+ {
+  "source": "a49186b9ac395ddb2bcbd8a851c6750581fc85416aa46d6994b693895a2bc603.heesch",
+  "B": 229,
+  "bound": 37,
+  "status": "FEASIBLE",
+  "d": 94,
+  "hh": 73
+ },
+ {
+  "source": "eed512949c7ef125590fc599e086e6b6734f32505d02f88788c5d0c2dbd27524.heesch",
+  "B": 195,
+  "bound": 17,
+  "status": "OPTIMAL",
+  "d": 24,
+  "hh": 17
+ },
+ {
+  "source": "3a6c48333f8ee1351c85e67ee85a83ce8c2951226a048328e319456657880e5d.heesch",
+  "B": 204,
+  "bound": 17,
+  "status": "FEASIBLE",
+  "d": 44,
+  "hh": 30
+ },
+ {
+  "source": "ef0c5c5b7b330824024e308a81c3fe7b9e127dca11cadc127a6f88203091efd0.heesch",
+  "B": 214,
+  "bound": 25,
+  "status": "FEASIBLE",
+  "d": 85,
+  "hh": 57
+ },
+ {
+  "source": "710c7c0d35b7e0922a5b439ffa7d5672892682385f4a3a724d02a58f7fd92ad8.heesch",
+  "B": 220,
+  "bound": 30,
+  "status": "FEASIBLE",
+  "d": 62,
+  "hh": 52
+ },
+ {
+  "source": "d252530f93efd11ea0c99f898103a56b775cd8355f1bb7acc053a48bbabca74d.heesch",
+  "B": 202,
+  "bound": 17,
+  "status": "FEASIBLE",
+  "d": 67,
+  "hh": 41
+ },
+ {
+  "source": "6e2190ac09475f1ac31e94fb7deaaf89a15853d726cbcd54d458e5ff05039848.heesch",
+  "B": 230,
+  "bound": 40,
+  "status": "FEASIBLE",
+  "d": 114,
+  "hh": 77
+ },
+ {
+  "source": "2174491a53ad9af72ea3c981ca3efac7dfef998bd889d594f814a4a3d640c966.heesch",
+  "B": 187,
+  "bound": 20,
+  "status": "OPTIMAL",
+  "d": 40,
+  "hh": 20
+ },
+ {
+  "source": "a31010e9be0577253a13c58ff95b7d717539c124b2aa93d4fec17c242157b5e9.heesch",
+  "B": 197,
+  "bound": 24,
+  "status": "FEASIBLE",
+  "d": 68,
+  "hh": 43
+ },
+ {
+  "source": "cbeeace9d49f4e5dee2a7ec50288e3a6c7b759e3e89116d75ab507644aec8ede.heesch",
+  "B": 239,
+  "bound": 47,
+  "status": "FEASIBLE",
+  "d": 144,
+  "hh": 95
+ },
+ {
+  "source": "78f516ffe0e344ad10e86fd66bf9369793b91fefc72bf20ace3a47f360f339ee.heesch",
+  "B": 205,
+  "bound": 21,
+  "status": "FEASIBLE",
+  "d": 48,
+  "hh": 37
+ },
+ {
+  "source": "f9c5d2eef2a94852d22dfe2262f8aa52135c57b13343923971a4f8cef36abfca.heesch",
+  "B": 206,
+  "bound": 31,
+  "status": "FEASIBLE",
+  "d": 78,
+  "hh": 60
+ },
+ {
+  "source": "873cd4e6625a7161f739118debb5c994893f26b0e68e9af49a3c224bcde69a76.heesch",
+  "B": 221,
+  "bound": 33,
+  "status": "FEASIBLE",
+  "d": 103,
+  "hh": 65
+ }
+]

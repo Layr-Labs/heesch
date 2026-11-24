@@ -1,0 +1,13 @@
+encoding F(S,4) for 20 cells (streamed to disk) ...
+  1225768 vars, 7970889 clauses, 2155 MB, digest d4fdc3f43b3f1b4b…
+solving with bin:heesch/tools/bin/cadical (proof logging on) ...
+  drat-trim self-check: s VERIFIED (bin:heesch/tools/bin/cadical)
+extracting the core clause list and renumbering the LRAT ...
+
+Frozen clause membership CoreResult(core_cnf_path='/Users/hol/Documents/Codex/2026-11-20/set-up-the-heesch-polyform-challenge/work/vacancy-orbits/ramified/research-frontier/dimer-preview/finalists/9706/portable-lrat/declared-core.cnf', num_clauses=155720, formula_clauses=7962422)
+Independent LRAT replay
+c parsed a formula with 1225768 variables and 155720 clauses
+c VERIFIED
+c allocated 1024 1576665 12257680
+c Added clauses = 156843.  Deleted clauses = 154280.  Max live clauses = 155721
+c verification time = 0.24 secs
