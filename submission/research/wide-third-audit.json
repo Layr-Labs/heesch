@@ -1,0 +1,14 @@
+{
+  "candidates": 459,
+  "periodic_skipped": 229,
+  "outcomes": {
+    "EXHAUSTED": 57,
+    "NO_DEEP_CONTACT": 400,
+    "FOUND": 2
+  },
+  "fresh_physical": 2,
+  "open_hit": {
+    "297": "275a3c504669c958ffd672ce3e66c5488b244fe7ae77cce707900076c6d44649",
+    "656": "6f606f965e8941d2aef670a8abf79eef86c9fe757b58c9274669d4193230c898"
+  }
+}

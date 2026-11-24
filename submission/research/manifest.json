@@ -1,0 +1,13 @@
+{
+  "digest": "6f606f965e8941d2aef670a8abf79eef86c9fe757b58c9274669d4193230c898",
+  "cnf_sha256": "fe0da5faab1303ac0d36a11dd1d9747d57c79cb0c9b219536d1337cf020a581c",
+  "variables": 949929,
+  "clauses": 5672353,
+  "level": 4,
+  "radius": "r16-separated",
+  "stored_bytes": 110628,
+  "payload_bytes": 309734,
+  "payload_sha256": "39a0a1cf812338b6ea0366b5dbb9a3e72ff7a5e449e6b0f4803c8cde783624a8",
+  "lrat_bytes": 129573227,
+  "formula_bytes": 1368263072
+}

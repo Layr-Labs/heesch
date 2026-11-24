@@ -1,0 +1,69 @@
+[
+ {
+  "key": "2a94a7f646f6512b",
+  "best": 13,
+  "B": 145,
+  "limit": 12,
+  "status": "INFEASIBLE",
+  "iterations": 1,
+  "candidates": [],
+  "cycles": [
+   {
+    "raw": 15,
+    "trimmed": 13,
+    "hh": 13,
+    "target": 12
+   }
+  ]
+ },
+ {
+  "key": "9cb48bc6a250aebd",
+  "best": 29,
+  "B": 154,
+  "limit": 13,
+  "status": "INFEASIBLE",
+  "iterations": 0,
+  "candidates": [],
+  "cycles": []
+ },
+ {
+  "key": "69893c9bda81fac4",
+  "best": 24,
+  "B": 151,
+  "limit": 13,
+  "status": "INFEASIBLE",
+  "iterations": 0,
+  "candidates": [],
+  "cycles": []
+ },
+ {
+  "key": "5256de193848bbb6",
+  "best": 26,
+  "B": 152,
+  "limit": 13,
+  "status": "INFEASIBLE",
+  "iterations": 0,
+  "candidates": [],
+  "cycles": []
+ },
+ {
+  "key": "e1a03a935f78af06",
+  "best": 20,
+  "B": 146,
+  "limit": 13,
+  "status": "INFEASIBLE",
+  "iterations": 0,
+  "candidates": [],
+  "cycles": []
+ },
+ {
+  "key": "92db90a8287440e2",
+  "best": 36,
+  "B": 160,
+  "limit": 14,
+  "status": "INFEASIBLE",
+  "iterations": 0,
+  "candidates": [],
+  "cycles": []
+ }
+]

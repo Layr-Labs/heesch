@@ -1,0 +1,74 @@
+{
+ "2a94a7f646f6512b": {
+  "key": "2a94a7f646f6512b",
+  "source": "work/vacancy-orbits/ramified/research-frontier/turnpike/contact-contrast/mixed-stars-wide/lead656/seed-054/656.d3.heesch",
+  "B": 145,
+  "lower": 12,
+  "status": "OPTIMAL",
+  "initial": 15,
+  "d": 13,
+  "hh": 13,
+  "partial": 26,
+  "file": "rank/2a94a7f646f6512b-d13-145.heesch"
+ },
+ "9cb48bc6a250aebd": {
+  "key": "9cb48bc6a250aebd",
+  "source": "work/vacancy-orbits/ramified/research-frontier/turnpike/contact-contrast/mixed-stars-wide/lead656/seed-049/656.d3.heesch",
+  "B": 154,
+  "lower": 15,
+  "status": "FEASIBLE",
+  "initial": 31,
+  "d": 29,
+  "hh": 27,
+  "partial": 25,
+  "file": "rank/9cb48bc6a250aebd-d29-154.heesch"
+ },
+ "69893c9bda81fac4": {
+  "key": "69893c9bda81fac4",
+  "source": "work/vacancy-orbits/ramified/research-frontier/turnpike/contact-contrast/mixed-stars-wide/lead656/seed-045/656.d3.heesch",
+  "B": 151,
+  "lower": 5,
+  "status": "FEASIBLE",
+  "initial": 33,
+  "d": 24,
+  "hh": 24,
+  "partial": 25,
+  "file": "rank/69893c9bda81fac4-d24-151.heesch"
+ },
+ "5256de193848bbb6": {
+  "key": "5256de193848bbb6",
+  "source": "work/vacancy-orbits/ramified/research-frontier/turnpike/contact-contrast/mixed-stars-wide/lead656/seed-034/656.d3.heesch",
+  "B": 152,
+  "lower": 7,
+  "status": "FEASIBLE",
+  "initial": 29,
+  "d": 26,
+  "hh": 26,
+  "partial": 26,
+  "file": "rank/5256de193848bbb6-d26-152.heesch"
+ },
+ "e1a03a935f78af06": {
+  "key": "e1a03a935f78af06",
+  "source": "work/vacancy-orbits/ramified/research-frontier/turnpike/contact-contrast/mixed-stars-wide/lead656/seed-050/656.d3.heesch",
+  "B": 146,
+  "lower": 7,
+  "status": "FEASIBLE",
+  "initial": 27,
+  "d": 20,
+  "hh": 20,
+  "partial": 26,
+  "file": "rank/e1a03a935f78af06-d20-146.heesch"
+ },
+ "92db90a8287440e2": {
+  "key": "92db90a8287440e2",
+  "source": "work/vacancy-orbits/ramified/research-frontier/turnpike/contact-contrast/mixed-stars-wide/lead656/seed-052/656.d3.heesch",
+  "B": 160,
+  "lower": 15,
+  "status": "FEASIBLE",
+  "initial": 38,
+  "d": 36,
+  "hh": 34,
+  "partial": 25,
+  "file": "rank/92db90a8287440e2-d36-160.heesch"
+ }
+}

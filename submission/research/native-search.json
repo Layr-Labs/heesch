@@ -1,0 +1,387 @@
+[
+ {
+  "attempt": 0,
+  "status": "FOUND",
+  "nodes": 730,
+  "key": "2a94a7f646f6512b",
+  "witness": "seed-000/656.d3.heesch"
+ },
+ {
+  "attempt": 1,
+  "status": "FOUND",
+  "nodes": 731,
+  "key": "9cb48bc6a250aebd",
+  "witness": "seed-001/656.d3.heesch"
+ },
+ {
+  "attempt": 2,
+  "status": "FOUND",
+  "nodes": 732,
+  "key": "2a94a7f646f6512b",
+  "witness": "seed-002/656.d3.heesch"
+ },
+ {
+  "attempt": 3,
+  "status": "FOUND",
+  "nodes": 729,
+  "key": "2a94a7f646f6512b",
+  "witness": "seed-003/656.d3.heesch"
+ },
+ {
+  "attempt": 4,
+  "status": "FOUND",
+  "nodes": 729,
+  "key": "69893c9bda81fac4",
+  "witness": "seed-004/656.d3.heesch"
+ },
+ {
+  "attempt": 5,
+  "status": "FOUND",
+  "nodes": 731,
+  "key": "2a94a7f646f6512b",
+  "witness": "seed-005/656.d3.heesch"
+ },
+ {
+  "attempt": 6,
+  "status": "FOUND",
+  "nodes": 732,
+  "key": "5256de193848bbb6",
+  "witness": "seed-006/656.d3.heesch"
+ },
+ {
+  "attempt": 7,
+  "status": "FOUND",
+  "nodes": 730,
+  "key": "9cb48bc6a250aebd",
+  "witness": "seed-007/656.d3.heesch"
+ },
+ {
+  "attempt": 8,
+  "status": "FOUND",
+  "nodes": 731,
+  "key": "9cb48bc6a250aebd",
+  "witness": "seed-008/656.d3.heesch"
+ },
+ {
+  "attempt": 9,
+  "status": "FOUND",
+  "nodes": 732,
+  "key": "e1a03a935f78af06",
+  "witness": "seed-009/656.d3.heesch"
+ },
+ {
+  "attempt": 10,
+  "status": "FOUND",
+  "nodes": 730,
+  "key": "69893c9bda81fac4",
+  "witness": "seed-010/656.d3.heesch"
+ },
+ {
+  "attempt": 11,
+  "status": "FOUND",
+  "nodes": 729,
+  "key": "69893c9bda81fac4",
+  "witness": "seed-011/656.d3.heesch"
+ },
+ {
+  "attempt": 12,
+  "status": "FOUND",
+  "nodes": 729,
+  "key": "2a94a7f646f6512b",
+  "witness": "seed-012/656.d3.heesch"
+ },
+ {
+  "attempt": 13,
+  "status": "FOUND",
+  "nodes": 733,
+  "key": "5256de193848bbb6",
+  "witness": "seed-013/656.d3.heesch"
+ },
+ {
+  "attempt": 14,
+  "status": "FOUND",
+  "nodes": 729,
+  "key": "9cb48bc6a250aebd",
+  "witness": "seed-014/656.d3.heesch"
+ },
+ {
+  "attempt": 15,
+  "status": "FOUND",
+  "nodes": 731,
+  "key": "2a94a7f646f6512b",
+  "witness": "seed-015/656.d3.heesch"
+ },
+ {
+  "attempt": 16,
+  "status": "FOUND",
+  "nodes": 731,
+  "key": "5256de193848bbb6",
+  "witness": "seed-016/656.d3.heesch"
+ },
+ {
+  "attempt": 17,
+  "status": "FOUND",
+  "nodes": 731,
+  "key": "69893c9bda81fac4",
+  "witness": "seed-017/656.d3.heesch"
+ },
+ {
+  "attempt": 18,
+  "status": "FOUND",
+  "nodes": 730,
+  "key": "e1a03a935f78af06",
+  "witness": "seed-018/656.d3.heesch"
+ },
+ {
+  "attempt": 19,
+  "status": "FOUND",
+  "nodes": 731,
+  "key": "9cb48bc6a250aebd",
+  "witness": "seed-019/656.d3.heesch"
+ },
+ {
+  "attempt": 20,
+  "status": "FOUND",
+  "nodes": 729,
+  "key": "2a94a7f646f6512b",
+  "witness": "seed-020/656.d3.heesch"
+ },
+ {
+  "attempt": 21,
+  "status": "FOUND",
+  "nodes": 730,
+  "key": "5256de193848bbb6",
+  "witness": "seed-021/656.d3.heesch"
+ },
+ {
+  "attempt": 22,
+  "status": "FOUND",
+  "nodes": 733,
+  "key": "e1a03a935f78af06",
+  "witness": "seed-022/656.d3.heesch"
+ },
+ {
+  "attempt": 23,
+  "status": "FOUND",
+  "nodes": 731,
+  "key": "69893c9bda81fac4",
+  "witness": "seed-023/656.d3.heesch"
+ },
+ {
+  "attempt": 24,
+  "status": "FOUND",
+  "nodes": 730,
+  "key": "5256de193848bbb6",
+  "witness": "seed-024/656.d3.heesch"
+ },
+ {
+  "attempt": 25,
+  "status": "FOUND",
+  "nodes": 733,
+  "key": "e1a03a935f78af06",
+  "witness": "seed-025/656.d3.heesch"
+ },
+ {
+  "attempt": 26,
+  "status": "FOUND",
+  "nodes": 731,
+  "key": "92db90a8287440e2",
+  "witness": "seed-026/656.d3.heesch"
+ },
+ {
+  "attempt": 27,
+  "status": "FOUND",
+  "nodes": 729,
+  "key": "2a94a7f646f6512b",
+  "witness": "seed-027/656.d3.heesch"
+ },
+ {
+  "attempt": 28,
+  "status": "FOUND",
+  "nodes": 730,
+  "key": "2a94a7f646f6512b",
+  "witness": "seed-028/656.d3.heesch"
+ },
+ {
+  "attempt": 29,
+  "status": "FOUND",
+  "nodes": 732,
+  "key": "5256de193848bbb6",
+  "witness": "seed-029/656.d3.heesch"
+ },
+ {
+  "attempt": 30,
+  "status": "FOUND",
+  "nodes": 731,
+  "key": "2a94a7f646f6512b",
+  "witness": "seed-030/656.d3.heesch"
+ },
+ {
+  "attempt": 31,
+  "status": "FOUND",
+  "nodes": 729,
+  "key": "9cb48bc6a250aebd",
+  "witness": "seed-031/656.d3.heesch"
+ },
+ {
+  "attempt": 32,
+  "status": "FOUND",
+  "nodes": 731,
+  "key": "2a94a7f646f6512b",
+  "witness": "seed-032/656.d3.heesch"
+ },
+ {
+  "attempt": 33,
+  "status": "FOUND",
+  "nodes": 732,
+  "key": "e1a03a935f78af06",
+  "witness": "seed-033/656.d3.heesch"
+ },
+ {
+  "attempt": 34,
+  "status": "FOUND",
+  "nodes": 730,
+  "key": "5256de193848bbb6",
+  "witness": "seed-034/656.d3.heesch"
+ },
+ {
+  "attempt": 35,
+  "status": "FOUND",
+  "nodes": 732,
+  "key": "69893c9bda81fac4",
+  "witness": "seed-035/656.d3.heesch"
+ },
+ {
+  "attempt": 36,
+  "status": "FOUND",
+  "nodes": 731,
+  "key": "2a94a7f646f6512b",
+  "witness": "seed-036/656.d3.heesch"
+ },
+ {
+  "attempt": 37,
+  "status": "FOUND",
+  "nodes": 729,
+  "key": "2a94a7f646f6512b",
+  "witness": "seed-037/656.d3.heesch"
+ },
+ {
+  "attempt": 38,
+  "status": "FOUND",
+  "nodes": 732,
+  "key": "2a94a7f646f6512b",
+  "witness": "seed-038/656.d3.heesch"
+ },
+ {
+  "attempt": 39,
+  "status": "FOUND",
+  "nodes": 732,
+  "key": "9cb48bc6a250aebd",
+  "witness": "seed-039/656.d3.heesch"
+ },
+ {
+  "attempt": 40,
+  "status": "FOUND",
+  "nodes": 731,
+  "key": "2a94a7f646f6512b",
+  "witness": "seed-040/656.d3.heesch"
+ },
+ {
+  "attempt": 41,
+  "status": "FOUND",
+  "nodes": 732,
+  "key": "2a94a7f646f6512b",
+  "witness": "seed-041/656.d3.heesch"
+ },
+ {
+  "attempt": 42,
+  "status": "FOUND",
+  "nodes": 732,
+  "key": "69893c9bda81fac4",
+  "witness": "seed-042/656.d3.heesch"
+ },
+ {
+  "attempt": 43,
+  "status": "FOUND",
+  "nodes": 730,
+  "key": "92db90a8287440e2",
+  "witness": "seed-043/656.d3.heesch"
+ },
+ {
+  "attempt": 44,
+  "status": "FOUND",
+  "nodes": 731,
+  "key": "9cb48bc6a250aebd",
+  "witness": "seed-044/656.d3.heesch"
+ },
+ {
+  "attempt": 45,
+  "status": "FOUND",
+  "nodes": 732,
+  "key": "69893c9bda81fac4",
+  "witness": "seed-045/656.d3.heesch"
+ },
+ {
+  "attempt": 46,
+  "status": "FOUND",
+  "nodes": 731,
+  "key": "2a94a7f646f6512b",
+  "witness": "seed-046/656.d3.heesch"
+ },
+ {
+  "attempt": 47,
+  "status": "FOUND",
+  "nodes": 731,
+  "key": "2a94a7f646f6512b",
+  "witness": "seed-047/656.d3.heesch"
+ },
+ {
+  "attempt": 48,
+  "status": "FOUND",
+  "nodes": 730,
+  "key": "e1a03a935f78af06",
+  "witness": "seed-048/656.d3.heesch"
+ },
+ {
+  "attempt": 49,
+  "status": "FOUND",
+  "nodes": 730,
+  "key": "9cb48bc6a250aebd",
+  "witness": "seed-049/656.d3.heesch"
+ },
+ {
+  "attempt": 50,
+  "status": "FOUND",
+  "nodes": 731,
+  "key": "e1a03a935f78af06",
+  "witness": "seed-050/656.d3.heesch"
+ },
+ {
+  "attempt": 51,
+  "status": "FOUND",
+  "nodes": 732,
+  "key": "92db90a8287440e2",
+  "witness": "seed-051/656.d3.heesch"
+ },
+ {
+  "attempt": 52,
+  "status": "FOUND",
+  "nodes": 732,
+  "key": "92db90a8287440e2",
+  "witness": "seed-052/656.d3.heesch"
+ },
+ {
+  "attempt": 53,
+  "status": "FOUND",
+  "nodes": 732,
+  "key": "2a94a7f646f6512b",
+  "witness": "seed-053/656.d3.heesch"
+ },
+ {
+  "attempt": 54,
+  "status": "FOUND",
+  "nodes": 731,
+  "key": "2a94a7f646f6512b",
+  "witness": "seed-054/656.d3.heesch"
+ }
+]
