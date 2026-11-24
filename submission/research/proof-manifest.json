@@ -1,0 +1,16 @@
+{
+  "candidate": 1131,
+  "canonical_digest": "b754f554667c57e85adb7a1eb0b378fc2908eaefe6e621cec708cef61ab04ed4",
+  "formula_sha256": "a32437aef5b44e52c326861d80c944b75e304988ea287fbef4d97976fa50ab44",
+  "vars": 1184986,
+  "clauses": 7833026,
+  "formula_depth": 4,
+  "formula_bytes": 2010385972,
+  "proof": "proof.drat.xz",
+  "compressed_bytes": 2446608,
+  "payload_bytes": 15160796,
+  "proof_sha256": "0b2d94ed796b0fb8d88930a4d3195ce4d2d7e9c198114e424bc00e4d148afca3",
+  "converted_lrat_bytes": 1522212983,
+  "trial": "r18-separated",
+  "construction": "Local disjoint-neighbor surround RUP with full frozen replay"
+}
