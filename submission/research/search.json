@@ -1,0 +1,32 @@
+{
+  "family": {
+    "counts": {
+      "unique": 90000
+    },
+    "inventories_examined": 588,
+    "node_limit": 35000,
+    "per_system_new_limit": 200
+  },
+  "system_outcome": [
+    "523",
+    "15300",
+    "200",
+    "100",
+    "0",
+    "0"
+  ],
+  "distinct_third_footprints": 82,
+  "winner": {
+    "key": "16e8346c3cd5467d",
+    "source": "work/site-inventories/inverse-79828/harvest/s3-2.d3.heesch",
+    "B": 130,
+    "lower": 3,
+    "status": "OPTIMAL",
+    "initial": 3,
+    "d": 3,
+    "hh": 3,
+    "partial": 23,
+    "file": "rank/16e8346c3cd5467d-d3-130.heesch"
+  },
+  "checker_status_on_authoring_machine": "Both full DRAT and LRAT replay passed. The record profile also requires cake_lpr; the authoring Mac lacks a runnable copy."
+}

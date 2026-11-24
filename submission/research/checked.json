@@ -1,0 +1,41 @@
+{
+  "donor_digest": "8dafa56bb3d9a86af65447f8a24e9e388668d4ef4e55c8773d7a0bafeb1a2082",
+  "child_digest": "8d8b811cd31c3337865286473f31351a9b57e86176e836568e70bbfc27ffc49a",
+  "inventory": {
+    "1": 1,
+    "3": 3,
+    "7": 4,
+    "15": 1,
+    "23": 1,
+    "31": 5,
+    "63": 3
+  },
+  "donor_fifth_copies": 91,
+  "period_cells": 54,
+  "period_copies": 3,
+  "rings": [
+    1,
+    5,
+    10,
+    18
+  ],
+  "fourth_copies": 23,
+  "required": 130,
+  "gap_cells": [
+    [
+      -3,
+      -7
+    ],
+    [
+      6,
+      -12
+    ],
+    [
+      14,
+      2
+    ]
+  ],
+  "additional_pockets": [],
+  "score": "517/130",
+  "upper_depth": 4
+}

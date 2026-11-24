@@ -1,0 +1,14 @@
+{
+ "grid": "H",
+ "area": 18,
+ "canonical_digest": "8d8b811cd31c3337865286473f31351a9b57e86176e836568e70bbfc27ffc49a",
+ "m": 4,
+ "cnf_sha256": "ef3aec0ea8837f5db965ca2807d8cc97904a9260494050ae5007f246b0bb9b05",
+ "vars": 774457,
+ "clauses": 4660863,
+ "proof_sha256": "ce52a563914ceef0ee0813072dd2cdaf3dcd0bbc34f148625f0f5b38b9064923",
+ "stored_bytes": 605224,
+ "payload_bytes": 3257589,
+ "converted_lrat_bytes": 363361324,
+ "radius": 19
+}
