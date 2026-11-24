@@ -1,0 +1,4 @@
+placements [576, 9109, 25562, 49182]
+loaded 1762300 b'11160922' 22.52127612500044
+weak model 1 footprint difference 4 geometry PATCH_HOLE_IN_CORONA: patch through corona 4 encloses empty cells, e.g. ((-16, 8), (-16, 9), (-15, 8), (-15, 9), (-14, 8))
+EXHAUSTED_NEW_THIRDS 0 1 seconds 780.4622706250084

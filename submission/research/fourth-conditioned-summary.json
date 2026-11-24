@@ -1,0 +1,7 @@
+{
+  "seeds": {
+    "TIMEOUT": 300,
+    "FOUND": 20
+  },
+  "distinct": 4
+}

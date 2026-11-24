@@ -1,0 +1,8 @@
+{
+  "geometric-core-r14.json": "World-coordinate and tile-relative retained implication counts, radius 14.",
+  "geometric-core-r19.json": "World-coordinate and tile-relative retained implication counts, radius 19.",
+  "local-obstruction.png": "Proof support on the global axial grid.",
+  "tile-relative-obstruction.png": "Proof support on the tile's own halo after undoing each placement.",
+  "draw_outline.py": "Regenerates the accompanying figure from the bundled geometric counts.",
+  "draw_core.py": "Regenerates the accompanying figure from the bundled geometric counts."
+}

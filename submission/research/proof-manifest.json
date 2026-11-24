@@ -1,0 +1,101 @@
+{
+  "formula_sha256": "63589c1977f1902391deb7c670f5f1c8f3f9ac9f743337d650ddeb4199a6f6b9",
+  "vars": 3436887,
+  "clauses": 36322948,
+  "formula_bytes": 8327868413,
+  "formula_depth": 5,
+  "grid": "H",
+  "area": 20,
+  "canonical_digest": "01252a1dd641d44482047643a2b42af33e60575263f0616d135e5935f1405ed8",
+  "canonical_cells": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      3,
+      3
+    ],
+    [
+      4,
+      0
+    ],
+    [
+      4,
+      1
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      4,
+      3
+    ],
+    [
+      5,
+      0
+    ],
+    [
+      5,
+      1
+    ],
+    [
+      5,
+      2
+    ],
+    [
+      6,
+      0
+    ],
+    [
+      6,
+      1
+    ],
+    [
+      7,
+      1
+    ],
+    [
+      8,
+      1
+    ]
+  ],
+  "proof": "proof.drat.xz",
+  "proof_sha256": "b1e530c76d73e019de4e3c4660b51675a7429d0ce5c4083ea688bf1d6ec440ed",
+  "compressed_bytes": 2877580,
+  "payload_bytes": 20951694,
+  "converted_lrat_bytes": 1893986046,
+  "construction": "Spatial subformula with disjoint-neighbor RUP implications",
+  "trial": "r19-cover",
+  "reduction_pass": 0,
+  "active_original_or_derived_clauses": 449078
+}
