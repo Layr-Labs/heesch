@@ -1,0 +1,178 @@
+[
+ {
+  "source": "3a371f87917605aa2d7bd377d393ddbb6796a0559ea279250dc4c2070bedc469.heesch",
+  "B": 190,
+  "bound": 6,
+  "status": "FEASIBLE",
+  "d": 35,
+  "hh": 23
+ },
+ {
+  "source": "091cbfbaf717a2dad7573e74eb7b6e8df9f135b8f070097378eda053b0e090bb.heesch",
+  "B": 201,
+  "bound": 20,
+  "status": "FEASIBLE",
+  "d": 54,
+  "hh": 41
+ },
+ {
+  "source": "76743c90efeb2d951ebdf7a1a6ab38765b13a9a5c44224c68cddd4ef34ac7fa0.heesch",
+  "B": 235,
+  "bound": 44,
+  "status": "FEASIBLE",
+  "d": 141,
+  "hh": 96
+ },
+ {
+  "source": "95c0400a2a02d8d6d9c27f0ae37f49dd3509a02ef509a225e0d0f19931374eb2.heesch",
+  "B": 225,
+  "bound": 35,
+  "status": "FEASIBLE",
+  "d": 100,
+  "hh": 70
+ },
+ {
+  "source": "008b2c7e9aa33b3dc1d85e88486625b4f0863d1c757e313e526dda9c97a1db44.heesch",
+  "B": 216,
+  "bound": 23,
+  "status": "FEASIBLE",
+  "d": 88,
+  "hh": 61
+ },
+ {
+  "source": "f62c7e26b72ec896f5a96729b3838e82a3588e10358a85b404b92a944eb63226.heesch",
+  "B": 226,
+  "bound": 32,
+  "status": "FEASIBLE",
+  "d": 117,
+  "hh": 90
+ },
+ {
+  "source": "4f147db025fe2254df24155b8e12ea5243e585d1345b379705c36bfd3d7fc330.heesch",
+  "B": 207,
+  "bound": 24,
+  "status": "FEASIBLE",
+  "d": 60,
+  "hh": 46
+ },
+ {
+  "source": "4c29390d6d8ac6554b02ed45df9154a38859eced39d52e97377daf39f3e724e5.heesch",
+  "B": 197,
+  "bound": 16,
+  "status": "OPTIMAL",
+  "d": 22,
+  "hh": 16
+ },
+ {
+  "source": "ee16d0e7397939bb79845916e80aaa149d9021fd3a51f5478cd0f73ecf76ec43.heesch",
+  "B": 191,
+  "bound": 18,
+  "status": "OPTIMAL",
+  "d": 43,
+  "hh": 18
+ },
+ {
+  "source": "b0d8ad5c0cf6f41e153d5ed1f6284e89b5d1a7c5ca16236cd8358778a0957bda.heesch",
+  "B": 200,
+  "bound": 15,
+  "status": "FEASIBLE",
+  "d": 84,
+  "hh": 65
+ },
+ {
+  "source": "d3f54b07d05f9739281e1d1d36d2c78bd46c5b9f9778a11d789aa7e72671beaa.heesch",
+  "B": 214,
+  "bound": 25,
+  "status": "FEASIBLE",
+  "d": 74,
+  "hh": 47
+ },
+ {
+  "source": "1edc7de170047270b563a4854cfb7b02e0c65c448667dd6ce26f403257b5dd4f.heesch",
+  "B": 197,
+  "bound": 15,
+  "status": "FEASIBLE",
+  "d": 35,
+  "hh": 29
+ },
+ {
+  "source": "6863c023c4fe96acf3105f30fc7e4c8dbd2b045c6686b1d2e573ffd75a1cf0ef.heesch",
+  "B": 206,
+  "bound": 19,
+  "status": "FEASIBLE",
+  "d": 68,
+  "hh": 38
+ },
+ {
+  "source": "79cf5ff7fafa38474f0db2fc9e622a4e44c907652fe8362a664218f4e18e6b4c.heesch",
+  "B": 209,
+  "bound": 21,
+  "status": "FEASIBLE",
+  "d": 94,
+  "hh": 60
+ },
+ {
+  "source": "2c8f6fbef022a2e1ff7dd585950c22f8306f884f969e47a10c3fa905db5b18c1.heesch",
+  "B": 226,
+  "bound": 43,
+  "status": "FEASIBLE",
+  "d": 106,
+  "hh": 90
+ },
+ {
+  "source": "063c2bd489e8c5e9d2d9a3ee9b998cd2f83c1085c5b82b4cd734bdb5ec33d868.heesch",
+  "B": 219,
+  "bound": 31,
+  "status": "FEASIBLE",
+  "d": 114,
+  "hh": 79
+ },
+ {
+  "source": "5a2ed0a6f1ebdcbc1b3f3f2c491378a98e30182fa48408e74dcf1a42a4223615.heesch",
+  "B": 224,
+  "bound": 34,
+  "status": "FEASIBLE",
+  "d": 94,
+  "hh": 72
+ },
+ {
+  "source": "3e42a192779ffdfb835102e2d3642b2f3a26bfd3e94e2eb78c65950df7c03563.heesch",
+  "B": 216,
+  "bound": 27,
+  "status": "FEASIBLE",
+  "d": 91,
+  "hh": 67
+ },
+ {
+  "source": "21b2f897170bab15f271cefeb112673563196334e7fdc14ace6177bd7085ffd5.heesch",
+  "B": 197,
+  "bound": 10,
+  "status": "FEASIBLE",
+  "d": 57,
+  "hh": 31
+ },
+ {
+  "source": "bb42fce935e6f566a396fb45edcde25e1e617a74946428b7c1e9fedb2607afa6.heesch",
+  "B": 207,
+  "bound": 19,
+  "status": "FEASIBLE",
+  "d": 92,
+  "hh": 58
+ },
+ {
+  "source": "193ec0231e1d840190ea4f935b97a1154e190d4563051784ee897326f1017405.heesch",
+  "B": 216,
+  "bound": 35,
+  "status": "FEASIBLE",
+  "d": 76,
+  "hh": 61
+ },
+ {
+  "source": "b7ef4638ae510fbfa6465198eb1946572b007eae4bf18474cb78b813bc247ddf.heesch",
+  "B": 207,
+  "bound": 16,
+  "status": "FEASIBLE",
+  "d": 48,
+  "hh": 39
+ }
+]

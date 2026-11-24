@@ -1,0 +1,62 @@
+{
+ "lower_uncovered": 21.0,
+ "first_status": "OPTIMAL",
+ "candidate_placements": 1996,
+ "required": 190,
+ "sequence": [
+  {
+   "damage": 32,
+   "required": 190,
+   "hh": 21,
+   "enclosed_extra": 11,
+   "partial": 24
+  },
+  {
+   "damage": 31,
+   "required": 190,
+   "hh": 29,
+   "enclosed_extra": 2,
+   "partial": 22
+  },
+  {
+   "damage": 29,
+   "required": 190,
+   "hh": 27,
+   "enclosed_extra": 2,
+   "partial": 22
+  },
+  {
+   "damage": 28,
+   "required": 190,
+   "hh": 27,
+   "enclosed_extra": 1,
+   "partial": 23
+  },
+  {
+   "damage": 27,
+   "required": 190,
+   "hh": 23,
+   "enclosed_extra": 4,
+   "partial": 23
+  },
+  {
+   "damage": 26,
+   "required": 190,
+   "hh": 24,
+   "enclosed_extra": 2,
+   "partial": 23
+  }
+ ],
+ "final_status": {
+  "status": "INFEASIBLE",
+  "cycles": 3,
+  "solver_s": 2.896723,
+  "lower_bound": 0.0
+ },
+ "rings": {
+  "0": 1,
+  "1": 5,
+  "2": 11,
+  "3": 18
+ }
+}

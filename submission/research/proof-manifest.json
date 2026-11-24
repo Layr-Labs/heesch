@@ -1,0 +1,9 @@
+{
+  "m": 4,
+  "cnf_digest": "8d77e9ed5a398a3f3717631bc22b75ee1134ad5031a94c0350c6b70c6010655f",
+  "vars": 1224598,
+  "clauses": 8095110,
+  "core_clauses": 161702,
+  "proof_sha256": "e15052844cd49ada4c4934ecec49bc7ce65eebe864843b10fe5ce61440447c9d",
+  "core_sha256": "3c564f2486e83e2a252857feaf398dfd3bba0666c7c60060ad274e51c6fec7be"
+}

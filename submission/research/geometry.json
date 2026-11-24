@@ -1,0 +1,19 @@
+{
+  "id": "9702",
+  "sibling": "9706",
+  "digest": "e255e63e1619ebacd4d8357ced32efa905ae22148b6acd4fee224d3cf345d584",
+  "companionDigest": "1029eeb8304ebc6f1be4a4d0f1a36409fc7663b6671dbddd9d6b70c144094559",
+  "damage": 21,
+  "missed": 18,
+  "required": 197,
+  "partial": 24,
+  "full": 36,
+  "sampledThirds": 22,
+  "rings": {
+    "0": 1,
+    "1": 5,
+    "2": 11,
+    "3": 19
+  },
+  "nominal": "767/197"
+}

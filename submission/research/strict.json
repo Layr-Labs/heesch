@@ -1,0 +1,155 @@
+[
+ {
+  "source": "3a371f87917605aa2d7bd377d393ddbb6796a0559ea279250dc4c2070bedc469.heesch",
+  "B": 190,
+  "phases": [
+   {
+    "status": "INFEASIBLE",
+    "cycles": 0,
+    "solver_s": 2.2058820000000003,
+    "lower_bound": 0.0
+   }
+  ]
+ },
+ {
+  "source": "21b2f897170bab15f271cefeb112673563196334e7fdc14ace6177bd7085ffd5.heesch",
+  "B": 197,
+  "phases": [
+   {
+    "status": "INFEASIBLE",
+    "cycles": 0,
+    "solver_s": 0.5435610000000001,
+    "lower_bound": 0.0
+   }
+  ]
+ },
+ {
+  "source": "b0d8ad5c0cf6f41e153d5ed1f6284e89b5d1a7c5ca16236cd8358778a0957bda.heesch",
+  "B": 200,
+  "phases": [
+   {
+    "status": "INFEASIBLE",
+    "cycles": 0,
+    "solver_s": 0.200655,
+    "lower_bound": 0.0
+   }
+  ]
+ },
+ {
+  "source": "1edc7de170047270b563a4854cfb7b02e0c65c448667dd6ce26f403257b5dd4f.heesch",
+  "B": 197,
+  "phases": [
+   {
+    "status": "INFEASIBLE",
+    "cycles": 0,
+    "solver_s": 0.233663,
+    "lower_bound": 0.0
+   }
+  ]
+ },
+ {
+  "source": "b7ef4638ae510fbfa6465198eb1946572b007eae4bf18474cb78b813bc247ddf.heesch",
+  "B": 207,
+  "phases": [
+   {
+    "status": "INFEASIBLE",
+    "cycles": 0,
+    "solver_s": 0.12912,
+    "lower_bound": 0.0
+   }
+  ]
+ },
+ {
+  "source": "4c29390d6d8ac6554b02ed45df9154a38859eced39d52e97377daf39f3e724e5.heesch",
+  "B": 197,
+  "phases": [
+   {
+    "status": "OPTIMAL",
+    "cycles": 3,
+    "solver_s": 1.897386,
+    "lower_bound": 0.0,
+    "defect": 21,
+    "required": 197,
+    "hh": 18
+   },
+   {
+    "status": "INFEASIBLE",
+    "cycles": 0,
+    "solver_s": 2.046004,
+    "lower_bound": 0.0
+   }
+  ]
+ },
+ {
+  "source": "bb42fce935e6f566a396fb45edcde25e1e617a74946428b7c1e9fedb2607afa6.heesch",
+  "B": 207,
+  "phases": [
+   {
+    "status": "INFEASIBLE",
+    "cycles": 0,
+    "solver_s": 0.15979200000000002,
+    "lower_bound": 0.0
+   }
+  ]
+ },
+ {
+  "source": "6863c023c4fe96acf3105f30fc7e4c8dbd2b045c6686b1d2e573ffd75a1cf0ef.heesch",
+  "B": 206,
+  "phases": [
+   {
+    "status": "INFEASIBLE",
+    "cycles": 0,
+    "solver_s": 0.207401,
+    "lower_bound": 0.0
+   }
+  ]
+ },
+ {
+  "source": "ee16d0e7397939bb79845916e80aaa149d9021fd3a51f5478cd0f73ecf76ec43.heesch",
+  "B": 191,
+  "phases": [
+   {
+    "status": "INFEASIBLE",
+    "cycles": 0,
+    "solver_s": 1.848438,
+    "lower_bound": 0.0
+   }
+  ]
+ },
+ {
+  "source": "091cbfbaf717a2dad7573e74eb7b6e8df9f135b8f070097378eda053b0e090bb.heesch",
+  "B": 201,
+  "phases": [
+   {
+    "status": "INFEASIBLE",
+    "cycles": 0,
+    "solver_s": 0.11331000000000001,
+    "lower_bound": 0.0
+   }
+  ]
+ },
+ {
+  "source": "79cf5ff7fafa38474f0db2fc9e622a4e44c907652fe8362a664218f4e18e6b4c.heesch",
+  "B": 209,
+  "phases": [
+   {
+    "status": "INFEASIBLE",
+    "cycles": 0,
+    "solver_s": 0.02808,
+    "lower_bound": 0.0
+   }
+  ]
+ },
+ {
+  "source": "008b2c7e9aa33b3dc1d85e88486625b4f0863d1c757e313e526dda9c97a1db44.heesch",
+  "B": 216,
+  "phases": [
+   {
+    "status": "INFEASIBLE",
+    "cycles": 0,
+    "solver_s": 0.017307,
+    "lower_bound": 0.0
+   }
+  ]
+ }
+]
